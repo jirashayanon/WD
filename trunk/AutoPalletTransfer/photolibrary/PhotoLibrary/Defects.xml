@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defects>
+  <Suspension>
+    <PB2 />
+    <PB3 />
+    <S2 />
+    <S3 />
+    <S3T />
+    <S4 />
+    <T2 />
+    <T2A />
+  </Suspension>
+  <Attach>
+    <A1 />
+    <A3 />
+    <A5 />
+    <D1 />
+    <E1S />
+    <E2 />
+    <E2A />
+    <E2F />
+    <E4 />
+    <E5 />
+    <E6 />
+    <E6S />
+    <S1 />
+    <S2D />
+    <SB1 />
+    <SB2 />
+    <T6 />
+    <T8 />
+  </Attach>
+  <SJB>
+    <J10 />
+    <J2 />
+    <JAA />
+    <J4B />
+    <J4O />
+    <J4P />
+    <J4T />
+    <J7 />
+  </SJB>
+  <OTH>
+    <MIX />
+    <SLD />
+    <LOS />
+    <AD3 />
+    <AD4 />
+    <OTH />
+  </OTH>
+</Defects>

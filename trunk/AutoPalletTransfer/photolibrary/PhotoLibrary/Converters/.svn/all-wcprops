@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/365/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters
+END
+InvertBoolConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/InvertBoolConverter.cs
+END
+EnumMatchToBooleanConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/EnumMatchToBooleanConverter.cs
+END
+BoolToColorCurrentPositionConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToColorCurrentPositionConverter.cs
+END
+BoolToSamplingColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToSamplingColorConverter.cs
+END
+StatusToImageConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/StatusToImageConverter.cs
+END
+InvertBoolToVisibilityConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/InvertBoolToVisibilityConverter.cs
+END
+EnumToStringConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/EnumToStringConverter.cs
+END
+RectangleSizeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/RectangleSizeConverter.cs
+END
+BoolToGoodButtonColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToGoodButtonColorConverter.cs
+END
+VariableToColorDefectConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/VariableToColorDefectConverter.cs
+END
+BoolToDefectButtonColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToDefectButtonColorConverter.cs
+END
+FontColorConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/FontColorConverter.cs
+END
+EnumToCollapsedVisibilityConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/EnumToCollapsedVisibilityConverter.cs
+END
+BoolToVisibilityConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToVisibilityConverter.cs
+END
+BoolToBorderColorDefectConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToBorderColorDefectConverter.cs
+END
+PositionRatioToScreenConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/PositionRatioToScreenConverter.cs
+END
+BoolToColorDefectConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToColorDefectConverter.cs
+END
+BoolToSamplingColorConverter3.cs
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/365/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/BoolToSamplingColorConverter3.cs
+END
+MultipleVariableToColorDefectConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/MultipleVariableToColorDefectConverter.cs
+END
+EnumToVisibilityConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/EnumToVisibilityConverter.cs
+END
+CenterConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Converters/CenterConverter.cs
+END

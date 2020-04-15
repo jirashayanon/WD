@@ -1,0 +1,127 @@
+10/15/2015 15:10:10    ProcessOutStream
+10/15/2015 15:10:10    this.SECsServer.IsConnected()
+10/15/2015 15:10:10    ConstructRawMessage
+10/15/2015 15:10:10    ConstructRawMessage nextTransactionID 3
+10/15/2015 15:10:10    CreateXMLText
+10/15/2015 15:10:10    RegisterTransaction : transaction 3
+10/15/2015 15:10:10    ConstructRawMessage return message
+10/15/2015 15:10:20    ProcessTimeOutError
+10/15/2015 15:10:20    OnSECsErrorNotification
+10/15/2015 15:12:48    ProcessOutStream
+10/15/2015 15:12:48    this.SECsServer.IsConnected()
+10/15/2015 15:12:48    ConstructRawMessage
+10/15/2015 15:12:48    ConstructRawMessage nextTransactionID 4
+10/15/2015 15:12:48    CreateXMLText
+10/15/2015 15:12:48    RegisterTransaction : transaction 4
+10/15/2015 15:12:48    ConstructRawMessage return message
+10/15/2015 15:12:48    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:12:48    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:12:48    OnSECsErrorNotification
+10/15/2015 15:12:58    ProcessTimeOutError
+10/15/2015 15:12:58    OnSECsErrorNotification
+10/15/2015 15:55:41    ProcessOutStream
+10/15/2015 15:55:41    this.SECsServer.IsConnected()
+10/15/2015 15:55:41    ConstructRawMessage
+10/15/2015 15:55:41    ConstructRawMessage nextTransactionID 5
+10/15/2015 15:55:41    CreateXMLText
+10/15/2015 15:55:41    RegisterTransaction : transaction 5
+10/15/2015 15:55:41    ConstructRawMessage return message
+10/15/2015 15:55:41    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:55:41    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:55:41    OnSECsErrorNotification
+10/15/2015 15:55:51    ProcessTimeOutError
+10/15/2015 15:55:51    OnSECsErrorNotification
+10/15/2015 15:56:22    ProcessOutStream
+10/15/2015 15:56:22    this.SECsServer.IsConnected()
+10/15/2015 15:56:22    ConstructRawMessage
+10/15/2015 15:56:22    ConstructRawMessage nextTransactionID 6
+10/15/2015 15:56:22    CreateXMLText
+10/15/2015 15:56:22    RegisterTransaction : transaction 6
+10/15/2015 15:56:22    ConstructRawMessage return message
+10/15/2015 15:56:22    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:56:22    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:56:22    OnSECsErrorNotification
+10/15/2015 15:56:32    ProcessTimeOutError
+10/15/2015 15:56:32    OnSECsErrorNotification
+10/15/2015 15:56:47    ProcessOutStream
+10/15/2015 15:56:47    this.SECsServer.IsConnected()
+10/15/2015 15:56:47    ConstructRawMessage
+10/15/2015 15:56:47    ConstructRawMessage nextTransactionID 7
+10/15/2015 15:56:47    CreateXMLText
+10/15/2015 15:56:47    RegisterTransaction : transaction 7
+10/15/2015 15:56:47    ConstructRawMessage return message
+10/15/2015 15:56:47    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:56:47    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:56:47    OnSECsErrorNotification
+10/15/2015 15:56:57    ProcessTimeOutError
+10/15/2015 15:56:57    OnSECsErrorNotification
+10/15/2015 15:56:59    ProcessOutStream
+10/15/2015 15:56:59    this.SECsServer.IsConnected()
+10/15/2015 15:56:59    ConstructRawMessage
+10/15/2015 15:56:59    ConstructRawMessage nextTransactionID 8
+10/15/2015 15:56:59    CreateXMLText
+10/15/2015 15:56:59    RegisterTransaction : transaction 8
+10/15/2015 15:56:59    ConstructRawMessage return message
+10/15/2015 15:56:59    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:56:59    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:56:59    OnSECsErrorNotification
+10/15/2015 15:57:01    ProcessOutStream
+10/15/2015 15:57:01    this.SECsServer.IsConnected()
+10/15/2015 15:57:01    ConstructRawMessage
+10/15/2015 15:57:01    ConstructRawMessage nextTransactionID 9
+10/15/2015 15:57:01    CreateXMLText
+10/15/2015 15:57:01    RegisterTransaction : transaction 9
+10/15/2015 15:57:01    ConstructRawMessage return message
+10/15/2015 15:57:01    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:57:01    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:57:01    OnSECsErrorNotification
+10/15/2015 15:57:01    ProcessOutStream
+10/15/2015 15:57:01    this.SECsServer.IsConnected()
+10/15/2015 15:57:01    ConstructRawMessage
+10/15/2015 15:57:01    ConstructRawMessage nextTransactionID 10
+10/15/2015 15:57:01    CreateXMLText
+10/15/2015 15:57:01    RegisterTransaction : transaction 10
+10/15/2015 15:57:01    ConstructRawMessage return message
+10/15/2015 15:57:01    RemoteIPAddress get : remoteIPAddress wdbnc0231.tb.asia.wdc.com
+10/15/2015 15:57:01    RemotePortNumber get : remotePortNumber 4001
+10/15/2015 15:57:01    OnSECsErrorNotification
+10/15/2015 15:57:15    Connect
+10/15/2015 15:57:15    OnConnected
+10/15/2015 15:57:15    OnSECsCommNotification
+10/15/2015 15:57:15    ProcessOutStream
+10/15/2015 15:57:15    this.SECsServer.IsConnected()
+10/15/2015 15:57:15    ConstructRawMessage
+10/15/2015 15:57:15    ConstructRawMessage nextTransactionID 1
+10/15/2015 15:57:15    CreateXMLText
+10/15/2015 15:57:15    RegisterTransaction : transaction 1
+10/15/2015 15:57:15    ConstructRawMessage return message
+10/15/2015 15:57:21    ProcessOutStream
+10/15/2015 15:57:21    this.SECsServer.IsConnected()
+10/15/2015 15:57:21    ConstructRawMessage
+10/15/2015 15:57:21    ConstructRawMessage nextTransactionID 2
+10/15/2015 15:57:21    CreateXMLText
+10/15/2015 15:57:21    RegisterTransaction : transaction 2
+10/15/2015 15:57:21    ConstructRawMessage return message
+10/15/2015 15:57:21    ProcessInStream
+10/15/2015 15:57:21    OnSECsSecondaryNotification
+10/15/2015 15:57:21    UnRegisterTransaction
+10/15/2015 15:58:30    Connect
+10/15/2015 15:58:41    OnConnected
+10/15/2015 15:58:41    OnSECsCommNotification
+10/15/2015 15:58:41    ProcessOutStream
+10/15/2015 15:58:41    this.SECsServer.IsConnected()
+10/15/2015 15:58:41    ConstructRawMessage
+10/15/2015 15:58:41    ConstructRawMessage nextTransactionID 1
+10/15/2015 15:58:41    CreateXMLText
+10/15/2015 15:58:41    RegisterTransaction : transaction 1
+10/15/2015 15:58:41    ConstructRawMessage return message
+10/15/2015 15:58:56    ProcessOutStream
+10/15/2015 15:58:56    this.SECsServer.IsConnected()
+10/15/2015 15:58:56    ConstructRawMessage
+10/15/2015 15:58:56    ConstructRawMessage nextTransactionID 2
+10/15/2015 15:58:56    CreateXMLText
+10/15/2015 15:58:56    RegisterTransaction : transaction 2
+10/15/2015 15:58:56    ConstructRawMessage return message
+10/15/2015 15:58:56    ProcessInStream
+10/15/2015 15:58:56    OnSECsSecondaryNotification
+10/15/2015 15:58:56    UnRegisterTransaction

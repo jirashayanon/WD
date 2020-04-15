@@ -1,0 +1,28 @@
+07/12/2019 16:45:26    Only one usage of each socket address (protocol/network address/port) is normally permitted
+07/12/2019 16:45:26    OnSECsErrorNotification
+07/12/2019 16:45:26    Connect
+07/12/2019 16:45:26    OnConnected
+07/12/2019 16:45:26    OnSECsCommNotification
+07/12/2019 16:45:26    ProcessOutStream
+07/12/2019 16:45:26    this.SECsServer.IsConnected()
+07/12/2019 16:45:26    ConstructRawMessage
+07/12/2019 16:45:26    ConstructRawMessage nextTransactionID 1
+07/12/2019 16:45:26    CreateXMLText
+07/12/2019 16:45:26    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+07/12/2019 16:45:26    RegisterTransaction : transaction 1
+07/12/2019 16:45:26    Object reference not set to an instance of an object.
+07/12/2019 16:45:26    ConstructRawMessage return message
+07/12/2019 16:45:48    ProcessInStream
+07/12/2019 16:45:48    ProcessOutStream
+07/12/2019 16:45:48    this.SECsServer.IsConnected()
+07/12/2019 16:45:48    ConstructRawMessage
+07/12/2019 16:45:48    CreateXMLText
+07/12/2019 16:45:48    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/12/2019 16:45:48    ConstructRawMessage return message
+07/12/2019 16:47:41    ProcessInStream
+07/12/2019 16:47:41    ProcessOutStream
+07/12/2019 16:47:41    this.SECsServer.IsConnected()
+07/12/2019 16:47:41    ConstructRawMessage
+07/12/2019 16:47:41    CreateXMLText
+07/12/2019 16:47:41    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/12/2019 16:47:41    ConstructRawMessage return message

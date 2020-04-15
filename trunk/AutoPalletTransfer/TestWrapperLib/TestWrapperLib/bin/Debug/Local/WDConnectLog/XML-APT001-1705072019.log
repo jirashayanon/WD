@@ -1,0 +1,273 @@
+OUT--> 07/05/2019 17:12:33    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>SendPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/05/2019 17:12:34    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>SendPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/05/2019 17:13:00    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>SendPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/05/2019 17:13:10    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>SendPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+IN <--07/05/2019 17:27:58    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>]
+
+OUT--> 07/05/2019 17:27:58    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>5</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 07/05/2019 17:48:53    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>6</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>

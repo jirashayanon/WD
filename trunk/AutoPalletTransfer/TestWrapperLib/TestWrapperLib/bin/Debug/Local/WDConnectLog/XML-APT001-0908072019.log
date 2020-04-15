@@ -1,0 +1,4012 @@
+OUT--> 07/08/2019 09:00:06    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 07/08/2019 09:00:42    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">ASLV</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:00:45    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">ASLV</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string">APT001</Value>
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">10</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219210</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:19:27    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 07/08/2019 09:19:37    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:19:40    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">60</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string">APT001</Value>
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">10</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219205</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:22:10    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:22:12    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">0</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219210</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:29:05    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:29:08    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">0</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219210</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:29:44    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 07/08/2019 09:38:32    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 07/08/2019 09:42:30    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:42:33    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">0</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219210</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:43:30    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:43:33    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">60</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string">APT001</Value>
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">10</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219205</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:55:35    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:55:38    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">0</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219210</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:56:40    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:56:42    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0113</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">60</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">80</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string">APT001</Value>
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">10</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">true</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219205</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 07/08/2019 09:57:36    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0130</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--07/08/2019 09:57:38    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0130</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:string">APT</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0130</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCUVPower</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureTime</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ILCCureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SJBStage</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EnabledPallet</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">60</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>NextEquipmentType</Name>
+          <Value
+            xsi:type="xsd:int">10</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>EndLot</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Boolean</Format>
+          <Name>AllowedMix</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>String</Format>
+              <Name>ACAMID</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>Integer</Format>
+              <Name>SuspAmt</Name>
+              <Value
+                xsi:type="xsd:int">0</Value>
+            </SCIItem>
+          </Items>
+          <Name>RequestSuspension</Name>
+          <Value
+            xsi:type="xsd:boolean">false</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA10</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>TransID</Name>
+          <Value
+            xsi:type="xsd:int">219207</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SJBFixture</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+

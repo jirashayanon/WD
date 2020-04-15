@@ -1,0 +1,24 @@
+﻿<Window x:Class="PhotoLibrary.Views.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:PhotoLibrary.ViewModel"
+        Title="About Photo Library" Height="250" Width="300" ResizeMode="NoResize">
+
+    <Window.DataContext>
+        <vm:AboutViewModel x:Name="aboutViewModel"/>
+    </Window.DataContext>
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                    <Setter Property="FontSize" Value="15" />
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Photo Library" FontSize="25" FontWeight="Bold" />
+            <TextBlock Text="{Binding Version, StringFormat='Version: {0}'}" />
+            <TextBlock Text="{Binding Date, StringFormat='Date: {0}'}" Margin="0,30,0,0"/>
+            <TextBlock Text="Author: Nasakol P." />
+        </StackPanel>
+    </Grid>
+</Window>

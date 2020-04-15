@@ -1,0 +1,16 @@
+02/16/2017 12:45:00    OnConnected
+02/16/2017 12:45:00    OnSECsCommNotification
+02/16/2017 12:45:01    ProcessInStream
+02/16/2017 12:45:06    ProcessOutStream
+02/16/2017 12:45:06    this.SECsServer.IsConnected()
+02/16/2017 12:45:06    ConstructRawMessage
+02/16/2017 12:45:06    ConstructRawMessage nextTransactionID 1
+02/16/2017 12:45:06    CreateXMLText
+02/16/2017 12:45:06    <?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+02/16/2017 12:45:06    RegisterTransaction : transaction 1
+02/16/2017 12:45:06    ConstructRawMessage return message
+02/16/2017 12:45:06    ProcessInStream
+02/16/2017 12:45:06    OnSECsSecondaryNotification
+02/16/2017 12:45:06    UnRegisterTransaction 1
+02/16/2017 12:45:12    OnDisconnected
+02/16/2017 12:45:12    OnSECsCommNotification

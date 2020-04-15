@@ -1,0 +1,62 @@
+10/15/2015 15:10:10    TriggerTransactionTimer : transactionID 3
+10/15/2015 15:10:10    SendSECSData
+10/15/2015 15:10:20    TimeOut : transactionId 3 timerId : T3
+10/15/2015 15:12:48    TriggerTransactionTimer : transactionID 4
+10/15/2015 15:12:48    SendSECSData
+10/15/2015 15:12:58    TimeOut : transactionId 4 timerId : T3
+10/15/2015 15:55:41    TriggerTransactionTimer : transactionID 5
+10/15/2015 15:55:41    SendSECSData
+10/15/2015 15:55:51    TimeOut : transactionId 5 timerId : T3
+10/15/2015 15:56:22    TriggerTransactionTimer : transactionID 6
+10/15/2015 15:56:22    SendSECSData
+10/15/2015 15:56:32    TimeOut : transactionId 6 timerId : T3
+10/15/2015 15:56:47    TriggerTransactionTimer : transactionID 7
+10/15/2015 15:56:47    SendSECSData
+10/15/2015 15:56:57    TimeOut : transactionId 7 timerId : T3
+10/15/2015 15:56:59    TriggerTransactionTimer : transactionID 8
+10/15/2015 15:56:59    SendSECSData
+10/15/2015 15:57:01    TriggerTransactionTimer : transactionID 9
+10/15/2015 15:57:01    SendSECSData
+10/15/2015 15:57:01    TriggerTransactionTimer : transactionID 10
+10/15/2015 15:57:01    SendSECSData
+10/15/2015 15:57:15    HSMSServer
+10/15/2015 15:57:15    Initialize
+10/15/2015 15:57:15    OpenConnection
+10/15/2015 15:57:15    OnRemoteConnect Active
+10/15/2015 15:57:15    _socketWorker.Connected True
+10/15/2015 15:57:15    this._socketWorker.EndConnect(asyn);
+10/15/2015 15:57:15    SendSECSData
+10/15/2015 15:57:15    ActivateT5 : IsEnabled False
+10/15/2015 15:57:15    WaitForData
+10/15/2015 15:57:21    TriggerTransactionTimer : transactionID 2
+10/15/2015 15:57:21    SendSECSData
+10/15/2015 15:57:21    OnDataReceived
+10/15/2015 15:57:21    OnDataReceived 1310
+10/15/2015 15:57:21    OnDataArrival
+10/15/2015 15:57:21    OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201C</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+10/15/2015 15:57:21    ResolveHeaderBuffer
+10/15/2015 15:57:21    ProcessSECsMessage
+10/15/2015 15:57:21    WaitForData
+10/15/2015 15:58:30    HSMSServer
+10/15/2015 15:58:30    Initialize
+10/15/2015 15:58:30    OpenConnection
+10/15/2015 15:58:31    OnRemoteConnect Active
+10/15/2015 15:58:31    _socketWorker.Connected False
+10/15/2015 15:58:31    ActivateT5 : IsEnabled True
+10/15/2015 15:58:41    OnT5_Elapsed
+10/15/2015 15:58:41    OpenConnection
+10/15/2015 15:58:41    OnRemoteConnect Active
+10/15/2015 15:58:41    _socketWorker.Connected True
+10/15/2015 15:58:41    this._socketWorker.EndConnect(asyn);
+10/15/2015 15:58:41    SendSECSData
+10/15/2015 15:58:51    ActivateT5 : IsEnabled False
+10/15/2015 15:58:51    WaitForData
+10/15/2015 15:58:56    TriggerTransactionTimer : transactionID 2
+10/15/2015 15:58:56    SendSECSData
+10/15/2015 15:58:56    OnDataReceived
+10/15/2015 15:58:56    OnDataReceived 1310
+10/15/2015 15:58:56    OnDataArrival
+10/15/2015 15:58:56    OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201C</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+10/15/2015 15:58:56    ResolveHeaderBuffer
+10/15/2015 15:58:56    ProcessSECsMessage
+10/15/2015 15:58:56    WaitForData

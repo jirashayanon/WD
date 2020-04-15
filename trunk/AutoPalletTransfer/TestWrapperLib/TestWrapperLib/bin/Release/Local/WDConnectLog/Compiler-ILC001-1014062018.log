@@ -1,0 +1,37 @@
+06/14/2018 10:06:35    Connect
+06/14/2018 10:06:35    OnConnected
+06/14/2018 10:06:35    OnSECsCommNotification
+06/14/2018 10:06:35    ProcessOutStream
+06/14/2018 10:06:35    this.SECsServer.IsConnected()
+06/14/2018 10:06:35    ConstructRawMessage
+06/14/2018 10:06:35    ConstructRawMessage nextTransactionID 1
+06/14/2018 10:06:35    CreateXMLText
+06/14/2018 10:06:35    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/14/2018 10:06:35    RegisterTransaction : transaction 1
+06/14/2018 10:06:35    ConstructRawMessage return message
+06/14/2018 10:06:51    ProcessOutStream
+06/14/2018 10:06:51    this.SECsServer.IsConnected()
+06/14/2018 10:06:51    ConstructRawMessage
+06/14/2018 10:06:51    ConstructRawMessage nextTransactionID 2
+06/14/2018 10:06:51    CreateXMLText
+06/14/2018 10:06:51    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/14/2018 10:06:51    RegisterTransaction : transaction 2
+06/14/2018 10:06:51    ConstructRawMessage return message
+06/14/2018 10:09:15    ProcessOutStream
+06/14/2018 10:09:15    this.SECsServer.IsConnected()
+06/14/2018 10:09:15    ConstructRawMessage
+06/14/2018 10:09:15    ConstructRawMessage nextTransactionID 3
+06/14/2018 10:09:15    CreateXMLText
+06/14/2018 10:09:15    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/14/2018 10:09:15    RegisterTransaction : transaction 3
+06/14/2018 10:09:15    ConstructRawMessage return message
+06/14/2018 10:09:17    ProcessOutStream
+06/14/2018 10:09:17    this.SECsServer.IsConnected()
+06/14/2018 10:09:17    ConstructRawMessage
+06/14/2018 10:09:17    ConstructRawMessage nextTransactionID 4
+06/14/2018 10:09:17    CreateXMLText
+06/14/2018 10:09:17    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/14/2018 10:09:17    RegisterTransaction : transaction 4
+06/14/2018 10:09:17    ConstructRawMessage return message
+06/14/2018 10:56:52    ProcessTimeOutError
+06/14/2018 10:56:52    OnSECsErrorNotification

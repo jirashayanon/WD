@@ -1,0 +1,48 @@
+07/22/2019 11:11:38    HSMSServer
+07/22/2019 11:11:38    Initialize
+07/22/2019 11:11:38    LinkTestTimer_Elapsed() True
+07/22/2019 11:11:38    OpenListenPort
+07/22/2019 11:11:38    ListenConnection
+07/22/2019 11:11:38    OpenConnection
+07/22/2019 11:11:38    OnRemoteConnect Passive
+07/22/2019 11:11:38    _socketWorker.Connected True
+07/22/2019 11:11:38    this._socketWorker.EndConnect(asyn);
+07/22/2019 11:11:38    SendSECSData
+07/22/2019 11:20:48    ActivateLinkTest True
+07/22/2019 11:20:48    linktest_shouldStop = false;
+07/22/2019 11:20:48    ActivateT5 : IsEnabled False
+07/22/2019 11:20:48    WaitForData
+07/22/2019 11:20:54    TriggerTransactionTimer : transactionID -->2
+07/22/2019 11:20:54    TriggerTransactionTimer : transactionID <--2
+07/22/2019 11:20:54    SendSECSData
+07/22/2019 11:20:54    OnDataReceived
+07/22/2019 11:20:54    OnDataReceived 738
+07/22/2019 11:20:54    OnDataArrival
+07/22/2019 11:20:54    ResolveHeaderBuffer string [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/22/2019 11:20:54    [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/22/2019 11:20:54    ProcessSECsMessage -->
+07/22/2019 11:20:54    ResolveHeaderBuffer 
+07/22/2019 11:20:54    0 
+07/22/2019 11:20:54    WaitForData
+07/22/2019 11:20:55    TriggerTransactionTimer : transactionID -->3
+07/22/2019 11:20:55    TriggerTransactionTimer : transactionID <--3
+07/22/2019 11:20:55    SendSECSData
+07/22/2019 11:20:55    OnDataReceived
+07/22/2019 11:20:55    OnDataReceived 738
+07/22/2019 11:20:55    OnDataArrival
+07/22/2019 11:20:55    ResolveHeaderBuffer string [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/22/2019 11:20:55    [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/22/2019 11:20:55    ProcessSECsMessage -->
+07/22/2019 11:20:55    ResolveHeaderBuffer 
+07/22/2019 11:20:55    0 
+07/22/2019 11:20:55    WaitForData
+07/22/2019 11:51:59    OnDataReceived
+07/22/2019 11:51:59    OnDataReceived 497
+07/22/2019 11:51:59    OnDataArrival
+07/22/2019 11:51:59    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/22/2019 11:51:59    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/22/2019 11:51:59    ProcessSECsMessage -->
+07/22/2019 11:51:59    SendSECSData
+07/22/2019 11:52:00    ProcessSECsMessage <--
+07/22/2019 11:52:00    0 
+07/22/2019 11:52:00    WaitForData

@@ -1,0 +1,7 @@
+05/12/2017 13:53:28    HSMSServer
+05/12/2017 13:53:28    Initialize
+05/12/2017 13:53:28    LinkTestTimer_Elapsed() True
+05/12/2017 13:53:28    OpenConnection
+05/12/2017 13:53:29    OnRemoteConnect Active
+05/12/2017 13:53:29    _socketWorker.Connected False
+05/12/2017 13:53:29    ActivateT5 : IsEnabled True

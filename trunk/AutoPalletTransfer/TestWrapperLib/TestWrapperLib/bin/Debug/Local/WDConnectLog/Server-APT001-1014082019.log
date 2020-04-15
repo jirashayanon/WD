@@ -1,0 +1,123 @@
+08/14/2019 10:03:12    ActivateLinkTest True
+08/14/2019 10:03:12    linktest_shouldStop = false;
+08/14/2019 10:03:12    ActivateT5 : IsEnabled False
+08/14/2019 10:03:12    WaitForData
+08/14/2019 10:03:16    TriggerTransactionTimer : transactionID -->2
+08/14/2019 10:03:16    TriggerTransactionTimer : transactionID <--2
+08/14/2019 10:03:16    SendSECSData
+08/14/2019 10:12:08    OnDataReceived
+08/14/2019 10:12:08    OnDataReceived 343
+08/14/2019 10:12:08    OnDataArrival
+08/14/2019 10:12:08    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:12:08    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:12:08    ProcessSECsMessage -->
+08/14/2019 10:12:08    SendSECSData
+08/14/2019 10:12:28    ProcessSECsMessage <--
+08/14/2019 10:12:28    0 
+08/14/2019 10:12:28    WaitForData
+08/14/2019 10:13:10    OnDataReceived
+08/14/2019 10:13:10    ** An existing connection was forcibly closed by the remote host
+08/14/2019 10:13:15    You must call the Bind method before performing this operation.
+08/14/2019 10:13:15    ListenConnection
+08/14/2019 10:13:15    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+08/14/2019 10:19:54    HSMSServer
+08/14/2019 10:19:54    Initialize
+08/14/2019 10:19:54    OpenListenPort
+08/14/2019 10:19:54    LinkTestTimer_Elapsed() True
+08/14/2019 10:19:54    ListenConnection
+08/14/2019 10:19:54    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+08/14/2019 10:19:54    OpenConnection
+08/14/2019 10:19:54    OnClientConnect Passive
+08/14/2019 10:19:54    this._socketWorker = this._socketListener.EndAccept(asyn);
+08/14/2019 10:19:54    OnRemoteConnect Passive
+08/14/2019 10:19:54    _socketWorker.Connected True
+08/14/2019 10:19:54    this._socketWorker.EndConnect(asyn);
+08/14/2019 10:19:54    ActivateLinkTest True
+08/14/2019 10:19:54    linktest_shouldStop = false;
+08/14/2019 10:19:54    ActivateT5 : IsEnabled False
+08/14/2019 10:19:54    WaitForData
+08/14/2019 10:19:54    SendSECSData
+08/14/2019 10:20:05    ActivateLinkTest True
+08/14/2019 10:20:05    linktest_shouldStop = false;
+08/14/2019 10:20:05    WaitForData
+08/14/2019 10:21:05    HSMSServer
+08/14/2019 10:21:05    Initialize
+08/14/2019 10:21:05    OpenListenPort
+08/14/2019 10:21:05    LinkTestTimer_Elapsed() True
+08/14/2019 10:21:05    ListenConnection
+08/14/2019 10:21:05    OpenConnection
+08/14/2019 10:21:05    OnRemoteConnect Passive
+08/14/2019 10:21:05    _socketWorker.Connected True
+08/14/2019 10:21:05    this._socketWorker.EndConnect(asyn);
+08/14/2019 10:21:05    SendSECSData
+08/14/2019 10:21:07    ActivateLinkTest True
+08/14/2019 10:21:07    linktest_shouldStop = false;
+08/14/2019 10:21:07    ActivateT5 : IsEnabled False
+08/14/2019 10:21:07    WaitForData
+08/14/2019 10:26:59    TriggerTransactionTimer : transactionID -->2
+08/14/2019 10:26:59    TriggerTransactionTimer : transactionID <--2
+08/14/2019 10:26:59    SendSECSData
+08/14/2019 10:27:53    OnDataReceived
+08/14/2019 10:27:53    ** An existing connection was forcibly closed by the remote host
+08/14/2019 10:28:03    You must call the Bind method before performing this operation.
+08/14/2019 10:28:03    ListenConnection
+08/14/2019 10:28:03    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+08/14/2019 10:30:21    HSMSServer
+08/14/2019 10:30:21    Initialize
+08/14/2019 10:30:21    OpenListenPort
+08/14/2019 10:30:21    LinkTestTimer_Elapsed() True
+08/14/2019 10:30:21    ListenConnection
+08/14/2019 10:30:21    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+08/14/2019 10:30:21    OpenConnection
+08/14/2019 10:30:21    OnRemoteConnect Passive
+08/14/2019 10:30:21    _socketWorker.Connected True
+08/14/2019 10:30:21    OnClientConnect Passive
+08/14/2019 10:30:21    this._socketWorker = this._socketListener.EndAccept(asyn);
+08/14/2019 10:30:21    this._socketWorker.EndConnect(asyn);
+08/14/2019 10:30:21    ActivateLinkTest True
+08/14/2019 10:30:21    linktest_shouldStop = false;
+08/14/2019 10:30:21    ActivateT5 : IsEnabled False
+08/14/2019 10:30:21    WaitForData
+08/14/2019 10:30:21    SendSECSData
+08/14/2019 10:30:22    ActivateLinkTest True
+08/14/2019 10:30:22    linktest_shouldStop = false;
+08/14/2019 10:30:22    WaitForData
+08/14/2019 10:30:24    TriggerTransactionTimer : transactionID -->2
+08/14/2019 10:30:24    TriggerTransactionTimer : transactionID <--2
+08/14/2019 10:30:24    SendSECSData
+08/14/2019 10:31:29    HSMSServer
+08/14/2019 10:31:29    Initialize
+08/14/2019 10:31:29    OpenListenPort
+08/14/2019 10:31:29    LinkTestTimer_Elapsed() True
+08/14/2019 10:31:29    ListenConnection
+08/14/2019 10:31:29    OpenConnection
+08/14/2019 10:31:29    OnRemoteConnect Passive
+08/14/2019 10:31:29    _socketWorker.Connected True
+08/14/2019 10:31:29    this._socketWorker.EndConnect(asyn);
+08/14/2019 10:31:29    SendSECSData
+08/14/2019 10:31:38    ActivateLinkTest True
+08/14/2019 10:31:38    linktest_shouldStop = false;
+08/14/2019 10:31:38    ActivateT5 : IsEnabled False
+08/14/2019 10:31:38    WaitForData
+08/14/2019 10:31:40    TriggerTransactionTimer : transactionID -->2
+08/14/2019 10:31:40    TriggerTransactionTimer : transactionID <--2
+08/14/2019 10:31:40    SendSECSData
+08/14/2019 10:35:16    OnDataReceived
+08/14/2019 10:35:16    ** An existing connection was forcibly closed by the remote host
+08/14/2019 10:46:49    HSMSServer
+08/14/2019 10:46:49    Initialize
+08/14/2019 10:46:49    LinkTestTimer_Elapsed() True
+08/14/2019 10:46:49    OpenListenPort
+08/14/2019 10:46:49    ListenConnection
+08/14/2019 10:46:49    OpenConnection
+08/14/2019 10:46:49    OnRemoteConnect Passive
+08/14/2019 10:46:49    _socketWorker.Connected True
+08/14/2019 10:46:49    this._socketWorker.EndConnect(asyn);
+08/14/2019 10:46:49    SendSECSData
+08/14/2019 10:46:54    ActivateLinkTest True
+08/14/2019 10:46:54    linktest_shouldStop = false;
+08/14/2019 10:46:54    ActivateT5 : IsEnabled False
+08/14/2019 10:46:54    WaitForData
+08/14/2019 10:48:26    TriggerTransactionTimer : transactionID -->2
+08/14/2019 10:48:26    TriggerTransactionTimer : transactionID <--2
+08/14/2019 10:48:26    SendSECSData

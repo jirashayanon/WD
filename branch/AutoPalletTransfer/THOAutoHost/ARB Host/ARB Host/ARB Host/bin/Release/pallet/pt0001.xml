@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RequestPalletInfoAckObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <COMMACK>0</COMMACK>
+  <ALMID>0</ALMID>
+  <PalletID>PT0001</PalletID>
+  <PartNumber>70632-15-SBB</PartNumber>
+  <ProductName>TRAILS_C8_SD</ProductName>
+  <LotNumber>Y3DRG_CB2</LotNumber>
+  <Line>B4A2</Line>
+  <ACAMID>22</ACAMID>
+  <Suspension>MPT-4G</Suspension>
+  <EnabledPallet>true</EnabledPallet>
+  <HGAType>A</HGAType>
+  <HGA>
+    <HGA1>
+      <SN>Y3DRQKPB</SN>
+      <Defect>J4A</Defect>
+    </HGA1>
+    <HGA2>
+      <SN>Y3DRSYNJ</SN>
+      <Defect>A1,J4A,T6,T8</Defect>
+    </HGA2>
+    <HGA3>
+      <SN>Y3DRTNKS</SN>
+      <Defect>J4A,J4B,A1,T8</Defect>
+    </HGA3>
+    <HGA4>
+      <SN>Y3DRUCHB</SN>
+      <Defect>T8</Defect>
+    </HGA4>
+    <HGA5>
+      <SN>Y3DRIJME</SN>
+      <Defect>A1</Defect>
+    </HGA5>
+    <HGA6>
+      <SN>Y3DRKXJM</SN>
+      <Defect>T8,A1,T6,J4A</Defect>
+    </HGA6>
+    <HGA7>
+      <SN>Y3DRLMHV</SN>
+      <Defect />
+    </HGA7>
+    <HGA8>
+      <SN>Y3DRILRI</SN>
+      <Defect />
+    </HGA8>
+    <HGA9>
+      <SN>Y3DRJAOR</SN>
+      <Defect />
+    </HGA9>
+    <HGA10>
+      <SN>Y3DRLOLA</SN>
+      <Defect />
+    </HGA10>
+  </HGA>
+</RequestPalletInfoAckObj>

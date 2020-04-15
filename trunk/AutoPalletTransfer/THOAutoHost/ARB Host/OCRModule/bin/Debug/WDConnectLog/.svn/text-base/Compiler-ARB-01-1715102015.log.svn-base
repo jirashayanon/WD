@@ -1,0 +1,95 @@
+10/15/2015 17:04:05    ProcessOutStream
+10/15/2015 17:04:05    this.SECsServer.IsConnected()
+10/15/2015 17:04:05    ConstructRawMessage
+10/15/2015 17:04:05    ConstructRawMessage nextTransactionID 3
+10/15/2015 17:04:05    CreateXMLText
+10/15/2015 17:04:05    RegisterTransaction : transaction 3
+10/15/2015 17:04:05    ConstructRawMessage return message
+10/15/2015 17:04:05    ProcessInStream
+10/15/2015 17:04:05    OnSECsSecondaryNotification
+10/15/2015 17:04:05    UnRegisterTransaction
+10/15/2015 17:04:07    ProcessOutStream
+10/15/2015 17:04:07    this.SECsServer.IsConnected()
+10/15/2015 17:04:07    ConstructRawMessage
+10/15/2015 17:04:07    ConstructRawMessage nextTransactionID 4
+10/15/2015 17:04:07    CreateXMLText
+10/15/2015 17:04:07    RegisterTransaction : transaction 4
+10/15/2015 17:04:07    ConstructRawMessage return message
+10/15/2015 17:04:07    ProcessInStream
+10/15/2015 17:04:07    OnSECsSecondaryNotification
+10/15/2015 17:04:07    UnRegisterTransaction
+10/15/2015 17:04:08    ProcessOutStream
+10/15/2015 17:04:08    this.SECsServer.IsConnected()
+10/15/2015 17:04:08    ConstructRawMessage
+10/15/2015 17:04:08    ConstructRawMessage nextTransactionID 5
+10/15/2015 17:04:08    CreateXMLText
+10/15/2015 17:04:08    RegisterTransaction : transaction 5
+10/15/2015 17:04:08    ConstructRawMessage return message
+10/15/2015 17:04:08    ProcessInStream
+10/15/2015 17:04:08    OnSECsSecondaryNotification
+10/15/2015 17:04:08    UnRegisterTransaction
+10/15/2015 17:04:12    ProcessOutStream
+10/15/2015 17:04:12    this.SECsServer.IsConnected()
+10/15/2015 17:04:12    ConstructRawMessage
+10/15/2015 17:04:12    ConstructRawMessage nextTransactionID 6
+10/15/2015 17:04:12    CreateXMLText
+10/15/2015 17:04:12    RegisterTransaction : transaction 6
+10/15/2015 17:04:12    ConstructRawMessage return message
+10/15/2015 17:04:12    ProcessInStream
+10/15/2015 17:04:12    OnSECsSecondaryNotification
+10/15/2015 17:04:12    UnRegisterTransaction
+10/15/2015 17:04:13    ProcessOutStream
+10/15/2015 17:04:13    this.SECsServer.IsConnected()
+10/15/2015 17:04:13    ConstructRawMessage
+10/15/2015 17:04:13    ConstructRawMessage nextTransactionID 7
+10/15/2015 17:04:13    CreateXMLText
+10/15/2015 17:04:13    RegisterTransaction : transaction 7
+10/15/2015 17:04:13    ConstructRawMessage return message
+10/15/2015 17:04:13    ProcessInStream
+10/15/2015 17:04:13    OnSECsSecondaryNotification
+10/15/2015 17:04:13    UnRegisterTransaction
+10/15/2015 17:04:19    ProcessOutStream
+10/15/2015 17:04:19    this.SECsServer.IsConnected()
+10/15/2015 17:04:19    ConstructRawMessage
+10/15/2015 17:04:19    ConstructRawMessage nextTransactionID 8
+10/15/2015 17:04:19    CreateXMLText
+10/15/2015 17:04:19    RegisterTransaction : transaction 8
+10/15/2015 17:04:19    ConstructRawMessage return message
+10/15/2015 17:04:20    ProcessOutStream
+10/15/2015 17:04:20    this.SECsServer.IsConnected()
+10/15/2015 17:04:20    ConstructRawMessage
+10/15/2015 17:04:20    ConstructRawMessage nextTransactionID 9
+10/15/2015 17:04:20    CreateXMLText
+10/15/2015 17:04:20    RegisterTransaction : transaction 9
+10/15/2015 17:04:20    ConstructRawMessage return message
+10/15/2015 17:04:20    ProcessOutStream
+10/15/2015 17:04:20    this.SECsServer.IsConnected()
+10/15/2015 17:04:20    ConstructRawMessage
+10/15/2015 17:04:20    ConstructRawMessage nextTransactionID 10
+10/15/2015 17:04:20    CreateXMLText
+10/15/2015 17:04:20    RegisterTransaction : transaction 10
+10/15/2015 17:04:20    ConstructRawMessage return message
+10/15/2015 17:04:21    ProcessOutStream
+10/15/2015 17:04:21    this.SECsServer.IsConnected()
+10/15/2015 17:04:21    ConstructRawMessage
+10/15/2015 17:04:21    ConstructRawMessage nextTransactionID 11
+10/15/2015 17:04:21    CreateXMLText
+10/15/2015 17:04:21    RegisterTransaction : transaction 11
+10/15/2015 17:04:21    ConstructRawMessage return message
+10/15/2015 17:04:21    ProcessOutStream
+10/15/2015 17:04:21    this.SECsServer.IsConnected()
+10/15/2015 17:04:21    ConstructRawMessage
+10/15/2015 17:04:21    ConstructRawMessage nextTransactionID 12
+10/15/2015 17:04:21    CreateXMLText
+10/15/2015 17:04:21    RegisterTransaction : transaction 12
+10/15/2015 17:04:21    ConstructRawMessage return message
+10/15/2015 17:04:29    ProcessTimeOutError
+10/15/2015 17:04:29    OnSECsErrorNotification
+10/15/2015 17:04:30    ProcessTimeOutError
+10/15/2015 17:04:30    OnSECsErrorNotification
+10/15/2015 17:04:30    ProcessTimeOutError
+10/15/2015 17:04:30    OnSECsErrorNotification
+10/15/2015 17:04:31    ProcessTimeOutError
+10/15/2015 17:04:31    OnSECsErrorNotification
+10/15/2015 17:04:31    ProcessTimeOutError
+10/15/2015 17:04:31    OnSECsErrorNotification

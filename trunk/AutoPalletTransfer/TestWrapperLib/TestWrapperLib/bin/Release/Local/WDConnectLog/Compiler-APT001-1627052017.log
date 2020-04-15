@@ -1,0 +1,66 @@
+05/27/2017 16:06:56    Connect
+05/27/2017 16:06:58    OnConnected
+05/27/2017 16:06:58    OnSECsCommNotification
+05/27/2017 16:06:58    ProcessOutStream
+05/27/2017 16:06:58    this.SECsServer.IsConnected()
+05/27/2017 16:06:58    ConstructRawMessage
+05/27/2017 16:06:58    ConstructRawMessage nextTransactionID 1
+05/27/2017 16:06:58    CreateXMLText
+05/27/2017 16:06:58    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+05/27/2017 16:06:58    RegisterTransaction : transaction 1
+05/27/2017 16:06:58    ConstructRawMessage return message
+05/27/2017 16:07:19    Connect
+05/27/2017 16:07:19    OnConnected
+05/27/2017 16:07:19    OnSECsCommNotification
+05/27/2017 16:07:19    ProcessOutStream
+05/27/2017 16:07:19    this.SECsServer.IsConnected()
+05/27/2017 16:07:19    ConstructRawMessage
+05/27/2017 16:07:19    ConstructRawMessage nextTransactionID 1
+05/27/2017 16:07:19    CreateXMLText
+05/27/2017 16:07:19    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+05/27/2017 16:07:19    RegisterTransaction : transaction 1
+05/27/2017 16:07:19    ConstructRawMessage return message
+05/27/2017 16:07:24    ProcessOutStream
+05/27/2017 16:07:24    this.SECsServer.IsConnected()
+05/27/2017 16:07:24    ConstructRawMessage
+05/27/2017 16:07:24    ConstructRawMessage nextTransactionID 2
+05/27/2017 16:07:24    CreateXMLText
+05/27/2017 16:07:24    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/27/2017 16:07:24    RegisterTransaction : transaction 2
+05/27/2017 16:07:24    ConstructRawMessage return message
+05/27/2017 16:07:24    ProcessInStream
+05/27/2017 16:07:24    OnSECsSecondaryNotification
+05/27/2017 16:07:24    UnRegisterTransaction 2
+05/27/2017 16:07:25    ProcessOutStream
+05/27/2017 16:07:25    this.SECsServer.IsConnected()
+05/27/2017 16:07:25    ConstructRawMessage
+05/27/2017 16:07:25    ConstructRawMessage nextTransactionID 3
+05/27/2017 16:07:25    CreateXMLText
+05/27/2017 16:07:25    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">APT</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/27/2017 16:07:25    RegisterTransaction : transaction 3
+05/27/2017 16:07:25    ConstructRawMessage return message
+05/27/2017 16:07:54    ProcessInStream
+05/27/2017 16:07:54    OnSECsSecondaryNotification
+05/27/2017 16:07:54    UnRegisterTransaction 3
+05/27/2017 16:09:34    ProcessOutStream
+05/27/2017 16:09:34    this.SECsServer.IsConnected()
+05/27/2017 16:09:34    ConstructRawMessage
+05/27/2017 16:09:34    ConstructRawMessage nextTransactionID 4
+05/27/2017 16:09:34    CreateXMLText
+05/27/2017 16:09:34    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">APT</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/27/2017 16:09:34    RegisterTransaction : transaction 4
+05/27/2017 16:09:34    ConstructRawMessage return message
+05/27/2017 16:14:34    ProcessInStream
+05/27/2017 16:14:34    OnSECsSecondaryNotification
+05/27/2017 16:14:34    UnRegisterTransaction 4
+05/27/2017 16:15:36    ProcessOutStream
+05/27/2017 16:15:36    this.SECsServer.IsConnected()
+05/27/2017 16:15:36    ConstructRawMessage
+05/27/2017 16:15:36    ConstructRawMessage nextTransactionID 5
+05/27/2017 16:15:36    CreateXMLText
+05/27/2017 16:15:36    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">APT</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/27/2017 16:15:36    RegisterTransaction : transaction 5
+05/27/2017 16:15:36    ConstructRawMessage return message
+05/27/2017 16:15:37    ProcessInStream
+05/27/2017 16:15:37    OnSECsSecondaryNotification
+05/27/2017 16:16:39    UnRegisterTransaction 5

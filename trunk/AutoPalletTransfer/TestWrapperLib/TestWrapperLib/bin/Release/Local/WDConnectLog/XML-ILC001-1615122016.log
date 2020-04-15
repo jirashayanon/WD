@@ -1,0 +1,16 @@
+IN <--12/15/2016 16:07:34    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>11</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>]
+
+12/15/2016 16:37:07    ErrorNotification: Unable to connect to Passive Entity
+12/15/2016 16:37:26    ErrorNotification: Unable to connect to Passive Entity
+12/15/2016 16:37:28    ErrorNotification: Unable to connect to Passive Entity

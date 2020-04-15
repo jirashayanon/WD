@@ -1,0 +1,13 @@
+07/07/2019 13:16:36    SendSECSData
+07/07/2019 13:39:56    LinkTestTimer_Elapsed() False
+07/07/2019 13:39:56    LinkTest Code : 133956
+07/07/2019 13:39:56    this._socketWorker.Send(buffer); [0000000023]LinkTest:Request:133956
+07/07/2019 13:39:56    _linkTestManager.Register(code)133956
+07/07/2019 13:39:56    OnDataReceived
+07/07/2019 13:39:56    OnDataReceived 35
+07/07/2019 13:39:56    OnDataArrival
+07/07/2019 13:39:56    ProcessControlMessage LinkTest:Respond:133956
+07/07/2019 13:39:56    _linkTestManager.IsTransactionExist(code) True
+07/07/2019 13:39:56    linktest_shouldStop = false;
+07/07/2019 13:39:56    0 
+07/07/2019 13:39:56    WaitForData

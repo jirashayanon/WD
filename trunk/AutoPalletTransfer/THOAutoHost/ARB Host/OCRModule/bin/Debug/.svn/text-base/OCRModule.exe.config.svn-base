@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
+  </configSections>
+  <appSettings>
+    <add key="ToolModelPath" value="Local\ToolModel" />
+  </appSettings>
+
+  <log4net>
+    <root>
+      <level value="DEBUG" />
+    </root>
+    <logger name="LappingServerConnection">
+      <appender-ref ref="LappingServerConnection" />
+    </logger>
+    <logger name="LappingServer">
+      <appender-ref ref="LappingServer" />
+    </logger>
+    <logger name="MainWindow">
+      <appender-ref ref="MainWindow" />
+    </logger>
+    <logger name="MitecsMethod">
+      <appender-ref ref="MitecsMethod" />
+    </logger>
+    <appender name="LappingServerConnection" type="log4net.Appender.RollingFileAppender">
+      <file value=".\Local\Log\LappingServerConnectionLog.log" />
+      <threshold value="DEBUG" />
+      <appendToFile value="true" />
+      <rollingStyle value="Composite" />
+      <datePattern value="yyyyMMdd" />
+      <maxSizeRollBackups value="100" />
+      <maximumFileSize value="20000KB" />
+      <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern" value="[%date] - %message%newline" />
+      </layout>
+    </appender>
+    <appender name="LappingServer" type="log4net.Appender.RollingFileAppender">
+      <file value=".\Local\Log\LappingServerLog.log" />
+      <threshold value="DEBUG" />
+      <appendToFile value="true" />
+      <rollingStyle value="Composite" />
+      <datePattern value="yyyyMMdd" />
+      <maxSizeRollBackups value="100" />
+      <maximumFileSize value="20000KB" />
+      <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern" value="[%date] - %message%newline" />
+      </layout>
+    </appender>
+    <appender name="MainWindow" type="log4net.Appender.RollingFileAppender">
+      <file value=".\Local\Log\MainWindow.log" />
+      <threshold value="DEBUG" />
+      <appendToFile value="true" />
+      <rollingStyle value="Composite" />
+      <datePattern value="yyyyMMdd" />
+      <maxSizeRollBackups value="100" />
+      <maximumFileSize value="20000KB" />
+      <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern" value="[%date] - %message%newline" />
+      </layout>
+    </appender>
+    <appender name="MitecsMethod" type="log4net.Appender.RollingFileAppender">
+      <file value=".\Local\Log\MitecsMethodLog.log" />
+      <threshold value="DEBUG" />
+      <appendToFile value="true" />
+      <rollingStyle value="Composite" />
+      <datePattern value="yyyyMMdd" />
+      <maxSizeRollBackups value="100" />
+      <maximumFileSize value="20000KB" />
+      <staticLogFileName value="true" />
+      <layout type="log4net.Layout.PatternLayout">
+        <param name="ConversionPattern" value="[%date] - %message%newline" />
+      </layout>
+    </appender>
+  </log4net>
+
+</configuration>

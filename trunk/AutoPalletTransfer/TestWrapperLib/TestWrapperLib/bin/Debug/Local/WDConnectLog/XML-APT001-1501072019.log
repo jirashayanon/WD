@@ -1,0 +1,12 @@
+OUT--> 07/01/2019 15:02:52    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>4</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>

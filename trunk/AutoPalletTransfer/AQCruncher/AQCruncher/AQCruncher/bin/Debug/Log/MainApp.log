@@ -1,0 +1,45 @@
+[2019-08-02 19:12:55,167] - args[0] AW0777777H_20170825172830.UNL
+[2019-08-02 19:12:55,195] - ReadFile: AW0777777H_20170825172830.UNL
+[2019-08-02 19:13:53,945] - args[0] AW0777777H_20170825172830.UNL
+[2019-08-02 19:13:53,962] - ReadFile: AW0777777H_20170825172830.UNL
+[2019-08-02 19:14:30,190] - args[0] AW0777777H_20170825172830.UNL
+[2019-08-02 19:14:30,209] - ReadFile: AW0777777H_20170825172830.UNL
+[2019-08-02 19:14:46,609] - args[0] AW0777777H_20170825172830.UNL
+[2019-08-02 19:14:46,629] - ReadFile: AW0777777H_20170825172830.UNL
+[2019-08-02 19:18:41,564] - ReadFile: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\4D4098304N_20190802172527.UNL
+[2019-08-02 19:18:41,570] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\4D4098304N_20190802172527.UNL to D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\Crunched\4D4098304N_20190802172527.UNL
+[2019-08-02 19:18:41,571] - tray.PalletsCount: 2
+[2019-08-02 19:18:41,571] - nCheckPallett: 0
+[2019-08-02 19:18:41,571] - arrPallet.Length: 2
+[2019-08-02 19:18:59,703] - PT0145, PT0114
+[2019-08-02 19:22:36,910] - ReadFile: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL
+[2019-08-02 19:22:36,918] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL to D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\Crunched\4D4098304N_20190802172527.UNL
+[2019-08-02 19:22:36,918] - tray.PalletsCount: 2
+[2019-08-02 19:22:36,919] - nCheckPallett: 0
+[2019-08-02 19:22:36,919] - arrPallet.Length: 2
+[2019-08-02 19:22:45,930] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI
+[2019-08-02 19:22:54,728] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI to \17-18-18_PT0145.IAVI
+[2019-08-02 19:23:01,856] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI
+[2019-08-02 19:23:07,250] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI to \17-18-46_PT0114.IAVI
+[2019-08-02 19:23:12,356] - PT0145, PT0114
+[2019-08-02 19:26:06,347] - ReadFile: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL
+[2019-08-02 19:26:06,355] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL to D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\Crunched\4D4098304N_20190802172527.UNL
+[2019-08-02 19:26:06,356] - tray.PalletsCount: 2
+[2019-08-02 19:26:06,356] - nCheckPallett: 0
+[2019-08-02 19:26:06,356] - arrPallet.Length: 2
+[2019-08-02 19:26:12,500] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI
+[2019-08-02 19:26:17,835] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI to \17-18-18_PT0145.IAVI
+[2019-08-02 19:26:21,953] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI
+[2019-08-02 19:26:27,121] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI to \17-18-46_PT0114.IAVI
+[2019-08-02 19:26:38,775] - PT0145, PT0114
+[2019-08-02 19:28:57,666] - ReadFile: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL
+[2019-08-02 19:28:57,674] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\4D4098304N_20190802172527.UNL to D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\Crunched\4D4098304N_20190802172527.UNL
+[2019-08-02 19:28:57,675] - tray.PalletsCount: 2
+[2019-08-02 19:28:57,675] - nCheckPallett: 0
+[2019-08-02 19:28:57,675] - arrPallet.Length: 2
+[2019-08-02 19:29:02,180] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI
+[2019-08-02 19:29:04,717] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-18_PT0145.IAVI to \17-18-18_PT0145.IAVI
+[2019-08-02 19:29:07,403] - file.FullName: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI
+[2019-08-02 19:29:10,055] - Move file: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\17-18-46_PT0114.IAVI to \17-18-46_PT0114.IAVI
+[2019-08-02 19:29:13,413] - PT0145, PT0114
+[2019-08-02 19:30:07,870] - toAQTrayFile: D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\CARMELG_A8_SD\4D4098304N.LOG, 40

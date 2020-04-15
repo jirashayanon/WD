@@ -1,0 +1,24 @@
+05/11/2017 08:58:43    HSMSServer
+05/11/2017 08:58:43    Initialize
+05/11/2017 08:58:43    LinkTestTimer_Elapsed() True
+05/11/2017 08:58:43    OpenConnection
+05/11/2017 08:58:43    OnRemoteConnect Active
+05/11/2017 08:58:43    _socketWorker.Connected True
+05/11/2017 08:58:43    this._socketWorker.EndConnect(asyn);
+05/11/2017 08:58:44    SendSECSData
+05/11/2017 08:58:44    ActivateLinkTest True
+05/11/2017 08:58:44    linktest_shouldStop = false;
+05/11/2017 08:58:44    ActivateT5 : IsEnabled False
+05/11/2017 08:58:44    WaitForData
+05/11/2017 08:58:49    TriggerTransactionTimer : transactionID -->2
+05/11/2017 08:58:49    TriggerTransactionTimer : transactionID <--2
+05/11/2017 08:58:49    SendSECSData
+05/11/2017 08:59:34    OnDataReceived
+05/11/2017 08:59:34    OnDataReceived 1270
+05/11/2017 08:59:34    OnDataArrival
+05/11/2017 08:59:34    ResolveHeaderBuffer string [0000001258]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/11/2017 08:59:34    [0000001258]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/11/2017 08:59:34    ProcessSECsMessage -->
+05/11/2017 08:59:34    ProcessSECsMessage <--
+05/11/2017 08:59:34    0 
+05/11/2017 08:59:34    WaitForData

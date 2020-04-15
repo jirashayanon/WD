@@ -1,0 +1,108 @@
+﻿<Window x:Class="PhotoLibrary.Views.StartOQA"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoLibrary.Views"
+        xmlns:vm="clr-namespace:PhotoLibrary.ViewModel"
+        xmlns:converters="clr-namespace:PhotoLibrary.Converters"
+        mc:Ignorable="d"
+        Title="StartOQA" Height="300" Width="400" WindowStartupLocation="CenterScreen">
+
+    <Window.DataContext>
+        <vm:StartOQAViewModel x:Name="startOQAViewModel"/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style x:Key="radioButtonStyle" TargetType="{x:Type RadioButton}">
+            <!--<Setter Property="Background" Value="Red" />-->
+        </Style>
+
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="Margin" Value="10 0 0 0" />
+        </Style>
+
+        <converters:EnumMatchToBooleanConverter x:Key="enumBoolConverter" />
+        <converters:EnumToVisibilityConverter x:Key="enumVisibilityConverter" />
+        <converters:BoolToVisibilityConverter x:Key="boolVisibilityConverter" />
+        <converters:InvertBoolToVisibilityConverter x:Key="InvertboolVisibilityConverter" />
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Vertical">
+                <GroupBox Header="Option" Visibility="Collapsed">
+                    <GroupBox.Resources>
+                        <Style TargetType="{x:Type RadioButton}">
+                            <Setter Property="Margin" Value="0 2 0 2" />
+                        </Style>
+                    </GroupBox.Resources>
+                    <StackPanel Orientation="Vertical">
+                        <RadioButton GroupName="Options" Content="OQA" Name="OQARadioButton"
+                                     IsChecked="{Binding Option, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=OQA}"/>
+
+                        <RadioButton GroupName="Options" Content="Rescreen" Name="RescreenRadioButton"
+                                     IsChecked="{Binding Option, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=Rescreen}"/>
+
+                        <RadioButton GroupName="Options" Content="Get Information" Name="GetInformationRadioButton"
+                                     IsChecked="{Binding Option, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=GetInformation}"/>
+                    </StackPanel>
+                </GroupBox>
+
+                <GroupBox Header="Detail">
+                    <GroupBox.Resources>
+                        <Style TargetType="{x:Type StackPanel}">
+                            <Setter Property="Margin" Value="0 2 0 2" />
+                        </Style>
+                        <Style TargetType="{x:Type TextBox}">
+                            <Setter Property="FontSize" Value="18" />
+                            <Setter Property="Margin" Value="10 0 0 0" />
+                        </Style>
+                        <Style TargetType="{x:Type RadioButton}">
+                            <Setter Property="FontSize" Value="16" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                    </GroupBox.Resources>
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding IsAutoEnabled, Converter={StaticResource boolVisibilityConverter}, ConverterParameter=Collapsed}" 
+                                    MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
+                            <RadioButton GroupName="OQA" Content="Auto" 
+                                         IsChecked="{Binding Detail, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=Auto}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding IsPackEnabled, Converter={StaticResource boolVisibilityConverter}, ConverterParameter=Collapsed}" 
+                                    MouseLeftButtonDown="StackPanel_MouseLeftButtonDown" >
+                            <RadioButton GroupName="OQA" Content="PackId" Name="PackRadio"
+                                         IsChecked="{Binding Detail, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=Pack}"/>
+                            <TextBox Width="220" Text="{Binding PackId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown" 
+                                     IsEnabled="{Binding ElementName=PackRadio, Path=IsChecked}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding IsTrayEnabled, Converter={StaticResource boolVisibilityConverter}, ConverterParameter=Collapsed}" 
+                                    FocusManager.FocusedElement="{Binding ElementName=TrayBox}"
+                                    MouseLeftButtonDown="StackPanel_MouseLeftButtonDown" >
+                            <RadioButton GroupName="OQA" Content="TrayId" Name="TrayRadio"
+                                         IsChecked="{Binding Detail, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=Tray}"/>
+                            <TextBox Name="TrayBox" Width="220" Text="{Binding TrayId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown" 
+                                     IsEnabled="{Binding ElementName=TrayRadio, Path=IsChecked}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding IsPalletEnabled, Converter={StaticResource boolVisibilityConverter}, ConverterParameter=Collapsed}" 
+                                    FocusManager.FocusedElement="{Binding ElementName=PalletBox}"
+                                    MouseLeftButtonDown="StackPanel_MouseLeftButtonDown" >
+                            <RadioButton GroupName="OQA" Content="PalletId" Name="PalletRadio"
+                                         IsChecked="{Binding Detail, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=Pallet}"/>
+                            <TextBox Name="PalletBox" Width="220" Text="{Binding PalletId, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="TextBox_KeyDown" 
+                                     IsEnabled="{Binding ElementName=PalletRadio, Path=IsChecked}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding IsHGAEnabled, Converter={StaticResource boolVisibilityConverter}, ConverterParameter=Collapsed}" 
+                                    MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
+                            <RadioButton GroupName="OQA" Content="HGAId" Name="HGARadio"
+                                         IsChecked="{Binding Detail, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=HGA}"/>
+                            <TextBox Width="220" Text="{Binding HGAId, Mode=TwoWay}" KeyDown="TextBox_KeyDown" 
+                                     IsEnabled="{Binding ElementName=HGARadio, Path=IsChecked}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+            </StackPanel>
+
+            <Button Content="Submit" Width="80" Height="30" FontSize="15" Command="{Binding SubmitCommand}"/>
+        </StackPanel>
+    </Grid>
+</Window>

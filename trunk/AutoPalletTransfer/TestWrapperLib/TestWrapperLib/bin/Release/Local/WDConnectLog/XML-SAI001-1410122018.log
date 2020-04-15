@@ -1,0 +1,2161 @@
+OUT--> 12/10/2018 14:36:33    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 12/10/2018 14:37:02    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessRecipe</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">ACAMM_22</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--12/10/2018 14:37:02    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessRecipeAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">ACAMM_22</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessRecipeAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>LotSize</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ProductName</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>STR</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Suspension</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SuspPartNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>HGAType</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV1</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater1</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater2</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater3</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater4</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater5</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV2</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater6</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater7</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater8</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater9</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater10</Name>
+          <Value
+            xsi:type="xsd:double">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Mode</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Bypass</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:37:19    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:19    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:37:20    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:20    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:37:21    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:37:24    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:24    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:37:25    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:25    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:37:26    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:37:26    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:38:01    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:38:01    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+OUT--> 12/10/2018 14:43:31    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+IN <--12/10/2018 14:43:50    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:50    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:51    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:51    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:51    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:51    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:52    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:52    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:52    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:52    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:52    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:52    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:53    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:53    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:43:55    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>RequestControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:43:55    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>RequestControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:20    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:20    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">SAI001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:33    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:33    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:43    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:43    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:46    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:46    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:47    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>13</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:47    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>13</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:44:47    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>14</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:44:47    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>14</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:45:04    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>15</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:45:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>15</Id>
+  <Name>OfflineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OfflineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:45:21    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>16</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:45:22    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>16</Id>
+  <Name>OfflineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OfflineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>17</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>18</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>19</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>20</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 12/10/2018 14:45:22    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>20</Id>
+  <Name>OfflineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OfflineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>21</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>22</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>23</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--12/10/2018 14:45:26    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>24</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+

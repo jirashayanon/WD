@@ -1,0 +1,235 @@
+OUT--> 08/14/2019 10:03:16    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSwapPallet</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSwapPallet</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--08/14/2019 10:12:08    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>]
+
+OUT--> 08/14/2019 10:12:08    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>3</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:19:54    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:21:05    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:26:59    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSwapPallet</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSwapPallet</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 08/14/2019 10:30:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:30:24    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSwapPallet</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSwapPallet</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 08/14/2019 10:31:29    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:31:40    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSwapPallet</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSwapPallet</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 08/14/2019 10:46:49    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/14/2019 10:48:26    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSwapPallet</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSwapPallet</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">PT0200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>

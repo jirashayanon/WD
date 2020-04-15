@@ -1,0 +1,13 @@
+12/10/2018 13:04:03    OnT5_Elapsed
+12/10/2018 13:04:03    OpenConnection
+12/10/2018 13:04:03    OnRemoteConnect Active
+12/10/2018 13:04:03    _socketWorker.Connected True
+12/10/2018 13:04:03    this._socketWorker.EndConnect(asyn);
+12/10/2018 13:04:03    SendSECSData
+12/10/2018 13:04:03    ActivateLinkTest True
+12/10/2018 13:04:03    linktest_shouldStop = false;
+12/10/2018 13:04:03    ActivateT5 : IsEnabled False
+12/10/2018 13:04:03    WaitForData
+12/10/2018 13:04:12    CloseConnection
+12/10/2018 13:04:12    OnDataReceived
+12/10/2018 13:04:12    CloseSession

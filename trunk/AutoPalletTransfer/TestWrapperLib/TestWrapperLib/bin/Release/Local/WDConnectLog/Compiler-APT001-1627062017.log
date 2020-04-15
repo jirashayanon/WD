@@ -1,0 +1,75 @@
+06/27/2017 16:22:40    Connect
+06/27/2017 16:22:41    ErrorNotification
+06/27/2017 16:22:41    OnSECsErrorNotification
+06/27/2017 16:24:30    Connect
+06/27/2017 16:24:32    ErrorNotification
+06/27/2017 16:24:32    OnSECsErrorNotification
+06/27/2017 16:33:45    Connect
+06/27/2017 16:33:46    ErrorNotification
+06/27/2017 16:33:46    OnSECsErrorNotification
+06/27/2017 16:35:57    Connect
+06/27/2017 16:35:57    OnConnected
+06/27/2017 16:35:57    OnSECsCommNotification
+06/27/2017 16:35:58    ProcessOutStream
+06/27/2017 16:35:58    this.SECsServer.IsConnected()
+06/27/2017 16:35:58    ConstructRawMessage
+06/27/2017 16:35:58    ConstructRawMessage nextTransactionID 1
+06/27/2017 16:35:58    CreateXMLText
+06/27/2017 16:35:58    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/27/2017 16:35:58    RegisterTransaction : transaction 1
+06/27/2017 16:35:58    ConstructRawMessage return message
+06/27/2017 16:36:10    ProcessOutStream
+06/27/2017 16:36:10    this.SECsServer.IsConnected()
+06/27/2017 16:36:10    ConstructRawMessage
+06/27/2017 16:36:10    ConstructRawMessage nextTransactionID 2
+06/27/2017 16:36:10    CreateXMLText
+06/27/2017 16:36:10    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">WRXGC_A</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/27/2017 16:36:10    RegisterTransaction : transaction 2
+06/27/2017 16:36:10    ConstructRawMessage return message
+06/27/2017 16:36:14    ProcessInStream
+06/27/2017 16:36:14    OnSECsSecondaryNotification
+06/27/2017 16:36:34    UnRegisterTransaction 2
+06/27/2017 16:40:56    Connect
+06/27/2017 16:40:56    OnConnected
+06/27/2017 16:40:56    OnSECsCommNotification
+06/27/2017 16:40:57    ProcessOutStream
+06/27/2017 16:40:57    this.SECsServer.IsConnected()
+06/27/2017 16:40:57    ConstructRawMessage
+06/27/2017 16:40:57    ConstructRawMessage nextTransactionID 1
+06/27/2017 16:40:57    CreateXMLText
+06/27/2017 16:40:57    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/27/2017 16:40:57    RegisterTransaction : transaction 1
+06/27/2017 16:40:57    ConstructRawMessage return message
+06/27/2017 16:41:05    ProcessOutStream
+06/27/2017 16:41:05    this.SECsServer.IsConnected()
+06/27/2017 16:41:05    ConstructRawMessage
+06/27/2017 16:41:05    ConstructRawMessage nextTransactionID 2
+06/27/2017 16:41:05    CreateXMLText
+06/27/2017 16:41:05    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">WRXGC_A</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/27/2017 16:41:05    RegisterTransaction : transaction 2
+06/27/2017 16:41:05    ConstructRawMessage return message
+06/27/2017 16:41:07    ProcessInStream
+06/27/2017 16:41:07    OnSECsSecondaryNotification
+06/27/2017 16:41:09    UnRegisterTransaction 2
+06/27/2017 16:57:33    Connect
+06/27/2017 16:57:33    OnConnected
+06/27/2017 16:57:33    OnSECsCommNotification
+06/27/2017 16:57:33    ProcessOutStream
+06/27/2017 16:57:33    this.SECsServer.IsConnected()
+06/27/2017 16:57:33    ConstructRawMessage
+06/27/2017 16:57:33    ConstructRawMessage nextTransactionID 1
+06/27/2017 16:57:33    CreateXMLText
+06/27/2017 16:57:33    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/27/2017 16:57:33    RegisterTransaction : transaction 1
+06/27/2017 16:57:33    ConstructRawMessage return message
+06/27/2017 16:57:35    ProcessOutStream
+06/27/2017 16:57:35    this.SECsServer.IsConnected()
+06/27/2017 16:57:35    ConstructRawMessage
+06/27/2017 16:57:35    ConstructRawMessage nextTransactionID 2
+06/27/2017 16:57:35    CreateXMLText
+06/27/2017 16:57:35    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">WRXGC_A</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/27/2017 16:57:35    RegisterTransaction : transaction 2
+06/27/2017 16:57:35    ConstructRawMessage return message
+06/27/2017 16:57:37    ProcessInStream
+06/27/2017 16:57:37    OnSECsSecondaryNotification
+06/27/2017 16:57:38    UnRegisterTransaction 2

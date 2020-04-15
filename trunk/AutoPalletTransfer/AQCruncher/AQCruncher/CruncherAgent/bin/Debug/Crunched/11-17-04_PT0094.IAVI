@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>PT0094</PalletID>
+  <TesterNumber>iAVI-01</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>PALMER_8_SD</Product>
+  <User>Kai Noi</User>
+  <LotNumber>Y73B23</LotNumber>
+  <DocControl1>70857-E2-SA3</DocControl1>
+  <DocControl2>N26359NE-R00</DocControl2>
+  <Sus>HTOM2MR</Sus>
+  <AssyLine>B4A2</AssyLine>
+  <HGAN1 />
+  <HGAN2 />
+  <HGAN3 />
+  <HGAN4 />
+  <HGAN5 />
+  <HGAN6 />
+  <HGAN7 />
+  <HGAN8 />
+  <HGAN9 />
+  <HGAN10 />
+  <DefectN1 />
+  <DefectN2 />
+  <DefectN3 />
+  <DefectN4 />
+  <DefectN5 />
+  <DefectN6 />
+  <DefectN7 />
+  <DefectN8 />
+  <DefectN9 />
+  <DefectN10 />
+</PalletObj>

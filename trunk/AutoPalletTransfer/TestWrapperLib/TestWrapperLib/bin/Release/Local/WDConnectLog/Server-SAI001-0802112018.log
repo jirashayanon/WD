@@ -1,0 +1,47 @@
+11/02/2018 08:46:41    HSMSServer
+11/02/2018 08:46:41    Initialize
+11/02/2018 08:46:41    LinkTestTimer_Elapsed() True
+11/02/2018 08:46:41    OpenConnection
+11/02/2018 08:46:41    OnRemoteConnect Active
+11/02/2018 08:46:41    _socketWorker.Connected True
+11/02/2018 08:46:41    this._socketWorker.EndConnect(asyn);
+11/02/2018 08:46:42    SendSECSData
+11/02/2018 08:46:42    ActivateLinkTest True
+11/02/2018 08:46:42    linktest_shouldStop = false;
+11/02/2018 08:46:42    ActivateT5 : IsEnabled False
+11/02/2018 08:46:42    WaitForData
+11/02/2018 08:47:50    TriggerTransactionTimer : transactionID -->2
+11/02/2018 08:47:50    TriggerTransactionTimer : transactionID <--2
+11/02/2018 08:47:50    SendSECSData
+11/02/2018 08:48:06    OnDataReceived
+11/02/2018 08:48:06    ** An existing connection was forcibly closed by the remote host
+11/02/2018 08:48:06    ActivateT5 : IsEnabled True
+11/02/2018 08:48:55    HSMSServer
+11/02/2018 08:48:55    Initialize
+11/02/2018 08:48:55    LinkTestTimer_Elapsed() True
+11/02/2018 08:48:55    OpenConnection
+11/02/2018 08:48:55    OnRemoteConnect Active
+11/02/2018 08:48:55    _socketWorker.Connected True
+11/02/2018 08:48:55    this._socketWorker.EndConnect(asyn);
+11/02/2018 08:48:55    SendSECSData
+11/02/2018 08:48:55    ActivateLinkTest True
+11/02/2018 08:48:55    linktest_shouldStop = false;
+11/02/2018 08:48:55    ActivateT5 : IsEnabled False
+11/02/2018 08:48:55    WaitForData
+11/02/2018 08:49:00    TriggerTransactionTimer : transactionID -->2
+11/02/2018 08:49:00    TriggerTransactionTimer : transactionID <--2
+11/02/2018 08:49:00    SendSECSData
+11/02/2018 08:58:18    OnDataReceived
+11/02/2018 08:58:18    OnDataReceived 0
+11/02/2018 08:59:05    HSMSServer
+11/02/2018 08:59:05    Initialize
+11/02/2018 08:59:05    LinkTestTimer_Elapsed() True
+11/02/2018 08:59:05    OpenConnection
+11/02/2018 08:59:05    OnRemoteConnect Active
+11/02/2018 08:59:05    _socketWorker.Connected True
+11/02/2018 08:59:05    this._socketWorker.EndConnect(asyn);
+11/02/2018 08:59:05    SendSECSData
+11/02/2018 08:59:05    ActivateLinkTest True
+11/02/2018 08:59:05    linktest_shouldStop = false;
+11/02/2018 08:59:05    ActivateT5 : IsEnabled False
+11/02/2018 08:59:05    WaitForData

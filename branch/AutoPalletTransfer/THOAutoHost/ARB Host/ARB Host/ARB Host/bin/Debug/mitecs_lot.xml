@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="yes"?>
+<LotNumbers>
+  <xs:schema id="LotNumbers" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LotNumbers" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LOT_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" type="xs:int" minOccurs="0" />
+                <xs:element name="SF_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="HGA_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="PROGRAM" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSPENSION" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSP_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED_TIMESTAMP" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <LOT_NUMBER>AA71D26_AN2B2</LOT_NUMBER>
+    <QTY>249</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T04:29:27.773+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA7ED34_A1S1FP</LOT_NUMBER>
+    <QTY>1</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>71880-15-AL</HGA_PART_NUMBER>
+    <STR_NO>A32984SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-16T15:33:08.153+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA63E02_AB2</LOT_NUMBER>
+    <QTY>317</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T04:29:27.637+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA63E20_AB2</LOT_NUMBER>
+    <QTY>397</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T04:29:28.307+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA80220_AB2</LOT_NUMBER>
+    <QTY>302</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T04:35:42.257+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA56436_AS2</LOT_NUMBER>
+    <QTY>219</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T04:29:27.9+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA64705_A1S2</LOT_NUMBER>
+    <QTY>957</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T02:47:23.617+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA64719_A1S2</LOT_NUMBER>
+    <QTY>947</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-20T23:21:01.91+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>AA88135_A1S2</LOT_NUMBER>
+    <QTY>954</QTY>
+    <SF_PART_NUMBER>36112-05-AM</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>71880-15-AM</HGA_PART_NUMBER>
+    <STR_NO>A32883SN</STR_NO>
+    <LINE_NO>CP4A2</LINE_NO>
+    <PROGRAM>CARMELG_A8_SD</PROGRAM>
+    <SUSPENSION>NHK-AS5</SUSPENSION>
+    <SUSP_PART_NUMBER>04452-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2019-08-21T02:47:23.467+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+</LotNumbers>

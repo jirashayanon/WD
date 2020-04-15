@@ -1,0 +1,24 @@
+06/29/2018 13:23:05    HSMSServer
+06/29/2018 13:23:05    Initialize
+06/29/2018 13:23:05    LinkTestTimer_Elapsed() True
+06/29/2018 13:23:05    OpenConnection
+06/29/2018 13:23:05    OnRemoteConnect Active
+06/29/2018 13:23:05    _socketWorker.Connected True
+06/29/2018 13:23:05    this._socketWorker.EndConnect(asyn);
+06/29/2018 13:23:06    SendSECSData
+06/29/2018 13:23:06    ActivateLinkTest True
+06/29/2018 13:23:06    linktest_shouldStop = false;
+06/29/2018 13:23:06    ActivateT5 : IsEnabled False
+06/29/2018 13:23:06    WaitForData
+06/29/2018 13:23:39    TriggerTransactionTimer : transactionID -->2
+06/29/2018 13:23:39    TriggerTransactionTimer : transactionID <--2
+06/29/2018 13:23:39    SendSECSData
+06/29/2018 13:24:43    OnDataReceived
+06/29/2018 13:24:43    OnDataReceived 1486
+06/29/2018 13:24:44    OnDataArrival
+06/29/2018 13:24:44    ResolveHeaderBuffer string [0000001474]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">ILC001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">30</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT9999</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>UVPower</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>Float</Format><Items /><Name>CureTime</Name><Value xsi:type="xsd:float">0</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>CureZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT9999</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+06/29/2018 13:24:44    [0000001474]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">ILC001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">30</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT9999</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>UVPower</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>Float</Format><Items /><Name>CureTime</Name><Value xsi:type="xsd:float">0</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>CureZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT9999</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+06/29/2018 13:24:44    ProcessSECsMessage -->
+06/29/2018 13:25:07    ProcessSECsMessage <--
+06/29/2018 13:25:07    0 
+06/29/2018 13:25:07    WaitForData

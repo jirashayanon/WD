@@ -1,0 +1,184 @@
+<?xml version="1.0" standalone="yes"?>
+<ExportLot07242017094850AM>
+  <xs:schema id="ExportLot07242017094850AM" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ExportLot07242017094850AM" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LOT_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" type="xs:int" minOccurs="0" />
+                <xs:element name="SF_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="HGA_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="PROGRAM" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSPENSION" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSP_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED_TIMESTAMP" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <LOT_NUMBER>Y7L8L_A</LOT_NUMBER>
+    <QTY>1042</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26518SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T09:14:34+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7N9G_E</LOT_NUMBER>
+    <QTY>992</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26518SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T08:14:56+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7X2E_C</LOT_NUMBER>
+    <QTY>902</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26518SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T07:06:52+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7X2E_CD</LOT_NUMBER>
+    <QTY>840</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26518SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T07:06:53+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7J7C_E</LOT_NUMBER>
+    <QTY>1496</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26521SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T04:52:23+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7N7E_D</LOT_NUMBER>
+    <QTY>823</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26521SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T07:06:57+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y7N7E_DD</LOT_NUMBER>
+    <QTY>840</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70934-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26521SN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTOM2MR</SUSPENSION>
+    <SUSP_PART_NUMBER>04382-E2</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-24T07:06:57+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y21H$C48A</LOT_NUMBER>
+    <QTY>170</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70976-35-SA3</HGA_PART_NUMBER>
+    <STR_NO>V25586NN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E3</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-21T15:00:37+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y21H$C49A</LOT_NUMBER>
+    <QTY>170</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70976-35-SA3</HGA_PART_NUMBER>
+    <STR_NO>V25586NN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E3</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-21T15:00:37+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y21H$C50A</LOT_NUMBER>
+    <QTY>170</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70976-35-SA3</HGA_PART_NUMBER>
+    <STR_NO>V25586NN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E3</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-21T15:00:37+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y21H$C51A</LOT_NUMBER>
+    <QTY>170</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70976-35-SA3</HGA_PART_NUMBER>
+    <STR_NO>V25586NN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E3</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-21T15:00:37+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y21H$C52A</LOT_NUMBER>
+    <QTY>170</QTY>
+    <SF_PART_NUMBER />
+    <HGA_PART_NUMBER>70976-35-SA3</HGA_PART_NUMBER>
+    <STR_NO>V25586NN</STR_NO>
+    <LINE_NO>B404</LINE_NO>
+    <PROGRAM>PALMER_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E3</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-07-21T14:58:37+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+</ExportLot07242017094850AM>

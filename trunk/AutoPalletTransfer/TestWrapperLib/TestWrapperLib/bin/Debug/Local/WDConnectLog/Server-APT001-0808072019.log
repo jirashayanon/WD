@@ -1,0 +1,14 @@
+07/08/2019 08:59:22    HSMSServer
+07/08/2019 08:59:22    Initialize
+07/08/2019 08:59:22    LinkTestTimer_Elapsed() True
+07/08/2019 08:59:22    OpenListenPort
+07/08/2019 08:59:22    ListenConnection
+07/08/2019 08:59:22    OpenConnection
+07/08/2019 08:59:22    OnRemoteConnect Passive
+07/08/2019 08:59:22    _socketWorker.Connected True
+07/08/2019 08:59:22    this._socketWorker.EndConnect(asyn);
+07/08/2019 08:59:22    SendSECSData
+07/08/2019 08:59:22    ActivateLinkTest True
+07/08/2019 08:59:22    linktest_shouldStop = false;
+07/08/2019 08:59:22    ActivateT5 : IsEnabled False
+07/08/2019 08:59:22    WaitForData

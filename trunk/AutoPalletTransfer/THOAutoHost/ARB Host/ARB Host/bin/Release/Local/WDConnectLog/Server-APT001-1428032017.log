@@ -1,0 +1,39 @@
+03/28/2017 14:31:56    HSMSServer
+03/28/2017 14:31:56    Initialize
+03/28/2017 14:31:56    LinkTestTimer_Elapsed() True
+03/28/2017 14:31:56    OpenListenPort
+03/28/2017 14:31:56    ListenConnection
+03/28/2017 14:31:56    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/28/2017 14:33:47    HSMSServer
+03/28/2017 14:33:47    Initialize
+03/28/2017 14:33:47    LinkTestTimer_Elapsed() True
+03/28/2017 14:33:47    OpenListenPort
+03/28/2017 14:33:47    ListenConnection
+03/28/2017 14:33:47    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/28/2017 14:55:47    OnClientConnect Passive
+03/28/2017 14:55:47    this._socketWorker = this._socketListener.EndAccept(asyn);
+03/28/2017 14:55:47    ActivateLinkTest True
+03/28/2017 14:55:47    linktest_shouldStop = false;
+03/28/2017 14:55:47    WaitForData
+03/28/2017 14:55:47    OnDataReceived
+03/28/2017 14:55:47    OnDataReceived 375
+03/28/2017 14:55:47    OnDataArrival
+03/28/2017 14:55:47    ResolveHeaderBuffer string [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+03/28/2017 14:55:47    [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+03/28/2017 14:55:47    ProcessSECsMessage -->
+03/28/2017 14:55:48    ProcessSECsMessage <--
+03/28/2017 14:55:48    0 
+03/28/2017 14:55:48    WaitForData
+03/28/2017 14:55:49    OnDataReceived
+03/28/2017 14:55:49    OnDataReceived 502
+03/28/2017 14:55:49    OnDataArrival
+03/28/2017 14:55:49    ResolveHeaderBuffer string [0000000490]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+03/28/2017 14:55:49    [0000000490]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+03/28/2017 14:55:49    ProcessSECsMessage -->
+03/28/2017 14:55:49    SendSECSData
+03/28/2017 14:55:50    ProcessSECsMessage <--
+03/28/2017 14:55:50    0 
+03/28/2017 14:55:50    WaitForData
+03/28/2017 14:59:38    OnDataReceived
+03/28/2017 14:59:38    ** An existing connection was forcibly closed by the remote host
+03/28/2017 14:59:38    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

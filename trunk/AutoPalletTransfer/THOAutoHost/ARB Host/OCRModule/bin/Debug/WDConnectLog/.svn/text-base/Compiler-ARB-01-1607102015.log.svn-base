@@ -1,0 +1,10 @@
+10/07/2015 16:37:31    Connect
+10/07/2015 16:37:53    OnConnected
+10/07/2015 16:37:53    OnSECsCommNotification
+10/07/2015 16:37:53    ProcessOutStream
+10/07/2015 16:37:53    this.SECsServer.IsConnected()
+10/07/2015 16:37:53    ConstructRawMessage
+10/07/2015 16:37:53    ConstructRawMessage nextTransactionID 1
+10/07/2015 16:37:53    CreateXMLText
+10/07/2015 16:37:53    RegisterTransaction : transaction 1
+10/07/2015 16:37:53    ConstructRawMessage return message

@@ -1,0 +1,36 @@
+09/30/2015 11:23:24    OnDataReceived
+09/30/2015 11:23:24    ** An existing connection was forcibly closed by the remote host
+09/30/2015 11:23:24    ActivateLinkTest False
+09/30/2015 11:23:24     this.LinkTestTimer.Enabled = false;
+09/30/2015 11:23:24    ActivateT5 : IsEnabled True
+09/30/2015 11:23:34    OnT5_Elapsed
+09/30/2015 11:23:34    OpenConnection
+09/30/2015 11:23:35    OnRemoteConnect Active
+09/30/2015 11:23:35    _socketWorker.Connected False
+09/30/2015 11:23:35    ActivateT5 : IsEnabled True
+09/30/2015 11:23:45    OnT5_Elapsed
+09/30/2015 11:23:45    OpenConnection
+09/30/2015 11:23:45    OnRemoteConnect Active
+09/30/2015 11:23:45    _socketWorker.Connected True
+09/30/2015 11:23:45    this._socketWorker.EndConnect(asyn);
+09/30/2015 11:23:45    SendSECSData
+09/30/2015 11:23:45    ActivateT5 : IsEnabled False
+09/30/2015 11:23:45    WaitForData
+09/30/2015 11:23:48    OnDataReceived
+09/30/2015 11:23:48    ** An existing connection was forcibly closed by the remote host
+09/30/2015 11:23:48    ActivateLinkTest False
+09/30/2015 11:23:48     this.LinkTestTimer.Enabled = false;
+09/30/2015 11:23:48    ActivateT5 : IsEnabled True
+09/30/2015 11:23:58    OnT5_Elapsed
+09/30/2015 11:23:58    OpenConnection
+09/30/2015 11:23:59    OnRemoteConnect Active
+09/30/2015 11:23:59    _socketWorker.Connected False
+09/30/2015 11:23:59    ActivateT5 : IsEnabled True
+09/30/2015 11:24:09    OnT5_Elapsed
+09/30/2015 11:24:09    OpenConnection
+09/30/2015 11:24:09    OnRemoteConnect Active
+09/30/2015 11:24:09    _socketWorker.Connected True
+09/30/2015 11:24:09    this._socketWorker.EndConnect(asyn);
+09/30/2015 11:24:09    SendSECSData
+09/30/2015 11:24:09    ActivateT5 : IsEnabled False
+09/30/2015 11:24:09    WaitForData

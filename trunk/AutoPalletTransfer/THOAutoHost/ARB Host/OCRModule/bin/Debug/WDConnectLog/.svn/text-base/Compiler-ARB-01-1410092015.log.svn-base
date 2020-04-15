@@ -1,0 +1,42 @@
+9/10/2015 2:12:33 PM   Connect
+9/10/2015 2:15:55 PM   Connect
+9/10/2015 2:16:01 PM   OnConnected
+9/10/2015 2:16:01 PM   OnSECsCommNotification
+9/10/2015 2:16:01 PM   ProcessOutStream
+9/10/2015 2:16:01 PM   this.SECsServer.IsConnected()
+9/10/2015 2:16:01 PM   ConstructRawMessage
+9/10/2015 2:16:01 PM   ConstructRawMessage nextTransactionID 1
+9/10/2015 2:16:01 PM   CreateXMLText
+9/10/2015 2:16:01 PM   RegisterTransaction : transaction 1
+9/10/2015 2:16:01 PM   ConstructRawMessage return message
+9/10/2015 2:16:38 PM   ProcessOutStream
+9/10/2015 2:16:38 PM   this.SECsServer.IsConnected()
+9/10/2015 2:16:38 PM   ConstructRawMessage
+9/10/2015 2:16:38 PM   ConstructRawMessage nextTransactionID 2
+9/10/2015 2:16:38 PM   CreateXMLText
+9/10/2015 2:16:38 PM   RegisterTransaction : transaction 2
+9/10/2015 2:16:38 PM   ConstructRawMessage return message
+9/10/2015 2:16:38 PM   ProcessInStream
+9/10/2015 2:16:38 PM   OnSECsSecondaryNotification
+9/10/2015 2:16:38 PM   UnRegisterTransaction
+9/10/2015 2:18:56 PM   Connect
+9/10/2015 2:19:01 PM   OnConnected
+9/10/2015 2:19:01 PM   OnSECsCommNotification
+9/10/2015 2:19:01 PM   ProcessOutStream
+9/10/2015 2:19:01 PM   this.SECsServer.IsConnected()
+9/10/2015 2:19:01 PM   ConstructRawMessage
+9/10/2015 2:19:01 PM   ConstructRawMessage nextTransactionID 1
+9/10/2015 2:19:01 PM   CreateXMLText
+9/10/2015 2:19:17 PM   RegisterTransaction : transaction 1
+9/10/2015 2:19:17 PM   ConstructRawMessage return message
+9/10/2015 2:19:28 PM   OnDisconnected
+9/10/2015 2:19:28 PM   OnSECsCommNotification
+9/10/2015 2:20:06 PM   OnConnected
+9/10/2015 2:20:06 PM   OnSECsCommNotification
+9/10/2015 2:20:06 PM   ProcessOutStream
+9/10/2015 2:20:06 PM   this.SECsServer.IsConnected()
+9/10/2015 2:20:06 PM   ConstructRawMessage
+9/10/2015 2:20:06 PM   ConstructRawMessage nextTransactionID 2
+9/10/2015 2:20:06 PM   CreateXMLText
+9/10/2015 2:20:06 PM   RegisterTransaction : transaction 2
+9/10/2015 2:20:06 PM   ConstructRawMessage return message

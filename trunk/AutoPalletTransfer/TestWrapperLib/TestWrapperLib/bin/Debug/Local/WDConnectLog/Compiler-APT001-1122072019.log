@@ -1,0 +1,45 @@
+07/22/2019 11:11:38    Only one usage of each socket address (protocol/network address/port) is normally permitted
+07/22/2019 11:11:38    OnSECsErrorNotification
+07/22/2019 11:11:38    Connect
+07/22/2019 11:11:38    OnConnected
+07/22/2019 11:11:38    OnSECsCommNotification
+07/22/2019 11:11:38    ProcessOutStream
+07/22/2019 11:11:38    this.SECsServer.IsConnected()
+07/22/2019 11:11:38    ConstructRawMessage
+07/22/2019 11:11:38    ConstructRawMessage nextTransactionID 1
+07/22/2019 11:11:38    CreateXMLText
+07/22/2019 11:11:38    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+07/22/2019 11:11:38    RegisterTransaction : transaction 1
+07/22/2019 11:11:38    Object reference not set to an instance of an object.
+07/22/2019 11:11:38    ConstructRawMessage return message
+07/22/2019 11:20:54    ProcessOutStream
+07/22/2019 11:20:54    this.SECsServer.IsConnected()
+07/22/2019 11:20:54    ConstructRawMessage
+07/22/2019 11:20:54    ConstructRawMessage nextTransactionID 2
+07/22/2019 11:20:54    CreateXMLText
+07/22/2019 11:20:54    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/22/2019 11:20:54    RegisterTransaction : transaction 2
+07/22/2019 11:20:54    Object reference not set to an instance of an object.
+07/22/2019 11:20:54    ConstructRawMessage return message
+07/22/2019 11:20:54    ProcessInStream
+07/22/2019 11:20:54    OnSECsSecondaryNotification
+07/22/2019 11:20:54    UnRegisterTransaction 2
+07/22/2019 11:20:55    ProcessOutStream
+07/22/2019 11:20:55    this.SECsServer.IsConnected()
+07/22/2019 11:20:55    ConstructRawMessage
+07/22/2019 11:20:55    ConstructRawMessage nextTransactionID 3
+07/22/2019 11:20:55    CreateXMLText
+07/22/2019 11:20:55    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/22/2019 11:20:55    RegisterTransaction : transaction 3
+07/22/2019 11:20:55    Object reference not set to an instance of an object.
+07/22/2019 11:20:55    ConstructRawMessage return message
+07/22/2019 11:20:55    ProcessInStream
+07/22/2019 11:20:55    OnSECsSecondaryNotification
+07/22/2019 11:20:55    UnRegisterTransaction 3
+07/22/2019 11:51:59    ProcessInStream
+07/22/2019 11:51:59    ProcessOutStream
+07/22/2019 11:51:59    this.SECsServer.IsConnected()
+07/22/2019 11:51:59    ConstructRawMessage
+07/22/2019 11:51:59    CreateXMLText
+07/22/2019 11:51:59    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/22/2019 11:51:59    ConstructRawMessage return message

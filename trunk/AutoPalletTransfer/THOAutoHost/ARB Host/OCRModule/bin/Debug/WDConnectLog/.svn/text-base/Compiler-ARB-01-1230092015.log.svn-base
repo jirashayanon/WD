@@ -1,0 +1,12 @@
+09/30/2015 12:03:06    ProcessOutStream
+09/30/2015 12:03:11    this.SECsServer.IsConnected()
+09/30/2015 12:03:11    ConstructRawMessage
+09/30/2015 12:03:11    ConstructRawMessage nextTransactionID 4
+09/30/2015 12:03:11    CreateXMLText
+09/30/2015 12:03:11    RegisterTransaction : transaction 4
+09/30/2015 12:03:11    ConstructRawMessage return message
+09/30/2015 12:07:24    ProcessTimeOutError
+09/30/2015 12:07:24    OnSECsErrorNotification
+09/30/2015 12:07:24    ProcessInStream
+09/30/2015 12:07:28    OnSECsSecondaryNotification
+09/30/2015 12:07:30    UnRegisterTransaction

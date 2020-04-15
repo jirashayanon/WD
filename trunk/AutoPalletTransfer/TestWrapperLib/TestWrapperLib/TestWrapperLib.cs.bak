@@ -1,0 +1,162 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+using WDConnectWrapperLib;
+
+namespace TestWrapperLib
+{
+    public partial class TestWrapperLib : Form
+    {
+        public TestWrapperLib()
+        {
+            InitializeComponent();
+            _init();
+        }
+
+        private void _init()
+        {
+            WDConnectWrapperLibClass.Instance.primaryInEvntHandler += new PrimaryMessageInEventHandler(PrimaryInCallBack);
+            WDConnectWrapperLibClass.Instance.secondaryInEvntHandler += new SecondaryMessageInEventHandler(SecondaryInCallBack);
+            WDConnectWrapperLibClass.Instance.hostErrorEvntHandler += new HostErrorEventHandler(HostErrorCallBack);
+
+
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.OFFLINE.ToString());
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.ONLINE_LOCAL.ToString());
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.ONLINE_REMOTE.ToString());
+            cmbControlState.SelectedIndex = 0;
+
+            WDConnectWrapperLibClass.Instance.ControlState = (WDConnectWrapperLib.CONTROL_STATE)Enum.Parse(typeof(WDConnectWrapperLib.CONTROL_STATE), cmbControlState.Text);
+
+
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.INIT.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.IDLE.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.HOME.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.EMERGENCY.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.READY.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.LOOP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.OPERATOR.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.STEP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.SETUP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.ABORT.ToString());
+            cmbProcessState.SelectedIndex = 0;
+
+            WDConnectWrapperLibClass.Instance.ProcessState = (WDConnectWrapperLib.PROCESS_STATE)Enum.Parse(typeof(WDConnectWrapperLib.PROCESS_STATE), cmbProcessState.Text);
+
+        }
+
+
+        #region Primary In Message
+        private delegate void updatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxPrimaryMsg.Text = e.MessageIn;
+            txtboxPrimaryCommandID.Text = e.CommandID;
+        }
+        public void DelegateUpdatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updatePrimaryMessageInTextbox(UpdatePrimaryMessageInTextbox), e);
+        }
+
+        public void PrimaryInCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("PrimaryInCallBack");
+            DelegateUpdatePrimaryMessageInTextbox(e);
+        }
+
+        #endregion
+
+
+        #region Secondary In Message
+        private delegate void updateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxSecondaryMsg.Text = e.MessageIn;
+            txtboxSecondaryCommandID.Text = e.CommandID;
+
+            if (e.CommandID == "RequestPalletInfoAck")
+            {
+            }
+        }
+        public void DelegateUpdateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updatePrimaryMessageInTextbox(UpdateSecondaryMessageInTextbox), e);
+        }
+
+        public void SecondaryInCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("SecondaryInCallBack");
+            DelegateUpdateSecondaryMessageInTextbox(e);
+
+            if (e.CommandID == "RequestPalletInfoAck")
+            {
+                PalletDataClass retPallet = new PalletDataClass(e.MessageIn);
+
+                //call to any particular function to handle the incoming pallet
+            }
+
+            if (e.CommandID == "RequestProcessRecipeAck")
+            {
+                ProcessRecipeDataClass procRecipeObj = new ProcessRecipeDataClass(e.MessageIn);
+
+                //call to any particular function to perform task in according to the parameters in recipe
+            }
+        }
+
+        #endregion
+
+
+        #region Host Error
+        private delegate void updateHostErrorTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdateHostErrorInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxErrorMsg.Text = e.MessageIn;
+        }
+        public void DelegateUpdateHostErrorTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updateHostErrorTextbox(UpdateHostErrorInTextbox), e);
+        }
+
+        public void HostErrorCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("HostErrorCallBack");
+            DelegateUpdateHostErrorTextbox(e);
+        }
+
+        #endregion
+
+
+
+        private void btnSendControlState_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.ControlState = (WDConnectWrapperLib.CONTROL_STATE) Enum.Parse(typeof( WDConnectWrapperLib.CONTROL_STATE), cmbControlState.Text);
+            WDConnectWrapperLibClass.Instance.SendControlState();
+        }
+
+        private void btnRUThere_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.SendAreYouThere();
+        }
+
+        private void btnSendProcessState_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.ControlState = (WDConnectWrapperLib.CONTROL_STATE)Enum.Parse(typeof(WDConnectWrapperLib.CONTROL_STATE), cmbControlState.Text);
+            WDConnectWrapperLibClass.Instance.SendProcessState();
+        }
+
+        private void btnRequestProcessRecipe_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.RequestProcessRecipe("SF0001", "NUMEE_A1");
+        }
+
+        private void btnRequestPalletInfo_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.RequestPalletInfo("SF0001");
+        }
+    }
+}

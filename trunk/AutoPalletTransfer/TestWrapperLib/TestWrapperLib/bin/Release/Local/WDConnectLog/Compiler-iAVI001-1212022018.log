@@ -1,0 +1,42 @@
+02/12/2018 12:53:52    Connect
+02/12/2018 12:53:52    OnConnected
+02/12/2018 12:53:52    OnSECsCommNotification
+02/12/2018 12:53:52    ProcessOutStream
+02/12/2018 12:53:52    this.SECsServer.IsConnected()
+02/12/2018 12:53:52    ConstructRawMessage
+02/12/2018 12:53:52    ConstructRawMessage nextTransactionID 1
+02/12/2018 12:53:52    CreateXMLText
+02/12/2018 12:53:52    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+02/12/2018 12:53:52    RegisterTransaction : transaction 1
+02/12/2018 12:53:52    ConstructRawMessage return message
+02/12/2018 12:53:54    ProcessOutStream
+02/12/2018 12:53:54    this.SECsServer.IsConnected()
+02/12/2018 12:53:54    ConstructRawMessage
+02/12/2018 12:53:54    ConstructRawMessage nextTransactionID 2
+02/12/2018 12:53:54    CreateXMLText
+02/12/2018 12:53:54    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PTXXXX</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">NA</Value></SCIItem></Items></Item></Primary></SCITransaction>
+02/12/2018 12:53:54    RegisterTransaction : transaction 2
+02/12/2018 12:53:54    ConstructRawMessage return message
+02/12/2018 12:53:56    ProcessInStream
+02/12/2018 12:53:56    OnSECsSecondaryNotification
+02/12/2018 12:59:01    Connect
+02/12/2018 12:59:01    OnConnected
+02/12/2018 12:59:01    OnSECsCommNotification
+02/12/2018 12:59:01    ProcessOutStream
+02/12/2018 12:59:01    this.SECsServer.IsConnected()
+02/12/2018 12:59:01    ConstructRawMessage
+02/12/2018 12:59:01    ConstructRawMessage nextTransactionID 1
+02/12/2018 12:59:01    CreateXMLText
+02/12/2018 12:59:01    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+02/12/2018 12:59:01    RegisterTransaction : transaction 1
+02/12/2018 12:59:01    ConstructRawMessage return message
+02/12/2018 12:59:02    ProcessOutStream
+02/12/2018 12:59:02    this.SECsServer.IsConnected()
+02/12/2018 12:59:02    ConstructRawMessage
+02/12/2018 12:59:02    ConstructRawMessage nextTransactionID 2
+02/12/2018 12:59:02    CreateXMLText
+02/12/2018 12:59:02    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PTXXXX</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">NA</Value></SCIItem></Items></Item></Primary></SCITransaction>
+02/12/2018 12:59:02    RegisterTransaction : transaction 2
+02/12/2018 12:59:02    ConstructRawMessage return message
+02/12/2018 12:59:05    ProcessInStream
+02/12/2018 12:59:05    OnSECsSecondaryNotification

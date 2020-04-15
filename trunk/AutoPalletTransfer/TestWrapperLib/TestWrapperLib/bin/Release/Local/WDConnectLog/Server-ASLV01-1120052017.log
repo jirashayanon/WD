@@ -1,0 +1,7 @@
+05/20/2017 11:10:29    CloseConnection
+05/20/2017 11:10:31    ProcessSECsMessage <--
+05/20/2017 11:10:31    0 
+05/20/2017 11:10:31    WaitForData
+05/20/2017 11:10:31    CloseSession
+05/20/2017 11:10:31    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.

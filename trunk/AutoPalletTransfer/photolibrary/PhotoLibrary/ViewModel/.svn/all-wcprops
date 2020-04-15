@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel
+END
+ViewModelLocator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel/ViewModelLocator.cs
+END
+MainViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/389/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel/MainViewModel.cs
+END
+AboutViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel/AboutViewModel.cs
+END
+DefectsViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel/DefectsViewModel.cs
+END
+StartOQAViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/ViewModel/StartOQAViewModel.cs
+END

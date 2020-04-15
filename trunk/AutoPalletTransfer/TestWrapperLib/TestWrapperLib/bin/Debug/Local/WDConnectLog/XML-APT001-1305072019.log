@@ -1,0 +1,13 @@
+OUT--> 07/05/2019 13:37:55    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>6</Id>
+  <Name>S_p_rat_</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>S_p_rat_</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+07/05/2019 13:49:59    Transaction: 5 Timeout [T3]

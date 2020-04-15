@@ -1,0 +1,121 @@
+9/7/2015 5:16:31 PM    HSMSServer
+9/7/2015 5:16:31 PM    Initialize
+9/7/2015 5:16:31 PM    OpenConnection
+9/7/2015 5:16:31 PM    OnRemoteConnect Active
+9/7/2015 5:16:31 PM    _socketWorker.Connected True
+9/7/2015 5:16:31 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:16:31 PM    SendSECSData
+9/7/2015 5:16:31 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:16:31 PM    WaitForData
+9/7/2015 5:16:39 PM    TriggerTransactionTimer : transactionID 2
+9/7/2015 5:16:39 PM    SendSECSData
+9/7/2015 5:16:39 PM    OnDataReceived
+9/7/2015 5:16:39 PM    OnDataReceived 914
+9/7/2015 5:16:39 PM    OnDataArrival
+9/7/2015 5:16:39 PM    OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHFFA_E</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">SISTER LOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">3</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/7/2015 5:16:39 PM    ResolveHeaderBuffer
+9/7/2015 5:16:39 PM    ProcessSECsMessage
+9/7/2015 5:16:39 PM    WaitForData
+9/7/2015 5:17:29 PM    HSMSServer
+9/7/2015 5:17:29 PM    Initialize
+9/7/2015 5:17:29 PM    OpenConnection
+9/7/2015 5:17:29 PM    OnRemoteConnect Active
+9/7/2015 5:17:29 PM    _socketWorker.Connected True
+9/7/2015 5:17:29 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:17:29 PM    SendSECSData
+9/7/2015 5:17:29 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:17:29 PM    WaitForData
+9/7/2015 5:49:00 PM    HSMSServer
+9/7/2015 5:49:00 PM    Initialize
+9/7/2015 5:49:00 PM    OpenConnection
+9/7/2015 5:49:00 PM    OnRemoteConnect Active
+9/7/2015 5:49:00 PM    _socketWorker.Connected True
+9/7/2015 5:49:00 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:49:01 PM    SendSECSData
+9/7/2015 5:49:01 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:49:01 PM    WaitForData
+9/7/2015 5:50:08 PM    HSMSServer
+9/7/2015 5:50:08 PM    Initialize
+9/7/2015 5:50:08 PM    OpenConnection
+9/7/2015 5:50:08 PM    OnRemoteConnect Active
+9/7/2015 5:50:08 PM    _socketWorker.Connected True
+9/7/2015 5:50:08 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:50:08 PM    SendSECSData
+9/7/2015 5:50:08 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:50:08 PM    WaitForData
+9/7/2015 5:50:28 PM    HSMSServer
+9/7/2015 5:50:28 PM    Initialize
+9/7/2015 5:50:28 PM    OpenConnection
+9/7/2015 5:50:28 PM    OnRemoteConnect Active
+9/7/2015 5:50:28 PM    _socketWorker.Connected True
+9/7/2015 5:50:28 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:50:30 PM    SendSECSData
+9/7/2015 5:50:30 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:50:30 PM    WaitForData
+9/7/2015 5:51:12 PM    HSMSServer
+9/7/2015 5:51:12 PM    Initialize
+9/7/2015 5:51:12 PM    OpenConnection
+9/7/2015 5:51:12 PM    OnRemoteConnect Active
+9/7/2015 5:51:12 PM    _socketWorker.Connected True
+9/7/2015 5:51:12 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:51:13 PM    SendSECSData
+9/7/2015 5:51:13 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:51:13 PM    WaitForData
+9/7/2015 5:55:03 PM    HSMSServer
+9/7/2015 5:55:03 PM    Initialize
+9/7/2015 5:55:03 PM    OpenConnection
+9/7/2015 5:55:03 PM    OnRemoteConnect Active
+9/7/2015 5:55:03 PM    _socketWorker.Connected True
+9/7/2015 5:55:03 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:55:03 PM    SendSECSData
+9/7/2015 5:55:03 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:55:03 PM    WaitForData
+9/7/2015 5:55:12 PM    HSMSServer
+9/7/2015 5:55:12 PM    Initialize
+9/7/2015 5:55:12 PM    OpenConnection
+9/7/2015 5:55:12 PM    OnRemoteConnect Active
+9/7/2015 5:55:12 PM    _socketWorker.Connected True
+9/7/2015 5:55:12 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:55:12 PM    SendSECSData
+9/7/2015 5:55:12 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:55:12 PM    WaitForData
+9/7/2015 5:55:55 PM    HSMSServer
+9/7/2015 5:55:55 PM    Initialize
+9/7/2015 5:55:55 PM    OpenConnection
+9/7/2015 5:55:55 PM    OnRemoteConnect Active
+9/7/2015 5:55:55 PM    _socketWorker.Connected True
+9/7/2015 5:55:55 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:55:56 PM    SendSECSData
+9/7/2015 5:55:56 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:55:56 PM    WaitForData
+9/7/2015 5:56:02 PM    OnDataReceived
+9/7/2015 5:56:02 PM    ** An existing connection was forcibly closed by the remote host
+9/7/2015 5:56:02 PM    ActivateLinkTest False
+9/7/2015 5:56:02 PM     this.LinkTestTimer.Enabled = false;
+9/7/2015 5:56:02 PM    ActivateT5 : IsEnabled True
+9/7/2015 5:56:12 PM    OnT5_Elapsed
+9/7/2015 5:56:12 PM    OpenConnection
+9/7/2015 5:56:12 PM    OnRemoteConnect Active
+9/7/2015 5:56:12 PM    _socketWorker.Connected True
+9/7/2015 5:56:12 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:56:12 PM    SendSECSData
+9/7/2015 5:56:12 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:56:12 PM    WaitForData
+9/7/2015 5:58:35 PM    HSMSServer
+9/7/2015 5:58:35 PM    Initialize
+9/7/2015 5:58:35 PM    OpenConnection
+9/7/2015 5:58:35 PM    OnRemoteConnect Active
+9/7/2015 5:58:35 PM    _socketWorker.Connected True
+9/7/2015 5:58:35 PM    this._socketWorker.EndConnect(asyn);
+9/7/2015 5:58:35 PM    SendSECSData
+9/7/2015 5:58:35 PM    ActivateT5 : IsEnabled False
+9/7/2015 5:58:35 PM    WaitForData
+9/7/2015 5:58:37 PM    TriggerTransactionTimer : transactionID 2
+9/7/2015 5:58:37 PM    SendSECSData
+9/7/2015 5:58:37 PM    OnDataReceived
+9/7/2015 5:58:37 PM    OnDataReceived 914
+9/7/2015 5:58:37 PM    OnDataArrival
+9/7/2015 5:58:37 PM    OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHFFA_E</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">SISTER LOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">3</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/7/2015 5:58:37 PM    ResolveHeaderBuffer
+9/7/2015 5:58:37 PM    ProcessSECsMessage
+9/7/2015 5:58:37 PM    WaitForData

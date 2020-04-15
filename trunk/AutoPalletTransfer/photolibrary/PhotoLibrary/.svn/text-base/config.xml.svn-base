@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PhotoLibrary>
+  <!--Path for evaluating images-->
+  <PathEvaluation>D:\LocalFile\</PathEvaluation>
+  <!--Path for real images on server-->
+  <Path>D:\Server\</Path>
+  <ServerConnection>
+    <ServerIP>127.0.0.1</ServerIP>
+    <Username>iaviuser</Username>
+    <Password>XuPCcdJJFHt8Dh8E</Password>
+    <Database>iavi</Database>
+  </ServerConnection>
+  <NumberOfHgaOnTray>20</NumberOfHgaOnTray>
+  <!--View for evaluation only (this element is not used in production server)-->
+  <Views>
+    <View filetype="bmp">Top View2</View>
+    <View filetype="bmp">Front View</View>
+    <View filetype="bmp">45 deg View</View>
+    <View filetype="bmp">Top View3</View>
+    <View filetype="bmp">Top View4</View>
+    <View filetype="bmp">Top View5</View>
+    <View filetype="bmp">Back View</View>
+    <View filetype="jpeg">VOR Color/Picture Top</View>
+  </Views>
+  <Maps>
+    <!--Type: 20, 60-->
+    <Map type="20">ImagePath1</Map>
+    <Map type="60">ImagePath2</Map>
+  </Maps>
+  <Picture>
+    <!--Start picture number-->
+    <StartPictureId>5</StartPictureId>
+    <!--How many would like to evaluate-->
+    <Max>5</Max>
+    <!--Don't change these elements below-->
+    <ThumbnailWidth>150</ThumbnailWidth>
+    <ImageWidth>1024</ImageWidth>
+  </Picture>
+  <Time>
+    <Interval>1000</Interval>
+    <Timeout>60</Timeout>
+  </Time>
+</PhotoLibrary>

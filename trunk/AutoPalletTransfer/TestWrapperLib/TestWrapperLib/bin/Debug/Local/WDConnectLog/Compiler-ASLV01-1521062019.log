@@ -1,0 +1,22 @@
+06/21/2019 15:44:12    Connect
+06/21/2019 15:44:12    OnConnected
+06/21/2019 15:44:12    OnSECsCommNotification
+06/21/2019 15:44:12    ProcessOutStream
+06/21/2019 15:44:12    this.SECsServer.IsConnected()
+06/21/2019 15:44:12    ConstructRawMessage
+06/21/2019 15:44:12    ConstructRawMessage nextTransactionID 1
+06/21/2019 15:44:12    CreateXMLText
+06/21/2019 15:44:12    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/21/2019 15:44:13    RegisterTransaction : transaction 1
+06/21/2019 15:44:13    ConstructRawMessage return message
+06/21/2019 15:44:15    ProcessOutStream
+06/21/2019 15:44:15    this.SECsServer.IsConnected()
+06/21/2019 15:44:15    ConstructRawMessage
+06/21/2019 15:44:15    ConstructRawMessage nextTransactionID 2
+06/21/2019 15:44:15    CreateXMLText
+06/21/2019 15:44:15    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">ASLV01</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">ASLV</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/21/2019 15:44:15    RegisterTransaction : transaction 2
+06/21/2019 15:44:15    ConstructRawMessage return message
+06/21/2019 15:44:22    ProcessInStream
+06/21/2019 15:44:22    OnSECsSecondaryNotification
+06/21/2019 15:44:24    UnRegisterTransaction 2

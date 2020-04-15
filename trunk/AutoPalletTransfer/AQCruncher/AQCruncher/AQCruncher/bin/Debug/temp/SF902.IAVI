@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<PalletObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PalletID>SF902</PalletID>
+  <TesterNumber>AVI001</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>TRAILS_C8_SD</Product>
+  <User />
+  <LotNumber>JFVEH_W1</LotNumber>
+  <DocControl1>PN#70632-15-SBB</DocControl1>
+  <DocControl2>STR#G24960SN</DocControl2>
+  <Sus>MPT-4G</Sus>
+  <AssyLine>B4A101</AssyLine>
+  <HGAN1>JFVECOXU</HGAN1>
+  <HGAN2>JFVEEDUD</HGAN2>
+  <HGAN3>JFVEFRSL</HGAN3>
+  <HGAN4>JFVEGGPU</HGAN4>
+  <HGAN5>JFVEIVMC</HGAN5>
+  <HGAN6>JFVEARFA</HGAN6>
+  <HGAN7>JFVECTGE</HGAN7>
+  <HGAN8>JFVEDIDN</HGAN8>
+  <HGAN9>JFVEOOFG</HGAN9>
+  <HGAN10>JFVECVKJ</HGAN10>
+  <DefectN1>J4A,T6</DefectN1>
+  <DefectN2>T8,T6,J4A</DefectN2>
+  <DefectN3>J4A,T6</DefectN3>
+  <DefectN4>A1,T6</DefectN4>
+  <DefectN5>A1,J4B,J4A</DefectN5>
+  <DefectN6 />
+  <DefectN7 />
+  <DefectN8 />
+  <DefectN9 />
+  <DefectN10 />
+</PalletObj>

@@ -1,0 +1,3756 @@
+OUT--> 04/12/2017 16:23:53    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 04/12/2017 16:23:58    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:23:58    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:23:59    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:23:59    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:00    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:00    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:02    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>SendControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:02    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>SendControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:03    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>SendProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:03    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>SendProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:05    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>RequestProcessRecipe</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:05    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>RequestProcessRecipeAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessRecipeAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeID</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeName</Name>
+          <Value
+            xsi:type="xsd:string">PALMER1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string">B401</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>UVPower</Name>
+          <Value
+            xsi:type="xsd:int">200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime</Name>
+          <Value
+            xsi:type="xsd:double">15.5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>CureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV1</Name>
+          <Value
+            xsi:type="xsd:int">30</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV1</Name>
+          <Value
+            xsi:type="xsd:double">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater1</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater2</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater3</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater4</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater5</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV2</Name>
+          <Value
+            xsi:type="xsd:int">30</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV2</Name>
+          <Value
+            xsi:type="xsd:double">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater6</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater7</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater8</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater9</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater10</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:06    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:07    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">Y13X5_A</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string">B403</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">ACAM001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XGIXI</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA0</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XVDTJ</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XJXPK</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XTCYQ</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XIXUR</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XWSQS</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XXEUN</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XLZRO</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XJMSZ</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">Y13XKZWV</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:08    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>SendPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:int">200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA0</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:08    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>SendPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SliderTrayID</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:int">200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA0</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Items />
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:09    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>SendPalletStatus</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendPalletStatus</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletStatus</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>WorkZone</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:10    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>SendPalletStatusAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendPalletStatus</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletStatus</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>WorkZone</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendPalletStatusAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:11    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>SendAlarmReport</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendAlarmReport</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>logicalName</Name>
+          <Value
+            xsi:type="xsd:string">Hardware</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>id</Name>
+          <Value
+            xsi:type="xsd:long">10000</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>description</Name>
+          <Value
+            xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:24:11    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>SendAlarmReportAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendAlarmReport</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>logicalName</Name>
+          <Value
+            xsi:type="xsd:string">Hardware</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>id</Name>
+          <Value
+            xsi:type="xsd:long">10000</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>description</Name>
+          <Value
+            xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendAlarmReportAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+IN <--04/12/2017 16:24:13    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:13    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>RequestControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:14    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:14    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:16    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:16    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:18    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>OnlineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OnlineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:23    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:23    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>RequestControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:25    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--04/12/2017 16:24:27    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+IN <--04/12/2017 16:24:28    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:30    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>OfflineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OfflineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:31    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:31    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>RejectCommandWhileOffline</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RejectCommandWhileOffline</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+OUT--> 04/12/2017 16:24:31    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>RejectCommandWhileOffline</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RejectCommandWhileOffline</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:33    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:34    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>OnlineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OnlineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:35    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>OnlineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:36    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>OnlineRequestAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OnlineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>OnlineRequestAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+IN <--04/12/2017 16:24:37    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>OfflineRequest</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:24:37    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>RejectCommandWhileOffline</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RejectCommandWhileOffline</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+OUT--> 04/12/2017 16:24:37    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>RejectCommandWhileOffline</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>OfflineRequest</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items />
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RejectCommandWhileOffline</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+OUT--> 04/12/2017 16:32:12    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 04/12/2017 16:32:16    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:16    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:17    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:17    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:17    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>SendControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:18    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>SendControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:18    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>SendControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:18    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>5</Id>
+  <Name>SendControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:19    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>SendProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:19    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>6</Id>
+  <Name>SendProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:19    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>SendProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:20    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>7</Id>
+  <Name>SendProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:20    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>SendProcessState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:20    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>8</Id>
+  <Name>SendProcessStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendProcessState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ProcessState</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendProcessStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:21    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>9</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>String</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:22    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>SendControlState</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:22    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>10</Id>
+  <Name>SendControlStateAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>SendControlState</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>ControlState</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>SendControlStateAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:23    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>RequestProcessRecipe</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:23    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>11</Id>
+  <Name>RequestProcessRecipeAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestProcessRecipe</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>EquipmentID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestProcessRecipeAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">NUMEE_A1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeID</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>RecipeName</Name>
+          <Value
+            xsi:type="xsd:string">PALMER1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string">B401</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>UVPower</Name>
+          <Value
+            xsi:type="xsd:int">200</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime</Name>
+          <Value
+            xsi:type="xsd:double">15.5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>CureZone</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV1</Name>
+          <Value
+            xsi:type="xsd:int">30</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV1</Name>
+          <Value
+            xsi:type="xsd:double">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater1</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater1</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater2</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater3</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater3</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater4</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater4</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater5</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater5</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Power_UV2</Name>
+          <Value
+            xsi:type="xsd:int">30</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>CureTime_UV2</Name>
+          <Value
+            xsi:type="xsd:double">5</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_UV2</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater6</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater6</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater7</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater7</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater8</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater8</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater9</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater9</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Float</Format>
+          <Name>FlowRate_Heater10</Name>
+          <Value
+            xsi:type="xsd:double">3</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Temp_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>Enabled_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>EnabledN2_Heater10</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 04/12/2017 16:32:24    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>RequestPalletInfo</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--04/12/2017 16:32:24    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>12</Id>
+  <Name>RequestPalletInfoAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestPalletInfo</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestPalletInfoAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>ALMID</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>PalletID</Name>
+          <Value
+            xsi:type="xsd:string">SF0001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">WD84J_K</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Line</Name>
+          <Value
+            xsi:type="xsd:string">B403</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">ACAM001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>List</Format>
+          <Items>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84GVYL</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA0</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84VQUM</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA1</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84JKQN</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA2</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84TPZT</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA3</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84IKVT</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA4</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84WERU</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA5</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84LZNV</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA6</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84ZUJW</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA7</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84JZSC</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA8</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+            <SCIItem>
+              <Format>List</Format>
+              <Items>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>SN</Name>
+                  <Value
+                    xsi:type="xsd:string">WD84YTOD</Value>
+                </SCIItem>
+                <SCIItem>
+                  <Format>String</Format>
+                  <Name>Defect</Name>
+                  <Value
+                    xsi:type="xsd:string" />
+                </SCIItem>
+              </Items>
+              <Name>HGA9</Name>
+              <Value
+                xsi:type="xsd:string" />
+            </SCIItem>
+          </Items>
+          <Name>HGA</Name>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+

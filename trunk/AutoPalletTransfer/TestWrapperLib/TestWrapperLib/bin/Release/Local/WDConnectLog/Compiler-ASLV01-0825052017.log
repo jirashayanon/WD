@@ -1,0 +1,11 @@
+05/25/2017 08:04:36    Connect
+05/25/2017 08:04:37    ErrorNotification
+05/25/2017 08:04:37    OnSECsErrorNotification
+05/25/2017 08:04:40    ProcessOutStream
+05/25/2017 08:04:40    No Active Connection to process the transaction
+05/25/2017 08:04:40    RemoteIPAddress get : remoteIPAddress localhost
+05/25/2017 08:04:40    RemotePortNumber get : remotePortNumber 5002
+05/25/2017 08:04:40    OnSECsErrorNotification
+05/25/2017 08:04:47    Connect
+05/25/2017 08:04:48    ErrorNotification
+05/25/2017 08:04:48    OnSECsErrorNotification

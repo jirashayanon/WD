@@ -1,0 +1,740 @@
+﻿<Window x:Class="PhotoLibrary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.ignore.com"
+        xmlns:views="clr-namespace:PhotoLibrary.Views"
+        xmlns:converters="clr-namespace:PhotoLibrary.Converters"
+        xmlns:hga="clr-namespace:PhotoLibrary.Model.HGA"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d ignore"
+        MinHeight="600"
+        MinWidth="800"
+        Height="724"
+        Width="1024"
+        Title="Photo Library version 1.23"
+        Background="FloralWhite"
+        BorderThickness="1"
+        DataContext="{Binding Main, Source={StaticResource Locator}}" 
+        SizeChanged="Window_SizeChanged" KeyDown="Window_KeyDown" d:DesignWidth="950" d:DesignHeight="700" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skins/MainSkin.xaml" />
+                <ResourceDictionary Source="Resources/DesignerItem.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <converters:RectangleSizeConverter x:Key="RectangleSizeConverter" />
+            <converters:PositionRatioToScreenConverter x:Key="PositionRatioToScreenConverter" />
+            <converters:CenterConverter x:Key="centerConverter" />
+            <converters:EnumMatchToBooleanConverter x:Key="enumBoolConverter" />
+            <converters:EnumToVisibilityConverter x:Key="enumVisibilityConverter" />
+            <converters:StatusToImageConverter x:Key="statusToImageConverter" />
+            <converters:EnumToCollapsedVisibilityConverter x:Key="enumCollapsedVisibilityConverter" />
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <converters:InvertBoolToVisibilityConverter x:Key="InvertBoolToVisibilityConverter" />
+            <converters:BoolToColorDefectConverter x:Key="BoolToColorDefectConverter" />
+            <converters:BoolToColorCurrentPositionConverter x:Key="BoolToColorCurrentPositionConverter" />
+            <converters:BoolToDefectButtonColorConverter x:Key="BoolToDefectButtonColorConverter" />
+            <converters:VariableToColorDefectConverter x:Key="VariableToColorDefectConverter" />
+            <converters:BoolToGoodButtonColorConverter x:Key="BoolToGoodButtonColorConverter" />
+            <converters:BoolToSamplingColorConverter x:Key="BoolToSamplingColorConverter" />
+            <converters:BoolToSamplingColorConverter3 x:Key="BoolToSamplingColorConverter3" />
+            
+            <converters:InvertBoolConverter x:Key="InvertBoolConverter" />
+            <converters:FontColorConverter x:Key="FontColorConverter" />
+            <converters:BoolToBorderColorDefectConverter x:Key="BoolToBorderColorDefectConverter" />
+            <converters:MultipleVariableToColorDefectConverter x:Key="MultipleVariableToColorDefectConverter" />
+            <sys:Int32 x:Key="SpanAll">2147483647</sys:Int32>
+
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="Padding" Value="10" />
+                <Setter Property="Height" Value="40" />
+                <Setter Property="VerticalAlignment" Value="Bottom" />
+                <!--<Setter Property="FocusVisualStyle" Value="{x:Null}"/>-->
+            </Style>
+            <Style TargetType="{x:Type ToggleButton}">
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" MaxWidth="460"/>
+            <ColumnDefinition Width="3.90*" MaxWidth="180"/>
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="3.90*" MaxWidth="180"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="180" />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="{StaticResource SpanAll}">
+            <DockPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="10,5,0,0" />
+                </Style>
+                <Style TargetType="Hyperlink">
+                    <Setter Property="Foreground" Value="Black" />
+                    <Setter Property="TextDecorations" Value="{x:Null}" />
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="BorderThickness" Value="0" />
+                </Style>
+            </DockPanel.Resources>
+            <TextBlock Text="Path:" />
+            <TextBox Name="CurrentPathTextBox" Text="{Binding CurrentPath}" Margin="5,5,20,0" MaxWidth="500" Background="FloralWhite" IsReadOnly="True" Height="25" VerticalAlignment="Top"/>
+            <TextBlock Text="Max Round:" Visibility="Collapsed"/>
+            <TextBlock Text="{Binding MaxRound}"  Margin="5,5,30,0" Visibility="Collapsed"/>
+            <TextBlock Text="Max Order:" Visibility="Collapsed"/>
+            <TextBlock Text="{Binding MaxOrder}"  Margin="5,5,30,0" Visibility="Collapsed"/>
+            <TextBlock Text="Next Image Prompt:" Visibility="Collapsed" />
+            <TextBlock Text="{Binding IsNextImagePrompted}"  Visibility="Collapsed" Margin="5,5,20,0"/>
+            <TextBlock Text="Mode:" />
+            <TextBlock Text="{Binding CurrentMode}"  Margin="5,5,20,0"/>
+            <TextBlock Text="PalletPath:" />
+            <TextBlock Margin="5,5,20,0">
+                <Hyperlink Command="{Binding ShowPalletFolderCommand}">
+                    <TextBlock Text="{Binding PalletPath}" Margin="0" />
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Text="{Binding CurrentHGATray.LotNumber}" Margin="5,5,15,0" />
+            <TextBlock Text="{Binding CurrentHGATray.Product}" Margin="5,5,15,0" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <CheckBox Content="Show Defect Position" IsChecked="{Binding IsShowDefectPosition}" Height="20" Width="130" Padding="0" />
+                <Button Content="Add Defect" Height="20" Width="75" Padding="0" Click="AddDefectButton_Click"/>
+                <Button Content="About" Height="20" Width="50" Padding="0" Click="AboutButton_Click"/>
+            </StackPanel>
+        </DockPanel>
+
+        <TreeView Name="treeview"  Visibility="Collapsed" Grid.Column="0" Grid.Row="1" Grid.RowSpan="2" ItemsSource="{Binding HGAList[0].HGATrays}" SelectedItemChanged="treeview_SelectedItemChanged">
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="True"/>
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <Setter Property="FontWeight" Value="Normal" />
+                    <Setter Property="FontSize" Value="14" />
+                    <Setter Property="Padding" Value="0 0 3 2" />
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.Resources>
+                <!--<DataTemplate DataType="{x:Type hga:HGAPack}">
+                    <Border Width="150" BorderBrush="RoyalBlue" Background="RoyalBlue"  BorderThickness="1" CornerRadius="2" Margin="2" Padding="2" >
+                        <StackPanel Orientation="Horizontal" >
+                            <TextBlock  Text="{Binding Path=Name}" FontWeight="Bold" Foreground="White"></TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>-->
+
+                <!--<DataTemplate DataType="{x:Type hga:HGATray}">
+                    <Border Width="132"  Background="LightBlue" CornerRadius="2" Margin="1" >
+                        <StackPanel Orientation="Horizontal" >
+                            <Image Margin="2" Source="{Binding Path=ImageUrl}"></Image>
+                            <TextBlock Margin="2"  Text="{Binding Path=Name}"></TextBlock>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>-->
+
+                <!--<HierarchicalDataTemplate DataType="{x:Type hga:HGAPack}" ItemsSource="{Binding HGATrays}">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=PackId}" />
+                        <TextBlock Text=" (Pack)" />
+                    </StackPanel>
+                </HierarchicalDataTemplate>-->
+                <HierarchicalDataTemplate DataType="{x:Type hga:HGATray}" ItemsSource="{Binding HGAItems}">
+                    <HierarchicalDataTemplate.ItemContainerStyle>
+                        <Style TargetType="{x:Type TreeViewItem}">
+                            <Setter Property="Margin" Value="-15 0 0 0" />
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="FontWeight" Value="Bold" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </HierarchicalDataTemplate.ItemContainerStyle>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=TrayId}" />
+                        <!--<TextBlock Text=" (Tray)" />-->
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+                <DataTemplate DataType="{x:Type hga:HGAItem}" >
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="{Binding Status, Converter={StaticResource statusToImageConverter}}" Stretch="UniformToFill" Height="10" />
+                        <TextBlock Text="{Binding Path=SerialNumber}">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Foreground" Value="{Binding IsDefect, Converter={StaticResource BoolToColorDefectConverter}}" />
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                        <!--<TextBlock Text=" (HGA)" />-->
+                    </StackPanel>
+                </DataTemplate>
+            </TreeView.Resources>
+        </TreeView>
+        <Grid Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" 
+              Background="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.IsSampling, Converter={StaticResource BoolToSamplingColorConverter3}}">
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="220" />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Border BorderThickness="2" BorderBrush="Black">
+                    <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                        Name="lbImages" ItemsSource="{Binding ItemsImage}" Margin="5,5,5,5"
+                        SelectedItem="{Binding SelectedImage}" Background="Silver"
+                        Grid.Row="0" 
+                        ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="lbImages_SelectionChanged">
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="ListBoxItem">
+                                <Setter Property="HorizontalAlignment" Value="Stretch" />
+                                <Setter Property="Padding" Value="0 2 0 2" />
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+                        <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Horizontal"  HorizontalAlignment="Stretch"/>
+                            </ItemsPanelTemplate>
+                        </ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Border BorderBrush="{Binding IsDefect, Converter={StaticResource BoolToBorderColorDefectConverter}}" BorderThickness="3" Width="75" Margin="0 0 2 0">
+                                        <Grid>
+                                            <Image Source="{Binding ImageThumbnail, Mode=OneWay, IsAsync=True}" Stretch="UniformToFill"  IsHitTestVisible="False"/>
+                                            <ItemsControl ItemsSource="{Binding ItemsDefectsStringUnique}" MinWidth="20" HorizontalAlignment="Right" VerticalAlignment="Bottom">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Foreground="Red" FontWeight="Bold" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </Grid>
+                                    </Border>
+                                </Grid>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </Border>
+            </Grid>
+            <StackPanel Grid.Row="1" Margin="5,5,5,5">
+                <Border BorderThickness="1" />
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <Border BorderThickness="1" />
+                    <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+                    <TextBlock Text="Plan: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.Plan, Mode=OneWay}" 
+                             Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <Border BorderThickness="1" />
+                    <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+                    <TextBlock Text="CountTray: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.CountTray, Mode=OneWay}" 
+                             Foreground="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.IsSampling, Converter={StaticResource BoolToSamplingColorConverter}}"
+                             Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <Border BorderThickness="1" />
+                    <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+                    <TextBlock Text="Sampling: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.SamplingText}" 
+                             Foreground="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}, 
+                                            Path=DataContext.Sampling.IsSampling, Converter={StaticResource BoolToSamplingColorConverter}}"
+                             Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                    <Border BorderThickness="1" />
+                    <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+                    <TextBlock Text="TrayId: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SelectedHGAItem.TrayId}" Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True" KeyboardNavigation.TabIndex="10"/>
+                </StackPanel>
+                <WrapPanel Orientation="Horizontal" >
+                    <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+                    <TextBlock Text="SerialId:" FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SelectedHGAItem.SerialNumber}" FontSize="15" VerticalAlignment="Center" Margin="2,0,0,0" MaxWidth="250" IsReadOnly="True" KeyboardNavigation.TabIndex="10"/>
+                </WrapPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <Border BorderThickness="1" />
+                    <TextBlock Text="IAVIStatus: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SelectedHGAItem.DefectName}" Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True"
+                             Foreground="{Binding SelectedHGAItem.DefectName, Converter={StaticResource VariableToColorDefectConverter}}" Opacity="0.7" KeyboardNavigation.TabIndex="10"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    <Border BorderThickness="1" />
+                    <TextBlock Text="VMIResult: " FontSize="15" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding SelectedHGAItem.VmiResultString}" Margin="2,0,0,0" VerticalAlignment="Center" MaxWidth="150" FontSize="15" IsReadOnly="True"
+                             Foreground="{Binding SelectedHGAItem.IsDefect, Converter={StaticResource BoolToColorDefectConverter}}" Opacity="0.7" KeyboardNavigation.TabIndex="10"/>
+                </StackPanel>
+
+            </StackPanel>
+        </Grid>
+        <Border BorderThickness="2" BorderBrush="LightGray" Grid.Column="3" Grid.RowSpan="2" Grid.Row="1" Padding="0,5,0,0" Margin="5,0,5,5">
+            <Grid Margin="5 0 5 5">
+                <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                        <RowDefinition Height="30*"/>
+                    </Grid.RowDefinitions>
+                    <Button Content="Start Evaluation" Click="StartEvaluationButton_Click" Visibility="Collapsed" />
+                    <!--<Button Content="Start" Click="StartButton_Click" Height="auto"/>-->
+                    <Button Grid.Row="0" Click="StartButton_Click" BorderThickness="2" Height="auto" Width="auto" 
+                            HorizontalContentAlignment="Left" VerticalAlignment="Center" Background="DarkOrange" >
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal" >
+                                <Image Source="Assets/Import.png"  Width="40" Height="40" />
+                                <TextBlock Height="40" Margin="20 8 0 0" FontSize="14" Foreground="White">Start <LineBreak/>Scan</TextBlock>
+                            </StackPanel>
+                            <!--<Grid>                       
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20*"/>
+                                <ColumnDefinition Width="70*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="Assets/Import.png"  Height="20" />
+                            <TextBlock Height="20" Grid.Column="1" Margin="5 4 0 0" >Start Scan</TextBlock>
+                        </Grid>-->
+                        </Button.Content>
+                    </Button>
+                    <Button Content="Play back" Click="PlaybackButton_Click" Visibility="Collapsed" />
+                    <Button Command="{Binding NextImageComm and}" Content="Next Image" Click="NextImage_Click" Visibility="Collapsed"/>
+                    <Button Command="{Binding ClearDefectsCommand}" Content="Clear Defects" Visibility="Collapsed"/>
+
+                    <!--<Button Name="ResetCalibrate" Command="{Binding ResetCalibrateCommand}" Content="Reset Screen" Height="auto"  />-->
+                    <Button Grid.Row="1" Command="{Binding ResetCalibrateCommand}" BorderThickness="2" Click="ResetCalibrate_Click" Height="auto" Background="Purple" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Assets/Normal Screen Filled.png" Stretch="UniformToFill" Width="40" Height="40"/>
+                                <TextBlock Height="40" Margin="20 8 0 0" FontSize="14" Foreground="White">Reset <LineBreak/>Screen</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="HGAImage" Command="{Binding HGAImageCommand}" Content="HGAImage" Visibility="Collapsed"/>
+                    <Button Name="TrayMap" Command="{Binding TrayMapCommand}" Content="Tray Map" Visibility="Collapsed"/>
+                    <Button Grid.Row="2" Command="{Binding ConfirmGoodCommand}" Background="green" BorderThickness="2" Height="auto" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <StackPanel.Resources>
+                                    <Style TargetType="{x:Type Button}">
+                                        <Setter Property="Foreground" Value="Green"/>
+                                        <Setter Property="IsEnabled" Value="True"/>
+                                        <Style.Triggers>
+                                            <Trigger Property="IsEnabled" Value="false">
+                                                <Setter Property="Background" Value="Gray" />
+                                                <Setter Property="Foreground" Value="LightGray"/>
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </StackPanel.Resources>
+                                <Image Source="Assets/OK Filled-50.png" Stretch="UniformToFill" Width="40" Height="40" />
+                                <TextBlock Height="40" Margin="20 8 0 0" FontSize="14">Confirm <LineBreak/>Good</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button Grid.Row="3" Command="{Binding ConfirmRejectCommand}" Background="Red" BorderThickness="2" Height="auto" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Assets/Cancel-48.png" Stretch="UniformToFill"  Width="40" Height="40" />
+                                <TextBlock Height="40" Margin="20 8 0 0" FontSize="14">Confirm <LineBreak/>Reject</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button Grid.Row="4" Command="{Binding ConfirmMultipleGoodCommand}" IsEnabled="{Binding IsComplete, Converter={StaticResource InvertBoolConverter}}" Background="LightGreen" BorderThickness="2" Height="auto" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Assets/OK Filled-50.png" Stretch="UniformToFill"  Width="40" Height="40" />
+                                <TextBlock Height="60" Margin="20 0 0 0" Foreground="Black" FontSize="14">Confirm <LineBreak/>Multiple <LineBreak/>Good</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="UpdateSerialButton" Grid.Row="5" BorderThickness="2" Background="DarkGoldenrod" Click="UpdateSerialButton_Click" Command="{Binding UpdateSerialCommand}" Height="auto" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Assets/Edit property Filled-50.png" Stretch="UniformToFill"  Width="40" Height="40"/>
+                                <TextBlock Height="40" Margin="20 4 0 0" FontSize="14" Foreground="white">Update <LineBreak/>S/N</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <Button Name="ConfirmMap" Grid.Row="6" BorderThickness="2" Background="SkyBlue" Command="{Binding ConfirmMapCommand}" Height="auto" HorizontalContentAlignment="Left" VerticalAlignment="Center">
+                        <Button.Content>
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="Assets/Export.png" Stretch="UniformToFill"  Width="40" Height="40"/>
+                                <TextBlock Height="40" Margin="20 4 0 0" FontSize="14" Foreground="Black">Confirm <LineBreak/>Map</TextBlock>
+                            </StackPanel>
+                        </Button.Content>
+                    </Button>
+                    <!--<ToggleButton Name="MoveToggle" Content="Move" Click="ToggleButton_Click"/>-->
+                </Grid>
+            </Grid>
+        </Border>
+
+
+        <Grid Grid.Column="2" Grid.Row="1" Margin="5,0,5,0" Background="FloralWhite" >
+            <!--<Border BorderBrush="Gray" BorderThickness="1" />-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Border BorderThickness="1" BorderBrush="Black" Margin="5,5,0,0">
+                <Grid Background="FloralWhite" Margin="0,0,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="50" />
+                    </Grid.ColumnDefinitions>
+                    <Slider Maximum="40" Minimum="1" IsSnapToTickEnabled="True" TickFrequency="2" Value="{Binding ScaleFactorSlider}" Background="FloralWhite" Width="auto" Margin="5,5,0,0">
+                        <Slider.LayoutTransform>
+                            <ScaleTransform ScaleY="1.3" ScaleX="1.2" CenterX="15" CenterY="15"/>
+                        </Slider.LayoutTransform>
+                    </Slider>
+                    <TextBlock Text="{Binding PercentZoomString}" Grid.Column="1" Background="FloralWhite" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                </Grid>
+            </Border>
+
+            <Border Name="ImageBorder" ClipToBounds="True" Grid.Row="1"              
+                BorderThickness="2" Background="LightGray"  BorderBrush="Black"
+                MouseMove="ImageBorder_MouseMove" MouseLeftButtonDown="ImageBorder_MouseRightButtonDown" 
+                MouseLeftButtonUp="ImageBorder_MouseRightButtonUp" Margin="5,5,0,5">
+                <Grid Name="GridCanvas" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="30 10" >
+                    <Grid.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="{Binding ScaleFactor}" ScaleY="{Binding ScaleFactor}"/>
+                            <TranslateTransform X="{Binding ImageTranslateX}" Y="{Binding ImageTranslateY}" />
+                        </TransformGroup>
+                    </Grid.RenderTransform>
+
+                    <Image Name="ImagePanel" Stretch="Uniform" IsManipulationEnabled="False" Source="{Binding SelectedImage.Image, Mode=OneWay, IsAsync=True}" Margin="0"  
+                       RenderOptions.BitmapScalingMode="NearestNeighbor"                                         
+                       RenderOptions.EdgeMode="Aliased" 
+                       UseLayoutRounding="True"
+                       TouchDown="ImagePanel_TouchDown" MouseWheel="ImagePanel_MouseWheel" 
+                       SizeChanged="ImagePanel_SizeChanged">
+                        <!--MouseRightButtonDown="ImagePanel_MouseLeftButtonDown"-->
+                        
+                        <!--<Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="{Binding ScaleFactor}" ScaleY="{Binding ScaleFactor}"/>
+                            <TranslateTransform X="{Binding ImageTranslateX}" Y="{Binding ImageTranslateY}" />
+                        </TransformGroup>
+                    </Image.RenderTransform>-->
+                    </Image>
+                    <ItemsControl ItemsSource="{Binding Path=SelectedImage.ItemsDefects}" IsHitTestVisible="False">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas Margin="0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="ContentPresenter">
+                                <Setter Property="Canvas.Left">
+                                    <Setter.Value>
+                                        <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                            <Binding Path="PositionRatio.X" />
+                                            <Binding Path="ActualWidth" ElementName="ImagePanel"/>
+                                        </MultiBinding>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Canvas.Top">
+                                    <Setter.Value>
+                                        <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                            <Binding Path="PositionRatio.Y" />
+                                            <Binding Path="ActualHeight" ElementName="ImagePanel"/>
+                                        </MultiBinding>
+                                    </Setter.Value>
+                                </Setter>
+                                <!--<Setter Property="Canvas.Top" Value="{Binding PositionRatio.Y}"/>-->
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <!--<Border x:Name="borderTxt" BorderThickness="1" BorderBrush="Red">
+                                <Border.Background>
+                                    <SolidColorBrush Color="Azure" Opacity="0.3" />
+                                </Border.Background>
+                                -->
+                                <!--<Border.Margin>
+                                    <MultiBinding Converter="{StaticResource centerConverter}">
+                                        <Binding ElementName="borderTxt" Path="ActualWidth"/>
+                                        <Binding ElementName="borderTxt" Path="ActualHeight"/>
+                                    </MultiBinding>
+                                </Border.Margin>-->
+                                <!--
+                                <StackPanel Orientation="Vertical">
+                                    <ItemsControl  ItemsSource="{Binding ListDefects}" BorderThickness="0">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <TextBlock Text="{Binding Name}" Foreground="Red"/>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </StackPanel>
+                            </Border>-->
+                                <Ellipse x:Name="ellipseDefect" Stroke="{Binding Color}" StrokeThickness="2" Visibility="{Binding RelativeSource={RelativeSource FindAncestor, 
+AncestorType={x:Type Window}}, Path=DataContext.IsShowDefectPosition, Converter={StaticResource BoolToVisibilityConverter}}" Opacity="0.5" Height="20" Width="20">
+                                    <Ellipse.Margin>
+                                        <MultiBinding Converter="{StaticResource centerConverter}">
+                                            <Binding ElementName="ellipseDefect" Path="ActualWidth"/>
+                                            <Binding ElementName="ellipseDefect" Path="ActualHeight"/>
+                                        </MultiBinding>
+                                    </Ellipse.Margin>
+                                </Ellipse>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+
+                    <Canvas Name="canvas" IsHitTestVisible="{Binding CheckDefect}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
+                        MouseMove="Canvas_MouseMove_1" MouseLeftButtonDown="canvas_MouseLeftButtonDown" MouseWheel="canvas_MouseWheel">
+                        <Canvas.Background>
+                            <!--<ImageBrush ImageSource="{Binding C:\Users\LotK\Desktop\PhotoLibraryShare\Sum\1.bmp}" />-->
+                            <SolidColorBrush Color="Yellow" Opacity="0" />
+                        </Canvas.Background>
+                    </Canvas>
+                    <Canvas Name="canvas2" IsHitTestVisible="true" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                        <ContentControl Name="J7Ellipse" Width="27.5" Height="24.78" Canvas.Top="263" Canvas.Left="366" Selector.IsSelected="True"
+                                    Visibility="{Binding ToolDefect, Converter={StaticResource enumVisibilityConverter}, ConverterParameter=J7}"
+                                    Style="{StaticResource DesignerItemStyle}">
+                            <Ellipse Fill="Blue" Opacity="0.2" Stretch="Fill" IsHitTestVisible="False"/>
+                        </ContentControl>
+                    </Canvas>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <ListBox Name="itemsCtrl" Visibility="Collapsed" Grid.Row="1" Grid.Column="3" HorizontalContentAlignment="Stretch" SelectionMode="Multiple"
+                 PreviewMouseLeftButtonDown="itemsCtrl_PreviewMouseLeftButtonDown"
+                 SelectionChanged="itemsCtrl_SelectionChanged"
+                 ItemsSource="{Binding SelectedImage.ItemsDefects}">
+            <ListBox.Resources>
+                <!-- Set SelectedItem Background here -->
+                <!--<SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="Yellow"/>-->
+                <!--< x:Key="{x:Static SystemColors.Wind owTextBrushKey}" ="Red"/>-->
+            </ListBox.Resources>
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <DockPanel Margin="0 5 0 0">
+                        <CheckBox IsChecked="{Binding IsVisible}" Margin="5 0 10 0" VerticalAlignment="Center" >
+                            <CheckBox.LayoutTransform>
+                                <ScaleTransform ScaleX="1.2" ScaleY="1.2" />
+                            </CheckBox.LayoutTransform>
+                        </CheckBox>
+                        <TextBlock FontSize="16" Text="{Binding ListDefects[0].Name}" />
+                    </DockPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+        <Grid Name="Grid_Map" Grid.Column="2" Grid.Row="2" Margin="5,5,5,5">
+            <WrapPanel Name="MapRow" Orientation="Horizontal">
+            </WrapPanel>
+            <Border Name="MapBorder" 
+                ClipToBounds="True" Grid.Row="1" 
+                BorderThickness="1" Background="White" BorderBrush="Black"
+                MouseLeftButtonDown="MapBorder_LeftButtonDown" 
+                Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <Grid Name="GridCanvas_Map" Margin="0 0" >
+
+                    <Image Name="MapPanel" Source="{Binding MapImage}" HorizontalAlignment="Left" VerticalAlignment="Top" IsManipulationEnabled="False"                           
+                       RenderOptions.EdgeMode="Aliased"  
+                       Stretch="Fill"
+                       UseLayoutRounding="True"  Grid.RowSpan="2" >
+                        <!--<Image.Source>             
+                            <BitmapImage UriSource="{Binding Path=MapImage}" />
+                        </Image.Source>-->
+                    </Image>
+                    <ItemsControl ItemsSource="{Binding Path=HGAList[0].HGATrays[0].ItemsView}" IsHitTestVisible="False" Visibility="{Binding IsProduction, Converter={StaticResource BoolToVisibilityConverter}}" Margin="0,0,0,0" Grid.RowSpan="2">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Canvas Margin="0"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="ContentPresenter">
+                                <Setter Property="Canvas.Left">
+                                    <Setter.Value>
+                                        <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                            <Binding Path="Canvas_X" />
+                                            <Binding Path="ActualWidth" ElementName="MapBorder"/>
+                                        </MultiBinding>
+                                    </Setter.Value>
+                                </Setter>
+                                <Setter Property="Canvas.Top">
+                                    <Setter.Value>
+                                        <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                            <Binding Path="Canvas_Y" />
+                                            <Binding Path="ActualHeight" ElementName="MapBorder"/>
+                                        </MultiBinding>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Opacity="0.7">
+                                    <Grid.Resources>
+                                        <Style TargetType="Grid">
+                                            <Setter Property="Background">
+                                                <Setter.Value>
+                                                    <MultiBinding Converter="{StaticResource MultipleVariableToColorDefectConverter}">
+                                                        <Binding Path="IsDefect" />
+                                                        <Binding Path="DefectName" />
+                                                        <Binding Path="VmiResultString" />
+                                                    </MultiBinding>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Grid.Resources>
+                                        <!--<Ellipse x:Name="ellipse" Fill="{Binding IsDefect, Converter={StaticResource BoolToColorDefectConverter}}" Opacity="1" Height="20" Width="20">
+                                    </Ellipse>-->
+                                    <!--<Rectangle StrokeThickness="3"  Stroke="{Binding IsDefect, Converter={StaticResource BoolToColorDefectConverter}}">
+                                        <Rectangle.Width>
+                                            <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                                <Binding Path="HGAWidth" />
+                                                <Binding Path="ActualWidth" ElementName="MapPanel"/>
+                                            </MultiBinding>
+                                        </Rectangle.Width>
+                                        <Rectangle.Height>
+                                            <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                                <Binding Path="HGAHeight" />
+                                                <Binding Path="ActualHeight" ElementName="MapPanel"/>
+                                            </MultiBinding>
+                                        </Rectangle.Height>
+                                    </Rectangle>-->
+                                    <Border BorderThickness="2"  BorderBrush="Black">
+                                        <Border.Width>
+                                            <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                                <Binding Path="HGAWidth" />
+                                                <Binding  Path="ActualWidth" ElementName="MapBorder"/>
+                                            </MultiBinding>
+                                        </Border.Width>
+                                        <Border.Height>
+                                            <MultiBinding Converter="{StaticResource PositionRatioToScreenConverter}">
+                                                <Binding Path="HGAHeight" />
+                                                <Binding Path="ActualHeight" ElementName="MapBorder"/>
+                                            </MultiBinding>
+                                        </Border.Height>
+                                        <StackPanel Orientation="Vertical">
+                                            <TextBlock Text="{Binding Position}" HorizontalAlignment="Center"  VerticalAlignment="Center">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Setter Property="Foreground" Value="{Binding IsSelected, Converter={StaticResource BoolToColorCurrentPositionConverter}}"/>
+                                                        <Setter Property="FontSize" Value="20"/>
+                                                        <Setter Property="FontWeight" Value="ExtraBold"/>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                            <TextBlock Text="{Binding SerialNumber}" HorizontalAlignment="Center"  VerticalAlignment="Center" 
+                                                       Visibility="{Binding DataContext.IsShowSerialNumber, ElementName=LayoutRoot, Converter={StaticResource BoolToVisibilityConverter}}">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Setter Property="Foreground" Value="Black"/>
+                                                        <Setter Property="FontSize" Value="9"/>
+                                                        <Setter Property="FontWeight" Value="Bold"/>
+                                                        <Setter Property="Opacity" Value="1.0"/>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </Border>
+                                    <!--<Image Source="{Binding Status, Converter={StaticResource statusToImageConverter}}" Stretch="UniformToFill" Height="10" />-->
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+            </Border>
+
+
+            <StackPanel Grid.Column="1" Margin="0 10 0 0" Visibility="Collapsed">
+                <TextBlock Text="Tool Defects" />
+                <RadioButton GroupName="ToolDefect" Content="None" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=None}"/>
+                <RadioButton GroupName="ToolDefect" Content="T8" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=T8}"/>
+                <RadioButton GroupName="ToolDefect" Content="T6" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=T6}"/>
+                <RadioButton GroupName="ToolDefect" Content="J4P" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=J4P}"/>
+                <RadioButton GroupName="ToolDefect" Content="S2" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=S2}"/>
+                <RadioButton GroupName="ToolDefect" Content="J7" 
+                                 IsChecked="{Binding ToolDefect, Mode=TwoWay, Converter={StaticResource enumBoolConverter}, ConverterParameter=J7}"/>
+
+                <CheckBox Content="Move T6 Second Line" Visibility="{Binding ToolDefect, Converter={StaticResource enumVisibilityConverter}, ConverterParameter=T6}"
+                          IsChecked="{Binding MoveT6}"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Top" Grid.Column="2" Visibility="Collapsed">
+                <StackPanel.Resources>
+                    <Style TargetType="StackPanel">
+                        <Setter Property="Margin" Value="5" />
+                    </Style>
+                    <Style TargetType="TextBlock">
+                        <!--<Setter Property="FontSize" Value="12" />-->
+                    </Style>
+                </StackPanel.Resources>
+
+                <StackPanel Orientation="Horizontal" >
+                    <TextBlock Text="Name: " />
+                    <TextBlock Text="{Binding Name}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Round: " />
+                    <TextBlock Text="{Binding CurrentRoundId}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Order: " />
+                    <TextBlock Text="{Binding CurrentOrderId}" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="PictureId: " />
+                    <TextBlock Text="{Binding PictureFilename}" Width="150" Height="80" TextWrapping="Wrap"/>
+                </StackPanel>
+                <!--<StackPanel Orientation="Horizontal">
+                    <TextBlock Text="ScaleFactor: " />
+                    <TextBlock Text="{Binding ScaleFactor}" />
+                </StackPanel>-->
+            </StackPanel>
+
+            <!--<TextBox Name="PositionTextBox" TextWrapping="Wrap" Grid.Column="3"
+                    Height="70" Width="320" Margin="10" VerticalAlignment="Bottom" VerticalScrollBarVisibility="Auto"/>-->
+        </Grid>
+        <!--<StackPanel Grid.Column="3" Grid.Row="2" Margin="5,5,5,5">
+            <Border BorderThickness="1" />
+                <StackPanel Orientation="Horizontal" Margin="0,2,0,0">
+                    -->
+        <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+        <!--
+                    <TextBlock Text="TrayId: " FontSize="15"/>
+                    <TextBox Text="{Binding SelectedHGAItem.TrayId}" Margin="2,2,0,5" MaxWidth="150" FontSize="15" IsReadOnly="True"/>
+                </StackPanel>
+                <WrapPanel Orientation="Horizontal">
+                    -->
+        <!--<TextBox Text="{Binding CurrentPath}" Margin="5,5,30,0" MaxWidth="500"/>-->
+        <!--
+                    <TextBlock Text="SerialId:" FontSize="15"/>
+                    <TextBox Text="{Binding SelectedHGAItem.SerialNumber}" FontSize="15" Margin="2,5,0,0" MaxWidth="250" IsReadOnly="True"/>
+                </WrapPanel>
+
+        </StackPanel>-->
+    </Grid>
+</Window>

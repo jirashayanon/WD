@@ -1,0 +1,50 @@
+04/08/2019 13:00:16    HSMSServer
+04/08/2019 13:00:16    Initialize
+04/08/2019 13:00:16    LinkTestTimer_Elapsed() True
+04/08/2019 13:00:16    OpenConnection
+04/08/2019 13:00:16    OnRemoteConnect Active
+04/08/2019 13:00:16    _socketWorker.Connected True
+04/08/2019 13:00:16    this._socketWorker.EndConnect(asyn);
+04/08/2019 13:00:16    SendSECSData
+04/08/2019 13:00:16    ActivateLinkTest True
+04/08/2019 13:00:16    linktest_shouldStop = false;
+04/08/2019 13:00:16    ActivateT5 : IsEnabled False
+04/08/2019 13:00:16    WaitForData
+04/08/2019 13:00:21    TriggerTransactionTimer : transactionID -->2
+04/08/2019 13:00:21    TriggerTransactionTimer : transactionID <--2
+04/08/2019 13:00:21    SendSECSData
+04/08/2019 13:01:04    OnDataReceived
+04/08/2019 13:01:04    OnDataReceived 0
+04/08/2019 13:02:52    HSMSServer
+04/08/2019 13:02:52    Initialize
+04/08/2019 13:02:52    LinkTestTimer_Elapsed() True
+04/08/2019 13:02:52    OpenConnection
+04/08/2019 13:02:52    OnRemoteConnect Active
+04/08/2019 13:02:52    _socketWorker.Connected True
+04/08/2019 13:02:52    this._socketWorker.EndConnect(asyn);
+04/08/2019 13:02:52    SendSECSData
+04/08/2019 13:02:52    ActivateLinkTest True
+04/08/2019 13:02:52    linktest_shouldStop = false;
+04/08/2019 13:02:52    ActivateT5 : IsEnabled False
+04/08/2019 13:02:52    WaitForData
+04/08/2019 13:03:05    TriggerTransactionTimer : transactionID -->2
+04/08/2019 13:03:05    TriggerTransactionTimer : transactionID <--2
+04/08/2019 13:03:05    SendSECSData
+04/08/2019 13:03:56    OnDataReceived
+04/08/2019 13:03:56    OnDataReceived 1273
+04/08/2019 13:03:56    OnDataArrival
+04/08/2019 13:03:56    ResolveHeaderBuffer string [0000001261]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+04/08/2019 13:03:56    [0000001261]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+04/08/2019 13:03:56    ProcessSECsMessage -->
+04/08/2019 13:04:15    ProcessSECsMessage <--
+04/08/2019 13:04:15    0 
+04/08/2019 13:04:15    WaitForData
+04/08/2019 13:04:29    OnDataReceived
+04/08/2019 13:04:29    OnDataReceived 1273
+04/08/2019 13:04:29    OnDataArrival
+04/08/2019 13:04:29    ResolveHeaderBuffer string [0000001261]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+04/08/2019 13:04:29    [0000001261]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+04/08/2019 13:04:29    ProcessSECsMessage -->
+04/08/2019 13:04:42    ProcessSECsMessage <--
+04/08/2019 13:04:42    0 
+04/08/2019 13:04:42    WaitForData

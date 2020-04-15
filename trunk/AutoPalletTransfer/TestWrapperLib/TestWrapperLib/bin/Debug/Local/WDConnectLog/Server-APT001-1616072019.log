@@ -1,0 +1,72 @@
+07/16/2019 16:10:41    OnDataReceived
+07/16/2019 16:10:41    OnDataReceived 600
+07/16/2019 16:10:41    OnDataArrival
+07/16/2019 16:10:41    ResolveHeaderBuffer string [0000000588]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:10:41    [0000000588]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:10:41    ProcessSECsMessage -->
+07/16/2019 16:10:45    SendSECSData
+07/16/2019 16:10:45    ProcessSECsMessage <--
+07/16/2019 16:10:45    0 
+07/16/2019 16:10:45    WaitForData
+07/16/2019 16:10:45    OnDataReceived
+07/16/2019 16:10:45    OnDataReceived 343
+07/16/2019 16:10:45    OnDataArrival
+07/16/2019 16:10:45    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>9</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/16/2019 16:10:45    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>9</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/16/2019 16:10:45    ProcessSECsMessage -->
+07/16/2019 16:10:45    SendSECSData
+07/16/2019 16:10:46    ProcessSECsMessage <--
+07/16/2019 16:10:46    0 
+07/16/2019 16:10:46    WaitForData
+07/16/2019 16:11:12    OnDataReceived
+07/16/2019 16:11:12    OnDataReceived 601
+07/16/2019 16:11:12    OnDataArrival
+07/16/2019 16:11:12    ResolveHeaderBuffer string [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:11:12    [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:11:12    ProcessSECsMessage -->
+07/16/2019 16:11:13    SendSECSData
+07/16/2019 16:11:13    ProcessSECsMessage <--
+07/16/2019 16:11:13    0 
+07/16/2019 16:11:13    WaitForData
+07/16/2019 16:13:31    OnDataReceived
+07/16/2019 16:13:31    OnDataReceived 601
+07/16/2019 16:13:31    OnDataArrival
+07/16/2019 16:13:31    ResolveHeaderBuffer string [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:13:31    [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:13:31    ProcessSECsMessage -->
+07/16/2019 16:13:31    SendSECSData
+07/16/2019 16:13:31    ProcessSECsMessage <--
+07/16/2019 16:13:31    0 
+07/16/2019 16:13:31    WaitForData
+07/16/2019 16:15:06    OnDataReceived
+07/16/2019 16:15:06    OnDataReceived 601
+07/16/2019 16:15:06    OnDataArrival
+07/16/2019 16:15:06    ResolveHeaderBuffer string [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:15:06    [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:15:06    ProcessSECsMessage -->
+07/16/2019 16:15:09    SendSECSData
+07/16/2019 16:15:09    ProcessSECsMessage <--
+07/16/2019 16:15:09    0 
+07/16/2019 16:15:09    WaitForData
+07/16/2019 16:15:38    OnDataReceived
+07/16/2019 16:15:38    OnDataReceived 601
+07/16/2019 16:15:38    OnDataArrival
+07/16/2019 16:15:38    ResolveHeaderBuffer string [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:15:38    [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:15:38    ProcessSECsMessage -->
+07/16/2019 16:15:39    SendSECSData
+07/16/2019 16:15:39    ProcessSECsMessage <--
+07/16/2019 16:15:39    0 
+07/16/2019 16:15:39    WaitForData
+07/16/2019 16:16:14    OnDataReceived
+07/16/2019 16:16:14    OnDataReceived 601
+07/16/2019 16:16:14    OnDataArrival
+07/16/2019 16:16:14    ResolveHeaderBuffer string [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:16:14    [0000000589]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestSuspension</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items></Item></Primary></SCITransaction>
+07/16/2019 16:16:14    ProcessSECsMessage -->
+07/16/2019 16:16:16    SendSECSData
+07/16/2019 16:16:16    ProcessSECsMessage <--
+07/16/2019 16:16:16    0 
+07/16/2019 16:16:16    WaitForData
+07/16/2019 16:17:55    OnDataReceived
+07/16/2019 16:17:55    ** An existing connection was forcibly closed by the remote host

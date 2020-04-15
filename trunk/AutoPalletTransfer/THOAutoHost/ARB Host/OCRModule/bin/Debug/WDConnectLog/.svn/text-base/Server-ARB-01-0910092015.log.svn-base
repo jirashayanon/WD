@@ -1,0 +1,18 @@
+9/10/2015 9:20:43 AM   HSMSServer
+9/10/2015 9:20:43 AM   Initialize
+9/10/2015 9:20:43 AM   OpenConnection
+9/10/2015 9:20:43 AM   OnRemoteConnect Active
+9/10/2015 9:20:43 AM   _socketWorker.Connected True
+9/10/2015 9:20:43 AM   this._socketWorker.EndConnect(asyn);
+9/10/2015 9:20:43 AM   SendSECSData
+9/10/2015 9:20:43 AM   ActivateT5 : IsEnabled False
+9/10/2015 9:20:43 AM   WaitForData
+9/10/2015 9:46:05 AM   HSMSServer
+9/10/2015 9:46:05 AM   Initialize
+9/10/2015 9:46:05 AM   OpenConnection
+9/10/2015 9:46:05 AM   OnRemoteConnect Active
+9/10/2015 9:46:05 AM   _socketWorker.Connected True
+9/10/2015 9:46:05 AM   this._socketWorker.EndConnect(asyn);
+9/10/2015 9:46:05 AM   SendSECSData
+9/10/2015 9:46:05 AM   ActivateT5 : IsEnabled False
+9/10/2015 9:46:05 AM   WaitForData

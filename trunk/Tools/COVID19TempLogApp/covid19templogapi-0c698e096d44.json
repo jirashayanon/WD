@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "covid19templogapi",
+  "private_key_id": "0c698e096d44dd90a9771bd939e7eef2b5e5f6b0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7jQWt9YSuNByA\nafQAoq+HiEzrnrLLl8zjQAZR/sdx8WyUd8re56s5FqHySPxEhrMrsONgzV3Dt7T1\nK8l0rtOkiOEyqMC+5NACcMxpP8fWWTrtcBDx47z7HklmRA4ZXOCmaQ1un4ahG1zA\nHbM5hImrMRpa3ZBbi3xoieJDx/2TsrB5gJoEmCqq2uXj+Im2LyYG8zwDedkZZbYz\nY7Kf+IleMSMCmVl4MfXe9O+FnU6i7D0hbd7Mxa/3yUoXuwhbczmv8oZiAjhnQd0m\nx+9/8iwASvjWN6Y45HpPqJ1WsR7Y1Zre/pJKbm+oKz6qKYHgqNSo5tR4j1KcOOJT\nFqo5UxbvAgMBAAECggEAF+WnoBtE/SdhrFETyJLyF6xb1LfjY0Kj1h7dz0vN4OxY\nn/BFlrJhJESIfQUks5yQLtR6nGZ+eIYrVgPuxuHR0MiqHRjYelpQUMdLnGuGjH7R\nHdjmJ9QTS9H3m0K3oy6s5zdCgWJtNpD0d/wwznbfTcNTbtmFX8y9nNpYzLcqTcvC\nJ99Pg6stmFw+FyimkzDPKEjJ0k2nBVS7i86wjIJkHIENv+6Ba0yXmkqruDM67ryC\nEt+vaa3lsidHx02v83adSeO5Udq7yF+Y+ePbaoPx9zAgm0gqmySi5AqjzTHgMGBq\n4dysi8xlDR6QxhYFQ8jSmKJ1f+WObnJkXhs2rE+fAQKBgQD3CHdQDnuPZMAYKSI7\nK0c6dyciG4dqXliFM5cFASMXNCuD6dfvx5TjdoookEI+KHuLXC7C/YGKROpGGFjU\n6aazOmmhMcvHAaHIU2gNdRfpvkiuHwm/cioQidjug+QQ8Fi7H7rgNK/4/lWfWj3l\nEkJuNgJPQOl3w7DqXkTgzD6NAQKBgQDCW9KhmDgg2DRzGIw3pZS43iR7TM8PV6d9\nt3z1oJVDG+4Zkj2jk3VjvnpR4kX71PjBXPWVsKlB4tmPj3DwaKFp+pHbIWdd+Psq\n3ksiXUcbRgmYMCxrBTrlHXVPs0fDDT35Os9PS0m6E8/FJ0aTclHJgJwirOStD0on\nnMkt05Zz7wKBgGPnQJlXwhCTpjwfJoDXV88FMQZSK8mQrivwWTrk4tQXfSG0CGgo\nRsZWwjj1XlTU+mG5vg+Nhj3s8PG4FvTEKW6CSQWvpcGtn0fssz/+AtW85pfEZaTO\n/sQBe4G6RRm0ma3Tfzf9Fs2TzfzL+gwR/luj6/sxPTn6IiomRaTD9OgBAoGBAJAS\nCLyIXXLbUWXP2ICXWPsAkAJmGUbCLwHdtd9NvdcVKRYDdXV/pRDe7UUtebsHT63l\n/pWLcqvIQIVOSuWqaZxphRzuUfUyztwkE4XRpxfsfsg1TXe3VMTpZUBDIPrRIhNR\nKMMah/hLH0SBrKs3nrDDiPmbN5ehMdLTQb2ajng5AoGAEsbxtAKc6I509qeXmXJG\n3rMAY0uW3RkKjEJb3EHfLT+hDN9dOqu8xhHKuJM0Xz7Bs5Vw9mgh1ah2oGJJIq7D\nrsNvwrRLfrQf7LOQ5fpUx8YRoq4kUVWNaHW6k7HX94TLNxEngif3/1/f4lTQoId9\ns2H07rwhokd+9+fdyB9Ihm0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "covid19templogservice@covid19templogapi.iam.gserviceaccount.com",
+  "client_id": "109922920355019400535",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/covid19templogservice%40covid19templogapi.iam.gserviceaccount.com"
+}

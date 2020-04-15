@@ -1,0 +1,129 @@
+﻿<Window x:Class="PhotoLibrary.Views.DefectChooseOne"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:PhotoLibrary.ViewModel"
+        xmlns:ignore="http://www.ignore.com"
+        mc:Ignorable="d ignore"
+        Title="Defect List"
+        MinWidth="700"
+        Height="450"
+        d:DesignHeight="460" d:DesignWidth="750"
+        SizeToContent="Width">
+
+    <!--DataContext="{Binding Defects, Source={StaticResource Locator}}"-->
+
+    <Window.DataContext>
+        <vm:DefectsViewModel x:Name="defectsViewModel"/>
+    </Window.DataContext>
+    <Window.Resources>
+        <Style x:Key="groupBoxStyle" TargetType="{x:Type GroupBox}">
+            <Setter Property="Margin" Value="20,10,10,10" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="FontSize" Value="18" />
+        </Style>
+        <Style x:Key="checkBoxStyle" TargetType="{x:Type CheckBox}">
+            <Setter Property="Margin" Value="20,5,10,5" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+        <Style x:Key="radioButtonStyle" TargetType="{x:Type RadioButton}">
+            <Setter Property="Margin" Value="20,5,10,5" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Bottom" />
+            <Setter Property="FontSize" Value="16" />
+        </Style>
+        <Style TargetType="ItemsControl">
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style BasedOn="{StaticResource groupBoxStyle}" TargetType="{x:Type GroupBox}" />
+            </StackPanel.Resources>
+
+            <GroupBox Header="Suspension">
+                <ItemsControl ItemsSource="{Binding Suspension}" BorderThickness="0">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton GroupName="Defect" Content="{Binding Name}" IsChecked="{Binding IsSelected}" 
+                                          Style="{StaticResource radioButtonStyle}"  />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </GroupBox>
+            <GroupBox Header="Attach">
+                <ItemsControl ItemsSource="{Binding Attach}" BorderThickness="0" >
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton GroupName="Defect" Content="{Binding Name}" IsChecked="{Binding IsSelected}" 
+                                          Style="{StaticResource radioButtonStyle}"  />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                <!--<CheckBox Content="A1" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="A3" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="A5" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="D1" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E1S" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E2" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E2A" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E2F" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E4" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E5" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E6" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="E6S" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="S1" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="S2D" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="SB1" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="SB2" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="T6" Style="{StaticResource checkBoxStyle}" />
+                    <CheckBox Content="T8" Style="{StaticResource checkBoxStyle}" />-->
+
+            </GroupBox>
+            <GroupBox Header="SJB">
+                <ItemsControl ItemsSource="{Binding SJB}" BorderThickness="0">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton GroupName="Defect" Content="{Binding Name}" IsChecked="{Binding IsSelected}" 
+                                          Style="{StaticResource radioButtonStyle}"  />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </GroupBox>
+            <GroupBox Header="OTH">
+                <ItemsControl ItemsSource="{Binding OTH}" BorderThickness="0">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <RadioButton GroupName="Defect" Content="{Binding Name}" IsChecked="{Binding IsSelected}" 
+                                          Style="{StaticResource radioButtonStyle}"  />
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </GroupBox>
+            <StackPanel Orientation="Vertical">
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Width" Value="80" />
+                        <Setter Property="Height" Value="50" />
+                        <Setter Property="FontSize" Value="16" />
+                    </Style>
+                </StackPanel.Resources>
+                <Button x:Name="OKButton" Content="OK" Margin="30,30,30,0" Padding="10,5" Click="OKButton_Click" />
+                <Button x:Name="CancelButton" Content="Cancel" Margin="30,30,30,0" Padding="10,5" Click="CancelButton_Click"/>
+                <Button Content="Clear" Margin="30,30,30,0" Padding="10,5" Command="{Binding ClearCheckBoxCommand}" Visibility="Collapsed"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

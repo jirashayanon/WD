@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA
+END
+HGAInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAInfo.cs
+END
+HGAInspection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAInspection.cs
+END
+HGAItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAItem.cs
+END
+HGAPack.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAPack.cs
+END
+IHGANode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/IHGANode.cs
+END
+HGATray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGATray.cs
+END
+MachineView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/MachineView.cs
+END
+HGAOQA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAOQA.cs
+END
+MachineViewDictionary.cs
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/MachineViewDictionary.cs
+END
+IHGAItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/IHGAItem.cs
+END
+HGAView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/HGA/HGAView.cs
+END

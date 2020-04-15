@@ -1,0 +1,72 @@
+OUT--> 02/16/2017 12:45:00    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+IN <--02/16/2017 12:45:06    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>]
+
+OUT--> 02/16/2017 12:45:06    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>

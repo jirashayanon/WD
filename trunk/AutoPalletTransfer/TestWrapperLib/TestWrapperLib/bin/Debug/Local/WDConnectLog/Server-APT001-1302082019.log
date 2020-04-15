@@ -1,0 +1,19 @@
+08/02/2019 13:53:20    HSMSServer
+08/02/2019 13:53:20    Initialize
+08/02/2019 13:53:20    OpenListenPort
+08/02/2019 13:53:20    LinkTestTimer_Elapsed() True
+08/02/2019 13:53:20    ListenConnection
+08/02/2019 13:53:20    OpenConnection
+08/02/2019 13:53:20    OnRemoteConnect Passive
+08/02/2019 13:53:20    _socketWorker.Connected True
+08/02/2019 13:53:20    this._socketWorker.EndConnect(asyn);
+08/02/2019 13:53:21    SendSECSData
+08/02/2019 13:53:22    ActivateLinkTest True
+08/02/2019 13:53:22    linktest_shouldStop = false;
+08/02/2019 13:53:22    ActivateT5 : IsEnabled False
+08/02/2019 13:53:23    WaitForData
+08/02/2019 13:53:27    TriggerTransactionTimer : transactionID -->2
+08/02/2019 13:53:27    TriggerTransactionTimer : transactionID <--2
+08/02/2019 13:53:27    SendSECSData
+08/02/2019 13:57:14    OnDataReceived
+08/02/2019 13:57:14    ** An existing connection was forcibly closed by the remote host

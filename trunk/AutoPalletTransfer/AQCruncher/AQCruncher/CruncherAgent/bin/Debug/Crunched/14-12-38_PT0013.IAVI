@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>PT0013</PalletID>
+  <TesterNumber>iAVI</TesterNumber>
+  <Customer>-</Customer>
+  <Product>SpyGlass</Product>
+  <User />
+  <LotNumber>12345678</LotNumber>
+  <DocControl1 />
+  <DocControl2 />
+  <Sus>MPT</Sus>
+  <AssyLine>B123</AssyLine>
+  <HGAN1>WRJ2L4?L</HGAN1>
+  <HGAN2>WKJ2L07R</HGAN2>
+  <HGAN3>WKl2L43D</HGAN3>
+  <HGAN4>WRJ2M13M</HGAN4>
+  <HGAN5>WREUT93L</HGAN5>
+  <HGAN6>WREU646M</HGAN6>
+  <HGAN7>WREU546K</HGAN7>
+  <HGAN8>WREU638Y</HGAN8>
+  <HGAN9>WT9YL02G</HGAN9>
+  <HGAN10>WREU646K</HGAN10>
+  <DefectN1>J4A</DefectN1>
+  <DefectN2>J4A</DefectN2>
+  <DefectN3 />
+  <DefectN4 />
+  <DefectN5 />
+  <DefectN6 />
+  <DefectN7 />
+  <DefectN8 />
+  <DefectN9 />
+  <DefectN10 />
+</PalletObj>

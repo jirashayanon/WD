@@ -1,0 +1,12 @@
+06/29/2019 19:20:36    LinkTestTimer_Elapsed() False
+06/29/2019 19:20:36    LinkTest Code : 192036
+06/29/2019 19:20:36    this._socketWorker.Send(buffer); [0000000023]LinkTest:Request:192036
+06/29/2019 19:20:36    _linkTestManager.Register(code)192036
+06/29/2019 19:20:36    OnDataReceived
+06/29/2019 19:20:36    OnDataReceived 35
+06/29/2019 19:20:36    OnDataArrival
+06/29/2019 19:20:36    ProcessControlMessage LinkTest:Respond:192036
+06/29/2019 19:20:36    _linkTestManager.IsTransactionExist(code) True
+06/29/2019 19:20:36    linktest_shouldStop = false;
+06/29/2019 19:20:36    0 
+06/29/2019 19:20:36    WaitForData

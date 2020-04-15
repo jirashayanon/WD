@@ -1,0 +1,805 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TempPalletTrackingDB_2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="aqtraydata">
+          <Key>
+            <PropertyRef Name="TrayId" />
+          </Key>
+          <Property Name="TrayId" Type="int" Nullable="false" />
+          <Property Name="Date" Type="varchar" MaxLength="30" />
+          <Property Name="TimeStart" Type="varchar" MaxLength="30" />
+          <Property Name="TimeEnd" Type="varchar" MaxLength="30" />
+          <Property Name="UsedTime" Type="varchar" MaxLength="30" />
+          <Property Name="TesterNumber" Type="varchar" MaxLength="30" />
+          <Property Name="Customer" Type="varchar" MaxLength="30" />
+          <Property Name="Product" Type="varchar" MaxLength="30" />
+          <Property Name="User" Type="varchar" MaxLength="30" />
+          <Property Name="LotNumber" Type="varchar" MaxLength="30" />
+          <Property Name="DocControl1" Type="varchar" MaxLength="30" />
+          <Property Name="DocControl2" Type="varchar" MaxLength="30" />
+          <Property Name="Sus" Type="varchar" MaxLength="30" />
+          <Property Name="AssyLine" Type="varchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="defect">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DefectName" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Priority" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="hgadefect">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HgainfoViewId" Type="int" Nullable="false" />
+          <Property Name="DefectId" Type="int" Nullable="false" />
+          <Property Name="CoordinateX" Type="float" Nullable="false" />
+          <Property Name="CoordinateY" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="hgainfo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="LineNo" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PalletId" Type="int" />
+          <Property Name="Position" Type="int" Nullable="false" />
+          <Property Name="Processdatetime" Type="datetime" Nullable="false" />
+          <Property Name="IaviResult" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="VmiResult" Type="int" Nullable="false" />
+          <Property Name="SerialNumber" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="IaviSerialNumber" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="TrayId" Type="int" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="A_Location" Type="float" Nullable="false" />
+          <Property Name="B_Location" Type="float" Nullable="false" />
+          <Property Name="Skew" Type="float" Nullable="false" />
+          <Property Name="PitchOffset" Type="float" Nullable="false" />
+          <Property Name="RollOffset" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="hgainfoView">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HgainfoId" Type="int" Nullable="false" />
+          <Property Name="ViewId" Type="int" Nullable="false" />
+          <Property Name="ImagePath" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Result" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="pallet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PalletSN" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="PalletOrder" Type="int" />
+          <Property Name="TrayId" Type="int" />
+          <Property Name="Processdatetime" Type="datetime" Nullable="false" />
+          <Property Name="ProcessPalletId" Type="int" />
+          <Property Name="IsCompleted" Type="int" Nullable="false" />
+          <Property Name="PalletPath" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="datetime" />
+          <Property Name="Product" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="LotNumber" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="DocControl1" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="DocControl2" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Sus" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="AssyLine" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tray">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TraySN" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="AQTrayHeader" Type="varchar" MaxLength="2048" Nullable="false" />
+          <Property Name="IsCompleted" Type="int" Nullable="false" />
+          <Property Name="IsSampling" Type="int" Nullable="false" />
+          <Property Name="CreatedAt" Type="datetime" Nullable="false" StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="datetime" />
+        </EntityType>
+        <EntityType Name="view">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="IsEnabled" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_aqtraydata_tray">
+          <End Role="tray" Type="Self.tray" Multiplicity="1" />
+          <End Role="aqtraydata" Type="Self.aqtraydata" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="tray">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="aqtraydata">
+              <PropertyRef Name="TrayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgadefect_defect">
+          <End Role="defect" Type="Self.defect" Multiplicity="1" />
+          <End Role="hgadefect" Type="Self.hgadefect" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="defect">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgadefect">
+              <PropertyRef Name="DefectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgadefect_hgainfoView">
+          <End Role="hgainfoView" Type="Self.hgainfoView" Multiplicity="1" />
+          <End Role="hgadefect" Type="Self.hgadefect" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hgainfoView">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgadefect">
+              <PropertyRef Name="HgainfoViewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgainfo_pallet">
+          <End Role="pallet" Type="Self.pallet" Multiplicity="0..1" />
+          <End Role="hgainfo" Type="Self.hgainfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pallet">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfo">
+              <PropertyRef Name="PalletId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgainfoView_hgainfo">
+          <End Role="hgainfo" Type="Self.hgainfo" Multiplicity="1" />
+          <End Role="hgainfoView" Type="Self.hgainfoView" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hgainfo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfoView">
+              <PropertyRef Name="HgainfoId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgainfoView_view">
+          <End Role="view" Type="Self.view" Multiplicity="1" />
+          <End Role="hgainfoView" Type="Self.hgainfoView" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="view">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfoView">
+              <PropertyRef Name="ViewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pallet_tray">
+          <End Role="tray" Type="Self.tray" Multiplicity="0..1" />
+          <End Role="pallet" Type="Self.pallet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tray">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="pallet">
+              <PropertyRef Name="TrayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="spGetDefectsOnTray" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="trayIdParam" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="spLoadDefectHGA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="hgaIdParam" Type="int" Mode="In" />
+        </Function>
+        <Function Name="spSearchPalletId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="palletIdParam" Type="varchar" Mode="In" />
+        </Function>
+        <Function Name="spSearchTrayId" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="trayIdParam" Type="varchar" Mode="In" />
+        </Function>
+        <EntityContainer Name="TempPalletTrackingDB_2ModelStoreContainer">
+          <EntitySet Name="aqtraydata" EntityType="Self.aqtraydata" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="defect" EntityType="Self.defect" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="hgadefect" EntityType="Self.hgadefect" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="hgainfo" EntityType="Self.hgainfo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="hgainfoView" EntityType="Self.hgainfoView" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="pallet" EntityType="Self.pallet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tray" EntityType="Self.tray" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="view" EntityType="Self.view" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_aqtraydata_tray" Association="Self.FK_aqtraydata_tray">
+            <End Role="tray" EntitySet="tray" />
+            <End Role="aqtraydata" EntitySet="aqtraydata" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgadefect_defect" Association="Self.FK_hgadefect_defect">
+            <End Role="defect" EntitySet="defect" />
+            <End Role="hgadefect" EntitySet="hgadefect" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgadefect_hgainfoView" Association="Self.FK_hgadefect_hgainfoView">
+            <End Role="hgainfoView" EntitySet="hgainfoView" />
+            <End Role="hgadefect" EntitySet="hgadefect" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgainfo_pallet" Association="Self.FK_hgainfo_pallet">
+            <End Role="pallet" EntitySet="pallet" />
+            <End Role="hgainfo" EntitySet="hgainfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgainfoView_hgainfo" Association="Self.FK_hgainfoView_hgainfo">
+            <End Role="hgainfo" EntitySet="hgainfo" />
+            <End Role="hgainfoView" EntitySet="hgainfoView" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgainfoView_view" Association="Self.FK_hgainfoView_view">
+            <End Role="view" EntitySet="view" />
+            <End Role="hgainfoView" EntitySet="hgainfoView" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pallet_tray" Association="Self.FK_pallet_tray">
+            <End Role="tray" EntitySet="tray" />
+            <End Role="pallet" EntitySet="pallet" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TempPalletTrackingDB_2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="aqtraydata">
+          <Key>
+            <PropertyRef Name="TrayId" />
+          </Key>
+          <Property Name="TrayId" Type="Int32" Nullable="false" />
+          <Property Name="Date" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="TimeStart" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="TimeEnd" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="UsedTime" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="TesterNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Customer" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Product" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="User" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="LotNumber" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="DocControl1" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="DocControl2" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="Sus" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Name="AssyLine" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="tray" Relationship="Self.FK_aqtraydata_tray" FromRole="aqtraydata" ToRole="tray" />
+        </EntityType>
+        <EntityType Name="defect">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DefectName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Priority" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="hgadefects" Relationship="Self.FK_hgadefect_defect" FromRole="defect" ToRole="hgadefect" />
+        </EntityType>
+        <EntityType Name="hgadefect">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HgainfoViewId" Type="Int32" Nullable="false" />
+          <Property Name="DefectId" Type="Int32" Nullable="false" />
+          <Property Name="CoordinateX" Type="Double" Nullable="false" />
+          <Property Name="CoordinateY" Type="Double" Nullable="false" />
+          <NavigationProperty Name="defect" Relationship="Self.FK_hgadefect_defect" FromRole="hgadefect" ToRole="defect" />
+          <NavigationProperty Name="hgainfoView" Relationship="TempPalletTrackingDB_2Model.FK_hgadefect_hgainfoView" FromRole="hgadefect" ToRole="hgainfoView" />
+        </EntityType>
+        <EntityType Name="hgainfo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="LineNo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="PalletId" Type="Int32" />
+          <Property Name="Position" Type="Int32" Nullable="false" />
+          <Property Name="Processdatetime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="IaviResult" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="VmiResult" Type="Int32" Nullable="false" />
+          <Property Name="SerialNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IaviSerialNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="TrayId" Type="Int32" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="A_Location" Type="Double" Nullable="false" />
+          <Property Name="B_Location" Type="Double" Nullable="false" />
+          <Property Name="Skew" Type="Double" Nullable="false" />
+          <Property Name="PitchOffset" Type="Double" Nullable="false" />
+          <Property Name="RollOffset" Type="Double" Nullable="false" />
+          <NavigationProperty Name="hgainfoViews" Relationship="TempPalletTrackingDB_2Model.FK_hgainfoView_hgainfo" FromRole="hgainfo" ToRole="hgainfoView" />
+          <NavigationProperty Name="pallet" Relationship="TempPalletTrackingDB_2Model.FK_hgainfo_pallet" FromRole="hgainfo" ToRole="pallet" />
+        </EntityType>
+        <EntityType Name="tray">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TraySN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AQTrayHeader" Type="String" MaxLength="2048" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsCompleted" Type="Int32" Nullable="false" />
+          <Property Name="IsSampling" Type="Int32" Nullable="false" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="aqtraydata" Relationship="Self.FK_aqtraydata_tray" FromRole="tray" ToRole="aqtraydata" />
+          <NavigationProperty Name="pallets" Relationship="TempPalletTrackingDB_2Model.FK_pallet_tray" FromRole="tray" ToRole="pallet" />
+        </EntityType>
+        <EntityType Name="view">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="IsEnabled" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="hgainfoViews" Relationship="TempPalletTrackingDB_2Model.FK_hgainfoView_view" FromRole="view" ToRole="hgainfoView" />
+        </EntityType>
+        <Association Name="FK_aqtraydata_tray">
+          <End Role="tray" Type="Self.tray" Multiplicity="1" />
+          <End Role="aqtraydata" Type="Self.aqtraydata" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="tray">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="aqtraydata">
+              <PropertyRef Name="TrayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgadefect_defect">
+          <End Role="defect" Type="Self.defect" Multiplicity="1" />
+          <End Role="hgadefect" Type="Self.hgadefect" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="defect">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgadefect">
+              <PropertyRef Name="DefectId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="TempPalletTrackingDB_2Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="aqtraydatas" EntityType="Self.aqtraydata" />
+          <EntitySet Name="defects" EntityType="Self.defect" />
+          <EntitySet Name="hgadefects" EntityType="Self.hgadefect" />
+          <EntitySet Name="hgainfoes" EntityType="Self.hgainfo" />
+          <EntitySet Name="trays" EntityType="Self.tray" />
+          <EntitySet Name="views" EntityType="Self.view" />
+          <AssociationSet Name="FK_aqtraydata_tray" Association="Self.FK_aqtraydata_tray">
+            <End Role="tray" EntitySet="trays" />
+            <End Role="aqtraydata" EntitySet="aqtraydatas" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgadefect_defect" Association="Self.FK_hgadefect_defect">
+            <End Role="defect" EntitySet="defects" />
+            <End Role="hgadefect" EntitySet="hgadefects" />
+          </AssociationSet>
+          <FunctionImport Name="spSearchPalletId" ReturnType="Collection(TempPalletTrackingDB_2Model.spSearchPalletId_Result)">
+          <Parameter Name="palletIdParam" Mode="In" Type="String" />
+          </FunctionImport>
+          <EntitySet Name="hgainfoViews" EntityType="TempPalletTrackingDB_2Model.hgainfoView" />
+          <AssociationSet Name="FK_hgadefect_hgainfoView" Association="TempPalletTrackingDB_2Model.FK_hgadefect_hgainfoView">
+            <End Role="hgainfoView" EntitySet="hgainfoViews" />
+            <End Role="hgadefect" EntitySet="hgadefects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgainfoView_hgainfo" Association="TempPalletTrackingDB_2Model.FK_hgainfoView_hgainfo">
+            <End Role="hgainfo" EntitySet="hgainfoes" />
+            <End Role="hgainfoView" EntitySet="hgainfoViews" />
+          </AssociationSet>
+          <AssociationSet Name="FK_hgainfoView_view" Association="TempPalletTrackingDB_2Model.FK_hgainfoView_view">
+            <End Role="view" EntitySet="views" />
+            <End Role="hgainfoView" EntitySet="hgainfoViews" />
+          </AssociationSet>
+          <FunctionImport Name="spLoadDefectHGA" ReturnType="Collection(TempPalletTrackingDB_2Model.spLoadDefectHGA_Result)">
+          <Parameter Name="hgaIdParam" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <EntitySet Name="pallets" EntityType="TempPalletTrackingDB_2Model.pallet" />
+          <AssociationSet Name="FK_hgainfo_pallet" Association="TempPalletTrackingDB_2Model.FK_hgainfo_pallet">
+            <End Role="pallet" EntitySet="pallets" />
+            <End Role="hgainfo" EntitySet="hgainfoes" />
+          </AssociationSet>
+          <AssociationSet Name="FK_pallet_tray" Association="TempPalletTrackingDB_2Model.FK_pallet_tray">
+            <End Role="tray" EntitySet="trays" />
+            <End Role="pallet" EntitySet="pallets" />
+          </AssociationSet>
+          <FunctionImport Name="spGetDefectsOnTray" ReturnType="Collection(TempPalletTrackingDB_2Model.spGetDefectsOnTray_Result)">
+          <Parameter Name="trayIdParam" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="spSearchTrayId" ReturnType="Collection(TempPalletTrackingDB_2Model.spSearchTrayId_Result)">
+            <Parameter Name="trayIdParam" Mode="In" Type="String" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="spSearchPalletId_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="LineNo" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="PalletId" Nullable="true" />
+          <Property Type="Int32" Name="Position" Nullable="false" />
+          <Property Type="DateTime" Name="Processdatetime" Nullable="false" Precision="23" />
+          <Property Type="String" Name="IaviResult" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="VmiResult" Nullable="false" />
+          <Property Type="String" Name="SerialNumber" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="IaviSerialNumber" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="TrayId" Nullable="true" />
+          <Property Type="DateTime" Name="CreatedAt" Nullable="false" Precision="23" />
+          <Property Type="DateTime" Name="UpdatedAt" Nullable="true" Precision="23" />
+          <Property Type="Double" Name="A_Location" Nullable="false" />
+          <Property Type="Double" Name="B_Location" Nullable="false" />
+          <Property Type="Double" Name="Skew" Nullable="false" />
+          <Property Type="Double" Name="PitchOffset" Nullable="false" />
+          <Property Type="Double" Name="RollOffset" Nullable="false" />
+          <Property Type="Int32" Name="viewId" Nullable="true" />
+          <Property Type="String" Name="imagePath" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="result" Nullable="true" />
+          <Property Type="String" Name="palletSN" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="isCompleted" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="hgainfoView">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HgainfoId" Type="Int32" Nullable="false" />
+          <Property Name="ViewId" Type="Int32" Nullable="false" />
+          <Property Name="ImagePath" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Result" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="hgadefects" Relationship="TempPalletTrackingDB_2Model.FK_hgadefect_hgainfoView" FromRole="hgainfoView" ToRole="hgadefect" />
+          <NavigationProperty Name="hgainfo" Relationship="TempPalletTrackingDB_2Model.FK_hgainfoView_hgainfo" FromRole="hgainfoView" ToRole="hgainfo" />
+          <NavigationProperty Name="view" Relationship="TempPalletTrackingDB_2Model.FK_hgainfoView_view" FromRole="hgainfoView" ToRole="view" />
+        </EntityType>
+        <Association Name="FK_hgadefect_hgainfoView">
+          <End Type="TempPalletTrackingDB_2Model.hgainfoView" Role="hgainfoView" Multiplicity="1" />
+          <End Type="TempPalletTrackingDB_2Model.hgadefect" Role="hgadefect" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hgainfoView">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgadefect">
+              <PropertyRef Name="HgainfoViewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgainfoView_hgainfo">
+          <End Type="TempPalletTrackingDB_2Model.hgainfo" Role="hgainfo" Multiplicity="1" />
+          <End Type="TempPalletTrackingDB_2Model.hgainfoView" Role="hgainfoView" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="hgainfo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfoView">
+              <PropertyRef Name="HgainfoId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_hgainfoView_view">
+          <End Type="TempPalletTrackingDB_2Model.view" Role="view" Multiplicity="1" />
+          <End Type="TempPalletTrackingDB_2Model.hgainfoView" Role="hgainfoView" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="view">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfoView">
+              <PropertyRef Name="ViewId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="spLoadDefectHGA_Result">
+          <Property Type="Int32" Name="viewId" Nullable="false" />
+          <Property Type="Int32" Name="defectId" Nullable="false" />
+          <Property Type="Double" Name="coordinateX" Nullable="false" />
+          <Property Type="Double" Name="coordinateY" Nullable="false" />
+        </ComplexType>
+        <EntityType Name="pallet">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PalletSN" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PalletOrder" Type="Int32" />
+          <Property Name="TrayId" Type="Int32" />
+          <Property Name="Processdatetime" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="ProcessPalletId" Type="Int32" />
+          <Property Name="IsCompleted" Type="Int32" Nullable="false" />
+          <Property Name="PalletPath" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" annotation:StoreGeneratedPattern="Computed" />
+          <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+          <Property Name="Product" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="LotNumber" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DocControl1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="DocControl2" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Sus" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="AssyLine" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="hgainfoes" Relationship="TempPalletTrackingDB_2Model.FK_hgainfo_pallet" FromRole="pallet" ToRole="hgainfo" />
+          <NavigationProperty Name="tray" Relationship="TempPalletTrackingDB_2Model.FK_pallet_tray" FromRole="pallet" ToRole="tray" />
+        </EntityType>
+        <Association Name="FK_hgainfo_pallet">
+          <End Type="TempPalletTrackingDB_2Model.pallet" Role="pallet" Multiplicity="0..1" />
+          <End Type="TempPalletTrackingDB_2Model.hgainfo" Role="hgainfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="pallet">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="hgainfo">
+              <PropertyRef Name="PalletId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_pallet_tray">
+          <End Type="TempPalletTrackingDB_2Model.tray" Role="tray" Multiplicity="0..1" />
+          <End Type="TempPalletTrackingDB_2Model.pallet" Role="pallet" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tray">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="pallet">
+              <PropertyRef Name="TrayId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <ComplexType Name="spGetDefectsOnTray_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="LineNo" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="PalletId" Nullable="true" />
+          <Property Type="Int32" Name="Position" Nullable="false" />
+          <Property Type="Int32" Name="PalletOrder" Nullable="true" />
+          <Property Type="String" Name="IaviResult" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="VmiResult" Nullable="false" />
+          <Property Type="String" Name="SerialNumber" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="PalletSN" Nullable="false" MaxLength="20" />
+          <Property Type="DateTime" Name="Processdatetime" Nullable="false" Precision="23" />
+          <Property Type="Int32" Name="TrayId" Nullable="true" />
+          <Property Type="String" Name="TraySN" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="DefectString" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="spSearchTrayId_Result">
+          <Property Type="Int32" Name="Id" Nullable="false" />
+          <Property Type="String" Name="LineNo" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="PalletId" Nullable="false" />
+          <Property Type="Int32" Name="Position" Nullable="false" />
+          <Property Type="DateTime" Name="Processdatetime" Nullable="false" Precision="23" />
+          <Property Type="String" Name="IaviResult" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="VmiResult" Nullable="false" />
+          <Property Type="String" Name="SerialNumber" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="ViewId" Nullable="true" />
+          <Property Type="String" Name="ImagePath" Nullable="true" MaxLength="255" />
+          <Property Type="Int32" Name="Result" Nullable="true" />
+          <Property Type="String" Name="PalletSN" Nullable="false" MaxLength="20" />
+          <Property Type="Int32" Name="PalletOrder" Nullable="true" />
+          <Property Type="Int32" Name="TrayId" Nullable="false" />
+          <Property Type="String" Name="TraySN" Nullable="false" MaxLength="20" />
+          <Property Type="String" Name="AQTrayHeader" Nullable="false" MaxLength="2048" />
+          <Property Type="Int32" Name="IsCompleted" Nullable="false" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TempPalletTrackingDB_2ModelStoreContainer" CdmEntityContainer="TempPalletTrackingDB_2Entities">
+          <EntitySetMapping Name="aqtraydatas">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.aqtraydata">
+              <MappingFragment StoreEntitySet="aqtraydata">
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="TimeStart" ColumnName="TimeStart" />
+                <ScalarProperty Name="TimeEnd" ColumnName="TimeEnd" />
+                <ScalarProperty Name="UsedTime" ColumnName="UsedTime" />
+                <ScalarProperty Name="TesterNumber" ColumnName="TesterNumber" />
+                <ScalarProperty Name="Customer" ColumnName="Customer" />
+                <ScalarProperty Name="Product" ColumnName="Product" />
+                <ScalarProperty Name="User" ColumnName="User" />
+                <ScalarProperty Name="LotNumber" ColumnName="LotNumber" />
+                <ScalarProperty Name="DocControl1" ColumnName="DocControl1" />
+                <ScalarProperty Name="DocControl2" ColumnName="DocControl2" />
+                <ScalarProperty Name="Sus" ColumnName="Sus" />
+                <ScalarProperty Name="AssyLine" ColumnName="AssyLine" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="defects">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.defect">
+              <MappingFragment StoreEntitySet="defect">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="DefectName" ColumnName="DefectName" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hgadefects">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.hgadefect">
+              <MappingFragment StoreEntitySet="hgadefect">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="HgainfoViewId" ColumnName="HgainfoViewId" />
+                <ScalarProperty Name="DefectId" ColumnName="DefectId" />
+                <ScalarProperty Name="CoordinateX" ColumnName="CoordinateX" />
+                <ScalarProperty Name="CoordinateY" ColumnName="CoordinateY" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="hgainfoes">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.hgainfo">
+              <MappingFragment StoreEntitySet="hgainfo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+                <ScalarProperty Name="PalletId" ColumnName="PalletId" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="Processdatetime" ColumnName="Processdatetime" />
+                <ScalarProperty Name="IaviResult" ColumnName="IaviResult" />
+                <ScalarProperty Name="VmiResult" ColumnName="VmiResult" />
+                <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+                <ScalarProperty Name="IaviSerialNumber" ColumnName="IaviSerialNumber" />
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="A_Location" ColumnName="A_Location" />
+                <ScalarProperty Name="B_Location" ColumnName="B_Location" />
+                <ScalarProperty Name="Skew" ColumnName="Skew" />
+                <ScalarProperty Name="PitchOffset" ColumnName="PitchOffset" />
+                <ScalarProperty Name="RollOffset" ColumnName="RollOffset" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="trays">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.tray">
+              <MappingFragment StoreEntitySet="tray">
+                <ScalarProperty Name="IsSampling" ColumnName="IsSampling" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="TraySN" ColumnName="TraySN" />
+                <ScalarProperty Name="AQTrayHeader" ColumnName="AQTrayHeader" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="views">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.view">
+              <MappingFragment StoreEntitySet="view">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="IsEnabled" ColumnName="IsEnabled" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="spSearchPalletId" FunctionName="TempPalletTrackingDB_2Model.Store.spSearchPalletId">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="TempPalletTrackingDB_2Model.spSearchPalletId_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+                <ScalarProperty Name="PalletId" ColumnName="PalletId" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="Processdatetime" ColumnName="Processdatetime" />
+                <ScalarProperty Name="IaviResult" ColumnName="IaviResult" />
+                <ScalarProperty Name="VmiResult" ColumnName="VmiResult" />
+                <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+                <ScalarProperty Name="IaviSerialNumber" ColumnName="IaviSerialNumber" />
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="A_Location" ColumnName="A_Location" />
+                <ScalarProperty Name="B_Location" ColumnName="B_Location" />
+                <ScalarProperty Name="Skew" ColumnName="Skew" />
+                <ScalarProperty Name="PitchOffset" ColumnName="PitchOffset" />
+                <ScalarProperty Name="RollOffset" ColumnName="RollOffset" />
+                <ScalarProperty Name="viewId" ColumnName="viewId" />
+                <ScalarProperty Name="imagePath" ColumnName="imagePath" />
+                <ScalarProperty Name="result" ColumnName="result" />
+                <ScalarProperty Name="palletSN" ColumnName="palletSN" />
+                <ScalarProperty Name="isCompleted" ColumnName="isCompleted" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="hgainfoViews">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.hgainfoView">
+              <MappingFragment StoreEntitySet="hgainfoView">
+                <ScalarProperty Name="Result" ColumnName="Result" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="ViewId" ColumnName="ViewId" />
+                <ScalarProperty Name="HgainfoId" ColumnName="HgainfoId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="spLoadDefectHGA" FunctionName="TempPalletTrackingDB_2Model.Store.spLoadDefectHGA">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="TempPalletTrackingDB_2Model.spLoadDefectHGA_Result">
+                <ScalarProperty Name="viewId" ColumnName="viewId" />
+                <ScalarProperty Name="defectId" ColumnName="defectId" />
+                <ScalarProperty Name="coordinateX" ColumnName="coordinateX" />
+                <ScalarProperty Name="coordinateY" ColumnName="coordinateY" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <EntitySetMapping Name="pallets">
+            <EntityTypeMapping TypeName="TempPalletTrackingDB_2Model.pallet">
+              <MappingFragment StoreEntitySet="pallet">
+                <ScalarProperty Name="AssyLine" ColumnName="AssyLine" />
+                <ScalarProperty Name="Sus" ColumnName="Sus" />
+                <ScalarProperty Name="DocControl2" ColumnName="DocControl2" />
+                <ScalarProperty Name="DocControl1" ColumnName="DocControl1" />
+                <ScalarProperty Name="LotNumber" ColumnName="LotNumber" />
+                <ScalarProperty Name="Product" ColumnName="Product" />
+                <ScalarProperty Name="UpdatedAt" ColumnName="UpdatedAt" />
+                <ScalarProperty Name="CreatedAt" ColumnName="CreatedAt" />
+                <ScalarProperty Name="PalletPath" ColumnName="PalletPath" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+                <ScalarProperty Name="ProcessPalletId" ColumnName="ProcessPalletId" />
+                <ScalarProperty Name="Processdatetime" ColumnName="Processdatetime" />
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="PalletOrder" ColumnName="PalletOrder" />
+                <ScalarProperty Name="PalletSN" ColumnName="PalletSN" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="spGetDefectsOnTray" FunctionName="TempPalletTrackingDB_2Model.Store.spGetDefectsOnTray">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="TempPalletTrackingDB_2Model.spGetDefectsOnTray_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+                <ScalarProperty Name="PalletId" ColumnName="PalletId" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="PalletOrder" ColumnName="PalletOrder" />
+                <ScalarProperty Name="IaviResult" ColumnName="IaviResult" />
+                <ScalarProperty Name="VmiResult" ColumnName="VmiResult" />
+                <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+                <ScalarProperty Name="PalletSN" ColumnName="PalletSN" />
+                <ScalarProperty Name="Processdatetime" ColumnName="Processdatetime" />
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="TraySN" ColumnName="TraySN" />
+                <ScalarProperty Name="DefectString" ColumnName="DefectString" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="spSearchTrayId" FunctionName="TempPalletTrackingDB_2Model.Store.spSearchTrayId">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="TempPalletTrackingDB_2Model.spSearchTrayId_Result">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+                <ScalarProperty Name="PalletId" ColumnName="PalletId" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="Processdatetime" ColumnName="Processdatetime" />
+                <ScalarProperty Name="IaviResult" ColumnName="IaviResult" />
+                <ScalarProperty Name="VmiResult" ColumnName="VmiResult" />
+                <ScalarProperty Name="SerialNumber" ColumnName="SerialNumber" />
+                <ScalarProperty Name="ViewId" ColumnName="ViewId" />
+                <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+                <ScalarProperty Name="Result" ColumnName="Result" />
+                <ScalarProperty Name="PalletSN" ColumnName="PalletSN" />
+                <ScalarProperty Name="PalletOrder" ColumnName="PalletOrder" />
+                <ScalarProperty Name="TrayId" ColumnName="TrayId" />
+                <ScalarProperty Name="TraySN" ColumnName="TraySN" />
+                <ScalarProperty Name="AQTrayHeader" ColumnName="AQTrayHeader" />
+                <ScalarProperty Name="IsCompleted" ColumnName="IsCompleted" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

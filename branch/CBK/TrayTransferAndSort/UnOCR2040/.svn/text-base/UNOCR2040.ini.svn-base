@@ -1,0 +1,143 @@
+# Modified: Tue Nov 08 13:39:45 GMT+07:00 2016
+# Modified: Tue Dec 02 08:32:58 GMT+07:00 2008
+# Modified: Sun Nov 30 13:17:59 GMT+07:00 2008
+# Modified: Tue Apr 22 10:31:15 GMT+07:00 2008
+# max0
+# Modified: Sun Apr 20 17:43:57 GMT+07:00 2008
+# max0
+# Modified: Sun Apr 20 17:43:25 GMT+07:00 2008
+# max1
+# Modified: Sun Apr 20 16:36:17 GMT+07:00 2008
+# max1
+# Modified: Wed Sep 12 17:39:07 GMT+07:00 2007
+# Modified: Fri Sep 07 09:50:50 GMT+07:00 2007
+# Modified: Sat Mar 31 03:48:59 GMT+07:00 2007
+# Modified: Thu Mar 29 03:16:20 GMT+07:00 2007
+# Modified: Fri Mar 23 12:50:58 GMT+07:00 2007
+# Modified: Fri Mar 23 12:43:21 GMT+07:00 2007
+# Modified: Fri Mar 23 11:30:22 GMT+07:00 2007
+# Modified: Mon Aug 15 23:24:43 GMT+07:00 2005
+# Modified: Mon Aug 15 21:33:56 GMT+07:00 2005
+# Modified: Mon Aug 01 18:17:12 GMT+07:00 2005
+# Modified: Tue Jun 15 15:22:12 PDT 2004
+# Modified: Tue Jun 15 15:18:13 PDT 2004
+# Modified: Tue Jun 15 14:14:32 PDT 2004
+# Modified: Tue Jun 08 17:11:09 PDT 2004
+# Modified: Tue Jun 08 16:04:50 PDT 2004
+# Modified: Tue Jun 08 13:33:08 PDT 2004
+# Modified: Tue Jun 08 13:24:28 PDT 2004
+# Modified: Tue Jun 08 11:00:15 PDT 2004
+# Modified: Mon Jun 07 19:17:57 PDT 2004
+# Modified: Mon Jun 07 18:54:54 PDT 2004
+# Modified: Thu Apr 08 17:16:13 PDT 2004
+# Modified: Thu Apr 08 14:16:04 PDT 2004
+# Modified: Thu Apr 08 13:29:31 PDT 2004
+# Modified: Wed Apr 07 21:09:35 PDT 2004
+# Modified: Wed Apr 07 20:36:41 PDT 2004
+# Modified: Wed Apr 07 19:11:53 PDT 2004
+# Modified: Wed Apr 07 18:52:59 PDT 2004
+[controller]
+
+#dsp_code = C:\Program Files\pmdi\mciw32\bin\ct32a.21k
+dsp_code = C:\Program Files\pmdi\mciw32\bin\DF_MC4.21K
+
+numaxes = 2
+setpoint_bufsize = 100
+deltaT = 5.0E-4
+setpoint_map = {0, 1};
+position_read_map = {0, 1};
+# Velocity estimated from encoders. Assumes DX/DT available in CPLD
+velocity_read_map = {0, 1};
+output_map = {0, 1};
+Kp = {15.0, 15.0};
+Ki = {270.0, 170.0};
+Kd = {0.045, 0.06};
+Kv = {0.0, 0.0};
+Ka = {0.0, 0.0};
+Kpv = {1.0, 1.0};
+Kiv = {0.0, 0.0};
+Kvf = {0.0, 0.0};
+bias = {0.0, 0.0};
+pos_int_windup = {3.0, 3.0};
+vel_int_windup = {0.0, 0.0};
+saturation = {9.99, 9.99};
+deadband = {0.0030, 0.0030};
+motion_done_pos_tol = {0.1, 0.1};
+motion_done_vel_tol = {20.0, 20.0};
+motion_done_cnt_tol = {5, 5};
+backlash = {0.0, 0.0};
+
+[encoder]
+# Assume LMS50 (the long axis) is Axis 1. If not, use ENC_gain = {-0.005, -0.01};
+#ENC_gain = {-0.005, -0.0050};
+ENC_gain = {-0.0050, -0.0050};
+ENC_offset = {0.0, 0.0};
+
+[DACs]
+
+DAC_gain = {3276.8, 3276.8};
+DAC_offset = {10.0, 10.0};
+
+[Digital I/O]
+
+home_switch = {34, 40};
+neg_lim_switch = {34, 40};
+pos_lim_switch = {33, 39};
+amp_fault = {-1, -1};
+amp_enable = {96, 98};
+emergency_stop = -1
+fault_indicator = {-1, -1};
+active_level = {0x0, 0x0, 0x0, 0xffffffff};
+
+[error]
+
+max_following_error = {3.0, 3.0};
+hard_limit_plus_enable = 0x0
+hard_limit_minus_enable = 0x0
+following_enable = 0x3
+response = {0xd, 0xd, 0xd, 0x40001, 0xd, 0x0, 0x0, 0x0};
+deceleration = {1000.0, 1000.0};
+soft_limit_plus = {975.0, 58.0};
+soft_limit_minus = {-10.0, -10.0};
+soft_limit_plus_enable = 0x0
+soft_limit_minus_enable = 0x0
+amp_fail_enable = 0x0
+
+[homing]
+
+position = {0.0, 0.0};
+on_speed = {20.0, 10.0};
+off_speed = {1.0, 1.0};
+acceleration = {25.0, 25.0};
+deceleration = {100.0, 100.0};
+
+[axis move]
+
+speed = {3000.0, 1000.0};
+acceleration = {6000.0, 3000.0};
+deceleration = {6000.0, 3000.0};
+acceleration_profile = {0, 0};
+deceleration_profile = {0, 0};
+
+[move]
+
+speed = 5.0
+acceleration = 50.0
+deceleration = 50.0
+acceleration_profile = 1
+deceleration_profile = 1
+[joystick]
+midpoint = {0.0, 0.0};
+min = {0.0, 0.0};
+max = {0.0, 0.0};
+deadzone = {0.1, 0.1};
+gain = {1.0, 1.0};
+deceleration = {1.0, 1.0};
+enable = {0, 0};
+order = {0, 0};
+read_map = {-1, -1};
+[handwheel]
+enable = {0, 0};
+gain = {0.0, 0.0};
+read_map = {-1, -1};
+max_cnts_per_cycle = {0, 0};

@@ -1,0 +1,7 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe.config
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\obj\x86\Debug\IAVICleanUpService.ProjectInstaller.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\obj\x86\Debug\IAVICleanUpService.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\obj\x86\Debug\IAVICleanUpService.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\obj\x86\Debug\IAVICleanUpService.pdb

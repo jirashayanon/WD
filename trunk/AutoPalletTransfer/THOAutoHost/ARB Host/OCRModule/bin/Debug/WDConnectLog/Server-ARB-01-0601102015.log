@@ -1,0 +1,11 @@
+10/01/2015 06:53:01    CloseConnection
+10/01/2015 06:53:01    ActivateT5 : IsEnabled True
+10/01/2015 06:53:01    CloseSession
+10/01/2015 06:53:11    OnT5_Elapsed
+10/01/2015 06:53:11    OpenConnection
+10/01/2015 06:53:11    OnRemoteConnect Active
+10/01/2015 06:53:11    _socketWorker.Connected True
+10/01/2015 06:53:11    this._socketWorker.EndConnect(asyn);
+10/01/2015 06:53:11    SendSECSData
+10/01/2015 06:53:11    ActivateT5 : IsEnabled False
+10/01/2015 06:53:11    WaitForData

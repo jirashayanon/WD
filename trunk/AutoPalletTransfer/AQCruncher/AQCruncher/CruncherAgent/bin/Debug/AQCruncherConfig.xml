@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AQCruncherConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IAVIFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</IAVIFilePath>  
+  <UNLOADFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</UNLOADFilePath>  
+  <VMIFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</VMIFilePath>
+  <HOSTFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</HOSTFilePath>
+  <AUTOOCRFilePathxx>\\wdtbhgafs01\ocr\AUTOOCR\DATA</AUTOOCRFilePathxx>
+  <AUTOOCRFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</AUTOOCRFilePath>  
+  <Product>PALMER_8_SD</Product>
+  <AfterCrunchPath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\Crunched</AfterCrunchPath>
+</AQCruncherConfig>

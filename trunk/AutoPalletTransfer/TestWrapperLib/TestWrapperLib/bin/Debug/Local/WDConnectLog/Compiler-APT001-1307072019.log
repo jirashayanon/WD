@@ -1,0 +1,9 @@
+07/07/2019 13:16:36    ProcessOutStream
+07/07/2019 13:16:36    this.SECsServer.IsConnected()
+07/07/2019 13:16:36    ConstructRawMessage
+07/07/2019 13:16:36    ConstructRawMessage nextTransactionID 6
+07/07/2019 13:16:36    CreateXMLText
+07/07/2019 13:16:36    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>6</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/07/2019 13:16:36    RegisterTransaction : transaction 6
+07/07/2019 13:16:36    Object reference not set to an instance of an object.
+07/07/2019 13:16:36    ConstructRawMessage return message

@@ -1,0 +1,10 @@
+diff a/PhotoLibrary/MainWindow.xaml.cs b/PhotoLibrary/MainWindow.xaml.cs	(rejected hunks)
+@@ -107,6 +107,8 @@
+             this.PreviewKeyDown += new KeyEventHandler(HandleEsc);
+         }
+ 
++        
++
+         void itemsCtrl_PreviewMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+         {
+ 

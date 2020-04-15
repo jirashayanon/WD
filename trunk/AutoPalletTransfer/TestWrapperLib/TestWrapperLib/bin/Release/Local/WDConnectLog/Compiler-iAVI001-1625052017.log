@@ -1,0 +1,35 @@
+05/25/2017 16:48:34    Connect
+05/25/2017 16:48:34    OnConnected
+05/25/2017 16:48:34    OnSECsCommNotification
+05/25/2017 16:48:35    ProcessOutStream
+05/25/2017 16:48:35    this.SECsServer.IsConnected()
+05/25/2017 16:48:35    ConstructRawMessage
+05/25/2017 16:48:35    ConstructRawMessage nextTransactionID 1
+05/25/2017 16:48:35    CreateXMLText
+05/25/2017 16:48:35    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+05/25/2017 16:48:35    RegisterTransaction : transaction 1
+05/25/2017 16:48:35    ConstructRawMessage return message
+05/25/2017 16:48:40    ProcessOutStream
+05/25/2017 16:48:40    this.SECsServer.IsConnected()
+05/25/2017 16:48:40    ConstructRawMessage
+05/25/2017 16:48:40    ConstructRawMessage nextTransactionID 2
+05/25/2017 16:48:40    CreateXMLText
+05/25/2017 16:48:40    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/25/2017 16:48:40    RegisterTransaction : transaction 2
+05/25/2017 16:48:40    ConstructRawMessage return message
+05/25/2017 16:48:40    ProcessInStream
+05/25/2017 16:48:40    OnSECsSecondaryNotification
+05/25/2017 16:48:40    UnRegisterTransaction 2
+05/25/2017 16:48:42    ProcessOutStream
+05/25/2017 16:48:42    this.SECsServer.IsConnected()
+05/25/2017 16:48:42    ConstructRawMessage
+05/25/2017 16:48:42    ConstructRawMessage nextTransactionID 3
+05/25/2017 16:48:42    CreateXMLText
+05/25/2017 16:48:42    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">50</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA10</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+05/25/2017 16:48:42    RegisterTransaction : transaction 3
+05/25/2017 16:48:42    ConstructRawMessage return message
+05/25/2017 16:54:17    ProcessInStream
+05/25/2017 16:54:17    OnSECsSecondaryNotification
+05/25/2017 16:54:17    UnRegisterTransaction 3
+05/25/2017 16:54:24    OnDisconnected
+05/25/2017 16:54:24    OnSECsCommNotification

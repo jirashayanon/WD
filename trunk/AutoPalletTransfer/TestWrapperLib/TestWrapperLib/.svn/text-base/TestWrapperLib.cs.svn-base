@@ -1,0 +1,355 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+using System.Xml;
+
+using WDConnectWrapperLib;
+
+namespace TestWrapperLib
+{
+    public partial class TestWrapperLib : Form
+    {
+        public TestWrapperLib()
+        {
+            InitializeComponent();
+            _init();
+        }
+
+        //function to initialize the instance of WDConnectWrapperLib before making use
+        private void _init()
+        {
+            //create a callback function when Host sends a primary message to equipment
+            WDConnectWrapperLibClass.Instance.primaryInEvntHandler += new PrimaryMessageInEventHandler(PrimaryInCallBack);
+
+            //create a callback function when Host replies a secondary message for the primary message request from equipment
+            WDConnectWrapperLibClass.Instance.secondaryInEvntHandler += new SecondaryMessageInEventHandler(SecondaryInCallBack);
+
+            //create a callback function when error occurs during communications
+            WDConnectWrapperLibClass.Instance.hostErrorEvntHandler += new HostErrorEventHandler(HostErrorCallBack);
+
+
+            //list CONTROL STATE values in a combo box for user to select
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.OFFLINE.ToString());
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.ONLINE_LOCAL.ToString());
+            cmbControlState.Items.Add(WDConnectWrapperLib.CONTROL_STATE.ONLINE_REMOTE.ToString());
+            cmbControlState.SelectedIndex = 0;
+
+            //this control state value will be equipment's control state
+            WDConnectWrapperLibClass.Instance.ControlState = (WDConnectWrapperLib.CONTROL_STATE)Enum.Parse(typeof(WDConnectWrapperLib.CONTROL_STATE), cmbControlState.Text);
+
+
+            //list PROCESS STATE values in a combo box for user to select
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.INIT.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.IDLE.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.HOME.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.EMERGENCY.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.READY.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.LOOP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.OPERATOR.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.STEP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.SETUP.ToString());
+            cmbProcessState.Items.Add(WDConnectWrapperLib.PROCESS_STATE.ABORT.ToString());
+            cmbProcessState.SelectedIndex = 0;
+
+            //this process state value will be equipment's process state
+            WDConnectWrapperLibClass.Instance.ProcessState = (WDConnectWrapperLib.PROCESS_STATE)Enum.Parse(typeof(WDConnectWrapperLib.PROCESS_STATE), cmbProcessState.Text);
+
+            WDConnectWrapperLibClass.Instance.ControlState = CONTROL_STATE.ONLINE_REMOTE;
+        }
+
+
+        #region Primary In Message
+        private delegate void updatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxPrimaryMsg.Text = e.MessageIn;
+            txtboxPrimaryCommandID.Text = e.CommandID;
+
+            if (e.CommandID == "AreYouThere")
+            {
+                //this.DoSomeTasksWhenReceivingAreYouThereFromHost();
+            }
+
+            if (e.CommandID == "OnlineRequest")
+            {
+                //probably verify some conditions
+                //probably inform user about the request from Host
+                //probably do some tasks
+                //and reply
+
+                if (WDConnectWrapperLibClass.Instance.ControlState == CONTROL_STATE.OFFLINE)
+                {
+                    DialogResult ret = MessageBox.Show("Get OnlineReqeust. Do you want to go Online?", "OnlineRequest", MessageBoxButtons.YesNo);
+                    if (ret == System.Windows.Forms.DialogResult.Yes)
+                    {
+                        WDConnectWrapperLibClass.Instance.ControlState = CONTROL_STATE.ONLINE_REMOTE;
+                        WDConnectWrapperLibClass.Instance.OnlineRequestAck(e.Transaction, 0);   //COMMACK == 0, ok
+                    }
+                    else
+                    {
+                        //Still offline
+                        //WDConnectWrapperLibClass.Instance.ControlState = CONTROL_STATE.OFFLINE;
+                        WDConnectWrapperLibClass.Instance.OnlineRequestAck(e.Transaction, 1);   //COMMACK == 1, not ok
+                    }
+                }
+                else
+                {
+                    //already online
+                }
+
+            }
+
+
+            if (e.CommandID == "OfflineRequest")
+            {
+                //probably verify some conditions
+                //probably inform user about the request from Host
+                //probably do some tasks
+                //and reply
+
+                if (WDConnectWrapperLibClass.Instance.ControlState == CONTROL_STATE.OFFLINE)
+                {
+                    //already offline
+                    WDConnectWrapperLibClass.Instance.RejectCommandWhileOffline(e.Transaction);
+                }
+                else //online
+                {
+                    DialogResult ret = MessageBox.Show("Get OfflineReqeust. Do you want to go Offline?", "OfflineRequest", MessageBoxButtons.YesNo);
+                    if (ret == System.Windows.Forms.DialogResult.Yes)
+                    {
+                        WDConnectWrapperLibClass.Instance.ControlState = CONTROL_STATE.OFFLINE;
+                        WDConnectWrapperLibClass.Instance.OfflineRequestAck(e.Transaction, 0);   //COMMACK == 0, ok
+                    }
+                    else
+                    {
+                        WDConnectWrapperLibClass.Instance.OfflineRequestAck(e.Transaction, 1);   //COMMACK == 1, not ok
+                    }
+                }
+
+
+
+            }
+
+
+        }
+        public void DelegateUpdatePrimaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updatePrimaryMessageInTextbox(UpdatePrimaryMessageInTextbox), e);
+        }
+
+
+        //callback function when Host sends a primary message to equipment
+        public void PrimaryInCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("PrimaryInCallBack");
+            DelegateUpdatePrimaryMessageInTextbox(e);
+        }
+
+
+        public void DoSomeTasksWhenReceivingAreYouThereFromHost()
+        {
+            //MessageBox.Show("DoSomeTasks");
+        }
+
+
+        #endregion
+
+
+        #region Secondary In Message
+        private delegate void updateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxSecondaryMsg.Text = e.MessageIn;
+            txtboxSecondaryCommandID.Text = e.CommandID;
+
+            if (e.CommandID == "RequestPalletInfoAck")
+            {
+            }
+        }
+        public void DelegateUpdateSecondaryMessageInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updatePrimaryMessageInTextbox(UpdateSecondaryMessageInTextbox), e);
+        }
+
+
+        //callback function when Host replies a secondary message for the primary message request from equipment
+        ProcessRecipeDataClass _recipe = new ProcessRecipeDataClass();
+        public void SecondaryInCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("SecondaryInCallBack");
+            DelegateUpdateSecondaryMessageInTextbox(e);
+
+            if (e.CommandID == "RequestPalletInfoAck")
+            {
+                PalletDataClass retPallet;
+                retPallet = new PalletDataClass(e.MessageIn);
+                Console.WriteLine(retPallet.PalletID);
+
+                //call to any particular function to handle the incoming pallet
+            }
+
+            if (e.CommandID == "RequestProcessRecipeAck")
+            {
+                ProcessRecipeDataClass procRecipeObj = new ProcessRecipeDataClass(e.MessageIn);
+                _recipe = procRecipeObj;
+                //Console.WriteLine(procRecipeObj.RecipeID);
+                
+                Console.WriteLine(procRecipeObj.LotNumber);
+                Console.WriteLine(procRecipeObj.LotSize);
+                Console.WriteLine(procRecipeObj.ProductName);
+                Console.WriteLine(procRecipeObj.HGAType);
+                Console.WriteLine(procRecipeObj.STR);
+                Console.WriteLine(procRecipeObj.Line);
+                
+            }
+        }
+
+        #endregion
+
+
+        #region Host Error
+        private delegate void updateHostErrorTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e);
+        private void UpdateHostErrorInTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            txtboxErrorMsg.Text = e.MessageIn;
+        }
+        public void DelegateUpdateHostErrorTextbox(WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Invoke(new updateHostErrorTextbox(UpdateHostErrorInTextbox), e);
+        }
+
+
+        //callback function when error occurs during communications
+        public void HostErrorCallBack(object sender, WDConnectWrapperLib.WDConnectCallbackEventArgs e)
+        {
+            Console.WriteLine("HostErrorCallBack");
+            DelegateUpdateHostErrorTextbox(e);
+        }
+
+        #endregion
+
+
+        //sample code to update equipment's control state to WD Host
+        private void btnSendControlState_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.ControlState = (WDConnectWrapperLib.CONTROL_STATE) Enum.Parse(typeof( WDConnectWrapperLib.CONTROL_STATE), cmbControlState.Text);
+            WDConnectWrapperLibClass.Instance.SendControlState();
+        }
+
+        //sample code to send AreYouThere to check if WD Host is still alive
+        private void btnRUThere_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.SendAreYouThere();
+        }
+
+        //sample code to update equipment's process state to WD Host
+        private void btnSendProcessState_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.ProcessState = (WDConnectWrapperLib.PROCESS_STATE)Enum.Parse(typeof(WDConnectWrapperLib.PROCESS_STATE), cmbProcessState.Text);
+            WDConnectWrapperLibClass.Instance.SendProcessState();
+        }
+
+        //sample code to request for a process recipe
+        private void btnRequestProcessRecipe_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.RequestProcessRecipe("PT0001", "WRXGC_A");
+            //WDConnectWrapperLibClass.Instance.RequestProcessRecipe("PT0001", "Y5TFE_DD/PS0");            
+        }
+
+        //sample code to request for a pallet information for pallet barcode id# SF0001
+        private void btnRequestPalletInfo_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.RequestPalletInfo("PT0001");
+        }
+
+
+        private ProcessRecipeDataClass _inlineCureInternalProcessRecipe = new ProcessRecipeDataClass();
+        private void btnSendPallet_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLib.ProcessedPalletDataClass palletDataAfterProcessing = new ProcessedPalletDataClass();
+            palletDataAfterProcessing.EquipmentID = WDConnectWrapperLibClass.Instance.EquipmentID;
+            palletDataAfterProcessing.PalletID = "PT0001";
+
+
+            //e.g. ILC may be configured to use some pre-config recipe data during setup
+            palletDataAfterProcessing.LotNumber = _inlineCureInternalProcessRecipe.LotNumber;
+
+            WDConnectWrapperLibClass.Instance.SendPalletInfo(palletDataAfterProcessing);
+        }
+
+        private void btnSendPalletStatus_Click(object sender, EventArgs e)
+        {
+            //after verifying pallet's data from Host, then proceed to the loading step.
+            //here to inform WD's Host that ILC is about to load in the pallet into the cure zone#1
+            WDConnectWrapperLibClass.Instance.SendPalletStatus("PT0001", PALLET_STATUS.LOADING, 1);
+
+        }
+
+        private void btnSendAlarmReport_Click(object sender, EventArgs e)
+        {
+            WDConnectWrapperLibClass.Instance.SendAlarmReport("10000");
+        }
+
+        private void copyTextPrimaryMsg_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(txtboxPrimaryMsg.Text);
+            }
+            catch (Exception ex)
+            {
+                Clipboard.Clear();
+            }
+        }
+
+        private void copyTextSecondaryMsg_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(txtboxSecondaryMsg.Text);
+            }
+            catch (Exception ex)
+            {
+                Clipboard.Clear();
+            }
+        }
+
+        private void txtboxPrimaryMsg_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                contextMenuStrip1.Show(this.Location.X + e.Location.X, this.Location.Y + e.Location.Y + 230);
+            }
+        }
+
+        private void txtboxSecondaryMsg_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                contextMenuStrip2.Show(this.Location.X + e.Location.X, this.Location.Y + e.Location.Y + 350);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (WDConnectWrapperLibClass.Instance.VerifySuspensionPartNumber("UH04382-E2-30T-J9H65043", _recipe))
+            {
+                MessageBox.Show("Suspension Part Number is correct.");
+            }
+            else
+            {
+                string suspPartNumberFromTray = WDConnectWrapperLibClass.Instance.ExtractSuspPartNumberFromTrayID("UH04382-E2-30T-J9H65043");
+                string suspPartNumberFromRecipe = _recipe.SuspPartNumber;
+
+                MessageBox.Show("Please verify Suspension Part Number. " + suspPartNumberFromTray + " : " + suspPartNumberFromRecipe);
+            }
+
+        }
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<AQCruncherConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IAVIFilePathxxx>\\172.16.52.234\PalletLogs</IAVIFilePathxxx>
+  <IAVIFilePathxxx>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</IAVIFilePathxxx>  
+  <IAVIFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug</IAVIFilePath>>
+  <UNLOADFilePathxxx>\\192.168.10.1\TrayLog</UNLOADFilePathxxx>
+  <UNLOADFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</UNLOADFilePath>  
+  <VMIFilePath />
+  <HOSTFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug</HOSTFilePath>
+  <AUTOOCRFilePath1>\\wdtbhgafs01\ocr\AUTOOCR\DATA</AUTOOCRFilePath1>
+  <AUTOOCRFilePath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug</AUTOOCRFilePath>  
+  <Product>PALMER_8_SD</Product>
+  <AfterCrunchPath>D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\Crunched</AfterCrunchPath>
+</AQCruncherConfig>

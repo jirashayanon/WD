@@ -1,0 +1,7 @@
+07/22/2019 12:07:27    OnDataReceived
+07/22/2019 12:07:27    OnDataReceived 343
+07/22/2019 12:07:27    OnDataArrival
+07/22/2019 12:07:27    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/22/2019 12:07:27    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/22/2019 12:07:27    ProcessSECsMessage -->
+07/22/2019 12:07:27    SendSECSData

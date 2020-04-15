@@ -1,0 +1,33 @@
+06/14/2018 13:12:21    ProcessTimeOutError
+06/14/2018 13:12:31    OnSECsErrorNotification
+06/14/2018 13:12:31    Disconnect
+06/14/2018 13:12:31    ProcessTimeOutError
+06/14/2018 13:12:36    OnSECsErrorNotification
+06/14/2018 13:12:36    OnDisconnected
+06/14/2018 13:12:36    OnSECsCommNotification
+06/14/2018 13:12:43    ProcessInStream
+06/14/2018 13:12:53    Disconnect
+06/14/2018 13:14:15    Connect
+06/14/2018 13:14:15    OnConnected
+06/14/2018 13:14:15    OnSECsCommNotification
+06/14/2018 13:14:15    ProcessOutStream
+06/14/2018 13:14:15    this.SECsServer.IsConnected()
+06/14/2018 13:14:15    ConstructRawMessage
+06/14/2018 13:14:15    ConstructRawMessage nextTransactionID 1
+06/14/2018 13:14:15    CreateXMLText
+06/14/2018 13:14:15    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/14/2018 13:14:15    RegisterTransaction : transaction 1
+06/14/2018 13:14:15    ConstructRawMessage return message
+06/14/2018 13:14:18    ProcessOutStream
+06/14/2018 13:14:18    this.SECsServer.IsConnected()
+06/14/2018 13:14:18    ConstructRawMessage
+06/14/2018 13:14:18    ConstructRawMessage nextTransactionID 2
+06/14/2018 13:14:18    CreateXMLText
+06/14/2018 13:14:18    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/14/2018 13:14:18    RegisterTransaction : transaction 2
+06/14/2018 13:14:18    ConstructRawMessage return message
+06/14/2018 13:19:18    ProcessTimeOutError
+06/14/2018 13:19:18    OnSECsErrorNotification
+06/14/2018 13:32:23    ProcessInStream
+06/14/2018 13:32:23    OnSECsSecondaryNotification
+06/14/2018 13:32:26    UnRegisterTransaction 2

@@ -1,0 +1,34 @@
+10/01/2015 17:53:37    TriggerTransactionTimer : transactionID 6
+10/01/2015 17:53:37    SendSECSData
+10/01/2015 17:53:47    TimeOut : transactionId 6 timerId : T3
+10/01/2015 17:54:12    TriggerTransactionTimer : transactionID 7
+10/01/2015 17:54:12    SendSECSData
+10/01/2015 17:54:22    TimeOut : transactionId 7 timerId : T3
+10/01/2015 17:54:26    OnDataReceived
+10/01/2015 17:54:27    OnDataReceived
+10/01/2015 17:54:27    ** An existing connection was forcibly closed by the remote host
+10/01/2015 17:54:27    ** An existing connection was forcibly closed by the remote host
+10/01/2015 17:54:27    ** An existing connection was forcibly closed by the remote host
+10/01/2015 17:54:27    ActivateLinkTest False
+10/01/2015 17:54:27     this.LinkTestTimer.Enabled = false;
+10/01/2015 17:54:27    ActivateT5 : IsEnabled True
+10/01/2015 17:54:27    ActivateLinkTest False
+10/01/2015 17:54:27     this.LinkTestTimer.Enabled = false;
+10/01/2015 17:54:27    ActivateT5 : IsEnabled True
+10/01/2015 17:54:37    OnT5_Elapsed
+10/01/2015 17:54:37    OpenConnection
+10/01/2015 17:54:37    OnRemoteConnect Active
+10/01/2015 17:54:37    _socketWorker.Connected True
+10/01/2015 17:54:37    this._socketWorker.EndConnect(asyn);
+10/01/2015 17:54:37    SendSECSData
+10/01/2015 17:54:37    ActivateT5 : IsEnabled False
+10/01/2015 17:54:37    WaitForData
+10/01/2015 17:54:44    TriggerTransactionTimer : transactionID 9
+10/01/2015 17:54:44    SendSECSData
+10/01/2015 17:54:46    OnDataReceived
+10/01/2015 17:54:46    OnDataReceived 1310
+10/01/2015 17:54:46    OnDataArrival
+10/01/2015 17:54:46    OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>9</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKUN014</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+10/01/2015 17:54:46    ResolveHeaderBuffer
+10/01/2015 17:54:46    ProcessSECsMessage
+10/01/2015 17:54:46    WaitForData

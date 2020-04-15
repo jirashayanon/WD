@@ -1,0 +1,12 @@
+07/03/2019 08:00:20    LinkTestTimer_Elapsed() False
+07/03/2019 08:00:20    LinkTest Code : 80020
+07/03/2019 08:00:20    this._socketWorker.Send(buffer); [0000000022]LinkTest:Request:80020
+07/03/2019 08:00:20    _linkTestManager.Register(code)80020
+07/03/2019 08:00:20    OnDataReceived
+07/03/2019 08:00:20    OnDataReceived 34
+07/03/2019 08:00:20    OnDataArrival
+07/03/2019 08:00:20    ProcessControlMessage LinkTest:Respond:80020
+07/03/2019 08:00:20    _linkTestManager.IsTransactionExist(code) True
+07/03/2019 08:00:20    linktest_shouldStop = false;
+07/03/2019 08:00:20    0 
+07/03/2019 08:00:20    WaitForData

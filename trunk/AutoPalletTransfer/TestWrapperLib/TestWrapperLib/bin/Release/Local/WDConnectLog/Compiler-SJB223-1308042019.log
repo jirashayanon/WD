@@ -1,0 +1,44 @@
+04/08/2019 13:00:16    Connect
+04/08/2019 13:00:16    OnConnected
+04/08/2019 13:00:16    OnSECsCommNotification
+04/08/2019 13:00:16    ProcessOutStream
+04/08/2019 13:00:16    this.SECsServer.IsConnected()
+04/08/2019 13:00:16    ConstructRawMessage
+04/08/2019 13:00:16    ConstructRawMessage nextTransactionID 1
+04/08/2019 13:00:16    CreateXMLText
+04/08/2019 13:00:16    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+04/08/2019 13:00:16    RegisterTransaction : transaction 1
+04/08/2019 13:00:16    ConstructRawMessage return message
+04/08/2019 13:00:21    ProcessOutStream
+04/08/2019 13:00:21    this.SECsServer.IsConnected()
+04/08/2019 13:00:21    ConstructRawMessage
+04/08/2019 13:00:21    ConstructRawMessage nextTransactionID 2
+04/08/2019 13:00:21    CreateXMLText
+04/08/2019 13:00:21    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+04/08/2019 13:00:21    RegisterTransaction : transaction 2
+04/08/2019 13:00:21    ConstructRawMessage return message
+04/08/2019 13:02:52    Connect
+04/08/2019 13:02:52    OnConnected
+04/08/2019 13:02:52    OnSECsCommNotification
+04/08/2019 13:02:52    ProcessOutStream
+04/08/2019 13:02:52    this.SECsServer.IsConnected()
+04/08/2019 13:02:52    ConstructRawMessage
+04/08/2019 13:02:52    ConstructRawMessage nextTransactionID 1
+04/08/2019 13:02:52    CreateXMLText
+04/08/2019 13:02:52    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+04/08/2019 13:02:52    RegisterTransaction : transaction 1
+04/08/2019 13:02:52    ConstructRawMessage return message
+04/08/2019 13:03:05    ProcessOutStream
+04/08/2019 13:03:05    this.SECsServer.IsConnected()
+04/08/2019 13:03:05    ConstructRawMessage
+04/08/2019 13:03:05    ConstructRawMessage nextTransactionID 2
+04/08/2019 13:03:05    CreateXMLText
+04/08/2019 13:03:05    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">SJB223</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">40</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Name>SJBFixture</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+04/08/2019 13:03:05    RegisterTransaction : transaction 2
+04/08/2019 13:03:05    ConstructRawMessage return message
+04/08/2019 13:03:56    ProcessInStream
+04/08/2019 13:03:56    OnSECsSecondaryNotification
+04/08/2019 13:04:15    UnRegisterTransaction 2
+04/08/2019 13:04:29    ProcessInStream
+04/08/2019 13:04:29    OnSECsSecondaryNotification
+04/08/2019 13:04:42    UnRegisterTransaction 2

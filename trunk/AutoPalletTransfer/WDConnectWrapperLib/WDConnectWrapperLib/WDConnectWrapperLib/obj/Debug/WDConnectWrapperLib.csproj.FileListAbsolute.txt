@@ -1,0 +1,9 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\WDConnectWrapperLib.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\WDConnectWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\WDBMetrologyCommonType.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\WDBMetrologyControls.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\WDConnect.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Debug\ConfigHelper.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\obj\Debug\WDConnectWrapperLib.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\obj\Debug\WDConnectWrapperLib.pdb

@@ -1,0 +1,13 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\CruncherAgent.exe.config
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\CruncherAgent.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\CruncherAgent.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\AQCruncher.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\bin\Debug\AQCruncher.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.csprojResolveAssemblyReference.cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.ConfirmExitForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.CruncherAgentForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.Properties.Resources.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\CruncherAgent\obj\x86\Debug\CruncherAgent.pdb

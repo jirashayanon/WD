@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="yes"?>
+<LotNumbersByLinePartNo>
+  <xs:schema id="LotNumbersByLinePartNo" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="LotNumbersByLinePartNo" msdata:IsDataSet="true" msdata:MainDataTable="Table1" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LOT_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="QTY" type="xs:int" minOccurs="0" />
+                <xs:element name="SF_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="HGA_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="STR_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="LINE_NO" type="xs:string" minOccurs="0" />
+                <xs:element name="PROGRAM" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSPENSION" type="xs:string" minOccurs="0" />
+                <xs:element name="SUSP_PART_NUMBER" type="xs:string" minOccurs="0" />
+                <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+                <xs:element name="UPDATED_TIMESTAMP" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <LOT_NUMBER>WRXGC_A</LOT_NUMBER>
+    <QTY>1375</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A25634SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-03-10T23:33:17.357+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y5TFE_DD/PS0</LOT_NUMBER>
+    <QTY>3</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26003SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-04-26T16:14:34.383+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y5TF7_B/PS0</LOT_NUMBER>
+    <QTY>8</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26003SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-04-26T16:14:34.213+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y5TLC_E/PS0</LOT_NUMBER>
+    <QTY>7</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26003SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-04-26T16:14:34.3+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y5TF7_BD/PS0</LOT_NUMBER>
+    <QTY>4</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26003SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-04-26T16:14:34.133+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+  <Table1>
+    <LOT_NUMBER>Y5TLC_ED/PS0</LOT_NUMBER>
+    <QTY>6</QTY>
+    <SF_PART_NUMBER>35626-05-SA3</SF_PART_NUMBER>
+    <HGA_PART_NUMBER>70996-15-SA3</HGA_PART_NUMBER>
+    <STR_NO>A26003SN</STR_NO>
+    <LINE_NO>B403</LINE_NO>
+    <PROGRAM>SPYGLASS_8_SD</PROGRAM>
+    <SUSPENSION>HTO-2BM</SUSPENSION>
+    <SUSP_PART_NUMBER>04360-E4</SUSP_PART_NUMBER>
+    <TYPE>A</TYPE>
+    <UPDATED_TIMESTAMP>2017-04-26T16:14:34.043+07:00</UPDATED_TIMESTAMP>
+  </Table1>
+</LotNumbersByLinePartNo>

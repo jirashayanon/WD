@@ -1,0 +1,17 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\TestWrapperLib.exe.config
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\TestWrapperLib.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\TestWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\WDConnect.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\WDConnectWrapperLib.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\WDBMetrologyCommonType.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\WDBMetrologyControls.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\ConfigHelper.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\bin\Debug\WDConnectWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.csprojResolveAssemblyReference.cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.TestWrapperLib.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.Properties.Resources.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\TestWrapperLib\TestWrapperLib\obj\x86\Debug\TestWrapperLib.FormShowXML.resources

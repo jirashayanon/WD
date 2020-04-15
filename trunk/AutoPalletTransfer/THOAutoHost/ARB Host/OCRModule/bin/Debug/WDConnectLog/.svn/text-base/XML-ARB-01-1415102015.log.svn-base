@@ -1,0 +1,42 @@
+OUT--> 10/15/2015 14:55:44    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 10/15/2015 14:56:37    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>2</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string" />
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+10/15/2015 14:56:47    Transaction: 2 Timeout [T3]

@@ -1,0 +1,12 @@
+07/02/2019 07:00:21    LinkTestTimer_Elapsed() False
+07/02/2019 07:00:21    LinkTest Code : 70021
+07/02/2019 07:00:21    this._socketWorker.Send(buffer); [0000000022]LinkTest:Request:70021
+07/02/2019 07:00:21    _linkTestManager.Register(code)70021
+07/02/2019 07:00:21    OnDataReceived
+07/02/2019 07:00:21    OnDataReceived 34
+07/02/2019 07:00:21    OnDataArrival
+07/02/2019 07:00:21    ProcessControlMessage LinkTest:Respond:70021
+07/02/2019 07:00:21    _linkTestManager.IsTransactionExist(code) True
+07/02/2019 07:00:21    linktest_shouldStop = false;
+07/02/2019 07:00:21    0 
+07/02/2019 07:00:21    WaitForData

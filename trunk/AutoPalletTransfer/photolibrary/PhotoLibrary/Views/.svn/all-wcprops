@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views
+END
+ConfirmMultipleGood.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/ConfirmMultipleGood.xaml
+END
+ConfirmMultipleGood.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/ConfirmMultipleGood.xaml.cs
+END
+StartView.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/StartView.xaml
+END
+UpdateSerialNumber.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/UpdateSerialNumber.xaml
+END
+StartView.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/StartView.xaml.cs
+END
+DefectChooseOne.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/DefectChooseOne.xaml
+END
+StartOQA.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/371/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/StartOQA.xaml
+END
+UpdateSerialNumber.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/UpdateSerialNumber.xaml.cs
+END
+DefectChooseOne.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/DefectChooseOne.xaml.cs
+END
+StartOQA.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/StartOQA.xaml.cs
+END
+AddDefect.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/AddDefect.xaml
+END
+AddDefect.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/AddDefect.xaml.cs
+END
+DefectsView.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/DefectsView.xaml
+END
+About.xaml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/About.xaml
+END
+DefectsView.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/DefectsView.xaml.cs
+END
+About.xaml.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Views/About.xaml.cs
+END

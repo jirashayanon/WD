@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure
+END
+Dump20150908.zip
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/Dump20150908.zip
+END
+HGAInformation.sql
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/HGAInformation.sql
+END
+HGAInspectionData.sql
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/HGAInspectionData.sql
+END
+iavi-prod-2017-09-20.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/iavi-prod-2017-09-20.sql
+END
+GenerateSQL_HGAInformation.py
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/GenerateSQL_HGAInformation.py
+END
+GenerateSQL_HGAInspectionData.py
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/GenerateSQL_HGAInspectionData.py
+END
+TempPalletTrackingDB_2.mdf
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/TempPalletTrackingDB_2.mdf
+END
+TempPalletTrackingDB_2_log.ldf
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/TempPalletTrackingDB_2_log.ldf
+END
+iavi.sql
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/iavi.sql
+END
+testFile.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/testFile.py
+END
+iavi-prod-2017-08-24.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/iavi-prod-2017-08-24.sql
+END
+iavi-prod-2017-08-28.sql
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/iavi-prod-2017-08-28.sql
+END
+photolibrary.sql
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/photolibrary.sql
+END
+Dump20150915.zip
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/DatabaseStructure/Dump20150915.zip
+END

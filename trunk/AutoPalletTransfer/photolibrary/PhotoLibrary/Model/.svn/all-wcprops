@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model
+END
+IDataService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/IDataService.cs
+END
+ISampling.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/ISampling.cs
+END
+DefectDataOnImage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/DefectDataOnImage.cs
+END
+Images.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/Images.cs
+END
+DefectCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/DefectCollection.cs
+END
+DefectsArea.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/DefectsArea.cs
+END
+DataItem.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/DataItem.cs
+END
+ImageWithDefect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/ImageWithDefect.cs
+END
+DataService.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/DataService.cs
+END
+Defect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/Defect.cs
+END
+Sampling.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Model/Sampling.cs
+END

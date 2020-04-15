@@ -1,0 +1,10 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\WDConnectWrapperLib.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\WDConnectWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\WDBMetrologyCommonType.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\WDBMetrologyControls.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\WDConnect.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\bin\Release\ConfigHelper.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\obj\Release\WDConnectWrapperLib.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\obj\Release\WDConnectWrapperLib.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\WDConnectWrapperLib\WDConnectWrapperLib\WDConnectWrapperLib\obj\Release\WDConnectWrapperLib.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+08/14/2019 09:53:27    HSMSServer
+08/14/2019 09:53:27    Initialize
+08/14/2019 09:53:27    OpenListenPort
+08/14/2019 09:53:27    LinkTestTimer_Elapsed() True
+08/14/2019 09:53:27    ListenConnection
+08/14/2019 09:53:27    OpenConnection
+08/14/2019 09:53:27    OnRemoteConnect Passive
+08/14/2019 09:53:27    _socketWorker.Connected True
+08/14/2019 09:53:27    this._socketWorker.EndConnect(asyn);
+08/14/2019 09:53:27    SendSECSData

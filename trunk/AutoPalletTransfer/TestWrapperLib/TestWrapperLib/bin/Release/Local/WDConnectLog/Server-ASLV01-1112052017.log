@@ -1,0 +1,179 @@
+05/12/2017 11:34:50    HSMSServer
+05/12/2017 11:34:50    Initialize
+05/12/2017 11:34:50    LinkTestTimer_Elapsed() True
+05/12/2017 11:34:50    OpenConnection
+05/12/2017 11:34:50    OnRemoteConnect Active
+05/12/2017 11:34:50    _socketWorker.Connected True
+05/12/2017 11:34:50    this._socketWorker.EndConnect(asyn);
+05/12/2017 11:34:50    SendSECSData
+05/12/2017 11:34:50    ActivateLinkTest True
+05/12/2017 11:34:50    linktest_shouldStop = false;
+05/12/2017 11:34:50    ActivateT5 : IsEnabled False
+05/12/2017 11:34:50    WaitForData
+05/12/2017 11:35:24    HSMSServer
+05/12/2017 11:35:24    Initialize
+05/12/2017 11:35:24    LinkTestTimer_Elapsed() True
+05/12/2017 11:35:24    OpenConnection
+05/12/2017 11:35:24    OnRemoteConnect Active
+05/12/2017 11:35:24    _socketWorker.Connected True
+05/12/2017 11:35:24    this._socketWorker.EndConnect(asyn);
+05/12/2017 11:35:24    SendSECSData
+05/12/2017 11:35:25    ActivateLinkTest True
+05/12/2017 11:35:25    linktest_shouldStop = false;
+05/12/2017 11:35:25    ActivateT5 : IsEnabled False
+05/12/2017 11:35:25    WaitForData
+05/12/2017 11:35:40    OnDataReceived
+05/12/2017 11:35:40    OnDataReceived 497
+05/12/2017 11:35:40    OnDataArrival
+05/12/2017 11:35:40    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:35:40    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:35:40    ProcessSECsMessage -->
+05/12/2017 11:35:40    SendSECSData
+05/12/2017 11:35:40    ProcessSECsMessage <--
+05/12/2017 11:35:40    0 
+05/12/2017 11:35:40    WaitForData
+05/12/2017 11:35:43    OnDataReceived
+05/12/2017 11:35:43    OnDataReceived 497
+05/12/2017 11:35:43    OnDataArrival
+05/12/2017 11:35:43    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:35:43    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:35:43    ProcessSECsMessage -->
+05/12/2017 11:35:43    SendSECSData
+05/12/2017 11:35:43    ProcessSECsMessage <--
+05/12/2017 11:35:43    0 
+05/12/2017 11:35:43    WaitForData
+05/12/2017 11:36:01    OnDataReceived
+05/12/2017 11:36:01    OnDataReceived 497
+05/12/2017 11:36:01    OnDataArrival
+05/12/2017 11:36:01    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:01    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:01    ProcessSECsMessage -->
+05/12/2017 11:36:01    SendSECSData
+05/12/2017 11:36:01    ProcessSECsMessage <--
+05/12/2017 11:36:01    0 
+05/12/2017 11:36:01    WaitForData
+05/12/2017 11:36:02    OnDataReceived
+05/12/2017 11:36:02    OnDataReceived 497
+05/12/2017 11:36:02    OnDataArrival
+05/12/2017 11:36:02    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:02    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:02    ProcessSECsMessage -->
+05/12/2017 11:36:02    SendSECSData
+05/12/2017 11:36:02    ProcessSECsMessage <--
+05/12/2017 11:36:02    0 
+05/12/2017 11:36:02    WaitForData
+05/12/2017 11:36:02    OnDataReceived
+05/12/2017 11:36:02    OnDataReceived 497
+05/12/2017 11:36:02    OnDataArrival
+05/12/2017 11:36:02    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:02    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:02    ProcessSECsMessage -->
+05/12/2017 11:36:02    SendSECSData
+05/12/2017 11:36:02    ProcessSECsMessage <--
+05/12/2017 11:36:02    0 
+05/12/2017 11:36:02    WaitForData
+05/12/2017 11:36:12    OnDataReceived
+05/12/2017 11:36:12    OnDataReceived 497
+05/12/2017 11:36:12    OnDataArrival
+05/12/2017 11:36:12    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:12    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:12    ProcessSECsMessage -->
+05/12/2017 11:36:12    SendSECSData
+05/12/2017 11:36:12    ProcessSECsMessage <--
+05/12/2017 11:36:12    0 
+05/12/2017 11:36:12    WaitForData
+05/12/2017 11:36:14    OnDataReceived
+05/12/2017 11:36:14    OnDataReceived 503
+05/12/2017 11:36:14    OnDataArrival
+05/12/2017 11:36:14    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:14    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:14    ProcessSECsMessage -->
+05/12/2017 11:36:14    SendSECSData
+05/12/2017 11:36:14    ProcessSECsMessage <--
+05/12/2017 11:36:14    0 
+05/12/2017 11:36:14    WaitForData
+05/12/2017 11:36:14    OnDataReceived
+05/12/2017 11:36:14    OnDataReceived 503
+05/12/2017 11:36:14    OnDataArrival
+05/12/2017 11:36:14    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:14    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:14    ProcessSECsMessage -->
+05/12/2017 11:36:14    SendSECSData
+05/12/2017 11:36:14    ProcessSECsMessage <--
+05/12/2017 11:36:14    0 
+05/12/2017 11:36:14    WaitForData
+05/12/2017 11:36:15    OnDataReceived
+05/12/2017 11:36:15    OnDataReceived 503
+05/12/2017 11:36:15    OnDataArrival
+05/12/2017 11:36:15    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:15    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:15    ProcessSECsMessage -->
+05/12/2017 11:36:15    SendSECSData
+05/12/2017 11:36:15    ProcessSECsMessage <--
+05/12/2017 11:36:15    0 
+05/12/2017 11:36:15    WaitForData
+05/12/2017 11:36:15    OnDataReceived
+05/12/2017 11:36:15    OnDataReceived 504
+05/12/2017 11:36:15    OnDataArrival
+05/12/2017 11:36:15    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:15    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:15    ProcessSECsMessage -->
+05/12/2017 11:36:15    SendSECSData
+05/12/2017 11:36:15    ProcessSECsMessage <--
+05/12/2017 11:36:15    0 
+05/12/2017 11:36:15    WaitForData
+05/12/2017 11:36:16    OnDataReceived
+05/12/2017 11:36:16    OnDataReceived 504
+05/12/2017 11:36:16    OnDataArrival
+05/12/2017 11:36:16    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:16    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:16    ProcessSECsMessage -->
+05/12/2017 11:36:16    SendSECSData
+05/12/2017 11:36:16    ProcessSECsMessage <--
+05/12/2017 11:36:16    0 
+05/12/2017 11:36:16    WaitForData
+05/12/2017 11:36:16    OnDataReceived
+05/12/2017 11:36:16    OnDataReceived 504
+05/12/2017 11:36:16    OnDataArrival
+05/12/2017 11:36:16    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:16    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:16    ProcessSECsMessage -->
+05/12/2017 11:36:16    SendSECSData
+05/12/2017 11:36:16    ProcessSECsMessage <--
+05/12/2017 11:36:16    0 
+05/12/2017 11:36:16    WaitForData
+05/12/2017 11:36:17    OnDataReceived
+05/12/2017 11:36:17    OnDataReceived 504
+05/12/2017 11:36:17    OnDataArrival
+05/12/2017 11:36:17    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    ProcessSECsMessage -->
+05/12/2017 11:36:17    SendSECSData
+05/12/2017 11:36:17    ProcessSECsMessage <--
+05/12/2017 11:36:17    0 
+05/12/2017 11:36:17    WaitForData
+05/12/2017 11:36:17    OnDataReceived
+05/12/2017 11:36:17    OnDataReceived 504
+05/12/2017 11:36:17    OnDataArrival
+05/12/2017 11:36:17    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    ProcessSECsMessage -->
+05/12/2017 11:36:17    SendSECSData
+05/12/2017 11:36:17    ProcessSECsMessage <--
+05/12/2017 11:36:17    0 
+05/12/2017 11:36:17    WaitForData
+05/12/2017 11:36:17    OnDataReceived
+05/12/2017 11:36:17    OnDataReceived 504
+05/12/2017 11:36:17    OnDataArrival
+05/12/2017 11:36:17    ResolveHeaderBuffer string [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    [0000000492]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>RequestControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/12/2017 11:36:17    ProcessSECsMessage -->
+05/12/2017 11:36:17    SendSECSData
+05/12/2017 11:36:17    ProcessSECsMessage <--
+05/12/2017 11:36:17    0 
+05/12/2017 11:36:17    WaitForData
+05/12/2017 11:36:41    TriggerTransactionTimer : transactionID -->2
+05/12/2017 11:36:41    TriggerTransactionTimer : transactionID <--2
+05/12/2017 11:36:41    SendSECSData
+05/12/2017 11:37:09    OnDataReceived
+05/12/2017 11:37:09    OnDataReceived 0

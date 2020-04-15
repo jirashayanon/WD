@@ -1,0 +1,173 @@
+[2017-02-16 12:43:52,139] - MainWindow_Load
+[2017-02-16 12:43:52,157] - SubScribeAllTool
+[2017-02-16 12:43:52,163] - BindToolDetailToGrid
+[2017-02-16 12:43:54,121] - host.SendMessage: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+[2017-02-16 12:44:05,839] - host.SendMessage: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+[2017-02-16 12:44:13,626] - MainWindow_FormClosing
+[2017-02-16 12:44:19,216] - MainWindow_Load
+[2017-02-16 12:44:19,232] - SubScribeAllTool
+[2017-02-16 12:44:19,235] - BindToolDetailToGrid
+[2017-02-16 12:44:21,405] - MainWindow_FormClosing
+[2017-02-16 12:44:55,747] - MainWindow_Load
+[2017-02-16 12:44:55,763] - SubScribeAllTool
+[2017-02-16 12:44:55,766] - BindToolDetailToGrid
+[2017-02-16 12:45:00,779] - hostController_SECsPrimaryIn: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>0</Id>
+  <Name>Connected</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Connected</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+[2017-02-16 12:45:00,790] - GetHost
+[2017-02-16 12:45:01,415] - hostController_SECsPrimaryIn: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+[2017-02-16 12:45:06,423] - host.SendMessage: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+[2017-02-16 12:45:06,502] - hostController_SECsSecondaryIn: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThereAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>AreYouThereAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">1.0.0.1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>
+[2017-02-16 12:45:06,506] - GetHost
+[2017-02-16 12:45:12,425] - hostController_SECsPrimaryIn: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>0</Id>
+  <Name>Disconnected</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Disconnected</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+[2017-02-16 12:45:12,429] - GetHost
+[2017-02-16 12:45:13,794] - MainWindow_FormClosing
+[2017-02-16 12:45:17,439] - MainWindow_Load
+[2017-02-16 12:45:17,455] - SubScribeAllTool
+[2017-02-16 12:45:17,458] - BindToolDetailToGrid
+[2017-02-16 12:45:18,377] - host.SendMessage: <SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>1</Id>
+  <Name>AreYouThere</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>AreYouThere</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>SoftwareRevision</Name>
+          <Value
+            xsi:type="xsd:string">x.x.x</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+</SCITransaction>
+[2017-02-16 12:47:47,238] - MainWindow_FormClosing

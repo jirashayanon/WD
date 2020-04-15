@@ -1,0 +1,22 @@
+05/03/2018 14:35:36    Connect
+05/03/2018 14:35:36    OnConnected
+05/03/2018 14:35:36    OnSECsCommNotification
+05/03/2018 14:35:36    ProcessOutStream
+05/03/2018 14:35:36    this.SECsServer.IsConnected()
+05/03/2018 14:35:36    ConstructRawMessage
+05/03/2018 14:35:36    ConstructRawMessage nextTransactionID 1
+05/03/2018 14:35:36    CreateXMLText
+05/03/2018 14:35:36    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+05/03/2018 14:35:36    RegisterTransaction : transaction 1
+05/03/2018 14:35:36    ConstructRawMessage return message
+05/03/2018 14:35:41    ProcessOutStream
+05/03/2018 14:35:41    this.SECsServer.IsConnected()
+05/03/2018 14:35:41    ConstructRawMessage
+05/03/2018 14:35:41    ConstructRawMessage nextTransactionID 2
+05/03/2018 14:35:41    CreateXMLText
+05/03/2018 14:35:41    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PTXXXX</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">NA</Value></SCIItem></Items></Item></Primary></SCITransaction>
+05/03/2018 14:35:41    RegisterTransaction : transaction 2
+05/03/2018 14:35:41    ConstructRawMessage return message
+05/03/2018 14:35:41    ProcessInStream
+05/03/2018 14:35:41    OnSECsSecondaryNotification
+05/03/2018 14:35:42    UnRegisterTransaction 2

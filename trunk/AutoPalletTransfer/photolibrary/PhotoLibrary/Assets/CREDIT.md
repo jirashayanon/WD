@@ -1,0 +1,2 @@
+Icon:
+["Must Have 59 raster icons"](https://www.iconfinder.com/iconsets/musthave) by [Visual Pharm](https://icons8.com/), is licensed under [Creative Commons Attribution-No Derivative Works 3.0 Unported](http://creativecommons.org/licenses/by-nd/3.0/)

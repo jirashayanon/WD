@@ -1,0 +1,43 @@
+07/05/2019 17:12:33    ProcessOutStream
+07/05/2019 17:12:33    this.SECsServer.IsConnected()
+07/05/2019 17:12:33    ConstructRawMessage
+07/05/2019 17:12:33    ConstructRawMessage nextTransactionID 3
+07/05/2019 17:12:33    CreateXMLText
+07/05/2019 17:12:33    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary></SCITransaction>
+07/05/2019 17:12:33    RegisterTransaction : transaction 3
+07/05/2019 17:12:33    Object reference not set to an instance of an object.
+07/05/2019 17:12:33    ConstructRawMessage return message
+07/05/2019 17:12:34    ProcessInStream
+07/05/2019 17:12:34    OnSECsSecondaryNotification
+07/05/2019 17:12:34    UnRegisterTransaction 3
+07/05/2019 17:13:00    ProcessOutStream
+07/05/2019 17:13:00    this.SECsServer.IsConnected()
+07/05/2019 17:13:00    ConstructRawMessage
+07/05/2019 17:13:00    ConstructRawMessage nextTransactionID 4
+07/05/2019 17:13:00    CreateXMLText
+07/05/2019 17:13:00    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary></SCITransaction>
+07/05/2019 17:13:00    RegisterTransaction : transaction 4
+07/05/2019 17:13:00    Object reference not set to an instance of an object.
+07/05/2019 17:13:00    ConstructRawMessage return message
+07/05/2019 17:13:10    ProcessInStream
+07/05/2019 17:13:10    OnSECsSecondaryNotification
+07/05/2019 17:13:10    UnRegisterTransaction 4
+07/05/2019 17:27:58    ProcessInStream
+07/05/2019 17:27:58    ProcessOutStream
+07/05/2019 17:27:58    this.SECsServer.IsConnected()
+07/05/2019 17:27:58    ConstructRawMessage
+07/05/2019 17:27:58    ConstructRawMessage nextTransactionID 5
+07/05/2019 17:27:58    CreateXMLText
+07/05/2019 17:27:58    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>5</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/05/2019 17:27:58    RegisterTransaction : transaction 5
+07/05/2019 17:27:58    Object reference not set to an instance of an object.
+07/05/2019 17:27:58    ConstructRawMessage return message
+07/05/2019 17:48:53    ProcessOutStream
+07/05/2019 17:48:53    this.SECsServer.IsConnected()
+07/05/2019 17:48:53    ConstructRawMessage
+07/05/2019 17:48:53    ConstructRawMessage nextTransactionID 6
+07/05/2019 17:48:53    CreateXMLText
+07/05/2019 17:48:53    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>6</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/05/2019 17:48:53    RegisterTransaction : transaction 6
+07/05/2019 17:48:53    Object reference not set to an instance of an object.
+07/05/2019 17:48:53    ConstructRawMessage return message

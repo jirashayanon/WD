@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<License xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Number>128</Number>
+  <DateIssued>7/18/2017 11:30:24 AM</DateIssued>
+  <ComputerName>WDBNC0231</ComputerName>
+  <SecurityCode>iYQbw62XYUz9UX8AWp7BHPvVwliVQvrH</SecurityCode>
+  <LicensesDetail>
+    <LicenseDetail>
+      <ProductID>WD01</ProductID>
+      <LicenseCode>ZYMpKJVYrSTSsW8IYkvGL0glvarbCKKYxN1cRICJEn4=</LicenseCode>
+    </LicenseDetail>
+  </LicensesDetail>
+  <Products>
+    <Product>
+      <ProductID>WD01</ProductID>
+      <ProductName>WDConnect</ProductName>
+    </Product>
+  </Products>
+</License>

@@ -1,0 +1,14 @@
+08/14/2019 09:53:27    Only one usage of each socket address (protocol/network address/port) is normally permitted
+08/14/2019 09:53:27    OnSECsErrorNotification
+08/14/2019 09:53:27    Connect
+08/14/2019 09:53:27    OnConnected
+08/14/2019 09:53:27    OnSECsCommNotification
+08/14/2019 09:53:27    ProcessOutStream
+08/14/2019 09:53:27    this.SECsServer.IsConnected()
+08/14/2019 09:53:27    ConstructRawMessage
+08/14/2019 09:53:27    ConstructRawMessage nextTransactionID 1
+08/14/2019 09:53:27    CreateXMLText
+08/14/2019 09:53:27    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 09:53:27    RegisterTransaction : transaction 1
+08/14/2019 09:53:27    Object reference not set to an instance of an object.
+08/14/2019 09:53:27    ConstructRawMessage return message

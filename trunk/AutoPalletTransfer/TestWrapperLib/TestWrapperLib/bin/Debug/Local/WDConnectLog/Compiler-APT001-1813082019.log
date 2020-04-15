@@ -1,0 +1,11 @@
+08/13/2019 18:55:18    Connect
+08/13/2019 18:55:18    OnConnected
+08/13/2019 18:55:18    OnSECsCommNotification
+08/13/2019 18:55:18    ProcessOutStream
+08/13/2019 18:55:18    this.SECsServer.IsConnected()
+08/13/2019 18:55:18    ConstructRawMessage
+08/13/2019 18:55:18    ConstructRawMessage nextTransactionID 1
+08/13/2019 18:55:18    CreateXMLText
+08/13/2019 18:55:18    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/13/2019 18:55:18    RegisterTransaction : transaction 1
+08/13/2019 18:55:18    ConstructRawMessage return message

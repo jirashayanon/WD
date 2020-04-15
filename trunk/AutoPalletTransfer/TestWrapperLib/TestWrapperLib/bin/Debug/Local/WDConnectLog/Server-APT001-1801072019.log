@@ -1,0 +1,31 @@
+07/01/2019 18:03:34    OnDataReceived
+07/01/2019 18:03:34    OnDataReceived 343
+07/01/2019 18:03:34    OnDataArrival
+07/01/2019 18:03:34    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/01/2019 18:03:34    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/01/2019 18:03:34    ProcessSECsMessage -->
+07/01/2019 18:03:34    SendSECSData
+07/01/2019 18:03:34    ProcessSECsMessage <--
+07/01/2019 18:03:34    0 
+07/01/2019 18:03:34    WaitForData
+07/01/2019 18:06:59    SendSECSData
+07/01/2019 18:26:55    OnDataReceived
+07/01/2019 18:26:55    OnDataReceived 35
+07/01/2019 18:26:55    OnDataArrival
+07/01/2019 18:26:55    ProcessControlMessage LinkTest:Request:182655
+07/01/2019 18:26:55    SendControlRspData 182655
+07/01/2019 18:26:55    respwithheader [0000000023]LinkTest:Respond:182655
+07/01/2019 18:26:55    0 
+07/01/2019 18:26:55    WaitForData
+07/01/2019 18:30:19    LinkTestTimer_Elapsed() False
+07/01/2019 18:30:19    LinkTest Code : 183019
+07/01/2019 18:30:19    this._socketWorker.Send(buffer); [0000000023]LinkTest:Request:183019
+07/01/2019 18:30:19    _linkTestManager.Register(code)183019
+07/01/2019 18:30:19    OnDataReceived
+07/01/2019 18:30:19    OnDataReceived 35
+07/01/2019 18:30:19    OnDataArrival
+07/01/2019 18:30:19    ProcessControlMessage LinkTest:Respond:183019
+07/01/2019 18:30:19    _linkTestManager.IsTransactionExist(code) True
+07/01/2019 18:30:19    linktest_shouldStop = false;
+07/01/2019 18:30:19    0 
+07/01/2019 18:30:19    WaitForData

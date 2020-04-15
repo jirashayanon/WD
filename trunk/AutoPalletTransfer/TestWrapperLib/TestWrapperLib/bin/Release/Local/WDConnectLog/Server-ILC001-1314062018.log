@@ -1,0 +1,47 @@
+06/14/2018 13:12:19    LinkTestTimer_Elapsed() False
+06/14/2018 13:12:19    OnDataReceived
+06/14/2018 13:12:19    TimeOut transactionId 4 timerId T3
+06/14/2018 13:12:21    TimeOut : transactionId 4 timerId : T3
+06/14/2018 13:12:21    OnDataReceived 343
+06/14/2018 13:12:21    LinkTest Code : 131221
+06/14/2018 13:12:21    OnDataArrival
+06/14/2018 13:12:31    TimeOut transactionId 3 timerId T3
+06/14/2018 13:12:31    TimeOut : transactionId 3 timerId : T3
+06/14/2018 13:12:31    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/14/2018 13:12:36    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/14/2018 13:12:31    CloseConnection
+06/14/2018 13:12:36    ProcessSECsMessage -->
+06/14/2018 13:12:31    LinkTestTimer_Elapsed : An existing connection was forcibly closed by the remote host
+06/14/2018 13:12:53    CloseSession
+06/14/2018 13:12:53    CloseConnection
+06/14/2018 13:12:56    ProcessSECsMessage <--
+06/14/2018 13:12:56    0 
+06/14/2018 13:13:01    WaitForData
+06/14/2018 13:13:01    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+06/14/2018 13:14:15    HSMSServer
+06/14/2018 13:14:15    Initialize
+06/14/2018 13:14:15    LinkTestTimer_Elapsed() True
+06/14/2018 13:14:15    OpenConnection
+06/14/2018 13:14:15    OnRemoteConnect Active
+06/14/2018 13:14:15    _socketWorker.Connected True
+06/14/2018 13:14:15    this._socketWorker.EndConnect(asyn);
+06/14/2018 13:14:15    SendSECSData
+06/14/2018 13:14:15    ActivateLinkTest True
+06/14/2018 13:14:15    linktest_shouldStop = false;
+06/14/2018 13:14:15    ActivateT5 : IsEnabled False
+06/14/2018 13:14:15    WaitForData
+06/14/2018 13:14:18    TriggerTransactionTimer : transactionID -->2
+06/14/2018 13:14:18    TriggerTransactionTimer : transactionID <--2
+06/14/2018 13:14:18    SendSECSData
+06/14/2018 13:19:18    TimeOut transactionId 2 timerId T3
+06/14/2018 13:19:18    TimeOut : transactionId 2 timerId : T3
+06/14/2018 13:32:23    OnDataReceived
+06/14/2018 13:32:23    OnDataReceived 738
+06/14/2018 13:32:23    OnDataArrival
+06/14/2018 13:32:23    ResolveHeaderBuffer string [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+06/14/2018 13:32:23    [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+06/14/2018 13:32:23    ProcessSECsMessage -->
+06/14/2018 13:32:26    ProcessSECsMessage <--
+06/14/2018 13:32:26    0 
+06/14/2018 13:32:26    WaitForData

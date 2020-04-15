@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>PT0015</PalletID>
+  <TesterNumber>iAVI</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>PALMER_8_SD</Product>
+  <User>199387</User>
+  <LotNumber>WWMK_BB2</LotNumber>
+  <DocControl1>70634-E4-B</DocControl1>
+  <DocControl2>N26110NE-R00</DocControl2>
+  <Sus>HTOM2MR</Sus>
+  <AssyLine>B4A2</AssyLine>
+  <HGAN1>WWMK6964</HGAN1>
+  <HGAN2>WWMK597D</HGAN2>
+  <HGAN3>WWMK597V</HGAN3>
+  <HGAN4>WWMK698G</HGAN4>
+  <HGAN5>WWMK698Y</HGAN5>
+  <HGAN6>WWMK699D</HGAN6>
+  <HGAN7>WWMK699V</HGAN7>
+  <HGAN8>WWMK699Y</HGAN8>
+  <HGAN9>WWMK6A0G</HGAN9>
+  <HGAN10>WWMK5A0G</HGAN10>
+  <DefectN1>A1</DefectN1>
+  <DefectN2>A1</DefectN2>
+  <DefectN3>A1</DefectN3>
+  <DefectN4>A1</DefectN4>
+  <DefectN5>A1</DefectN5>
+  <DefectN6>A1</DefectN6>
+  <DefectN7>A1</DefectN7>
+  <DefectN8>A1</DefectN8>
+  <DefectN9>A1</DefectN9>
+  <DefectN10>J4B,A1</DefectN10>
+</PalletObj>

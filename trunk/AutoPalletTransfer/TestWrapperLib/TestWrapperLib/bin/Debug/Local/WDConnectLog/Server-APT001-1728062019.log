@@ -1,0 +1,19 @@
+06/28/2019 17:21:47    OnDataReceived
+06/28/2019 17:21:47    OnDataReceived 343
+06/28/2019 17:21:47    OnDataArrival
+06/28/2019 17:21:47    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/28/2019 17:21:47    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/28/2019 17:21:47    ProcessSECsMessage -->
+06/28/2019 17:21:47    SendSECSData
+06/28/2019 17:21:47    ProcessSECsMessage <--
+06/28/2019 17:21:47    0 
+06/28/2019 17:21:47    WaitForData
+06/28/2019 17:45:07    OnDataReceived
+06/28/2019 17:45:07    OnDataReceived 35
+06/28/2019 17:45:07    OnDataArrival
+06/28/2019 17:45:07    ProcessControlMessage LinkTest:Request:174507
+06/28/2019 17:45:07    SendControlRspData 174507
+06/28/2019 17:45:07    respwithheader [0000000023]LinkTest:Respond:174507
+06/28/2019 17:45:07    0 
+06/28/2019 17:45:07    WaitForData
+06/28/2019 17:57:14    SendSECSData

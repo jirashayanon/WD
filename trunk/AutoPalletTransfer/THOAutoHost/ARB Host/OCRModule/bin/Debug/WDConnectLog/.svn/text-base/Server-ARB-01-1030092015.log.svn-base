@@ -1,0 +1,35 @@
+09/30/2015 10:35:00    HSMSServer
+09/30/2015 10:35:00    Initialize
+09/30/2015 10:35:00    OpenConnection
+09/30/2015 10:35:00    OnRemoteConnect Active
+09/30/2015 10:35:00    _socketWorker.Connected True
+09/30/2015 10:35:00    this._socketWorker.EndConnect(asyn);
+09/30/2015 10:35:00    SendSECSData
+09/30/2015 10:35:00    ActivateT5 : IsEnabled False
+09/30/2015 10:35:00    WaitForData
+09/30/2015 10:35:16    TriggerTransactionTimer : transactionID 2
+09/30/2015 10:35:16    SendSECSData
+09/30/2015 10:35:26    TimeOut : transactionId 2 timerId : T3
+09/30/2015 10:35:55    OnDataReceived
+09/30/2015 10:35:55    OnDataReceived 0
+09/30/2015 10:39:21    TriggerTransactionTimer : transactionID 3
+09/30/2015 10:39:21    SendSECSData
+09/30/2015 10:39:31    TimeOut : transactionId 3 timerId : T3
+09/30/2015 10:44:08    HSMSServer
+09/30/2015 10:44:08    Initialize
+09/30/2015 10:44:08    OpenConnection
+09/30/2015 10:44:08    OnRemoteConnect Active
+09/30/2015 10:44:08    _socketWorker.Connected True
+09/30/2015 10:44:08    this._socketWorker.EndConnect(asyn);
+09/30/2015 10:44:08    SendSECSData
+09/30/2015 10:44:08    ActivateT5 : IsEnabled False
+09/30/2015 10:44:08    WaitForData
+09/30/2015 10:53:02    HSMSServer
+09/30/2015 10:53:02    Initialize
+09/30/2015 10:53:02    OpenConnection
+09/30/2015 10:53:02    OnRemoteConnect Active
+09/30/2015 10:53:02    _socketWorker.Connected True
+09/30/2015 10:53:02    this._socketWorker.EndConnect(asyn);
+09/30/2015 10:53:02    SendSECSData
+09/30/2015 10:53:02    ActivateT5 : IsEnabled False
+09/30/2015 10:53:02    WaitForData

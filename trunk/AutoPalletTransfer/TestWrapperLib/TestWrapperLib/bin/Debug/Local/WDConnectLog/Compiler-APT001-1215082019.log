@@ -1,0 +1,18 @@
+08/15/2019 12:14:51    ProcessOutStream
+08/15/2019 12:14:51    this.SECsServer.IsConnected()
+08/15/2019 12:14:51    ConstructRawMessage
+08/15/2019 12:14:51    ConstructRawMessage nextTransactionID 2
+08/15/2019 12:14:51    CreateXMLText
+08/15/2019 12:14:51    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/15/2019 12:14:51    RegisterTransaction : transaction 2
+08/15/2019 12:14:51    Object reference not set to an instance of an object.
+08/15/2019 12:14:51    ConstructRawMessage return message
+08/15/2019 12:17:34    ProcessOutStream
+08/15/2019 12:17:34    this.SECsServer.IsConnected()
+08/15/2019 12:17:34    ConstructRawMessage
+08/15/2019 12:17:34    ConstructRawMessage nextTransactionID 3
+08/15/2019 12:17:34    CreateXMLText
+08/15/2019 12:17:34    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/15/2019 12:17:34    RegisterTransaction : transaction 3
+08/15/2019 12:17:34    Object reference not set to an instance of an object.
+08/15/2019 12:17:34    ConstructRawMessage return message

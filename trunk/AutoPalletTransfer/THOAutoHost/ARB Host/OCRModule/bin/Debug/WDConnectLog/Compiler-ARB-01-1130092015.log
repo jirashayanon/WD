@@ -1,0 +1,22 @@
+09/30/2015 11:23:24    OnDisconnected
+09/30/2015 11:23:24    OnSECsCommNotification
+09/30/2015 11:23:45    OnConnected
+09/30/2015 11:23:45    OnSECsCommNotification
+09/30/2015 11:23:45    ProcessOutStream
+09/30/2015 11:23:45    this.SECsServer.IsConnected()
+09/30/2015 11:23:45    ConstructRawMessage
+09/30/2015 11:23:45    ConstructRawMessage nextTransactionID 2
+09/30/2015 11:23:45    CreateXMLText
+09/30/2015 11:23:45    RegisterTransaction : transaction 2
+09/30/2015 11:23:45    ConstructRawMessage return message
+09/30/2015 11:23:48    OnDisconnected
+09/30/2015 11:23:48    OnSECsCommNotification
+09/30/2015 11:24:09    OnConnected
+09/30/2015 11:24:09    OnSECsCommNotification
+09/30/2015 11:24:09    ProcessOutStream
+09/30/2015 11:24:09    this.SECsServer.IsConnected()
+09/30/2015 11:24:09    ConstructRawMessage
+09/30/2015 11:24:09    ConstructRawMessage nextTransactionID 3
+09/30/2015 11:24:09    CreateXMLText
+09/30/2015 11:24:09    RegisterTransaction : transaction 3
+09/30/2015 11:24:09    ConstructRawMessage return message

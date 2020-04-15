@@ -1,0 +1,10 @@
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Release\OCRModule.Form1.resources
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Release\OCRModule.Properties.Resources.resources
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Release\OCRModule.csproj.GenerateResource.Cache
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Release\OCRModule.exe.config
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Release\OCRModule.exe
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Release\OCRModule.pdb
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Release\log4net.dll
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Release\WDConnect.dll
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Release\OCRModule.exe
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Release\OCRModule.pdb

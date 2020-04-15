@@ -1,0 +1,15 @@
+02/12/2018 18:03:42    OnDataReceived
+02/12/2018 18:03:42    OnDataReceived 343
+02/12/2018 18:03:42    OnDataArrival
+02/12/2018 18:03:42    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+02/12/2018 18:03:42    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+02/12/2018 18:03:42    ProcessSECsMessage -->
+02/12/2018 18:03:42    CloseConnection
+02/12/2018 18:03:42    CloseSession
+02/12/2018 18:03:42    ProcessSECsMessage <--
+02/12/2018 18:03:42    0 
+02/12/2018 18:03:42    WaitForData
+02/12/2018 18:03:42    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+02/12/2018 18:04:00    CloseConnection
+02/12/2018 18:27:20    LinkTestTimer_Elapsed() True

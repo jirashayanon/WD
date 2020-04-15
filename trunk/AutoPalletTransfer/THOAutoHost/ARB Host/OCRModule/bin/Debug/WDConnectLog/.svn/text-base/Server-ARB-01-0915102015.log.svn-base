@@ -1,0 +1,20 @@
+10/15/2015 09:05:52    HSMSServer
+10/15/2015 09:05:52    Initialize
+10/15/2015 09:05:52    OpenConnection
+10/15/2015 09:05:53    OnRemoteConnect Active
+10/15/2015 09:05:53    _socketWorker.Connected False
+10/15/2015 09:05:53    ActivateT5 : IsEnabled True
+10/15/2015 09:06:21    HSMSServer
+10/15/2015 09:06:21    Initialize
+10/15/2015 09:06:21    OpenConnection
+10/15/2015 09:06:21    OnRemoteConnect Active
+10/15/2015 09:06:21    _socketWorker.Connected True
+10/15/2015 09:06:21    this._socketWorker.EndConnect(asyn);
+10/15/2015 09:06:21    SendSECSData
+10/15/2015 09:06:24    ActivateT5 : IsEnabled False
+10/15/2015 09:06:24    WaitForData
+10/15/2015 09:06:32    OnDataReceived
+10/15/2015 09:06:32    ** An existing connection was forcibly closed by the remote host
+10/15/2015 09:06:32    ActivateLinkTest False
+10/15/2015 09:06:32     this.LinkTestTimer.Enabled = false;
+10/15/2015 09:06:32    ActivateT5 : IsEnabled True

@@ -1,0 +1,12 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\AQCruncher.exe.config
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\AQCruncher.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\AQCruncher.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\bin\Debug\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.AQTrayFileForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.MainForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.PalletLogFileForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.Properties.Resources.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.TrayLogFileForm.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\AQCruncher\AQCruncher\AQCruncher\obj\x86\Debug\AQCruncher.pdb

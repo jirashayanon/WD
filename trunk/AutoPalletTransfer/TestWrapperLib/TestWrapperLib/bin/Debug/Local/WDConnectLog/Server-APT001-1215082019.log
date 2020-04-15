@@ -1,0 +1,8 @@
+08/15/2019 12:14:51    TriggerTransactionTimer : transactionID -->2
+08/15/2019 12:14:51    TriggerTransactionTimer : transactionID <--2
+08/15/2019 12:14:51    SendSECSData
+08/15/2019 12:17:34    TriggerTransactionTimer : transactionID -->3
+08/15/2019 12:17:34    TriggerTransactionTimer : transactionID <--3
+08/15/2019 12:17:34    SendSECSData
+08/15/2019 12:39:25    OnDataReceived
+08/15/2019 12:39:25    OnDataReceived 0

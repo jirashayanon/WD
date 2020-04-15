@@ -1,0 +1,327 @@
+OUT--> 08/19/2019 12:03:32    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/19/2019 12:04:29    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspension</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--08/19/2019 12:04:29    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspensionAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestSuspensionAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">0</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 08/19/2019 12:04:47    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>3</Id>
+  <Name>RequestSuspension</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 08/19/2019 12:06:47    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>4</Id>
+  <Name>RequestSuspension</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+OUT--> 08/19/2019 12:16:37    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/19/2019 12:16:59    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspension</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--08/19/2019 12:17:21    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspensionAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestSuspensionAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+
+OUT--> 08/19/2019 12:28:17    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 08/19/2019 12:28:21    
+<SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MessageType>Primary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspension</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+</SCITransaction>
+IN <--08/19/2019 12:28:21    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>1</DeviceId>
+  <Id>2</Id>
+  <Name>RequestSuspensionAck</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>RequestSuspension</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>ACAMID</Name>
+          <Value
+            xsi:type="xsd:string">APT001</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Items />
+          <Name>SuspAmt</Name>
+          <Value
+            xsi:type="xsd:int">8</Value>
+        </SCIItem>
+      </Items>
+      <Value
+        xsi:type="xsd:boolean">true</Value>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>RequestSuspensionAck</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>Integer</Format>
+          <Name>COMMACK</Name>
+          <Value
+            xsi:type="xsd:int">1</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+

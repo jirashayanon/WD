@@ -1,0 +1,96 @@
+OUT--> 09/30/2015 10:35:00    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 09/30/2015 10:35:16    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>2</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">aaa</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+09/30/2015 10:35:26    Transaction: 2 Timeout [T3]
+OUT--> 09/30/2015 10:39:21    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>3</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">aaa</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+09/30/2015 10:39:31    Transaction: 3 Timeout [T3]
+OUT--> 09/30/2015 10:44:08    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 09/30/2015 10:53:02    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>1</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>

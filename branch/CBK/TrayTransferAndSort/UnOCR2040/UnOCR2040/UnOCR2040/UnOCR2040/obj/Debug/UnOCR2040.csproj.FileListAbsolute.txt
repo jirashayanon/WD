@@ -1,0 +1,13 @@
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\bin\Debug\UnOCR2040.exe
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\bin\Debug\UnOCR2040.pdb
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\bin\Debug\CBKTransferMessageLib.dll
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\bin\Debug\log4net.dll
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\bin\Debug\Communication.dll
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\ResolveAssemblyReference.cache
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.FormIOs.resources
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.FormLinearSetup.resources
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.FormUnOCR2040.resources
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.Properties.Resources.resources
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.exe
+D:\WDProject\svn\HGA\branch\CBK\TrayTransferAndSort\UnOCR2040\UnOCR2040\UnOCR2040\UnOCR2040\obj\Debug\UnOCR2040.pdb

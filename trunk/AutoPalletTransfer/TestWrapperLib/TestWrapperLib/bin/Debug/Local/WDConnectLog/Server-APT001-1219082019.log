@@ -1,0 +1,93 @@
+08/19/2019 12:03:31    HSMSServer
+08/19/2019 12:03:31    Initialize
+08/19/2019 12:03:32    OpenListenPort
+08/19/2019 12:03:32    LinkTestTimer_Elapsed() True
+08/19/2019 12:03:32    ListenConnection
+08/19/2019 12:03:32    OpenConnection
+08/19/2019 12:03:32    OnRemoteConnect Passive
+08/19/2019 12:03:32    _socketWorker.Connected True
+08/19/2019 12:03:32    this._socketWorker.EndConnect(asyn);
+08/19/2019 12:03:32    SendSECSData
+08/19/2019 12:04:12    ActivateLinkTest True
+08/19/2019 12:04:12    linktest_shouldStop = false;
+08/19/2019 12:04:12    ActivateT5 : IsEnabled False
+08/19/2019 12:04:12    WaitForData
+08/19/2019 12:04:29    TriggerTransactionTimer : transactionID -->2
+08/19/2019 12:04:29    TriggerTransactionTimer : transactionID <--2
+08/19/2019 12:04:29    SendSECSData
+08/19/2019 12:04:29    OnDataReceived
+08/19/2019 12:04:29    OnDataReceived 877
+08/19/2019 12:04:29    OnDataArrival
+08/19/2019 12:04:29    ResolveHeaderBuffer string [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:04:29    [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:04:29    ProcessSECsMessage -->
+08/19/2019 12:04:29    ResolveHeaderBuffer 
+08/19/2019 12:04:29    0 
+08/19/2019 12:04:29    WaitForData
+08/19/2019 12:04:47    TriggerTransactionTimer : transactionID -->3
+08/19/2019 12:04:47    TriggerTransactionTimer : transactionID <--3
+08/19/2019 12:04:47    SendSECSData
+08/19/2019 12:06:47    TriggerTransactionTimer : transactionID -->4
+08/19/2019 12:06:47    TriggerTransactionTimer : transactionID <--4
+08/19/2019 12:06:47    SendSECSData
+08/19/2019 12:08:21    OnDataReceived
+08/19/2019 12:08:21    OnDataReceived 0
+08/19/2019 12:16:37    HSMSServer
+08/19/2019 12:16:37    Initialize
+08/19/2019 12:16:37    LinkTestTimer_Elapsed() True
+08/19/2019 12:16:37    OpenListenPort
+08/19/2019 12:16:37    ListenConnection
+08/19/2019 12:16:37    OpenConnection
+08/19/2019 12:16:37    OnRemoteConnect Passive
+08/19/2019 12:16:37    _socketWorker.Connected True
+08/19/2019 12:16:37    this._socketWorker.EndConnect(asyn);
+08/19/2019 12:16:37    SendSECSData
+08/19/2019 12:16:53    ActivateLinkTest True
+08/19/2019 12:16:53    linktest_shouldStop = false;
+08/19/2019 12:16:53    ActivateT5 : IsEnabled False
+08/19/2019 12:16:53    WaitForData
+08/19/2019 12:16:59    TriggerTransactionTimer : transactionID -->2
+08/19/2019 12:16:59    TriggerTransactionTimer : transactionID <--2
+08/19/2019 12:16:59    SendSECSData
+08/19/2019 12:17:21    OnDataReceived
+08/19/2019 12:17:21    OnDataReceived 877
+08/19/2019 12:17:21    OnDataArrival
+08/19/2019 12:17:21    ResolveHeaderBuffer string [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:17:21    [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:17:21    ProcessSECsMessage -->
+08/19/2019 12:17:21    ResolveHeaderBuffer 
+08/19/2019 12:17:21    0 
+08/19/2019 12:17:21    WaitForData
+08/19/2019 12:20:12    OnDataReceived
+08/19/2019 12:20:12    ** An existing connection was forcibly closed by the remote host
+08/19/2019 12:20:18    You must call the Bind method before performing this operation.
+08/19/2019 12:20:18    ListenConnection
+08/19/2019 12:20:18    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+08/19/2019 12:28:17    HSMSServer
+08/19/2019 12:28:17    Initialize
+08/19/2019 12:28:17    OpenListenPort
+08/19/2019 12:28:17    LinkTestTimer_Elapsed() True
+08/19/2019 12:28:17    ListenConnection
+08/19/2019 12:28:17    OpenConnection
+08/19/2019 12:28:17    OnRemoteConnect Passive
+08/19/2019 12:28:17    _socketWorker.Connected True
+08/19/2019 12:28:17    this._socketWorker.EndConnect(asyn);
+08/19/2019 12:28:17    SendSECSData
+08/19/2019 12:28:20    ActivateLinkTest True
+08/19/2019 12:28:20    linktest_shouldStop = false;
+08/19/2019 12:28:20    ActivateT5 : IsEnabled False
+08/19/2019 12:28:20    WaitForData
+08/19/2019 12:28:21    TriggerTransactionTimer : transactionID -->2
+08/19/2019 12:28:21    TriggerTransactionTimer : transactionID <--2
+08/19/2019 12:28:21    SendSECSData
+08/19/2019 12:28:21    OnDataReceived
+08/19/2019 12:28:21    OnDataReceived 877
+08/19/2019 12:28:21    OnDataArrival
+08/19/2019 12:28:21    ResolveHeaderBuffer string [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:28:21    [0000000865]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspensionAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspAmt</Name><Value xsi:type="xsd:int">8</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSuspensionAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/19/2019 12:28:21    ProcessSECsMessage -->
+08/19/2019 12:28:21    ResolveHeaderBuffer 
+08/19/2019 12:28:21    0 
+08/19/2019 12:28:21    WaitForData
+08/19/2019 12:36:58    OnDataReceived
+08/19/2019 12:36:58    ** An existing connection was forcibly closed by the remote host

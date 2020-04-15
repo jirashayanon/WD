@@ -1,0 +1,24 @@
+06/28/2019 14:03:51    OnDataReceived
+06/28/2019 14:03:51    OnDataReceived 0
+06/28/2019 14:05:14    TimeOut transactionId 3 timerId T3
+06/28/2019 14:05:14    TimeOut : transactionId 3 timerId : T3
+06/28/2019 14:09:03    SendSECSData
+06/28/2019 14:17:17    HSMSServer
+06/28/2019 14:17:17    Initialize
+06/28/2019 14:17:17    OpenListenPort
+06/28/2019 14:17:17    LinkTestTimer_Elapsed() True
+06/28/2019 14:17:17    ListenConnection
+06/28/2019 14:17:17    OpenConnection
+06/28/2019 14:17:17    OnRemoteConnect Passive
+06/28/2019 14:17:17    _socketWorker.Connected True
+06/28/2019 14:17:17    this._socketWorker.EndConnect(asyn);
+06/28/2019 14:17:17    SendSECSData
+06/28/2019 14:17:17    ActivateLinkTest True
+06/28/2019 14:17:17    linktest_shouldStop = false;
+06/28/2019 14:17:17    ActivateT5 : IsEnabled False
+06/28/2019 14:17:17    WaitForData
+06/28/2019 14:17:19    TriggerTransactionTimer : transactionID -->2
+06/28/2019 14:17:19    TriggerTransactionTimer : transactionID <--2
+06/28/2019 14:17:19    SendSECSData
+06/28/2019 14:19:08    OnDataReceived
+06/28/2019 14:19:08    OnDataReceived 0

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>PT0114</PalletID>
+  <TesterNumber>iAVI-01</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>CARMELG_A8_SD</Product>
+  <User>WDC</User>
+  <LotNumber>AA6B512_A1S1</LotNumber>
+  <DocControl1>71880-15-AM</DocControl1>
+  <DocControl2>A32883SN</DocControl2>
+  <Sus>NHK-AS5</Sus>
+  <AssyLine>B4A2</AssyLine>
+  <ACAMID>APT002</ACAMID>
+  <ILCUVPower>60</ILCUVPower>
+  <ILCCureTime>23</ILCCureTime>
+  <ILCCureZone>1</ILCCureZone>
+  <SJBStage>11</SJBStage>
+  <SJBLane>11</SJBLane>
+  <TransID>240583</TransID>
+  <SJBFixture>1</SJBFixture>
+  <HGAN1>AA6B52FC3B</HGAN1>
+  <HGAN2>AA6B522E03</HGAN2>
+  <HGAN3>AA6B52FC34</HGAN3>
+  <HGAN4>AA6B52E41D</HGAN4>
+  <HGAN5>AA6B52EE1F</HGAN5>
+  <HGAN6 />
+  <HGAN7 />
+  <HGAN8 />
+  <HGAN9 />
+  <HGAN10 />
+  <DefectN1 />
+  <DefectN2 />
+  <DefectN3 />
+  <DefectN4>A1</DefectN4>
+  <DefectN5 />
+  <DefectN6>XX,XX,E2,XX,XX,XX,XX,XX,XX</DefectN6>
+  <DefectN7>XX,XX,E2,XX,XX,XX,XX,XX,XX</DefectN7>
+  <DefectN8>XX,XX,E2,XX,XX,XX,XX,XX,XX</DefectN8>
+  <DefectN9>XX,XX,E2,XX,XX,XX,XX,XX,XX</DefectN9>
+  <DefectN10>XX,XX,E2,XX,XX,XX,XX,XX,XX</DefectN10>
+</PalletObj>

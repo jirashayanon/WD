@@ -1,0 +1,13 @@
+06/23/2019 14:00:03    OnDataReceived
+06/23/2019 14:00:03    OnDataReceived 343
+06/23/2019 14:00:03    OnDataArrival
+06/23/2019 14:00:03    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/23/2019 14:00:03    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+06/23/2019 14:00:03    ProcessSECsMessage -->
+06/23/2019 14:00:03    CloseConnection
+06/23/2019 14:00:03    CloseSession
+06/23/2019 14:00:03    ProcessSECsMessage <--
+06/23/2019 14:00:03    0 
+06/23/2019 14:00:03    WaitForData
+06/23/2019 14:00:03    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.

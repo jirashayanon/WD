@@ -1,0 +1,1 @@
+AutoPalletTransfer is a folder where it keeps all projects related to THO HGA Automation.

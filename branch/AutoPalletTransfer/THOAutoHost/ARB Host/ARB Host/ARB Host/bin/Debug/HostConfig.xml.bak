@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<HostConfigHelper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HostDataSource>172.16.52.230\\SQLEXPRESS</HostDataSource>
+  <HostPort>49170</HostPort>
+  <HostDatabase>TempPalletTrackingDB</HostDatabase>
+  <RunWithNoDatabase>false</RunWithNoDatabase>
+</HostConfigHelper>

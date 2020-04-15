@@ -1,0 +1,81 @@
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.csprojResolveAssemblyReference.cache
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+D:\Development\Active\ARB\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+D:\Development\Active\ARB\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+D:\Development\Active\ARB\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+D:\Development\Active\ARB\ARB Host\OCRModule\bin\Debug\WDConnect.dll
+D:\Development\Active\ARB\ARB Host\OCRModule\bin\Debug\WDConnect.pdb
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+D:\Development\Active\ARB\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.csprojResolveAssemblyReference.cache
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+E:\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+E:\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+E:\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+E:\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+E:\ARB Host\OCRModule\bin\Debug\WDConnect.dll
+H:\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+H:\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+H:\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+H:\ARB Host\OCRModule\bin\Debug\WDConnect.dll
+H:\ARB Host\OCRModule\bin\Debug\WDConnect.pdb
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.csprojResolveAssemblyReference.cache
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+H:\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\WDConnect.dll
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\WDConnect.pdb
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.csprojResolveAssemblyReference.cache
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+D:\Development\Active\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+D:\Development\Active\ARB Host\OCRModule\bin\Debug\log4net.dll
+D:\temp\ARB Host\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+D:\temp\ARB Host\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+D:\temp\ARB Host\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+D:\temp\ARB Host\ARB Host\OCRModule\bin\Debug\log4net.dll
+D:\temp\ARB Host\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+D:\temp\ARB Host\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+D:\temp\ARB Host\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+D:\temp\ARB Host\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+D:\temp\ARB Host\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+\\unocr21\D\Prasert\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+\\unocr21\D\Prasert\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+\\unocr21\D\Prasert\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+\\unocr21\D\Prasert\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+\\unocr21\D\Prasert\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+\\unocr21\D\Prasert\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+\\unocr21\D\Prasert\ARB Host\OCRModule\bin\Debug\log4net.dll
+\\unocr21\D\Prasert\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+\\unocr21\D\Prasert\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+D:\Prasert\WDProject\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+D:\Prasert\WDProject\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+D:\Prasert\WDProject\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+D:\Prasert\WDProject\ARB Host\OCRModule\bin\Debug\log4net.dll
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.pdb
+D:\Prasert\WDProject\ARB Host\OCRModule\obj\Debug\OCRModule.csprojResolveAssemblyReference.cache
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Debug\OCRModule.exe.config
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Debug\OCRModule.exe
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Debug\OCRModule.pdb
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\bin\Debug\log4net.dll
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Debug\OCRModule.Form1.resources
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Debug\OCRModule.Properties.Resources.resources
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Debug\OCRModule.csproj.GenerateResource.Cache
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Debug\OCRModule.exe
+D:\CommunicationsForTHOAuto\Communications\DLL\THOAutoHost\ARB Host\OCRModule\obj\Debug\OCRModule.pdb

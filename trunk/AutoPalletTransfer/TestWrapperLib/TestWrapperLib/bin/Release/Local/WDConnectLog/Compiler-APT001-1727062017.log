@@ -1,0 +1,26 @@
+06/27/2017 17:06:00    Connect
+06/27/2017 17:06:01    OnConnected
+06/27/2017 17:06:01    OnSECsCommNotification
+06/27/2017 17:06:01    ProcessOutStream
+06/27/2017 17:06:01    this.SECsServer.IsConnected()
+06/27/2017 17:06:01    ConstructRawMessage
+06/27/2017 17:06:01    ConstructRawMessage nextTransactionID 1
+06/27/2017 17:06:01    CreateXMLText
+06/27/2017 17:06:01    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/27/2017 17:06:01    RegisterTransaction : transaction 1
+06/27/2017 17:06:01    ConstructRawMessage return message
+06/27/2017 17:06:04    ProcessOutStream
+06/27/2017 17:06:04    this.SECsServer.IsConnected()
+06/27/2017 17:06:04    ConstructRawMessage
+06/27/2017 17:06:04    ConstructRawMessage nextTransactionID 2
+06/27/2017 17:06:04    CreateXMLText
+06/27/2017 17:06:04    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">WRXGC_A</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/27/2017 17:06:04    RegisterTransaction : transaction 2
+06/27/2017 17:06:04    ConstructRawMessage return message
+06/27/2017 17:06:05    ProcessInStream
+06/27/2017 17:06:05    OnSECsSecondaryNotification
+06/27/2017 17:06:06    UnRegisterTransaction 2
+06/27/2017 17:34:53    ProcessInStream
+06/27/2017 17:34:53    Disconnect
+06/27/2017 17:34:53    OnDisconnected
+06/27/2017 17:34:53    OnSECsCommNotification

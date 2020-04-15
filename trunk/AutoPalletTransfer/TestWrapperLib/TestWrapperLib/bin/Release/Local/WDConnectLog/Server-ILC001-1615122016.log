@@ -1,0 +1,35 @@
+12/15/2016 16:07:34    OnDataReceived
+12/15/2016 16:07:34    OnDataReceived 344
+12/15/2016 16:07:34    OnDataArrival
+12/15/2016 16:07:34    ResolveHeaderBuffer string [0000000332]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>11</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+12/15/2016 16:07:34    [0000000332]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>11</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+12/15/2016 16:07:34    ProcessSECsMessage -->
+12/15/2016 16:07:34    CloseConnection
+12/15/2016 16:07:34    CloseSession
+12/15/2016 16:07:34    ProcessSECsMessage <--
+12/15/2016 16:07:34    0 
+12/15/2016 16:07:34    WaitForData
+12/15/2016 16:07:34    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+12/15/2016 16:07:38    CloseConnection
+12/15/2016 16:30:58    LinkTestTimer_Elapsed() True
+12/15/2016 16:37:06    HSMSServer
+12/15/2016 16:37:06    Initialize
+12/15/2016 16:37:06    LinkTestTimer_Elapsed() True
+12/15/2016 16:37:06    OpenConnection
+12/15/2016 16:37:07    OnRemoteConnect Active
+12/15/2016 16:37:07    _socketWorker.Connected False
+12/15/2016 16:37:07    ActivateT5 : IsEnabled True
+12/15/2016 16:37:25    HSMSServer
+12/15/2016 16:37:25    Initialize
+12/15/2016 16:37:25    LinkTestTimer_Elapsed() True
+12/15/2016 16:37:25    OpenConnection
+12/15/2016 16:37:26    OnRemoteConnect Active
+12/15/2016 16:37:26    _socketWorker.Connected False
+12/15/2016 16:37:27    HSMSServer
+12/15/2016 16:37:27    Initialize
+12/15/2016 16:37:27    LinkTestTimer_Elapsed() True
+12/15/2016 16:37:27    OpenConnection
+12/15/2016 16:37:28    OnRemoteConnect Active
+12/15/2016 16:37:28    _socketWorker.Connected False
+12/15/2016 16:37:28    ActivateT5 : IsEnabled True

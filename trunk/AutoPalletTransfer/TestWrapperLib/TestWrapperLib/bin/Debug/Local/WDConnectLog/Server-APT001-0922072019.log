@@ -1,0 +1,84 @@
+07/22/2019 09:05:29    HSMSServer
+07/22/2019 09:05:29    Initialize
+07/22/2019 09:05:29    OpenListenPort
+07/22/2019 09:05:29    LinkTestTimer_Elapsed() True
+07/22/2019 09:05:29    ListenConnection
+07/22/2019 09:05:30    OpenConnection
+07/22/2019 09:05:30    OnRemoteConnect Passive
+07/22/2019 09:05:30    _socketWorker.Connected True
+07/22/2019 09:05:30    this._socketWorker.EndConnect(asyn);
+07/22/2019 09:05:30    SendSECSData
+07/22/2019 09:06:22    ActivateLinkTest True
+07/22/2019 09:06:22    linktest_shouldStop = false;
+07/22/2019 09:06:22    ActivateT5 : IsEnabled False
+07/22/2019 09:06:22    WaitForData
+07/22/2019 09:09:21    HSMSServer
+07/22/2019 09:09:21    Initialize
+07/22/2019 09:09:21    OpenListenPort
+07/22/2019 09:09:21    LinkTestTimer_Elapsed() True
+07/22/2019 09:09:21    ListenConnection
+07/22/2019 09:09:21    OpenConnection
+07/22/2019 09:09:21    OnRemoteConnect Passive
+07/22/2019 09:09:21    _socketWorker.Connected True
+07/22/2019 09:09:21    this._socketWorker.EndConnect(asyn);
+07/22/2019 09:09:21    SendSECSData
+07/22/2019 09:09:26    ActivateLinkTest True
+07/22/2019 09:09:26    linktest_shouldStop = false;
+07/22/2019 09:09:26    ActivateT5 : IsEnabled False
+07/22/2019 09:09:26    WaitForData
+07/22/2019 09:09:50    HSMSServer
+07/22/2019 09:09:50    Initialize
+07/22/2019 09:09:50    OpenListenPort
+07/22/2019 09:09:50    LinkTestTimer_Elapsed() True
+07/22/2019 09:09:50    ListenConnection
+07/22/2019 09:09:50    OpenConnection
+07/22/2019 09:09:50    OnRemoteConnect Passive
+07/22/2019 09:09:50    _socketWorker.Connected True
+07/22/2019 09:09:50    this._socketWorker.EndConnect(asyn);
+07/22/2019 09:09:50    SendSECSData
+07/22/2019 09:09:51    ActivateLinkTest True
+07/22/2019 09:09:51    linktest_shouldStop = false;
+07/22/2019 09:09:51    ActivateT5 : IsEnabled False
+07/22/2019 09:09:51    WaitForData
+07/22/2019 09:10:01    TriggerTransactionTimer : transactionID -->2
+07/22/2019 09:10:01    TriggerTransactionTimer : transactionID <--2
+07/22/2019 09:10:01    SendSECSData
+07/22/2019 09:10:01    TriggerTransactionTimer : transactionID -->3
+07/22/2019 09:10:01    TriggerTransactionTimer : transactionID <--3
+07/22/2019 09:10:01    SendSECSData
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID -->4
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID <--4
+07/22/2019 09:10:02    SendSECSData
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID -->5
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID <--5
+07/22/2019 09:10:02    SendSECSData
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID -->6
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID <--6
+07/22/2019 09:10:02    SendSECSData
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID -->7
+07/22/2019 09:10:02    TriggerTransactionTimer : transactionID <--7
+07/22/2019 09:10:02    SendSECSData
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID -->8
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID <--8
+07/22/2019 09:10:03    SendSECSData
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID -->9
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID <--9
+07/22/2019 09:10:03    SendSECSData
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID -->10
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID <--10
+07/22/2019 09:10:03    SendSECSData
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID -->11
+07/22/2019 09:10:03    TriggerTransactionTimer : transactionID <--11
+07/22/2019 09:10:03    SendSECSData
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID -->12
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID <--12
+07/22/2019 09:10:04    SendSECSData
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID -->13
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID <--13
+07/22/2019 09:10:04    SendSECSData
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID -->14
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID <--14
+07/22/2019 09:10:04    SendSECSData
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID -->15
+07/22/2019 09:10:04    TriggerTransactionTimer : transactionID <--15
+07/22/2019 09:10:04    SendSECSData

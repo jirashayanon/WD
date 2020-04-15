@@ -1,0 +1,6 @@
+04/05/2017 13:55:17    HSMSServer
+04/05/2017 13:55:17    Initialize
+04/05/2017 13:55:17    LinkTestTimer_Elapsed() True
+04/05/2017 13:55:17    OpenListenPort
+04/05/2017 13:55:17    ListenConnection
+04/05/2017 13:55:17    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

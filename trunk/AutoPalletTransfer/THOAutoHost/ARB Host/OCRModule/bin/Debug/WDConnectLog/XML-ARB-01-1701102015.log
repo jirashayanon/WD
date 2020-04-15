@@ -1,0 +1,175 @@
+OUT--> 10/01/2015 17:53:37    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>6</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">WHKUN014</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+10/01/2015 17:53:47    Transaction: 6 Timeout [T3]
+OUT--> 10/01/2015 17:54:12    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>7</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">WHKUN014</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+10/01/2015 17:54:22    Transaction: 7 Timeout [T3]
+OUT--> 10/01/2015 17:54:37    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>8</Id>
+  <Name>Event:FinishedInitialize</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>Event:FinishedInitialize</CommandID>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+OUT--> 10/01/2015 17:54:44    
+<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Primary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>9</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>true</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">WHKUN014</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary />
+</SCITransaction>
+IN <--10/01/2015 17:54:46    
+[<SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MessageType>Secondary</MessageType>
+  <DeviceId>0</DeviceId>
+  <Id>9</Id>
+  <Name>Mitecs GetLotDetails by Slider Serial number.</Name>
+  <NeedReply>false</NeedReply>
+  <Primary>
+    <CommandID>MES_OCR</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>Operation</Name>
+          <Value
+            xsi:type="xsd:string">1045</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>OCRNumber</Name>
+          <Value
+            xsi:type="xsd:string">WHKUN014</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Primary>
+  <Secondary>
+    <CommandID>MES_Data</CommandID>
+    <Item>
+      <Format>List</Format>
+      <Items>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>LotNumber</Name>
+          <Value
+            xsi:type="xsd:string">WHKU&amp;C07</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>LotTpye</Name>
+          <Value
+            xsi:type="xsd:string">XLOT</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>Ref. bar</Name>
+          <Value
+            xsi:type="xsd:string">07</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>Real bar</Name>
+          <Value
+            xsi:type="xsd:string">01</Value>
+        </SCIItem>
+        <SCIItem>
+          <Format>String</Format>
+          <Items />
+          <Name>ErrorMessage</Name>
+          <Value
+            xsi:type="xsd:string">4</Value>
+        </SCIItem>
+      </Items>
+    </Item>
+  </Secondary>
+</SCITransaction>]
+

@@ -1,0 +1,50 @@
+08/16/2019 16:04:03    TimeOut transactionId 2 timerId T3
+08/16/2019 16:04:03    TimeOut : transactionId 2 timerId : T3
+08/16/2019 16:06:33    SendSECSData
+08/16/2019 16:14:13    OnDataReceived
+08/16/2019 16:14:13    ** An existing connection was forcibly closed by the remote host
+08/16/2019 16:20:14    HSMSServer
+08/16/2019 16:20:14    Initialize
+08/16/2019 16:20:14    LinkTestTimer_Elapsed() True
+08/16/2019 16:20:14    OpenListenPort
+08/16/2019 16:20:14    ListenConnection
+08/16/2019 16:20:14    OpenConnection
+08/16/2019 16:20:14    OnRemoteConnect Passive
+08/16/2019 16:20:14    _socketWorker.Connected True
+08/16/2019 16:20:14    this._socketWorker.EndConnect(asyn);
+08/16/2019 16:20:14    SendSECSData
+08/16/2019 16:20:17    ActivateLinkTest True
+08/16/2019 16:20:17    linktest_shouldStop = false;
+08/16/2019 16:20:17    ActivateT5 : IsEnabled False
+08/16/2019 16:20:17    WaitForData
+08/16/2019 16:20:19    TriggerTransactionTimer : transactionID -->2
+08/16/2019 16:20:19    TriggerTransactionTimer : transactionID <--2
+08/16/2019 16:20:19    SendSECSData
+08/16/2019 16:27:48    OnDataReceived
+08/16/2019 16:27:48    OnDataReceived 0
+08/16/2019 16:43:07    HSMSServer
+08/16/2019 16:43:07    Initialize
+08/16/2019 16:43:07    LinkTestTimer_Elapsed() True
+08/16/2019 16:43:07    OpenListenPort
+08/16/2019 16:43:07    ListenConnection
+08/16/2019 16:43:07    OpenConnection
+08/16/2019 16:43:07    OnRemoteConnect Passive
+08/16/2019 16:43:07    _socketWorker.Connected True
+08/16/2019 16:43:07    this._socketWorker.EndConnect(asyn);
+08/16/2019 16:43:07    SendSECSData
+08/16/2019 16:51:16    ActivateLinkTest True
+08/16/2019 16:51:16    linktest_shouldStop = false;
+08/16/2019 16:51:16    ActivateT5 : IsEnabled False
+08/16/2019 16:51:16    WaitForData
+08/16/2019 16:51:19    TriggerTransactionTimer : transactionID -->2
+08/16/2019 16:51:19    TriggerTransactionTimer : transactionID <--2
+08/16/2019 16:51:19    SendSECSData
+08/16/2019 16:52:01    OnDataReceived
+08/16/2019 16:52:01    OnDataReceived 1695
+08/16/2019 16:52:01    OnDataArrival
+08/16/2019 16:52:01    ResolveHeaderBuffer string [0000001683]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPalletAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSwapPalletAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_TransID</Name><Value xsi:type="xsd:string">257238</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_PalletID</Name><Value xsi:type="xsd:string">PT0065</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_TransID</Name><Value xsi:type="xsd:string">259971</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/16/2019 16:52:01    [0000001683]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPalletAck</Name><NeedReply>false</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary><Secondary><CommandID>RequestSwapPalletAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedFrom_TransID</Name><Value xsi:type="xsd:string">257238</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_PalletID</Name><Value xsi:type="xsd:string">PT0065</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_ACAMID</Name><Value xsi:type="xsd:string">APT002</Value></SCIItem><SCIItem><Format>String</Format><Name>SwappedTo_TransID</Name><Value xsi:type="xsd:string">259971</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+08/16/2019 16:52:01    ProcessSECsMessage -->
+08/16/2019 16:52:01    ResolveHeaderBuffer 
+08/16/2019 16:52:01    0 
+08/16/2019 16:52:01    WaitForData

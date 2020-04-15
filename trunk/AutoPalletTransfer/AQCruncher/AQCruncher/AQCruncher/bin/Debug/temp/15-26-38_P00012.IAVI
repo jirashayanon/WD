@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>P00012</PalletID>
+  <TesterNumber>iAVI</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>Palmer</Product>
+  <User />
+  <LotNumber>YABG32A</LotNumber>
+  <DocControl1 />
+  <DocControl2 />
+  <Sus>MPT-4</Sus>
+  <AssyLine>B401</AssyLine>
+  <HGAN1>YABG32A0</HGAN1>
+  <HGAN2>YABG32A1</HGAN2>
+  <HGAN3>YABG32A2</HGAN3>
+  <HGAN4>YABG32A3</HGAN4>
+  <HGAN5>YABG32A4</HGAN5>
+  <HGAN6>YABG32A5</HGAN6>
+  <HGAN7>YABG32A6</HGAN7>
+  <HGAN8>YABG32A7</HGAN8>
+  <HGAN9>YABG32A8</HGAN9>
+  <HGAN10>YABG32A9</HGAN10>
+  <DefectN1>WO</DefectN1>
+  <DefectN2>WO</DefectN2>
+  <DefectN3>WO</DefectN3>
+  <DefectN4>WO</DefectN4>
+  <DefectN5>WO</DefectN5>
+  <DefectN6>WO</DefectN6>
+  <DefectN7>WO</DefectN7>
+  <DefectN8>WO</DefectN8>
+  <DefectN9>WO</DefectN9>
+  <DefectN10>WO</DefectN10>
+</PalletObj>

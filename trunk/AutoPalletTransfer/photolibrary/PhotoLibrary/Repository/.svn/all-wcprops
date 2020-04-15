@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository
+END
+hgainfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/hgainfo.cs
+END
+spGetDefectsOnTray_Result.cs
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/spGetDefectsOnTray_Result.cs
+END
+spLoadDefectHGA_Result.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/spLoadDefectHGA_Result.cs
+END
+DatabaseModel.edmx
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.edmx
+END
+tray.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/tray.cs
+END
+DatabaseModel.edmx.diagram
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.edmx.diagram
+END
+DBCredential.cs
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DBCredential.cs
+END
+pallet.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/pallet.cs
+END
+DBUtil.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DBUtil.cs
+END
+CsvDefectsData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/CsvDefectsData.cs
+END
+spSearchTrayId_Result.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/spSearchTrayId_Result.cs
+END
+DatabaseModel.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.Designer.cs
+END
+DatabaseModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.cs
+END
+spSearchPalletId_Result.cs
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/spSearchPalletId_Result.cs
+END
+SQLServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/SQLServer.cs
+END
+IRepository.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/IRepository.cs
+END
+DatabaseModel.Context.tt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.Context.tt
+END
+defect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/defect.cs
+END
+aqtraydata.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/aqtraydata.cs
+END
+ICsvDefectsData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/ICsvDefectsData.cs
+END
+DBCredential.sample.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DBCredential.sample.cs
+END
+BothDB.cs
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/364/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/BothDB.cs
+END
+hgainfoView.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/hgainfoView.cs
+END
+DatabaseModel.tt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.tt
+END
+DatabaseModel.Context.cs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/DatabaseModel.Context.cs
+END
+hgadefect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/hgadefect.cs
+END
+view.cs
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary/Repository/view.cs
+END

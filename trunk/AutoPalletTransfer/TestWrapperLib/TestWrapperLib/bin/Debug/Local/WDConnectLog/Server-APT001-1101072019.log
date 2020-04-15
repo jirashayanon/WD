@@ -1,0 +1,17 @@
+07/01/2019 11:09:18    LinkTestTimer_Elapsed() False
+07/01/2019 11:09:18    LinkTest Code : 110918
+07/01/2019 11:09:18    this._socketWorker.Send(buffer); [0000000023]LinkTest:Request:110918
+07/01/2019 11:09:18    _linkTestManager.Register(code)110918
+07/01/2019 11:09:18    OnDataReceived
+07/01/2019 11:09:18    OnDataReceived 35
+07/01/2019 11:09:18    OnDataArrival
+07/01/2019 11:09:18    ProcessControlMessage LinkTest:Respond:110918
+07/01/2019 11:09:18    _linkTestManager.IsTransactionExist(code) True
+07/01/2019 11:09:18    linktest_shouldStop = false;
+07/01/2019 11:09:18    0 
+07/01/2019 11:09:18    WaitForData
+07/01/2019 11:25:50    OnDataReceived
+07/01/2019 11:25:50    ** An existing connection was forcibly closed by the remote host
+07/01/2019 11:25:50    You must call the Bind method before performing this operation.
+07/01/2019 11:25:50    ListenConnection
+07/01/2019 11:25:50    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

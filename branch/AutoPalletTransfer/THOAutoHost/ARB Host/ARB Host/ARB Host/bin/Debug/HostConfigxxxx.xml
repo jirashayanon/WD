@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<HostConfigHelper xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HostDataSource>172.16.60.233\\WDTBHGAAUTOGEN2</HostDataSource>
+  <HostPort>1433</HostPort>
+  <!-- <HostDataSource>172.16.160.122\\SQLEXPRESS</HostDataSource> -->
+  <!-- <HostPort>49170</HostPort> -->  
+  <HostDatabase>TempPalletTrackingDB</HostDatabase>
+  <RunWithNoDatabase>false</RunWithNoDatabase>
+  <LineNo>CP4A2</LineNo>
+</HostConfigHelper>

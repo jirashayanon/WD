@@ -1,0 +1,41 @@
+05/25/2017 17:00:47    HSMSServer
+05/25/2017 17:00:47    Initialize
+05/25/2017 17:00:47    LinkTestTimer_Elapsed() True
+05/25/2017 17:00:47    OpenConnection
+05/25/2017 17:00:47    OnRemoteConnect Active
+05/25/2017 17:00:47    _socketWorker.Connected True
+05/25/2017 17:00:47    this._socketWorker.EndConnect(asyn);
+05/25/2017 17:00:47    SendSECSData
+05/25/2017 17:00:47    ActivateLinkTest True
+05/25/2017 17:00:48    linktest_shouldStop = false;
+05/25/2017 17:00:48    ActivateT5 : IsEnabled False
+05/25/2017 17:00:48    WaitForData
+05/25/2017 17:00:53    TriggerTransactionTimer : transactionID -->2
+05/25/2017 17:00:53    TriggerTransactionTimer : transactionID <--2
+05/25/2017 17:00:53    SendSECSData
+05/25/2017 17:00:53    OnDataReceived
+05/25/2017 17:00:53    OnDataReceived 738
+05/25/2017 17:00:53    OnDataArrival
+05/25/2017 17:00:53    ResolveHeaderBuffer string [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/25/2017 17:00:53    [0000000726]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>String</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/25/2017 17:00:53    ProcessSECsMessage -->
+05/25/2017 17:00:53    ProcessSECsMessage <--
+05/25/2017 17:00:53    0 
+05/25/2017 17:00:53    WaitForData
+05/25/2017 17:00:54    TriggerTransactionTimer : transactionID -->3
+05/25/2017 17:00:54    TriggerTransactionTimer : transactionID <--3
+05/25/2017 17:00:54    SendSECSData
+05/25/2017 17:01:16    OnDataReceived
+05/25/2017 17:01:16    OnDataReceived 1271
+05/25/2017 17:01:16    OnDataArrival
+05/25/2017 17:01:16    ResolveHeaderBuffer string [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/25/2017 17:01:16    [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/25/2017 17:01:16    ProcessSECsMessage -->
+05/25/2017 17:01:16    ProcessSECsMessage <--
+05/25/2017 17:01:16    0 
+05/25/2017 17:01:16    WaitForData
+05/25/2017 17:01:47    TriggerTransactionTimer : transactionID -->4
+05/25/2017 17:01:47    TriggerTransactionTimer : transactionID <--4
+05/25/2017 17:01:47    SendSECSData
+05/25/2017 17:51:46    TimeOut transactionId 4 timerId T3
+05/25/2017 17:51:46    TimeOut : transactionId 4 timerId : T3

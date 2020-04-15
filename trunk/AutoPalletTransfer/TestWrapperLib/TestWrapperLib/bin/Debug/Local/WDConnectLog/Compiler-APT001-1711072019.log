@@ -1,0 +1,19 @@
+07/11/2019 17:49:40    ProcessInStream
+07/11/2019 17:49:40    ProcessOutStream
+07/11/2019 17:49:40    this.SECsServer.IsConnected()
+07/11/2019 17:49:40    ConstructRawMessage
+07/11/2019 17:49:40    ConstructRawMessage nextTransactionID 2
+07/11/2019 17:49:40    CreateXMLText
+07/11/2019 17:49:40    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/11/2019 17:49:40    RegisterTransaction : transaction 2
+07/11/2019 17:49:40    Object reference not set to an instance of an object.
+07/11/2019 17:49:40    ConstructRawMessage return message
+07/11/2019 17:49:53    ProcessOutStream
+07/11/2019 17:49:53    this.SECsServer.IsConnected()
+07/11/2019 17:49:53    ConstructRawMessage
+07/11/2019 17:49:53    ConstructRawMessage nextTransactionID 3
+07/11/2019 17:49:53    CreateXMLText
+07/11/2019 17:49:53    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>3</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/11/2019 17:49:53    RegisterTransaction : transaction 3
+07/11/2019 17:49:53    Object reference not set to an instance of an object.
+07/11/2019 17:49:53    ConstructRawMessage return message

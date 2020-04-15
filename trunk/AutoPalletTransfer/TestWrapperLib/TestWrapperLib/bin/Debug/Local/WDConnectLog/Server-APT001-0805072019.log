@@ -1,0 +1,20 @@
+07/05/2019 08:23:28    OnDataReceived
+07/05/2019 08:23:28    OnDataReceived 34
+07/05/2019 08:23:28    OnDataArrival
+07/05/2019 08:23:28    ProcessControlMessage LinkTest:Request:82327
+07/05/2019 08:23:28    SendControlRspData 82327
+07/05/2019 08:23:28    respwithheader [0000000022]LinkTest:Respond:82327
+07/05/2019 08:23:28    0 
+07/05/2019 08:23:28    WaitForData
+07/05/2019 08:27:55    LinkTestTimer_Elapsed() False
+07/05/2019 08:27:55    LinkTest Code : 82755
+07/05/2019 08:27:55    this._socketWorker.Send(buffer); [0000000022]LinkTest:Request:82755
+07/05/2019 08:27:55    _linkTestManager.Register(code)82755
+07/05/2019 08:27:55    OnDataReceived
+07/05/2019 08:27:55    OnDataReceived 34
+07/05/2019 08:27:55    OnDataArrival
+07/05/2019 08:27:55    ProcessControlMessage LinkTest:Respond:82755
+07/05/2019 08:27:55    _linkTestManager.IsTransactionExist(code) True
+07/05/2019 08:27:55    linktest_shouldStop = false;
+07/05/2019 08:27:55    0 
+07/05/2019 08:27:55    WaitForData

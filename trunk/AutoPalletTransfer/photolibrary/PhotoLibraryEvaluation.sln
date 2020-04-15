@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibraryEvaluation", "PhotoLibrary\PhotoLibraryEvaluation.csproj", "{AE75034A-0183-45CC-BD3E-504F28D76DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoLibraryEvaluation.UnitTest", "PhotoLibrary.UnitTest\PhotoLibraryEvaluation.UnitTest.csproj", "{706E2F4F-8D31-4923-B8BB-142E5D3FA0B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE75034A-0183-45CC-BD3E-504F28D76DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE75034A-0183-45CC-BD3E-504F28D76DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE75034A-0183-45CC-BD3E-504F28D76DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE75034A-0183-45CC-BD3E-504F28D76DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706E2F4F-8D31-4923-B8BB-142E5D3FA0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706E2F4F-8D31-4923-B8BB-142E5D3FA0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706E2F4F-8D31-4923-B8BB-142E5D3FA0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706E2F4F-8D31-4923-B8BB-142E5D3FA0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\ARB Host.exe.config
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\ARB Host.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\ARB Host.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\antlr.runtime.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\ConfigHelper.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\log4net.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\Mitecs3Helper.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\nunit.framework.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\WDBMetrologyCommonType.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\WDBMetrologyControls.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\bin\Release\WDConnect.dll
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB_Host.MainWindow.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB_Host.Properties.Resources.resources
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB Host.csproj.GenerateResource.Cache
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB Host.exe
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB Host.pdb
+D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\THOAutoHost\ARB Host\ARB Host\obj\Release\ARB Host.csprojResolveAssemblyReference.cache

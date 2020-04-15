@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PhotoLibrary>
+  <!--Path for evaluating images-->
+  <!-- <PathEvaluation>D:\ImageEvaluation\</PathEvaluation> -->
+  <PathEvaluation>C:\Users\nasakol_p\Desktop\VOR\ImageEvaluation2</PathEvaluation>
+  <!-- <Path>\\10.10.1.10\ImagesBMP</Path> -->
+  <Path>\\10.10.1.22\Images\ImagesJPG</Path>
+  <JPGPath>\\10.10.1.22\Images\ImagesJPG</JPGPath>
+  <JPG>True</JPG>  
+  <PathAQTray>\\wdtbhgafs01.tbpd.wdasia.com\ocr\AUTOOCR\DATA</PathAQTray>
+  <PathAQTrayMt2>\\wdtbhgafs01.tbpd.wdasia.com\HOST\DETDATA_OCR</PathAQTrayMt2>
+  <PathAQTrayMirror>\\wdtbhgafs01.tbpd.wdasia.com\ocr\AUTOOCR\Tray</PathAQTrayMirror>
+  <PathAQTrayBackup>TrayData_Backup</PathAQTrayBackup>
+  <!--FileType for photo path from database-->
+  <PhotoFileType>jpg</PhotoFileType>
+  <ServerConnection>
+    <ServerIP>127.0.0.1</ServerIP>
+    <Username>iaviuser</Username>
+    <Password>XuPCcdJJFHt8Dh8E</Password>
+    <Database>iavi</Database>
+  </ServerConnection>
+  <NumberOfHgaOnTray>60</NumberOfHgaOnTray>
+  <!--Sampling-->
+  <Sampling>
+    <Sampling-Plan>1</Sampling-Plan>
+    <Sampling-Total>6</Sampling-Total>
+  </Sampling>
+  <!--View for evaluation only (this element is not used in production server)-->
+  <Views>
+    <!-- <View filetype="bmp">Good product Top - S2</View> -->
+    <!-- <View filetype="bmp">Good 45deg</View> -->
+    <View filetype="bmp">A1</View>
+    <View filetype="bmp">J7</View>
+    <!-- <View filetype="bmp">J4P</View> -->
+    <!-- <View filetype="jpg">Defect_jpg</View> -->
+    <!-- <View filetype="jpeg">TopView2</View> -->
+    <!-- <View filetype="bmp">FrontView</View> -->
+    <!-- <View filetype="bmp">45 deg View</View> -->
+    <!-- <View filetype="jpeg">VOR Color/Picture Top</View> -->
+  </Views>
+  <Picture>
+    <!--Start picture number-->
+    <StartPictureId>1</StartPictureId>
+    <!--How many would like to evaluate-->
+    <Max>50</Max>
+    <!--Don't change these elements below-->
+    <ThumbnailWidth>150</ThumbnailWidth>
+    <ImageWidth>1024</ImageWidth>
+  </Picture>
+  <Time>
+    <Interval>1000</Interval>
+    <Timeout>60</Timeout>
+  </Time>
+</PhotoLibrary>

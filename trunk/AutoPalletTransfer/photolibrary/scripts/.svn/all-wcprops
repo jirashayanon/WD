@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/scripts
+END
+sp_getSliderAlignment.sql
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/scripts/sp_getSliderAlignment.sql
+END
+sp_getOverUnderRejectSummary.sql
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/scripts/sp_getOverUnderRejectSummary.sql
+END

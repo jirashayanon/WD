@@ -1,0 +1,7 @@
+10/01/2015 18:07:24    HSMSServer
+10/01/2015 18:07:24    Initialize
+10/01/2015 18:07:24    OpenConnection
+10/01/2015 18:07:24    OnRemoteConnect Active
+10/01/2015 18:07:24    _socketWorker.Connected True
+10/01/2015 18:07:24    this._socketWorker.EndConnect(asyn);
+10/01/2015 18:07:24    SendSECSData

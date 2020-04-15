@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Equipment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <License licenseId="" licensePath="" />
+  <Nameable id="ARB-01" description="" locator="" alias="ARB-01" make="" model="" softwareRev="" />
+   <Logger secsLogEnabled="true" />
+  <GemConnection deviceId="1">
+    <HSMS connectionMode="Active" 
+		remoteIPAddress="wdbnc0231.tb.asia.wdc.com" remotePortNumber="4001"
+		T3Timeout="10" 
+		T5Timeout="10" 
+	/>
+  </GemConnection>
+  <SecsItemFormats/>
+ <RemoteCommand>
+    <S2F21 />
+    <S2F41 />
+ </RemoteCommand>
+ <StatusVariables>
+    <SVID id="12" valueType="Integer" logicalName="ControlState">
+      <MappingValue toolValue="1" logicalValue="Equipment Offline" />
+      <MappingValue toolValue="2" logicalValue="Attempt Online" />
+      <MappingValue toolValue="3" logicalValue="Host Offline" />
+      <MappingValue toolValue="4" logicalValue="Online Local" />
+      <MappingValue toolValue="5" logicalValue="Online Remote" />
+    </SVID>
+    <SVID id="226" valueType="String" logicalName="MitecsOperation" />
+	<SVID id="228" valueType="String" logicalName="OCRNumber" />
+ </StatusVariables>
+  <EquipmentConstants />
+  <DataVariables />
+  <DataCollections/>
+  <Alarms />
+</Equipment>

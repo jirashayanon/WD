@@ -1,0 +1,252 @@
+﻿Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Rolling back assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Warning: The source IAVICleanUpService is not registered on the local machine.
+Service IAVICleanUpService is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.
+Installing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Installing service IAVICleanUpService...
+Service IAVICleanUpService has been successfully installed.
+Creating EventLog source IAVICleanUpService in log Application...
+Committing assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Uninstalling assembly 'D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.InstallLog
+   assemblypath = D:\WDProject\svn\HGA\trunk\AutoPalletTransfer\IAVICleanUpService\IAVICleanUpService\IAVICleanUpService\bin\Debug\IAVICleanUpService.exe
+Removing EventLog source IAVICleanUpService.
+Service IAVICleanUpService is being removed from the system...
+Service IAVICleanUpService was successfully removed from the system.

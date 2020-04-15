@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest
+END
+HGAItemTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/HGAItemTest.cs
+END
+PhotoLibraryEvaluation.UnitTest.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/PhotoLibraryEvaluation.UnitTest.csproj
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/app.config
+END
+DatabaseTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/DatabaseTest.cs
+END
+ImageWithDefectTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/ImageWithDefectTest.cs
+END
+UnitTestMathHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/363/svn/HGA/trunk/AutoPalletTransfer/photolibrary/PhotoLibrary.UnitTest/UnitTestMathHelper.cs
+END

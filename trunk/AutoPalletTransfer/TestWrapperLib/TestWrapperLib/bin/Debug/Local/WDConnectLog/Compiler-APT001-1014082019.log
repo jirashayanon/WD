@@ -1,0 +1,124 @@
+08/14/2019 10:03:16    ProcessOutStream
+08/14/2019 10:03:16    this.SECsServer.IsConnected()
+08/14/2019 10:03:16    ConstructRawMessage
+08/14/2019 10:03:16    ConstructRawMessage nextTransactionID 2
+08/14/2019 10:03:16    CreateXMLText
+08/14/2019 10:03:16    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/14/2019 10:03:16    RegisterTransaction : transaction 2
+08/14/2019 10:03:16    Object reference not set to an instance of an object.
+08/14/2019 10:03:16    ConstructRawMessage return message
+08/14/2019 10:12:08    ProcessInStream
+08/14/2019 10:12:08    ProcessOutStream
+08/14/2019 10:12:08    this.SECsServer.IsConnected()
+08/14/2019 10:12:08    ConstructRawMessage
+08/14/2019 10:12:08    ConstructRawMessage nextTransactionID 3
+08/14/2019 10:12:08    CreateXMLText
+08/14/2019 10:12:08    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>3</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:12:08    RegisterTransaction : transaction 3
+08/14/2019 10:12:08    Object reference not set to an instance of an object.
+08/14/2019 10:12:08    ConstructRawMessage return message
+08/14/2019 10:13:10    OnDisconnected
+08/14/2019 10:13:10    OnSECsCommNotification
+08/14/2019 10:19:54    Connect
+08/14/2019 10:19:54    OnConnected
+08/14/2019 10:19:54    OnSECsCommNotification
+08/14/2019 10:19:54    ProcessOutStream
+08/14/2019 10:19:54    this.SECsServer.IsConnected()
+08/14/2019 10:19:54    ConstructRawMessage
+08/14/2019 10:19:54    ConstructRawMessage nextTransactionID 1
+08/14/2019 10:19:54    CreateXMLText
+08/14/2019 10:19:54    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:19:54    RegisterTransaction : transaction 1
+08/14/2019 10:19:54    ConstructRawMessage return message
+08/14/2019 10:21:05    Only one usage of each socket address (protocol/network address/port) is normally permitted
+08/14/2019 10:21:05    OnSECsErrorNotification
+08/14/2019 10:21:05    Connect
+08/14/2019 10:21:05    OnConnected
+08/14/2019 10:21:05    OnSECsCommNotification
+08/14/2019 10:21:05    ProcessOutStream
+08/14/2019 10:21:05    this.SECsServer.IsConnected()
+08/14/2019 10:21:05    ConstructRawMessage
+08/14/2019 10:21:05    ConstructRawMessage nextTransactionID 1
+08/14/2019 10:21:05    CreateXMLText
+08/14/2019 10:21:05    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:21:05    RegisterTransaction : transaction 1
+08/14/2019 10:21:05    Object reference not set to an instance of an object.
+08/14/2019 10:21:05    ConstructRawMessage return message
+08/14/2019 10:26:59    ProcessOutStream
+08/14/2019 10:26:59    this.SECsServer.IsConnected()
+08/14/2019 10:26:59    ConstructRawMessage
+08/14/2019 10:26:59    ConstructRawMessage nextTransactionID 2
+08/14/2019 10:26:59    CreateXMLText
+08/14/2019 10:26:59    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/14/2019 10:26:59    RegisterTransaction : transaction 2
+08/14/2019 10:26:59    Object reference not set to an instance of an object.
+08/14/2019 10:26:59    ConstructRawMessage return message
+08/14/2019 10:27:53    OnDisconnected
+08/14/2019 10:27:53    OnSECsCommNotification
+08/14/2019 10:30:21    Connect
+08/14/2019 10:30:21    OnConnected
+08/14/2019 10:30:21    OnSECsCommNotification
+08/14/2019 10:30:21    ProcessOutStream
+08/14/2019 10:30:21    this.SECsServer.IsConnected()
+08/14/2019 10:30:21    ConstructRawMessage
+08/14/2019 10:30:21    ConstructRawMessage nextTransactionID 1
+08/14/2019 10:30:21    CreateXMLText
+08/14/2019 10:30:21    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:30:21    RegisterTransaction : transaction 1
+08/14/2019 10:30:21    ConstructRawMessage return message
+08/14/2019 10:30:24    ProcessOutStream
+08/14/2019 10:30:24    this.SECsServer.IsConnected()
+08/14/2019 10:30:24    ConstructRawMessage
+08/14/2019 10:30:24    ConstructRawMessage nextTransactionID 2
+08/14/2019 10:30:24    CreateXMLText
+08/14/2019 10:30:24    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/14/2019 10:30:24    RegisterTransaction : transaction 2
+08/14/2019 10:30:24    ConstructRawMessage return message
+08/14/2019 10:31:29    Only one usage of each socket address (protocol/network address/port) is normally permitted
+08/14/2019 10:31:29    OnSECsErrorNotification
+08/14/2019 10:31:29    Connect
+08/14/2019 10:31:29    OnConnected
+08/14/2019 10:31:29    OnSECsCommNotification
+08/14/2019 10:31:29    ProcessOutStream
+08/14/2019 10:31:29    this.SECsServer.IsConnected()
+08/14/2019 10:31:29    ConstructRawMessage
+08/14/2019 10:31:29    ConstructRawMessage nextTransactionID 1
+08/14/2019 10:31:29    CreateXMLText
+08/14/2019 10:31:29    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:31:29    RegisterTransaction : transaction 1
+08/14/2019 10:31:29    Object reference not set to an instance of an object.
+08/14/2019 10:31:29    ConstructRawMessage return message
+08/14/2019 10:31:40    ProcessOutStream
+08/14/2019 10:31:40    this.SECsServer.IsConnected()
+08/14/2019 10:31:40    ConstructRawMessage
+08/14/2019 10:31:40    ConstructRawMessage nextTransactionID 2
+08/14/2019 10:31:40    CreateXMLText
+08/14/2019 10:31:40    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/14/2019 10:31:40    RegisterTransaction : transaction 2
+08/14/2019 10:31:40    Object reference not set to an instance of an object.
+08/14/2019 10:31:40    ConstructRawMessage return message
+08/14/2019 10:35:16    OnDisconnected
+08/14/2019 10:35:16    OnSECsCommNotification
+08/14/2019 10:46:49    Only one usage of each socket address (protocol/network address/port) is normally permitted
+08/14/2019 10:46:49    OnSECsErrorNotification
+08/14/2019 10:46:49    Connect
+08/14/2019 10:46:49    OnConnected
+08/14/2019 10:46:49    OnSECsCommNotification
+08/14/2019 10:46:49    ProcessOutStream
+08/14/2019 10:46:49    this.SECsServer.IsConnected()
+08/14/2019 10:46:49    ConstructRawMessage
+08/14/2019 10:46:49    ConstructRawMessage nextTransactionID 1
+08/14/2019 10:46:49    CreateXMLText
+08/14/2019 10:46:49    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/14/2019 10:46:49    RegisterTransaction : transaction 1
+08/14/2019 10:46:49    Object reference not set to an instance of an object.
+08/14/2019 10:46:49    ConstructRawMessage return message
+08/14/2019 10:48:26    ProcessOutStream
+08/14/2019 10:48:26    this.SECsServer.IsConnected()
+08/14/2019 10:48:26    ConstructRawMessage
+08/14/2019 10:48:26    ConstructRawMessage nextTransactionID 2
+08/14/2019 10:48:26    CreateXMLText
+08/14/2019 10:48:26    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/14/2019 10:48:26    RegisterTransaction : transaction 2
+08/14/2019 10:48:26    Object reference not set to an instance of an object.
+08/14/2019 10:48:26    ConstructRawMessage return message

@@ -1,0 +1,123 @@
+[2015-10-15 09:05:52,239] - Form1_Load
+[2015-10-15 09:06:20,902] - Form1_Load
+[2015-10-15 09:06:21,160] - hostController_SECsPrimaryIn
+[2015-10-15 09:06:21,277] - hostController_SECsPrimaryIn
+[2015-10-15 09:06:32,427] - hostController_SECsPrimaryIn
+[2015-10-15 14:55:43,708] - Form1_Load
+[2015-10-15 14:55:44,037] - hostController_SECsPrimaryIn
+[2015-10-15 14:55:44,180] - hostController_SECsPrimaryIn
+[2015-10-15 14:56:35,650] - SendButton_Click
+[2015-10-15 14:56:37,182] - CreatePrimaryTransaction
+[2015-10-15 14:56:37,192] - hostController_SECsPrimaryIn
+[2015-10-15 14:56:37,193] - Send --> 
+[2015-10-15 14:56:47,219] - hostController_SECsHostError
+[2015-10-15 15:10:09,548] - SendButton_Click
+[2015-10-15 15:10:10,832] - CreatePrimaryTransaction
+[2015-10-15 15:10:10,836] - hostController_SECsPrimaryIn
+[2015-10-15 15:10:10,837] - Send --> zzz
+[2015-10-15 15:10:20,845] - hostController_SECsHostError
+[2015-10-15 15:12:47,215] - SendButton_Click
+[2015-10-15 15:12:48,592] - CreatePrimaryTransaction
+[2015-10-15 15:12:48,627] - hostController_SECsHostError
+[2015-10-15 15:12:48,627] - hostController_SECsPrimaryIn
+[2015-10-15 15:12:48,627] - Send --> zzz
+[2015-10-15 15:12:58,599] - hostController_SECsHostError
+[2015-10-15 15:55:40,041] - SendButton_Click
+[2015-10-15 15:55:41,453] - CreatePrimaryTransaction
+[2015-10-15 15:55:41,485] - hostController_SECsHostError
+[2015-10-15 15:55:41,485] - hostController_SECsPrimaryIn
+[2015-10-15 15:55:41,485] - Send --> zzz
+[2015-10-15 15:55:51,469] - hostController_SECsHostError
+[2015-10-15 15:56:20,795] - SendButton_Click
+[2015-10-15 15:56:22,163] - CreatePrimaryTransaction
+[2015-10-15 15:56:22,192] - hostController_SECsHostError
+[2015-10-15 15:56:22,192] - hostController_SECsPrimaryIn
+[2015-10-15 15:56:22,192] - Send --> zzz
+[2015-10-15 15:56:32,167] - hostController_SECsHostError
+[2015-10-15 15:56:44,005] - SendButton_Click
+[2015-10-15 15:56:47,546] - CreatePrimaryTransaction
+[2015-10-15 15:56:47,574] - hostController_SECsHostError
+[2015-10-15 15:56:47,575] - hostController_SECsPrimaryIn
+[2015-10-15 15:56:47,575] - Send --> zzz
+[2015-10-15 15:56:57,548] - hostController_SECsHostError
+[2015-10-15 15:56:59,718] - SendButton_Click
+[2015-10-15 15:56:59,718] - CreatePrimaryTransaction
+[2015-10-15 15:56:59,755] - hostController_SECsHostError
+[2015-10-15 15:56:59,755] - hostController_SECsPrimaryIn
+[2015-10-15 15:56:59,755] - Send --> WHKU201C
+[2015-10-15 15:57:01,044] - SendButton_Click
+[2015-10-15 15:57:01,044] - CreatePrimaryTransaction
+[2015-10-15 15:57:01,072] - hostController_SECsHostError
+[2015-10-15 15:57:01,072] - hostController_SECsPrimaryIn
+[2015-10-15 15:57:01,073] - Send --> WHKU201C
+[2015-10-15 15:57:01,482] - SendButton_Click
+[2015-10-15 15:57:01,482] - CreatePrimaryTransaction
+[2015-10-15 15:57:01,510] - hostController_SECsHostError
+[2015-10-15 15:57:01,510] - hostController_SECsPrimaryIn
+[2015-10-15 15:57:01,510] - Send --> WHKU201C
+[2015-10-15 15:57:14,828] - Form1_Load
+[2015-10-15 15:57:15,056] - hostController_SECsPrimaryIn
+[2015-10-15 15:57:15,122] - hostController_SECsPrimaryIn
+[2015-10-15 15:57:21,205] - SendButton_Click
+[2015-10-15 15:57:21,205] - CreatePrimaryTransaction
+[2015-10-15 15:57:21,213] - hostController_SECsPrimaryIn
+[2015-10-15 15:57:21,214] - Send --> WHKU201C
+[2015-10-15 15:57:21,326] - Receive <-- WHKU&C07
+[2015-10-15 15:58:30,085] - Form1_Load
+[2015-10-15 15:58:41,430] - hostController_SECsPrimaryIn
+[2015-10-15 15:58:41,494] - hostController_SECsPrimaryIn
+[2015-10-15 15:58:56,260] - SendButton_Click
+[2015-10-15 15:58:56,260] - CreatePrimaryTransaction
+[2015-10-15 15:58:56,269] - hostController_SECsPrimaryIn
+[2015-10-15 15:58:56,269] - Send --> WHKU201C
+[2015-10-15 15:58:56,466] - Receive <-- WHKU&C07
+[2015-10-15 17:04:05,798] - SendButton_Click
+[2015-10-15 17:04:05,798] - CreatePrimaryTransaction
+[2015-10-15 17:04:05,801] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:05,801] - Send --> WHKU201C
+[2015-10-15 17:04:05,823] - Receive <-- WHKU&C07
+[2015-10-15 17:04:07,210] - SendButton_Click
+[2015-10-15 17:04:07,210] - CreatePrimaryTransaction
+[2015-10-15 17:04:07,211] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:07,211] - Send --> WHKU201C
+[2015-10-15 17:04:07,222] - Receive <-- WHKU&C07
+[2015-10-15 17:04:08,164] - SendButton_Click
+[2015-10-15 17:04:08,164] - CreatePrimaryTransaction
+[2015-10-15 17:04:08,165] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:08,165] - Send --> WHKU201C
+[2015-10-15 17:04:08,196] - Receive <-- WHKU&C07
+[2015-10-15 17:04:12,296] - SendButton_Click
+[2015-10-15 17:04:12,296] - CreatePrimaryTransaction
+[2015-10-15 17:04:12,296] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:12,296] - Send --> WHKU201D
+[2015-10-15 17:04:12,302] - Receive <-- WHKU&C07
+[2015-10-15 17:04:13,758] - SendButton_Click
+[2015-10-15 17:04:13,758] - CreatePrimaryTransaction
+[2015-10-15 17:04:13,758] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:13,758] - Send --> WHKU201D
+[2015-10-15 17:04:13,765] - Receive <-- WHKU&C07
+[2015-10-15 17:04:19,594] - SendButton_Click
+[2015-10-15 17:04:19,594] - CreatePrimaryTransaction
+[2015-10-15 17:04:19,594] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:19,594] - Send --> WHKZ201D
+[2015-10-15 17:04:20,506] - SendButton_Click
+[2015-10-15 17:04:20,506] - CreatePrimaryTransaction
+[2015-10-15 17:04:20,506] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:20,506] - Send --> WHKZ201D
+[2015-10-15 17:04:20,863] - SendButton_Click
+[2015-10-15 17:04:20,863] - CreatePrimaryTransaction
+[2015-10-15 17:04:20,864] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:20,864] - Send --> WHKZ201D
+[2015-10-15 17:04:21,198] - SendButton_Click
+[2015-10-15 17:04:21,198] - CreatePrimaryTransaction
+[2015-10-15 17:04:21,198] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:21,198] - Send --> WHKZ201D
+[2015-10-15 17:04:21,449] - SendButton_Click
+[2015-10-15 17:04:21,449] - CreatePrimaryTransaction
+[2015-10-15 17:04:21,450] - hostController_SECsPrimaryIn
+[2015-10-15 17:04:21,450] - Send --> WHKZ201D
+[2015-10-15 17:04:29,598] - hostController_SECsHostError
+[2015-10-15 17:04:30,500] - hostController_SECsHostError
+[2015-10-15 17:04:30,859] - hostController_SECsHostError
+[2015-10-15 17:04:31,202] - hostController_SECsHostError
+[2015-10-15 17:04:31,436] - hostController_SECsHostError

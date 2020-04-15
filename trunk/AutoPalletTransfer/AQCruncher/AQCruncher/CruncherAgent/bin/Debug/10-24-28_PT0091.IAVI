@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PalletObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PalletID>PT0091</PalletID>
+  <TesterNumber>iAVI</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>SPYGLASS_C8_SD</Product>
+  <User>KAI NOI</User>
+  <LotNumber>WYL47_AB2</LotNumber>
+  <DocControl1>70634-E4-B</DocControl1>
+  <DocControl2>N26110NE-R00</DocControl2>
+  <Sus>HTOM2MR</Sus>
+  <AssyLine>B4A2</AssyLine>
+  <HGAN1>WYL4869E</HGAN1>
+  <HGAN2>WYL4869F</HGAN2>
+  <HGAN3>WYL4869H</HGAN3>
+  <HGAN4>WYL4869J</HGAN4>
+  <HGAN5>WYL4869K</HGAN5>
+  <HGAN6>WYL4869L</HGAN6>
+  <HGAN7>WYL4869N</HGAN7>
+  <HGAN8>WYL4869P</HGAN8>
+  <HGAN9>WYL4869R</HGAN9>
+  <HGAN10>WYL4857Y</HGAN10>
+  <DefectN1 />
+  <DefectN2 />
+  <DefectN3>XX,A1,J4O</DefectN3>
+  <DefectN4>A1</DefectN4>
+  <DefectN5>A1</DefectN5>
+  <DefectN6>A1</DefectN6>
+  <DefectN7>A1</DefectN7>
+  <DefectN8 />
+  <DefectN9 />
+  <DefectN10>A1</DefectN10>
+</PalletObj>

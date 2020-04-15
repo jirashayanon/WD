@@ -1,0 +1,66 @@
+11/01/2018 08:46:19    Connect
+11/01/2018 08:46:20    OnConnected
+11/01/2018 08:46:20    OnSECsCommNotification
+11/01/2018 08:46:20    ProcessOutStream
+11/01/2018 08:46:20    this.SECsServer.IsConnected()
+11/01/2018 08:46:20    ConstructRawMessage
+11/01/2018 08:46:20    ConstructRawMessage nextTransactionID 1
+11/01/2018 08:46:20    CreateXMLText
+11/01/2018 08:46:20    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+11/01/2018 08:46:20    RegisterTransaction : transaction 1
+11/01/2018 08:46:20    ConstructRawMessage return message
+11/01/2018 08:46:27    ProcessOutStream
+11/01/2018 08:46:27    this.SECsServer.IsConnected()
+11/01/2018 08:46:27    ConstructRawMessage
+11/01/2018 08:46:27    ConstructRawMessage nextTransactionID 2
+11/01/2018 08:46:27    CreateXMLText
+11/01/2018 08:46:27    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+11/01/2018 08:46:27    RegisterTransaction : transaction 2
+11/01/2018 08:46:27    ConstructRawMessage return message
+11/01/2018 08:46:31    ProcessInStream
+11/01/2018 08:46:31    OnSECsSecondaryNotification
+11/01/2018 08:46:34    UnRegisterTransaction 2
+11/01/2018 08:47:49    ProcessOutStream
+11/01/2018 08:47:49    this.SECsServer.IsConnected()
+11/01/2018 08:47:49    ConstructRawMessage
+11/01/2018 08:47:49    ConstructRawMessage nextTransactionID 3
+11/01/2018 08:47:49    CreateXMLText
+11/01/2018 08:47:49    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">ACAMM_22</Value></SCIItem></Items></Item></Primary></SCITransaction>
+11/01/2018 08:47:49    RegisterTransaction : transaction 3
+11/01/2018 08:47:49    ConstructRawMessage return message
+11/01/2018 08:47:49    ProcessInStream
+11/01/2018 08:47:49    OnSECsSecondaryNotification
+11/01/2018 08:47:52    UnRegisterTransaction 3
+11/01/2018 08:47:55    ProcessOutStream
+11/01/2018 08:47:55    this.SECsServer.IsConnected()
+11/01/2018 08:47:55    ConstructRawMessage
+11/01/2018 08:47:55    ConstructRawMessage nextTransactionID 4
+11/01/2018 08:47:55    CreateXMLText
+11/01/2018 08:47:55    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">AVI</Value></SCIItem></Items></Item></Primary></SCITransaction>
+11/01/2018 08:47:55    RegisterTransaction : transaction 4
+11/01/2018 08:47:55    ConstructRawMessage return message
+11/01/2018 08:48:56    ProcessInStream
+11/01/2018 08:48:56    OnSECsSecondaryNotification
+11/01/2018 08:49:46    UnRegisterTransaction 4
+11/01/2018 08:50:02    ProcessOutStream
+11/01/2018 08:50:02    this.SECsServer.IsConnected()
+11/01/2018 08:50:02    ConstructRawMessage
+11/01/2018 08:50:02    ConstructRawMessage nextTransactionID 5
+11/01/2018 08:50:02    CreateXMLText
+11/01/2018 08:50:02    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">50</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Name>SJBLane</Name><Value xsi:type="xsd:int">21</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA10</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+11/01/2018 08:50:02    RegisterTransaction : transaction 5
+11/01/2018 08:50:02    ConstructRawMessage return message
+11/01/2018 08:50:06    ProcessInStream
+11/01/2018 08:50:06    OnSECsSecondaryNotification
+11/01/2018 08:50:11    UnRegisterTransaction 5
+11/01/2018 08:51:28    ProcessOutStream
+11/01/2018 08:51:28    this.SECsServer.IsConnected()
+11/01/2018 08:51:28    ConstructRawMessage
+11/01/2018 08:51:28    ConstructRawMessage nextTransactionID 6
+11/01/2018 08:51:28    CreateXMLText
+11/01/2018 08:51:28    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">iAVI001</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">AVI</Value></SCIItem></Items></Item></Primary></SCITransaction>
+11/01/2018 08:51:28    RegisterTransaction : transaction 6
+11/01/2018 08:51:28    ConstructRawMessage return message
+11/01/2018 08:53:13    ProcessInStream
+11/01/2018 08:53:13    OnSECsSecondaryNotification
+11/01/2018 08:55:37    UnRegisterTransaction 6

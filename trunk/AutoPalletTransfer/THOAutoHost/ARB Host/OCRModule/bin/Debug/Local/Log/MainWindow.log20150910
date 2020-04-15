@@ -1,0 +1,62 @@
+[2015-09-10 19:19:52,190] - Form1_Load
+[2015-09-10 19:19:54,707] - hostController_SECsPrimaryIn
+[2015-09-10 19:19:54,749] - hostController_SECsPrimaryIn
+[2015-09-10 19:19:59,852] - SendButton_Click
+[2015-09-10 19:19:59,852] - CreatePrimaryTransaction
+[2015-09-10 19:19:59,862] - hostController_SECsPrimaryIn
+[2015-09-10 19:19:59,862] - Send --> WHKU201A
+[2015-09-10 19:19:59,995] - hostController_SECsSecondaryIn
+[2015-09-10 19:19:59,996] - Receive --> WHKU&C07
+[2015-09-10 19:23:00,936] - Form1_Load
+[2015-09-10 19:23:03,207] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:03,248] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:11,348] - SendButton_Click
+[2015-09-10 19:23:11,349] - CreatePrimaryTransaction
+[2015-09-10 19:23:11,359] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:11,359] - Send --> WHKU201A
+[2015-09-10 19:23:11,514] - Receive <-- WHKU&C07
+[2015-09-10 19:23:58,769] - SendButton_Click
+[2015-09-10 19:23:58,769] - CreatePrimaryTransaction
+[2015-09-10 19:23:58,770] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:58,770] - Send --> WHKU201A
+[2015-09-10 19:23:58,782] - Receive <-- WHKU&C07
+[2015-09-10 19:23:59,361] - SendButton_Click
+[2015-09-10 19:23:59,361] - CreatePrimaryTransaction
+[2015-09-10 19:23:59,361] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:59,362] - Send --> WHKU201A
+[2015-09-10 19:23:59,373] - Receive <-- WHKU&C07
+[2015-09-10 19:23:59,521] - SendButton_Click
+[2015-09-10 19:23:59,521] - CreatePrimaryTransaction
+[2015-09-10 19:23:59,521] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:59,522] - Send --> WHKU201A
+[2015-09-10 19:23:59,533] - Receive <-- WHKU&C07
+[2015-09-10 19:23:59,673] - SendButton_Click
+[2015-09-10 19:23:59,673] - CreatePrimaryTransaction
+[2015-09-10 19:23:59,673] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:59,673] - Send --> WHKU201A
+[2015-09-10 19:23:59,687] - Receive <-- WHKU&C07
+[2015-09-10 19:23:59,833] - SendButton_Click
+[2015-09-10 19:23:59,833] - CreatePrimaryTransaction
+[2015-09-10 19:23:59,833] - hostController_SECsPrimaryIn
+[2015-09-10 19:23:59,833] - Send --> WHKU201A
+[2015-09-10 19:23:59,844] - Receive <-- WHKU&C07
+[2015-09-10 19:24:00,001] - SendButton_Click
+[2015-09-10 19:24:00,001] - CreatePrimaryTransaction
+[2015-09-10 19:24:00,001] - hostController_SECsPrimaryIn
+[2015-09-10 19:24:00,002] - Send --> WHKU201A
+[2015-09-10 19:24:00,013] - Receive <-- WHKU&C07
+[2015-09-10 19:24:00,161] - SendButton_Click
+[2015-09-10 19:24:00,161] - CreatePrimaryTransaction
+[2015-09-10 19:24:00,166] - hostController_SECsPrimaryIn
+[2015-09-10 19:24:00,166] - Send --> WHKU201A
+[2015-09-10 19:24:00,177] - Receive <-- WHKU&C07
+[2015-09-10 19:24:00,304] - SendButton_Click
+[2015-09-10 19:24:00,305] - CreatePrimaryTransaction
+[2015-09-10 19:24:00,305] - hostController_SECsPrimaryIn
+[2015-09-10 19:24:00,305] - Send --> WHKU201A
+[2015-09-10 19:24:00,316] - Receive <-- WHKU&C07
+[2015-09-10 19:24:00,448] - SendButton_Click
+[2015-09-10 19:24:00,449] - CreatePrimaryTransaction
+[2015-09-10 19:24:00,449] - hostController_SECsPrimaryIn
+[2015-09-10 19:24:00,449] - Send --> WHKU201A
+[2015-09-10 19:24:00,466] - Receive <-- WHKU&C07

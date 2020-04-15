@@ -1,0 +1,23 @@
+06/14/2018 10:06:35    HSMSServer
+06/14/2018 10:06:35    Initialize
+06/14/2018 10:06:35    LinkTestTimer_Elapsed() True
+06/14/2018 10:06:35    OpenConnection
+06/14/2018 10:06:35    OnRemoteConnect Active
+06/14/2018 10:06:35    _socketWorker.Connected True
+06/14/2018 10:06:35    this._socketWorker.EndConnect(asyn);
+06/14/2018 10:06:35    SendSECSData
+06/14/2018 10:06:35    ActivateLinkTest True
+06/14/2018 10:06:35    linktest_shouldStop = false;
+06/14/2018 10:06:35    ActivateT5 : IsEnabled False
+06/14/2018 10:06:35    WaitForData
+06/14/2018 10:06:51    TriggerTransactionTimer : transactionID -->2
+06/14/2018 10:06:51    TriggerTransactionTimer : transactionID <--2
+06/14/2018 10:06:51    SendSECSData
+06/14/2018 10:09:15    TriggerTransactionTimer : transactionID -->3
+06/14/2018 10:09:15    TriggerTransactionTimer : transactionID <--3
+06/14/2018 10:09:15    SendSECSData
+06/14/2018 10:09:17    TriggerTransactionTimer : transactionID -->4
+06/14/2018 10:09:17    TriggerTransactionTimer : transactionID <--4
+06/14/2018 10:09:17    SendSECSData
+06/14/2018 10:56:52    TimeOut transactionId 2 timerId T3
+06/14/2018 10:56:52    TimeOut : transactionId 2 timerId : T3

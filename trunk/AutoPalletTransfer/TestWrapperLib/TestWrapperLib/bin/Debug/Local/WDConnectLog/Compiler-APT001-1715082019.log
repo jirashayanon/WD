@@ -1,0 +1,23 @@
+08/15/2019 17:26:47    Only one usage of each socket address (protocol/network address/port) is normally permitted
+08/15/2019 17:26:47    OnSECsErrorNotification
+08/15/2019 17:26:47    Connect
+08/15/2019 17:26:47    OnConnected
+08/15/2019 17:26:47    OnSECsCommNotification
+08/15/2019 17:26:47    ProcessOutStream
+08/15/2019 17:26:47    this.SECsServer.IsConnected()
+08/15/2019 17:26:47    ConstructRawMessage
+08/15/2019 17:26:47    ConstructRawMessage nextTransactionID 1
+08/15/2019 17:26:47    CreateXMLText
+08/15/2019 17:26:47    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+08/15/2019 17:26:47    RegisterTransaction : transaction 1
+08/15/2019 17:26:47    Object reference not set to an instance of an object.
+08/15/2019 17:26:47    ConstructRawMessage return message
+08/15/2019 17:27:28    ProcessOutStream
+08/15/2019 17:27:28    this.SECsServer.IsConnected()
+08/15/2019 17:27:28    ConstructRawMessage
+08/15/2019 17:27:28    ConstructRawMessage nextTransactionID 2
+08/15/2019 17:27:28    CreateXMLText
+08/15/2019 17:27:28    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSwapPallet</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSwapPallet</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+08/15/2019 17:27:28    RegisterTransaction : transaction 2
+08/15/2019 17:27:28    Object reference not set to an instance of an object.
+08/15/2019 17:27:28    ConstructRawMessage return message

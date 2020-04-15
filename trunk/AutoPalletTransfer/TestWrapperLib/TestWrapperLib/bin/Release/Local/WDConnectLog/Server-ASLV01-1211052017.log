@@ -1,0 +1,26 @@
+05/11/2017 12:03:37    TriggerTransactionTimer : transactionID -->3
+05/11/2017 12:03:37    TriggerTransactionTimer : transactionID <--3
+05/11/2017 12:03:37    SendSECSData
+05/11/2017 12:27:11    OnDataReceived
+05/11/2017 12:27:11    OnDataReceived 1270
+05/11/2017 12:27:11    OnDataArrival
+05/11/2017 12:27:11    ResolveHeaderBuffer string [0000001258]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">ASLV01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">10</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>Suspension</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspTrayID</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/11/2017 12:27:11    [0000001258]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">ASLV01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">10</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>Suspension</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>SuspTrayID</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+05/11/2017 12:27:11    ProcessSECsMessage -->
+05/11/2017 12:27:11    ProcessSECsMessage <--
+05/11/2017 12:27:11    0 
+05/11/2017 12:27:11    WaitForData
+05/11/2017 12:50:34    OnDataReceived
+05/11/2017 12:50:34    OnDataReceived 343
+05/11/2017 12:50:34    OnDataArrival
+05/11/2017 12:50:34    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+05/11/2017 12:50:34    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+05/11/2017 12:50:34    ProcessSECsMessage -->
+05/11/2017 12:50:34    CloseConnection
+05/11/2017 12:50:34    CloseSession
+05/11/2017 12:50:34    ProcessSECsMessage <--
+05/11/2017 12:50:34    0 
+05/11/2017 12:50:34    WaitForData
+05/11/2017 12:50:34    WaitForData : Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.
+05/11/2017 12:50:48    CloseConnection

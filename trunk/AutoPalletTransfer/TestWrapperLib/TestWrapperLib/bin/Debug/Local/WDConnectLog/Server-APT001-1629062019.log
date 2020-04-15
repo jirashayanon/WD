@@ -1,0 +1,12 @@
+06/29/2019 16:33:56    LinkTestTimer_Elapsed() False
+06/29/2019 16:33:56    LinkTest Code : 163356
+06/29/2019 16:33:56    this._socketWorker.Send(buffer); [0000000023]LinkTest:Request:163356
+06/29/2019 16:33:56    _linkTestManager.Register(code)163356
+06/29/2019 16:33:56    OnDataReceived
+06/29/2019 16:33:56    OnDataReceived 35
+06/29/2019 16:33:56    OnDataArrival
+06/29/2019 16:33:56    ProcessControlMessage LinkTest:Respond:163356
+06/29/2019 16:33:56    _linkTestManager.IsTransactionExist(code) True
+06/29/2019 16:33:56    linktest_shouldStop = false;
+06/29/2019 16:33:56    0 
+06/29/2019 16:33:56    WaitForData

@@ -1,0 +1,44 @@
+06/23/2019 13:42:53    Connect
+06/23/2019 13:42:53    OnConnected
+06/23/2019 13:42:53    OnSECsCommNotification
+06/23/2019 13:42:53    ProcessOutStream
+06/23/2019 13:42:53    this.SECsServer.IsConnected()
+06/23/2019 13:42:53    ConstructRawMessage
+06/23/2019 13:42:53    ConstructRawMessage nextTransactionID 1
+06/23/2019 13:42:53    CreateXMLText
+06/23/2019 13:42:53    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/23/2019 13:42:53    RegisterTransaction : transaction 1
+06/23/2019 13:42:53    ConstructRawMessage return message
+06/23/2019 13:46:12    ProcessOutStream
+06/23/2019 13:46:12    this.SECsServer.IsConnected()
+06/23/2019 13:46:12    ConstructRawMessage
+06/23/2019 13:46:12    ConstructRawMessage nextTransactionID 2
+06/23/2019 13:46:12    CreateXMLText
+06/23/2019 13:46:12    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestSuspension</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestSuspension</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>ACAMID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Name>SuspAmt</Name><Value xsi:type="xsd:int">10</Value></SCIItem></Items><Value xsi:type="xsd:boolean">true</Value></Item></Primary></SCITransaction>
+06/23/2019 13:46:12    RegisterTransaction : transaction 2
+06/23/2019 13:46:12    ConstructRawMessage return message
+06/23/2019 13:46:14    ProcessInStream
+06/23/2019 13:46:14    OnSECsSecondaryNotification
+06/23/2019 13:46:14    UnRegisterTransaction 2
+06/23/2019 13:50:04    Connect
+06/23/2019 13:50:04    OnConnected
+06/23/2019 13:50:04    OnSECsCommNotification
+06/23/2019 13:50:04    ProcessOutStream
+06/23/2019 13:50:04    this.SECsServer.IsConnected()
+06/23/2019 13:50:04    ConstructRawMessage
+06/23/2019 13:50:04    ConstructRawMessage nextTransactionID 1
+06/23/2019 13:50:04    CreateXMLText
+06/23/2019 13:50:04    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/23/2019 13:50:04    RegisterTransaction : transaction 1
+06/23/2019 13:50:04    ConstructRawMessage return message
+06/23/2019 13:50:08    ProcessOutStream
+06/23/2019 13:50:08    this.SECsServer.IsConnected()
+06/23/2019 13:50:08    ConstructRawMessage
+06/23/2019 13:50:08    ConstructRawMessage nextTransactionID 2
+06/23/2019 13:50:08    CreateXMLText
+06/23/2019 13:50:08    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">ASLV01</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentType</Name><Value xsi:type="xsd:string">ASLV</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/23/2019 13:50:08    RegisterTransaction : transaction 2
+06/23/2019 13:50:08    ConstructRawMessage return message
+06/23/2019 13:50:12    ProcessInStream
+06/23/2019 13:50:12    OnSECsSecondaryNotification
+06/23/2019 13:50:14    UnRegisterTransaction 2

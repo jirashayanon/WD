@@ -1,0 +1,483 @@
+01/19/2017 15:05:45    HSMSServer
+01/19/2017 15:05:45    Initialize
+01/19/2017 15:05:45    OpenListenPort
+01/19/2017 15:05:45    LinkTestTimer_Elapsed() True
+01/19/2017 15:05:45    ListenConnection
+01/19/2017 15:05:45    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+01/19/2017 15:05:48    OnClientConnect Passive
+01/19/2017 15:05:48    this._socketWorker = this._socketListener.EndAccept(asyn);
+01/19/2017 15:05:48    ActivateLinkTest True
+01/19/2017 15:05:48    linktest_shouldStop = false;
+01/19/2017 15:05:48    WaitForData
+01/19/2017 15:05:48    OnDataReceived
+01/19/2017 15:05:48    OnDataReceived 375
+01/19/2017 15:05:48    OnDataArrival
+01/19/2017 15:05:48    ResolveHeaderBuffer string [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:05:48    [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:05:48    ProcessSECsMessage -->
+01/19/2017 15:05:49    ProcessSECsMessage <--
+01/19/2017 15:05:49    0 
+01/19/2017 15:05:49    WaitForData
+01/19/2017 15:05:49    OnDataReceived
+01/19/2017 15:05:49    OnDataReceived 499
+01/19/2017 15:05:49    OnDataArrival
+01/19/2017 15:05:49    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:05:49    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:05:49    ProcessSECsMessage -->
+01/19/2017 15:05:49    SendSECSData
+01/19/2017 15:05:49    ProcessSECsMessage <--
+01/19/2017 15:05:49    0 
+01/19/2017 15:05:49    WaitForData
+01/19/2017 15:05:53    OnDataReceived
+01/19/2017 15:05:53    OnDataReceived 606
+01/19/2017 15:05:53    OnDataArrival
+01/19/2017 15:05:53    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:05:53    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:05:53    ProcessSECsMessage -->
+01/19/2017 15:05:53    SendSECSData
+01/19/2017 15:05:54    ProcessSECsMessage <--
+01/19/2017 15:05:54    0 
+01/19/2017 15:05:54    WaitForData
+01/19/2017 15:06:10    OnDataReceived
+01/19/2017 15:06:10    OnDataReceived 499
+01/19/2017 15:06:10    OnDataArrival
+01/19/2017 15:06:10    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:06:10    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:06:10    ProcessSECsMessage -->
+01/19/2017 15:06:10    SendSECSData
+01/19/2017 15:06:11    ProcessSECsMessage <--
+01/19/2017 15:06:11    0 
+01/19/2017 15:06:11    WaitForData
+01/19/2017 15:06:11    OnDataReceived
+01/19/2017 15:06:11    OnDataReceived 499
+01/19/2017 15:06:11    OnDataArrival
+01/19/2017 15:06:11    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:06:11    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:06:11    ProcessSECsMessage -->
+01/19/2017 15:06:11    SendSECSData
+01/19/2017 15:06:11    ProcessSECsMessage <--
+01/19/2017 15:06:11    0 
+01/19/2017 15:06:11    WaitForData
+01/19/2017 15:06:14    OnDataReceived
+01/19/2017 15:06:14    ** An existing connection was forcibly closed by the remote host
+01/19/2017 15:06:14    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+01/19/2017 15:17:03    HSMSServer
+01/19/2017 15:17:03    Initialize
+01/19/2017 15:17:03    LinkTestTimer_Elapsed() True
+01/19/2017 15:17:03    OpenListenPort
+01/19/2017 15:17:03    ListenConnection
+01/19/2017 15:17:03    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+01/19/2017 15:17:06    OnClientConnect Passive
+01/19/2017 15:17:06    this._socketWorker = this._socketListener.EndAccept(asyn);
+01/19/2017 15:17:06    ActivateLinkTest True
+01/19/2017 15:17:06    linktest_shouldStop = false;
+01/19/2017 15:17:06    WaitForData
+01/19/2017 15:17:06    OnDataReceived
+01/19/2017 15:17:06    OnDataReceived 375
+01/19/2017 15:17:06    OnDataArrival
+01/19/2017 15:17:06    ResolveHeaderBuffer string [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:17:06    [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:17:06    ProcessSECsMessage -->
+01/19/2017 15:17:07    ProcessSECsMessage <--
+01/19/2017 15:17:07    0 
+01/19/2017 15:17:07    WaitForData
+01/19/2017 15:17:07    OnDataReceived
+01/19/2017 15:17:07    OnDataReceived 499
+01/19/2017 15:17:07    OnDataArrival
+01/19/2017 15:17:07    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:07    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:07    ProcessSECsMessage -->
+01/19/2017 15:17:07    SendSECSData
+01/19/2017 15:17:07    ProcessSECsMessage <--
+01/19/2017 15:17:07    0 
+01/19/2017 15:17:07    WaitForData
+01/19/2017 15:17:07    OnDataReceived
+01/19/2017 15:17:07    OnDataReceived 499
+01/19/2017 15:17:07    OnDataArrival
+01/19/2017 15:17:07    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:07    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:07    ProcessSECsMessage -->
+01/19/2017 15:17:08    SendSECSData
+01/19/2017 15:17:08    ProcessSECsMessage <--
+01/19/2017 15:17:08    0 
+01/19/2017 15:17:08    WaitForData
+01/19/2017 15:17:08    OnDataReceived
+01/19/2017 15:17:08    OnDataReceived 606
+01/19/2017 15:17:08    OnDataArrival
+01/19/2017 15:17:08    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:08    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:08    ProcessSECsMessage -->
+01/19/2017 15:17:08    SendSECSData
+01/19/2017 15:17:09    ProcessSECsMessage <--
+01/19/2017 15:17:09    0 
+01/19/2017 15:17:09    WaitForData
+01/19/2017 15:17:12    OnDataReceived
+01/19/2017 15:17:12    OnDataReceived 606
+01/19/2017 15:17:12    OnDataArrival
+01/19/2017 15:17:12    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:12    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:12    ProcessSECsMessage -->
+01/19/2017 15:17:12    SendSECSData
+01/19/2017 15:17:13    ProcessSECsMessage <--
+01/19/2017 15:17:13    0 
+01/19/2017 15:17:13    WaitForData
+01/19/2017 15:17:13    OnDataReceived
+01/19/2017 15:17:13    OnDataReceived 606
+01/19/2017 15:17:13    OnDataArrival
+01/19/2017 15:17:13    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:13    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">5</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:13    ProcessSECsMessage -->
+01/19/2017 15:17:13    SendSECSData
+01/19/2017 15:17:13    ProcessSECsMessage <--
+01/19/2017 15:17:13    0 
+01/19/2017 15:17:13    WaitForData
+01/19/2017 15:17:15    OnDataReceived
+01/19/2017 15:17:15    OnDataReceived 606
+01/19/2017 15:17:15    OnDataArrival
+01/19/2017 15:17:15    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:15    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:15    ProcessSECsMessage -->
+01/19/2017 15:17:15    SendSECSData
+01/19/2017 15:17:15    ProcessSECsMessage <--
+01/19/2017 15:17:15    0 
+01/19/2017 15:17:15    WaitForData
+01/19/2017 15:17:15    OnDataReceived
+01/19/2017 15:17:15    OnDataReceived 606
+01/19/2017 15:17:15    OnDataArrival
+01/19/2017 15:17:15    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:15    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:15    ProcessSECsMessage -->
+01/19/2017 15:17:15    SendSECSData
+01/19/2017 15:17:16    ProcessSECsMessage <--
+01/19/2017 15:17:16    0 
+01/19/2017 15:17:16    WaitForData
+01/19/2017 15:17:17    OnDataReceived
+01/19/2017 15:17:17    OnDataReceived 726
+01/19/2017 15:17:17    OnDataArrival
+01/19/2017 15:17:17    ResolveHeaderBuffer string [0000000714]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:17    [0000000714]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:17    ProcessSECsMessage -->
+01/19/2017 15:17:17    SendSECSData
+01/19/2017 15:17:17    ProcessSECsMessage <--
+01/19/2017 15:17:17    0 
+01/19/2017 15:17:17    WaitForData
+01/19/2017 15:17:17    OnDataReceived
+01/19/2017 15:17:17    OnDataReceived 727
+01/19/2017 15:17:17    OnDataArrival
+01/19/2017 15:17:17    ResolveHeaderBuffer string [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:17    [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:17    ProcessSECsMessage -->
+01/19/2017 15:17:17    SendSECSData
+01/19/2017 15:17:18    ProcessSECsMessage <--
+01/19/2017 15:17:18    0 
+01/19/2017 15:17:18    WaitForData
+01/19/2017 15:17:18    OnDataReceived
+01/19/2017 15:17:18    OnDataReceived 503
+01/19/2017 15:17:18    OnDataArrival
+01/19/2017 15:17:18    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:18    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:18    ProcessSECsMessage -->
+01/19/2017 15:17:19    SendSECSData
+01/19/2017 15:17:19    ProcessSECsMessage <--
+01/19/2017 15:17:19    0 
+01/19/2017 15:17:19    WaitForData
+01/19/2017 15:17:20    OnDataReceived
+01/19/2017 15:17:20    OnDataReceived 503
+01/19/2017 15:17:20    OnDataArrival
+01/19/2017 15:17:20    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:20    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:20    ProcessSECsMessage -->
+01/19/2017 15:17:20    SendSECSData
+01/19/2017 15:17:21    ProcessSECsMessage <--
+01/19/2017 15:17:21    0 
+01/19/2017 15:17:21    WaitForData
+01/19/2017 15:17:21    OnDataReceived
+01/19/2017 15:17:21    OnDataReceived 727
+01/19/2017 15:17:21    OnDataArrival
+01/19/2017 15:17:21    ResolveHeaderBuffer string [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:21    [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:21    ProcessSECsMessage -->
+01/19/2017 15:17:21    SendSECSData
+01/19/2017 15:17:22    ProcessSECsMessage <--
+01/19/2017 15:17:22    0 
+01/19/2017 15:17:22    WaitForData
+01/19/2017 15:17:22    OnDataReceived
+01/19/2017 15:17:22    OnDataReceived 503
+01/19/2017 15:17:22    OnDataArrival
+01/19/2017 15:17:22    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:22    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:22    ProcessSECsMessage -->
+01/19/2017 15:17:22    SendSECSData
+01/19/2017 15:17:23    ProcessSECsMessage <--
+01/19/2017 15:17:23    0 
+01/19/2017 15:17:23    WaitForData
+01/19/2017 15:17:28    OnDataReceived
+01/19/2017 15:17:28    OnDataReceived 810
+01/19/2017 15:17:28    OnDataArrival
+01/19/2017 15:17:28    ResolveHeaderBuffer string [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:28    [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:28    ProcessSECsMessage -->
+01/19/2017 15:17:28    SendSECSData
+01/19/2017 15:17:28    ProcessSECsMessage <--
+01/19/2017 15:17:28    0 
+01/19/2017 15:17:28    WaitForData
+01/19/2017 15:17:28    OnDataReceived
+01/19/2017 15:17:28    OnDataReceived 810
+01/19/2017 15:17:28    OnDataArrival
+01/19/2017 15:17:28    ResolveHeaderBuffer string [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>16</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:28    [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>16</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:28    ProcessSECsMessage -->
+01/19/2017 15:17:28    SendSECSData
+01/19/2017 15:17:29    ProcessSECsMessage <--
+01/19/2017 15:17:29    0 
+01/19/2017 15:17:29    WaitForData
+01/19/2017 15:17:29    OnDataReceived
+01/19/2017 15:17:29    OnDataReceived 753
+01/19/2017 15:17:29    OnDataArrival
+01/19/2017 15:17:29    ResolveHeaderBuffer string [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>17</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:29    [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>17</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:29    ProcessSECsMessage -->
+01/19/2017 15:17:29    SendSECSData
+01/19/2017 15:17:30    ProcessSECsMessage <--
+01/19/2017 15:17:30    0 
+01/19/2017 15:17:30    WaitForData
+01/19/2017 15:17:30    OnDataReceived
+01/19/2017 15:17:30    OnDataReceived 753
+01/19/2017 15:17:30    OnDataArrival
+01/19/2017 15:17:30    ResolveHeaderBuffer string [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>18</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:30    [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>18</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:17:30    ProcessSECsMessage -->
+01/19/2017 15:17:30    SendSECSData
+01/19/2017 15:17:30    ProcessSECsMessage <--
+01/19/2017 15:17:30    0 
+01/19/2017 15:17:30    WaitForData
+01/19/2017 15:17:42    OnDataReceived
+01/19/2017 15:17:42    ** An existing connection was forcibly closed by the remote host
+01/19/2017 15:17:43    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+01/19/2017 15:20:06    OnClientConnect Passive
+01/19/2017 15:20:06    this._socketWorker = this._socketListener.EndAccept(asyn);
+01/19/2017 15:20:07    ActivateLinkTest True
+01/19/2017 15:20:07    linktest_shouldStop = false;
+01/19/2017 15:20:07    WaitForData
+01/19/2017 15:20:07    OnDataReceived
+01/19/2017 15:20:07    OnDataReceived 375
+01/19/2017 15:20:07    OnDataArrival
+01/19/2017 15:20:07    ResolveHeaderBuffer string [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:20:07    [0000000363]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+01/19/2017 15:20:07    ProcessSECsMessage -->
+01/19/2017 15:20:07    ProcessSECsMessage <--
+01/19/2017 15:20:07    0 
+01/19/2017 15:20:07    WaitForData
+01/19/2017 15:20:07    OnDataReceived
+01/19/2017 15:20:07    OnDataReceived 499
+01/19/2017 15:20:07    OnDataArrival
+01/19/2017 15:20:07    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:07    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:07    ProcessSECsMessage -->
+01/19/2017 15:20:07    SendSECSData
+01/19/2017 15:20:08    ProcessSECsMessage <--
+01/19/2017 15:20:08    0 
+01/19/2017 15:20:08    WaitForData
+01/19/2017 15:20:08    OnDataReceived
+01/19/2017 15:20:08    OnDataReceived 499
+01/19/2017 15:20:08    OnDataArrival
+01/19/2017 15:20:08    ResolveHeaderBuffer string [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:08    [0000000487]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:08    ProcessSECsMessage -->
+01/19/2017 15:20:08    SendSECSData
+01/19/2017 15:20:08    ProcessSECsMessage <--
+01/19/2017 15:20:08    0 
+01/19/2017 15:20:08    WaitForData
+01/19/2017 15:20:09    OnDataReceived
+01/19/2017 15:20:09    OnDataReceived 606
+01/19/2017 15:20:09    OnDataArrival
+01/19/2017 15:20:09    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:09    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:09    ProcessSECsMessage -->
+01/19/2017 15:20:09    SendSECSData
+01/19/2017 15:20:09    ProcessSECsMessage <--
+01/19/2017 15:20:09    0 
+01/19/2017 15:20:09    WaitForData
+01/19/2017 15:20:09    OnDataReceived
+01/19/2017 15:20:09    OnDataReceived 606
+01/19/2017 15:20:09    OnDataArrival
+01/19/2017 15:20:09    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:09    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>5</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:09    ProcessSECsMessage -->
+01/19/2017 15:20:09    SendSECSData
+01/19/2017 15:20:10    ProcessSECsMessage <--
+01/19/2017 15:20:10    0 
+01/19/2017 15:20:10    WaitForData
+01/19/2017 15:20:10    OnDataReceived
+01/19/2017 15:20:10    OnDataReceived 606
+01/19/2017 15:20:10    OnDataArrival
+01/19/2017 15:20:10    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:10    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>6</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:10    ProcessSECsMessage -->
+01/19/2017 15:20:10    SendSECSData
+01/19/2017 15:20:10    ProcessSECsMessage <--
+01/19/2017 15:20:10    0 
+01/19/2017 15:20:10    WaitForData
+01/19/2017 15:20:10    OnDataReceived
+01/19/2017 15:20:10    OnDataReceived 606
+01/19/2017 15:20:10    OnDataArrival
+01/19/2017 15:20:10    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:10    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>7</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:10    ProcessSECsMessage -->
+01/19/2017 15:20:10    SendSECSData
+01/19/2017 15:20:11    ProcessSECsMessage <--
+01/19/2017 15:20:11    0 
+01/19/2017 15:20:11    WaitForData
+01/19/2017 15:20:11    OnDataReceived
+01/19/2017 15:20:11    OnDataReceived 606
+01/19/2017 15:20:11    OnDataArrival
+01/19/2017 15:20:11    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:11    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>8</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:11    ProcessSECsMessage -->
+01/19/2017 15:20:11    SendSECSData
+01/19/2017 15:20:12    ProcessSECsMessage <--
+01/19/2017 15:20:12    0 
+01/19/2017 15:20:12    WaitForData
+01/19/2017 15:20:12    OnDataReceived
+01/19/2017 15:20:12    OnDataReceived 606
+01/19/2017 15:20:12    OnDataArrival
+01/19/2017 15:20:12    ResolveHeaderBuffer string [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:12    [0000000594]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>9</Id><Name>SendControlState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendControlState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ControlState</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:12    ProcessSECsMessage -->
+01/19/2017 15:20:12    SendSECSData
+01/19/2017 15:20:13    ProcessSECsMessage <--
+01/19/2017 15:20:13    0 
+01/19/2017 15:20:13    WaitForData
+01/19/2017 15:20:13    OnDataReceived
+01/19/2017 15:20:13    OnDataReceived 607
+01/19/2017 15:20:13    OnDataArrival
+01/19/2017 15:20:13    ResolveHeaderBuffer string [0000000595]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:13    [0000000595]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>10</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:13    ProcessSECsMessage -->
+01/19/2017 15:20:13    SendSECSData
+01/19/2017 15:20:14    ProcessSECsMessage <--
+01/19/2017 15:20:14    0 
+01/19/2017 15:20:14    WaitForData
+01/19/2017 15:20:14    OnDataReceived
+01/19/2017 15:20:14    OnDataReceived 607
+01/19/2017 15:20:14    OnDataArrival
+01/19/2017 15:20:14    ResolveHeaderBuffer string [0000000595]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:14    [0000000595]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>11</Id><Name>SendProcessState</Name><NeedReply>true</NeedReply><Primary><CommandID>SendProcessState</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>ProcessState</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:14    ProcessSECsMessage -->
+01/19/2017 15:20:14    SendSECSData
+01/19/2017 15:20:14    ProcessSECsMessage <--
+01/19/2017 15:20:14    0 
+01/19/2017 15:20:14    WaitForData
+01/19/2017 15:20:14    OnDataReceived
+01/19/2017 15:20:14    OnDataReceived 727
+01/19/2017 15:20:14    OnDataArrival
+01/19/2017 15:20:14    ResolveHeaderBuffer string [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:14    [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>12</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:14    ProcessSECsMessage -->
+01/19/2017 15:20:14    SendSECSData
+01/19/2017 15:20:15    ProcessSECsMessage <--
+01/19/2017 15:20:15    0 
+01/19/2017 15:20:15    WaitForData
+01/19/2017 15:20:15    OnDataReceived
+01/19/2017 15:20:15    OnDataReceived 727
+01/19/2017 15:20:15    OnDataArrival
+01/19/2017 15:20:15    ResolveHeaderBuffer string [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:15    [0000000715]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>13</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">NUMEE_A1</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:15    ProcessSECsMessage -->
+01/19/2017 15:20:15    SendSECSData
+01/19/2017 15:20:15    ProcessSECsMessage <--
+01/19/2017 15:20:15    0 
+01/19/2017 15:20:15    WaitForData
+01/19/2017 15:20:16    OnDataReceived
+01/19/2017 15:20:16    OnDataReceived 503
+01/19/2017 15:20:16    OnDataArrival
+01/19/2017 15:20:16    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:16    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>14</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:16    ProcessSECsMessage -->
+01/19/2017 15:20:16    SendSECSData
+01/19/2017 15:20:17    ProcessSECsMessage <--
+01/19/2017 15:20:17    0 
+01/19/2017 15:20:17    WaitForData
+01/19/2017 15:20:17    OnDataReceived
+01/19/2017 15:20:17    OnDataReceived 503
+01/19/2017 15:20:17    OnDataArrival
+01/19/2017 15:20:17    ResolveHeaderBuffer string [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:17    [0000000491]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>15</Id><Name>RequestPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:17    ProcessSECsMessage -->
+01/19/2017 15:20:17    SendSECSData
+01/19/2017 15:20:18    ProcessSECsMessage <--
+01/19/2017 15:20:18    0 
+01/19/2017 15:20:18    WaitForData
+01/19/2017 15:20:18    OnDataReceived
+01/19/2017 15:20:18    OnDataReceived 3720
+01/19/2017 15:20:18    OnDataArrival
+01/19/2017 15:20:18    ResolveHeaderBuffer string [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>16</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:18    [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>16</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:18    ProcessSECsMessage -->
+01/19/2017 15:20:23    SendSECSData
+01/19/2017 15:20:23    ProcessSECsMessage <--
+01/19/2017 15:20:23    0 
+01/19/2017 15:20:23    WaitForData
+01/19/2017 15:20:32    OnDataReceived
+01/19/2017 15:20:32    OnDataReceived 3720
+01/19/2017 15:20:32    OnDataArrival
+01/19/2017 15:20:32    ResolveHeaderBuffer string [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>17</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:32    [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>17</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:32    ProcessSECsMessage -->
+01/19/2017 15:20:32    SendSECSData
+01/19/2017 15:20:32    ProcessSECsMessage <--
+01/19/2017 15:20:32    0 
+01/19/2017 15:20:32    WaitForData
+01/19/2017 15:20:32    OnDataReceived
+01/19/2017 15:20:32    OnDataReceived 3720
+01/19/2017 15:20:32    OnDataArrival
+01/19/2017 15:20:32    ResolveHeaderBuffer string [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>18</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:32    [0000003708]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>18</Id><Name>SendPalletInfo</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>SliderTrayID</Name><Value xsi:type="xsd:string">132140134</Value></SCIItem><SCIItem><Format>Integer</Format><Name>LotNumber</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA0</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA1</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA2</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA3</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA4</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA5</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA6</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA7</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA8</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SN</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>String</Format><Name>Defect</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA9</Name><Value xsi:type="xsd:string" /></SCIItem></Items><Name>HGA</Name></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:32    ProcessSECsMessage -->
+01/19/2017 15:20:32    SendSECSData
+01/19/2017 15:20:33    ProcessSECsMessage <--
+01/19/2017 15:20:33    0 
+01/19/2017 15:20:33    WaitForData
+01/19/2017 15:20:34    OnDataReceived
+01/19/2017 15:20:34    OnDataReceived 810
+01/19/2017 15:20:34    OnDataArrival
+01/19/2017 15:20:34    ResolveHeaderBuffer string [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>19</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:34    [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>19</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:34    ProcessSECsMessage -->
+01/19/2017 15:20:34    SendSECSData
+01/19/2017 15:20:34    ProcessSECsMessage <--
+01/19/2017 15:20:34    0 
+01/19/2017 15:20:34    WaitForData
+01/19/2017 15:20:35    OnDataReceived
+01/19/2017 15:20:35    OnDataReceived 810
+01/19/2017 15:20:35    OnDataArrival
+01/19/2017 15:20:35    ResolveHeaderBuffer string [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>20</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:35    [0000000798]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>20</Id><Name>SendPalletStatus</Name><NeedReply>true</NeedReply><Primary><CommandID>SendPalletStatus</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">SF0001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletStatus</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>WorkZone</Name><Value xsi:type="xsd:int">0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:35    ProcessSECsMessage -->
+01/19/2017 15:20:35    SendSECSData
+01/19/2017 15:20:35    ProcessSECsMessage <--
+01/19/2017 15:20:35    0 
+01/19/2017 15:20:35    WaitForData
+01/19/2017 15:20:36    OnDataReceived
+01/19/2017 15:20:36    OnDataReceived 753
+01/19/2017 15:20:36    OnDataArrival
+01/19/2017 15:20:36    ResolveHeaderBuffer string [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>21</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:36    [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>21</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:36    ProcessSECsMessage -->
+01/19/2017 15:20:36    SendSECSData
+01/19/2017 15:20:36    ProcessSECsMessage <--
+01/19/2017 15:20:36    0 
+01/19/2017 15:20:36    WaitForData
+01/19/2017 15:20:36    OnDataReceived
+01/19/2017 15:20:36    OnDataReceived 753
+01/19/2017 15:20:36    OnDataArrival
+01/19/2017 15:20:36    ResolveHeaderBuffer string [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>22</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:36    [0000000741]<?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>22</Id><Name>SendAlarmReport</Name><NeedReply>true</NeedReply><Primary><CommandID>SendAlarmReport</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>logicalName</Name><Value xsi:type="xsd:string">Hardware</Value></SCIItem><SCIItem><Format>String</Format><Name>id</Name><Value xsi:type="xsd:long">10000</Value></SCIItem><SCIItem><Format>String</Format><Name>description</Name><Value xsi:type="xsd:string">Start up errors, failed to initialize I/O modules</Value></SCIItem></Items></Item></Primary></SCITransaction>
+01/19/2017 15:20:36    ProcessSECsMessage -->
+01/19/2017 15:20:36    SendSECSData
+01/19/2017 15:20:37    ProcessSECsMessage <--
+01/19/2017 15:20:37    0 
+01/19/2017 15:20:37    WaitForData
+01/19/2017 15:21:59    OnDataReceived
+01/19/2017 15:21:59    ** An existing connection was forcibly closed by the remote host
+01/19/2017 15:21:59    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

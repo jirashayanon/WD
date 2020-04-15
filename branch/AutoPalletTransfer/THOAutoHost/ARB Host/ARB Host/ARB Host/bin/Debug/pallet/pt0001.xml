@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RequestPalletInfoAckObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <COMMACK>0</COMMACK>
+  <ALMID>0</ALMID>
+  <PalletID>PT0001</PalletID>
+  <PartNumber />
+  <ProductName />
+  <LotNumber />
+  <STR />
+  <Line />
+  <ACAMID />
+  <Suspension />
+  <EnabledPallet>false</EnabledPallet>
+  <HGAType />
+  <EquipmentType>40</EquipmentType>
+  <NextEquipmentType>50</NextEquipmentType>
+  <EndLot>false</EndLot>
+  <AllowedMix>false</AllowedMix>
+  <UVPower>0</UVPower>
+  <CureTime>0</CureTime>
+  <CureZone>0</CureZone>
+  <SJBStage />
+  <HGA>
+    <HGA1>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA1>
+    <HGA2>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA2>
+    <HGA3>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA3>
+    <HGA4>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA4>
+    <HGA5>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA5>
+    <HGA6>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA6>
+    <HGA7>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA7>
+    <HGA8>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA8>
+    <HGA9>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA9>
+    <HGA10>
+      <SN />
+      <Defect />
+      <xlocACAM>0</xlocACAM>
+      <ylocACAM>0</ylocACAM>
+      <skwACAM>0</skwACAM>
+      <xlocSAI>0</xlocSAI>
+      <ylocSAI>0</ylocSAI>
+      <skwSAI>0</skwSAI>
+    </HGA10>
+  </HGA>
+  <TransID>0</TransID>
+</RequestPalletInfoAckObj>

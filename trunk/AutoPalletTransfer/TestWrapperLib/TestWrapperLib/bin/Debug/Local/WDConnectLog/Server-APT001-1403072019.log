@@ -1,0 +1,5 @@
+07/03/2019 14:47:38    OnDataReceived
+07/03/2019 14:47:38    ** An existing connection was forcibly closed by the remote host
+07/03/2019 14:47:38    You must call the Bind method before performing this operation.
+07/03/2019 14:47:38    ListenConnection
+07/03/2019 14:47:38    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

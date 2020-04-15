@@ -1,0 +1,21 @@
+06/09/2017 13:41:29    Connect
+06/09/2017 13:41:30    OnConnected
+06/09/2017 13:41:30    OnSECsCommNotification
+06/09/2017 13:41:30    ProcessOutStream
+06/09/2017 13:41:30    this.SECsServer.IsConnected()
+06/09/2017 13:41:30    ConstructRawMessage
+06/09/2017 13:41:30    ConstructRawMessage nextTransactionID 1
+06/09/2017 13:41:30    CreateXMLText
+06/09/2017 13:41:30    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+06/09/2017 13:41:30    RegisterTransaction : transaction 1
+06/09/2017 13:41:30    ConstructRawMessage return message
+06/09/2017 13:41:37    ProcessOutStream
+06/09/2017 13:41:37    this.SECsServer.IsConnected()
+06/09/2017 13:41:37    ConstructRawMessage
+06/09/2017 13:41:37    ConstructRawMessage nextTransactionID 2
+06/09/2017 13:41:37    CreateXMLText
+06/09/2017 13:41:37    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>2</Id><Name>RequestProcessRecipe</Name><NeedReply>true</NeedReply><Primary><CommandID>RequestProcessRecipe</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0001</Value></SCIItem><SCIItem><Format>String</Format><Name>LotNumber</Name><Value xsi:type="xsd:string">Y5TFE_DD/PS0</Value></SCIItem></Items></Item></Primary></SCITransaction>
+06/09/2017 13:41:37    RegisterTransaction : transaction 2
+06/09/2017 13:41:37    ConstructRawMessage return message
+06/09/2017 13:41:42    ProcessInStream
+06/09/2017 13:41:42    OnSECsSecondaryNotification

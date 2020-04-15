@@ -1,0 +1,34 @@
+05/11/2017 11:31:16    HSMSServer
+05/11/2017 11:31:16    Initialize
+05/11/2017 11:31:16    LinkTestTimer_Elapsed() True
+05/11/2017 11:31:16    OpenConnection
+05/11/2017 11:31:18    OnRemoteConnect Active
+05/11/2017 11:31:18    _socketWorker.Connected False
+05/11/2017 11:31:18    ActivateT5 : IsEnabled True
+05/11/2017 11:31:57    HSMSServer
+05/11/2017 11:31:57    Initialize
+05/11/2017 11:31:57    LinkTestTimer_Elapsed() True
+05/11/2017 11:31:57    OpenConnection
+05/11/2017 11:31:57    OnRemoteConnect Active
+05/11/2017 11:31:57    _socketWorker.Connected True
+05/11/2017 11:31:57    this._socketWorker.EndConnect(asyn);
+05/11/2017 11:31:58    SendSECSData
+05/11/2017 11:31:58    ActivateLinkTest True
+05/11/2017 11:31:58    linktest_shouldStop = false;
+05/11/2017 11:31:58    ActivateT5 : IsEnabled False
+05/11/2017 11:31:58    WaitForData
+05/11/2017 11:36:26    HSMSServer
+05/11/2017 11:36:26    Initialize
+05/11/2017 11:36:26    LinkTestTimer_Elapsed() True
+05/11/2017 11:36:26    OpenConnection
+05/11/2017 11:36:26    OnRemoteConnect Active
+05/11/2017 11:36:26    _socketWorker.Connected True
+05/11/2017 11:36:26    this._socketWorker.EndConnect(asyn);
+05/11/2017 11:36:27    SendSECSData
+05/11/2017 11:36:28    ActivateLinkTest True
+05/11/2017 11:36:28    linktest_shouldStop = false;
+05/11/2017 11:36:28    ActivateT5 : IsEnabled False
+05/11/2017 11:36:28    WaitForData
+05/11/2017 11:36:32    TriggerTransactionTimer : transactionID -->2
+05/11/2017 11:36:32    TriggerTransactionTimer : transactionID <--2
+05/11/2017 11:36:32    SendSECSData

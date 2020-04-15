@@ -1,0 +1,210 @@
+03/29/2017 17:03:36    HSMSServer
+03/29/2017 17:03:36    Initialize
+03/29/2017 17:03:36    LinkTestTimer_Elapsed() True
+03/29/2017 17:03:36    OpenListenPort
+03/29/2017 17:03:36    ListenConnection
+03/29/2017 17:03:36    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:06:32    HSMSServer
+03/29/2017 17:06:32    Initialize
+03/29/2017 17:06:32    LinkTestTimer_Elapsed() True
+03/29/2017 17:06:32    OpenListenPort
+03/29/2017 17:06:32    ListenConnection
+03/29/2017 17:06:32    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:11:18    HSMSServer
+03/29/2017 17:11:18    Initialize
+03/29/2017 17:11:18    LinkTestTimer_Elapsed() True
+03/29/2017 17:11:18    OpenListenPort
+03/29/2017 17:11:18    ListenConnection
+03/29/2017 17:11:18    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:17:31    HSMSServer
+03/29/2017 17:17:31    Initialize
+03/29/2017 17:17:31    LinkTestTimer_Elapsed() True
+03/29/2017 17:17:31    OpenListenPort
+03/29/2017 17:17:31    ListenConnection
+03/29/2017 17:17:31    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:18:23    HSMSServer
+03/29/2017 17:18:23    Initialize
+03/29/2017 17:18:23    LinkTestTimer_Elapsed() True
+03/29/2017 17:18:23    OpenListenPort
+03/29/2017 17:18:23    ListenConnection
+03/29/2017 17:18:23    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:19:43    HSMSServer
+03/29/2017 17:19:43    Initialize
+03/29/2017 17:19:43    LinkTestTimer_Elapsed() True
+03/29/2017 17:19:43    OpenListenPort
+03/29/2017 17:19:43    ListenConnection
+03/29/2017 17:19:43    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:21:50    HSMSServer
+03/29/2017 17:21:50    Initialize
+03/29/2017 17:21:50    LinkTestTimer_Elapsed() True
+03/29/2017 17:21:50    OpenListenPort
+03/29/2017 17:21:50    ListenConnection
+03/29/2017 17:21:50    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:22:24    HSMSServer
+03/29/2017 17:22:24    Initialize
+03/29/2017 17:22:24    LinkTestTimer_Elapsed() True
+03/29/2017 17:22:24    OpenListenPort
+03/29/2017 17:22:24    ListenConnection
+03/29/2017 17:22:24    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:27:18    HSMSServer
+03/29/2017 17:27:18    Initialize
+03/29/2017 17:27:18    LinkTestTimer_Elapsed() True
+03/29/2017 17:27:18    OpenListenPort
+03/29/2017 17:27:18    ListenConnection
+03/29/2017 17:27:18    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:27:40    HSMSServer
+03/29/2017 17:27:40    Initialize
+03/29/2017 17:27:40    LinkTestTimer_Elapsed() True
+03/29/2017 17:27:40    OpenListenPort
+03/29/2017 17:27:40    ListenConnection
+03/29/2017 17:27:40    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:28:28    HSMSServer
+03/29/2017 17:28:28    Initialize
+03/29/2017 17:28:28    LinkTestTimer_Elapsed() True
+03/29/2017 17:28:28    OpenListenPort
+03/29/2017 17:28:28    ListenConnection
+03/29/2017 17:28:28    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:29:55    HSMSServer
+03/29/2017 17:29:55    Initialize
+03/29/2017 17:29:55    LinkTestTimer_Elapsed() True
+03/29/2017 17:29:55    OpenListenPort
+03/29/2017 17:29:55    ListenConnection
+03/29/2017 17:29:55    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:32:07    HSMSServer
+03/29/2017 17:32:07    Initialize
+03/29/2017 17:32:07    LinkTestTimer_Elapsed() True
+03/29/2017 17:32:07    OpenListenPort
+03/29/2017 17:32:07    ListenConnection
+03/29/2017 17:32:07    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:33:20    HSMSServer
+03/29/2017 17:33:20    Initialize
+03/29/2017 17:33:20    LinkTestTimer_Elapsed() True
+03/29/2017 17:33:20    OpenListenPort
+03/29/2017 17:33:20    ListenConnection
+03/29/2017 17:33:20    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:34:31    HSMSServer
+03/29/2017 17:34:31    Initialize
+03/29/2017 17:34:31    LinkTestTimer_Elapsed() True
+03/29/2017 17:34:31    OpenListenPort
+03/29/2017 17:34:31    ListenConnection
+03/29/2017 17:34:31    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:35:24    HSMSServer
+03/29/2017 17:35:24    Initialize
+03/29/2017 17:35:24    LinkTestTimer_Elapsed() True
+03/29/2017 17:35:24    OpenListenPort
+03/29/2017 17:35:24    ListenConnection
+03/29/2017 17:35:24    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:37:12    HSMSServer
+03/29/2017 17:37:12    Initialize
+03/29/2017 17:37:12    LinkTestTimer_Elapsed() True
+03/29/2017 17:37:12    OpenListenPort
+03/29/2017 17:37:12    ListenConnection
+03/29/2017 17:37:12    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:37:58    HSMSServer
+03/29/2017 17:37:58    Initialize
+03/29/2017 17:37:58    LinkTestTimer_Elapsed() True
+03/29/2017 17:37:58    OpenListenPort
+03/29/2017 17:37:58    ListenConnection
+03/29/2017 17:37:58    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:38:50    HSMSServer
+03/29/2017 17:38:50    Initialize
+03/29/2017 17:38:50    LinkTestTimer_Elapsed() True
+03/29/2017 17:38:50    OpenListenPort
+03/29/2017 17:38:50    ListenConnection
+03/29/2017 17:38:50    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:39:14    HSMSServer
+03/29/2017 17:39:14    Initialize
+03/29/2017 17:39:14    LinkTestTimer_Elapsed() True
+03/29/2017 17:39:14    OpenListenPort
+03/29/2017 17:39:14    ListenConnection
+03/29/2017 17:39:14    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:39:31    HSMSServer
+03/29/2017 17:39:31    Initialize
+03/29/2017 17:39:31    LinkTestTimer_Elapsed() True
+03/29/2017 17:39:31    OpenListenPort
+03/29/2017 17:39:31    ListenConnection
+03/29/2017 17:39:31    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:40:21    HSMSServer
+03/29/2017 17:40:21    Initialize
+03/29/2017 17:40:21    OpenListenPort
+03/29/2017 17:40:21    LinkTestTimer_Elapsed() True
+03/29/2017 17:40:21    ListenConnection
+03/29/2017 17:40:21    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:41:22    HSMSServer
+03/29/2017 17:41:22    Initialize
+03/29/2017 17:41:22    LinkTestTimer_Elapsed() True
+03/29/2017 17:41:22    OpenListenPort
+03/29/2017 17:41:22    ListenConnection
+03/29/2017 17:41:22    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:42:05    HSMSServer
+03/29/2017 17:42:05    Initialize
+03/29/2017 17:42:05    LinkTestTimer_Elapsed() True
+03/29/2017 17:42:05    OpenListenPort
+03/29/2017 17:42:05    ListenConnection
+03/29/2017 17:42:05    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:42:44    HSMSServer
+03/29/2017 17:42:44    Initialize
+03/29/2017 17:42:44    LinkTestTimer_Elapsed() True
+03/29/2017 17:42:44    OpenListenPort
+03/29/2017 17:42:44    ListenConnection
+03/29/2017 17:42:44    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:43:30    HSMSServer
+03/29/2017 17:43:30    Initialize
+03/29/2017 17:43:30    LinkTestTimer_Elapsed() True
+03/29/2017 17:43:30    OpenListenPort
+03/29/2017 17:43:30    ListenConnection
+03/29/2017 17:43:30    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:46:05    HSMSServer
+03/29/2017 17:46:05    Initialize
+03/29/2017 17:46:05    LinkTestTimer_Elapsed() True
+03/29/2017 17:46:05    OpenListenPort
+03/29/2017 17:46:05    ListenConnection
+03/29/2017 17:46:05    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:47:10    HSMSServer
+03/29/2017 17:47:10    Initialize
+03/29/2017 17:47:10    LinkTestTimer_Elapsed() True
+03/29/2017 17:47:10    OpenListenPort
+03/29/2017 17:47:10    ListenConnection
+03/29/2017 17:47:10    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:47:41    HSMSServer
+03/29/2017 17:47:41    Initialize
+03/29/2017 17:47:41    LinkTestTimer_Elapsed() True
+03/29/2017 17:47:41    OpenListenPort
+03/29/2017 17:47:41    ListenConnection
+03/29/2017 17:47:41    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:50:41    HSMSServer
+03/29/2017 17:50:41    Initialize
+03/29/2017 17:50:41    LinkTestTimer_Elapsed() True
+03/29/2017 17:50:41    OpenListenPort
+03/29/2017 17:50:41    ListenConnection
+03/29/2017 17:50:41    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:54:01    HSMSServer
+03/29/2017 17:54:01    Initialize
+03/29/2017 17:54:01    LinkTestTimer_Elapsed() True
+03/29/2017 17:54:01    OpenListenPort
+03/29/2017 17:54:01    ListenConnection
+03/29/2017 17:54:01    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:55:08    HSMSServer
+03/29/2017 17:55:08    Initialize
+03/29/2017 17:55:08    LinkTestTimer_Elapsed() True
+03/29/2017 17:55:08    OpenListenPort
+03/29/2017 17:55:08    ListenConnection
+03/29/2017 17:55:08    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:57:00    HSMSServer
+03/29/2017 17:57:00    Initialize
+03/29/2017 17:57:00    LinkTestTimer_Elapsed() True
+03/29/2017 17:57:00    OpenListenPort
+03/29/2017 17:57:00    ListenConnection
+03/29/2017 17:57:00    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:57:45    HSMSServer
+03/29/2017 17:57:45    Initialize
+03/29/2017 17:57:45    LinkTestTimer_Elapsed() True
+03/29/2017 17:57:45    OpenListenPort
+03/29/2017 17:57:45    ListenConnection
+03/29/2017 17:57:45    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+03/29/2017 17:59:27    HSMSServer
+03/29/2017 17:59:27    Initialize
+03/29/2017 17:59:27    LinkTestTimer_Elapsed() True
+03/29/2017 17:59:27    OpenListenPort
+03/29/2017 17:59:27    ListenConnection
+03/29/2017 17:59:27    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);

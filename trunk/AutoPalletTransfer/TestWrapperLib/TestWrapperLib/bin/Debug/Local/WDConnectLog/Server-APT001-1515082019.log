@@ -1,0 +1,20 @@
+08/15/2019 15:02:42    SendSECSData
+08/15/2019 15:08:00    HSMSServer
+08/15/2019 15:08:01    Initialize
+08/15/2019 15:08:01    LinkTestTimer_Elapsed() True
+08/15/2019 15:08:01    OpenListenPort
+08/15/2019 15:08:01    ListenConnection
+08/15/2019 15:08:01    OpenConnection
+08/15/2019 15:08:01    OnRemoteConnect Passive
+08/15/2019 15:08:01    _socketWorker.Connected True
+08/15/2019 15:08:01    this._socketWorker.EndConnect(asyn);
+08/15/2019 15:08:01    SendSECSData
+08/15/2019 15:08:02    ActivateLinkTest True
+08/15/2019 15:08:02    linktest_shouldStop = false;
+08/15/2019 15:08:02    ActivateT5 : IsEnabled False
+08/15/2019 15:08:02    WaitForData
+08/15/2019 15:08:05    TriggerTransactionTimer : transactionID -->2
+08/15/2019 15:08:05    TriggerTransactionTimer : transactionID <--2
+08/15/2019 15:08:05    SendSECSData
+08/15/2019 15:51:37    OnDataReceived
+08/15/2019 15:51:37    OnDataReceived 0

@@ -1,0 +1,18 @@
+02/16/2017 12:45:00    Connect
+02/16/2017 12:45:00    OnConnected
+02/16/2017 12:45:00    OnSECsCommNotification
+02/16/2017 12:45:00    ProcessOutStream
+02/16/2017 12:45:00    this.SECsServer.IsConnected()
+02/16/2017 12:45:00    ConstructRawMessage
+02/16/2017 12:45:00    ConstructRawMessage nextTransactionID 1
+02/16/2017 12:45:00    CreateXMLText
+02/16/2017 12:45:00    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>Event:FinishedInitialize</Name><NeedReply>false</NeedReply><Primary><CommandID>Event:FinishedInitialize</CommandID></Primary><Secondary /></SCITransaction>
+02/16/2017 12:45:00    RegisterTransaction : transaction 1
+02/16/2017 12:45:00    ConstructRawMessage return message
+02/16/2017 12:45:06    ProcessInStream
+02/16/2017 12:45:06    ProcessOutStream
+02/16/2017 12:45:06    this.SECsServer.IsConnected()
+02/16/2017 12:45:06    ConstructRawMessage
+02/16/2017 12:45:06    CreateXMLText
+02/16/2017 12:45:06    <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThereAck</Name><NeedReply>false</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>AreYouThereAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">1.0.0.1</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+02/16/2017 12:45:06    ConstructRawMessage return message

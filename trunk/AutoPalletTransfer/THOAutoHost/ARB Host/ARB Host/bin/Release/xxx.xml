@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-16"?>
+<RequestPalletInfoAckObj xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <COMMACK>0</COMMACK>
+  <ALMID>0</ALMID>
+  <PalletID />
+  <PartNumber />
+  <ProductName />
+  <LotNumber />
+  <Line />
+  <ACAMID />
+  <Suspension />
+  <EnabledPallet>false</EnabledPallet>
+  <HGAType />
+  <HGA>
+    <HGA1>
+      <SN>DFALDDFA</SN>
+      <Defect>A1</Defect>
+    </HGA1>
+    <HGA2>
+      <SN />
+      <Defect />
+    </HGA2>
+    <HGA3>
+      <SN />
+      <Defect />
+    </HGA3>
+    <HGA4>
+      <SN />
+      <Defect />
+    </HGA4>
+    <HGA5>
+      <SN />
+      <Defect />
+    </HGA5>
+    <HGA6>
+      <SN />
+      <Defect />
+    </HGA6>
+    <HGA7>
+      <SN />
+      <Defect />
+    </HGA7>
+    <HGA8>
+      <SN />
+      <Defect />
+    </HGA8>
+    <HGA9>
+      <SN />
+      <Defect />
+    </HGA9>
+    <HGA10>
+      <SN />
+      <Defect />
+    </HGA10>
+  </HGA>
+</RequestPalletInfoAckObj>

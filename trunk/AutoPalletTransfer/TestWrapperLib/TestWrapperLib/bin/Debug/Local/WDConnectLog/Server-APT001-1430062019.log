@@ -1,0 +1,16 @@
+06/30/2019 14:11:52    OnDataReceived
+06/30/2019 14:11:52    OnDataReceived 35
+06/30/2019 14:11:52    OnDataArrival
+06/30/2019 14:11:52    ProcessControlMessage LinkTest:Request:141152
+06/30/2019 14:11:52    SendControlRspData 141152
+06/30/2019 14:11:52    respwithheader [0000000023]LinkTest:Respond:141152
+06/30/2019 14:11:52    0 
+06/30/2019 14:11:52    WaitForData
+06/30/2019 14:22:12    OnDataReceived
+06/30/2019 14:22:12    ** An existing connection was forcibly closed by the remote host
+06/30/2019 14:22:12    You must call the Bind method before performing this operation.
+06/30/2019 14:22:12    ListenConnection
+06/30/2019 14:22:12    this._socketListener.BeginAccept(new AsyncCallback(this.OnClientConnect), _socketListener);
+06/30/2019 14:47:19    LinkTestTimer_Elapsed() False
+06/30/2019 14:47:19    LinkTest Code : 144719
+06/30/2019 14:47:19    LinkTestTimer_Elapsed : An existing connection was forcibly closed by the remote host

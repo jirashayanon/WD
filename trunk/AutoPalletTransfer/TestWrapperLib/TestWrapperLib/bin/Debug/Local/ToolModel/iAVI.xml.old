@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Equipment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Alarms>
+		<ALID id="10000" logicalName="Hardware" description="Start up errors, failed to initialize I/O modules" />
+		<ALID id="10001" logicalName="Hardware" description="Start up errors, failed to initialize UV system" />
+		<ALID id="11000" logicalName="Hardware" description="Conveyor timeout, cannot release zone1 to zone2" />
+		<ALID id="11001" logicalName="Hardware" description="Conveyor timeout, cannot release zone2 to zone3" />	
+		<ALID id="12000" logicalName="Hardware" description="Barcode scanner errors, failed to read barcode" />		
+		<ALID id="20000" logicalName="Software" description="xxx" />
+	</Alarms>
+  <Clock timeFormat="yyyymmddhhmmsscc" />
+  <DataCollections>
+  </DataCollections>
+  <DataVariables />
+  <EquipmentConstants />
+  <GemConnection deviceId="1" protocol="Hsms">
+    <HSMS 
+	connectionMode="Active" 
+	linktestInterval="5000" 
+	localIPAddress="localhost" 
+	localPortNumber="5002" 
+	remoteIPAddress="localhost" 
+	remotePortNumber="5002" 
+	T3Timeout="3000" 
+	T5Timeout="3000" />
+  </GemConnection>
+  <License licenseId="" licensePath="" />
+  <Logger secsLogEnabled="true" />
+  <Nameable alias="iAVI001" description="Auto Visual Inspection Machine" id="iAVI001" locator="-" make="Dec 10, 2016" model="-" softwareRev="1.0.0.1" />
+  <StatusVariables>
+  </StatusVariables>
+</Equipment>

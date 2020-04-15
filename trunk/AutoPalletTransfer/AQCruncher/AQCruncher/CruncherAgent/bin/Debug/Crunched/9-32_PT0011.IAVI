@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-16"?>
+<PalletObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PalletID>PT0011</PalletID>
+  <TesterNumber>AVI001</TesterNumber>
+  <Customer>WD</Customer>
+  <Product>TRAILS_C8_SD</Product>
+  <User />
+  <LotNumber>ITYMN_Y</LotNumber>
+  <DocControl1>PN#70632-15-SBB</DocControl1>
+  <DocControl2>STR#G24960SN</DocControl2>
+  <Sus>MPT-4G</Sus>
+  <AssyLine>B4A101</AssyLine>
+  <HGAN1>ITYMSSGD</HGAN1>
+  <HGAN2>ITYMXWQG</HGAN2>
+  <HGAN3>ITYMLDVJ</HGAN3>
+  <HGAN4>ITYMMSTS</HGAN4>
+  <HGAN5>ITYMOHQA</HGAN5>
+  <HGAN6>ITYMPVNJ</HGAN6>
+  <HGAN7>ITYMQKKR</HGAN7>
+  <HGAN8>ITYMIHDP</HGAN8>
+  <HGAN9>ITYMKVAY</HGAN9>
+  <HGAN10>ITYMYCFB</HGAN10>
+  <DefectN1 />
+  <DefectN2 />
+  <DefectN3 />
+  <DefectN4 />
+  <DefectN5 />
+  <DefectN6 />
+  <DefectN7 />
+  <DefectN8 />
+  <DefectN9 />
+  <DefectN10 />
+</PalletObj>

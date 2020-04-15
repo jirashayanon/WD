@@ -1,0 +1,22 @@
+02/16/2017 12:45:00    HSMSServer
+02/16/2017 12:45:00    Initialize
+02/16/2017 12:45:00    LinkTestTimer_Elapsed() True
+02/16/2017 12:45:00    OpenConnection
+02/16/2017 12:45:00    OnRemoteConnect Active
+02/16/2017 12:45:00    _socketWorker.Connected True
+02/16/2017 12:45:00    this._socketWorker.EndConnect(asyn);
+02/16/2017 12:45:00    SendSECSData
+02/16/2017 12:45:00    ActivateLinkTest True
+02/16/2017 12:45:00    linktest_shouldStop = false;
+02/16/2017 12:45:00    ActivateT5 : IsEnabled False
+02/16/2017 12:45:00    WaitForData
+02/16/2017 12:45:06    OnDataReceived
+02/16/2017 12:45:06    OnDataReceived 497
+02/16/2017 12:45:06    OnDataArrival
+02/16/2017 12:45:06    ResolveHeaderBuffer string [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+02/16/2017 12:45:06    [0000000485]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>1</DeviceId><Id>1</Id><Name>AreYouThere</Name><NeedReply>true</NeedReply><Primary><CommandID>AreYouThere</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Name>SoftwareRevision</Name><Value xsi:type="xsd:string">x.x.x</Value></SCIItem></Items></Item></Primary></SCITransaction>
+02/16/2017 12:45:06    ProcessSECsMessage -->
+02/16/2017 12:45:06    SendSECSData
+02/16/2017 12:45:06    ProcessSECsMessage <--
+02/16/2017 12:45:06    0 
+02/16/2017 12:45:06    WaitForData

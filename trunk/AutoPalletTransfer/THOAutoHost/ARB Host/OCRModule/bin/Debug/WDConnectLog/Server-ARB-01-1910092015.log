@@ -1,0 +1,208 @@
+9/10/2015 7:00:00 PM   TriggerTransactionTimer : transactionID 7
+9/10/2015 7:00:00 PM   SendSECSData
+9/10/2015 7:00:00 PM   OnDataReceived
+9/10/2015 7:00:00 PM   OnDataReceived 1309
+9/10/2015 7:00:00 PM   OnDataArrival
+9/10/2015 7:00:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>7</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">1</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:00:00 PM   ResolveHeaderBuffer
+9/10/2015 7:00:00 PM   ProcessSECsMessage
+9/10/2015 7:00:00 PM   WaitForData
+9/10/2015 7:00:00 PM   TriggerTransactionTimer : transactionID 8
+9/10/2015 7:00:00 PM   SendSECSData
+9/10/2015 7:00:00 PM   OnDataReceived
+9/10/2015 7:00:00 PM   OnDataReceived 1309
+9/10/2015 7:00:00 PM   OnDataArrival
+9/10/2015 7:00:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>8</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">1</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:00:00 PM   ResolveHeaderBuffer
+9/10/2015 7:00:00 PM   ProcessSECsMessage
+9/10/2015 7:00:00 PM   WaitForData
+9/10/2015 7:00:02 PM   TriggerTransactionTimer : transactionID 9
+9/10/2015 7:00:02 PM   SendSECSData
+9/10/2015 7:00:02 PM   OnDataReceived
+9/10/2015 7:00:02 PM   OnDataReceived 1309
+9/10/2015 7:00:02 PM   OnDataArrival
+9/10/2015 7:00:02 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>9</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">1</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:00:02 PM   ResolveHeaderBuffer
+9/10/2015 7:00:02 PM   ProcessSECsMessage
+9/10/2015 7:00:02 PM   WaitForData
+9/10/2015 7:00:04 PM   OnDataReceived
+9/10/2015 7:01:56 PM   HSMSServer
+9/10/2015 7:01:56 PM   Initialize
+9/10/2015 7:01:57 PM   OpenConnection
+9/10/2015 7:01:58 PM   OnRemoteConnect Active
+9/10/2015 7:01:58 PM   _socketWorker.Connected True
+9/10/2015 7:01:58 PM   this._socketWorker.EndConnect(asyn);
+9/10/2015 7:01:58 PM   SendSECSData
+9/10/2015 7:01:58 PM   ActivateT5 : IsEnabled False
+9/10/2015 7:01:58 PM   WaitForData
+9/10/2015 7:02:09 PM   TriggerTransactionTimer : transactionID 2
+9/10/2015 7:02:09 PM   SendSECSData
+9/10/2015 7:02:09 PM   OnDataReceived
+9/10/2015 7:02:09 PM   OnDataReceived 1309
+9/10/2015 7:02:09 PM   OnDataArrival
+9/10/2015 7:02:09 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">1</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:02:09 PM   ResolveHeaderBuffer
+9/10/2015 7:02:09 PM   ProcessSECsMessage
+9/10/2015 7:02:09 PM   WaitForData
+9/10/2015 7:03:27 PM   HSMSServer
+9/10/2015 7:03:27 PM   Initialize
+9/10/2015 7:03:28 PM   OpenConnection
+9/10/2015 7:03:29 PM   OnRemoteConnect Active
+9/10/2015 7:03:29 PM   _socketWorker.Connected True
+9/10/2015 7:03:29 PM   this._socketWorker.EndConnect(asyn);
+9/10/2015 7:03:29 PM   SendSECSData
+9/10/2015 7:03:29 PM   ActivateT5 : IsEnabled False
+9/10/2015 7:03:29 PM   WaitForData
+9/10/2015 7:03:34 PM   TriggerTransactionTimer : transactionID 2
+9/10/2015 7:03:34 PM   SendSECSData
+9/10/2015 7:03:35 PM   OnDataReceived
+9/10/2015 7:03:35 PM   OnDataReceived 1310
+9/10/2015 7:03:35 PM   OnDataArrival
+9/10/2015 7:03:35 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:03:35 PM   ResolveHeaderBuffer
+9/10/2015 7:03:35 PM   ProcessSECsMessage
+9/10/2015 7:03:35 PM   WaitForData
+9/10/2015 7:03:47 PM   TriggerTransactionTimer : transactionID 3
+9/10/2015 7:03:47 PM   SendSECSData
+9/10/2015 7:03:47 PM   OnDataReceived
+9/10/2015 7:03:47 PM   OnDataReceived 1310
+9/10/2015 7:03:47 PM   OnDataArrival
+9/10/2015 7:03:47 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>3</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:03:47 PM   ResolveHeaderBuffer
+9/10/2015 7:03:47 PM   ProcessSECsMessage
+9/10/2015 7:03:47 PM   WaitForData
+9/10/2015 7:03:48 PM   TriggerTransactionTimer : transactionID 4
+9/10/2015 7:03:48 PM   SendSECSData
+9/10/2015 7:03:48 PM   OnDataReceived
+9/10/2015 7:03:48 PM   OnDataReceived 1310
+9/10/2015 7:03:48 PM   OnDataArrival
+9/10/2015 7:03:48 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>4</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:03:48 PM   ResolveHeaderBuffer
+9/10/2015 7:03:48 PM   ProcessSECsMessage
+9/10/2015 7:03:48 PM   WaitForData
+9/10/2015 7:03:48 PM   TriggerTransactionTimer : transactionID 5
+9/10/2015 7:03:48 PM   SendSECSData
+9/10/2015 7:03:48 PM   OnDataReceived
+9/10/2015 7:03:48 PM   OnDataReceived 1310
+9/10/2015 7:03:48 PM   OnDataArrival
+9/10/2015 7:03:48 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>5</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:03:48 PM   ResolveHeaderBuffer
+9/10/2015 7:03:48 PM   ProcessSECsMessage
+9/10/2015 7:03:48 PM   WaitForData
+9/10/2015 7:19:52 PM   HSMSServer
+9/10/2015 7:19:52 PM   Initialize
+9/10/2015 7:19:54 PM   OpenConnection
+9/10/2015 7:19:54 PM   OnRemoteConnect Active
+9/10/2015 7:19:54 PM   _socketWorker.Connected True
+9/10/2015 7:19:54 PM   this._socketWorker.EndConnect(asyn);
+9/10/2015 7:19:54 PM   SendSECSData
+9/10/2015 7:19:54 PM   ActivateT5 : IsEnabled False
+9/10/2015 7:19:54 PM   WaitForData
+9/10/2015 7:19:59 PM   TriggerTransactionTimer : transactionID 2
+9/10/2015 7:19:59 PM   SendSECSData
+9/10/2015 7:19:59 PM   OnDataReceived
+9/10/2015 7:19:59 PM   OnDataReceived 1310
+9/10/2015 7:19:59 PM   OnDataArrival
+9/10/2015 7:19:59 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:19:59 PM   ResolveHeaderBuffer
+9/10/2015 7:19:59 PM   ProcessSECsMessage
+9/10/2015 7:19:59 PM   WaitForData
+9/10/2015 7:23:01 PM   HSMSServer
+9/10/2015 7:23:01 PM   Initialize
+9/10/2015 7:23:02 PM   OpenConnection
+9/10/2015 7:23:03 PM   OnRemoteConnect Active
+9/10/2015 7:23:03 PM   _socketWorker.Connected True
+9/10/2015 7:23:03 PM   this._socketWorker.EndConnect(asyn);
+9/10/2015 7:23:03 PM   SendSECSData
+9/10/2015 7:23:03 PM   ActivateT5 : IsEnabled False
+9/10/2015 7:23:03 PM   WaitForData
+9/10/2015 7:23:11 PM   TriggerTransactionTimer : transactionID 2
+9/10/2015 7:23:11 PM   SendSECSData
+9/10/2015 7:23:11 PM   OnDataReceived
+9/10/2015 7:23:11 PM   OnDataReceived 1310
+9/10/2015 7:23:11 PM   OnDataArrival
+9/10/2015 7:23:11 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>2</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:11 PM   ResolveHeaderBuffer
+9/10/2015 7:23:11 PM   ProcessSECsMessage
+9/10/2015 7:23:11 PM   WaitForData
+9/10/2015 7:23:58 PM   TriggerTransactionTimer : transactionID 3
+9/10/2015 7:23:58 PM   SendSECSData
+9/10/2015 7:23:58 PM   OnDataReceived
+9/10/2015 7:23:58 PM   OnDataReceived 1310
+9/10/2015 7:23:58 PM   OnDataArrival
+9/10/2015 7:23:58 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>3</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:58 PM   ResolveHeaderBuffer
+9/10/2015 7:23:58 PM   ProcessSECsMessage
+9/10/2015 7:23:58 PM   WaitForData
+9/10/2015 7:23:59 PM   TriggerTransactionTimer : transactionID 4
+9/10/2015 7:23:59 PM   SendSECSData
+9/10/2015 7:23:59 PM   OnDataReceived
+9/10/2015 7:23:59 PM   OnDataReceived 1310
+9/10/2015 7:23:59 PM   OnDataArrival
+9/10/2015 7:23:59 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>4</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:59 PM   ResolveHeaderBuffer
+9/10/2015 7:23:59 PM   ProcessSECsMessage
+9/10/2015 7:23:59 PM   WaitForData
+9/10/2015 7:23:59 PM   TriggerTransactionTimer : transactionID 5
+9/10/2015 7:23:59 PM   SendSECSData
+9/10/2015 7:23:59 PM   OnDataReceived
+9/10/2015 7:23:59 PM   OnDataReceived 1310
+9/10/2015 7:23:59 PM   OnDataArrival
+9/10/2015 7:23:59 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>5</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:59 PM   ResolveHeaderBuffer
+9/10/2015 7:23:59 PM   ProcessSECsMessage
+9/10/2015 7:23:59 PM   WaitForData
+9/10/2015 7:23:59 PM   TriggerTransactionTimer : transactionID 6
+9/10/2015 7:23:59 PM   SendSECSData
+9/10/2015 7:23:59 PM   OnDataReceived
+9/10/2015 7:23:59 PM   OnDataReceived 1310
+9/10/2015 7:23:59 PM   OnDataArrival
+9/10/2015 7:23:59 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>6</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:59 PM   ResolveHeaderBuffer
+9/10/2015 7:23:59 PM   ProcessSECsMessage
+9/10/2015 7:23:59 PM   WaitForData
+9/10/2015 7:23:59 PM   TriggerTransactionTimer : transactionID 7
+9/10/2015 7:23:59 PM   SendSECSData
+9/10/2015 7:23:59 PM   OnDataReceived
+9/10/2015 7:23:59 PM   OnDataReceived 1310
+9/10/2015 7:23:59 PM   OnDataArrival
+9/10/2015 7:23:59 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>7</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:23:59 PM   ResolveHeaderBuffer
+9/10/2015 7:23:59 PM   ProcessSECsMessage
+9/10/2015 7:23:59 PM   WaitForData
+9/10/2015 7:24:00 PM   TriggerTransactionTimer : transactionID 8
+9/10/2015 7:24:00 PM   SendSECSData
+9/10/2015 7:24:00 PM   OnDataReceived
+9/10/2015 7:24:00 PM   OnDataReceived 1310
+9/10/2015 7:24:00 PM   OnDataArrival
+9/10/2015 7:24:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>8</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:24:00 PM   ResolveHeaderBuffer
+9/10/2015 7:24:00 PM   ProcessSECsMessage
+9/10/2015 7:24:00 PM   WaitForData
+9/10/2015 7:24:00 PM   TriggerTransactionTimer : transactionID 9
+9/10/2015 7:24:00 PM   SendSECSData
+9/10/2015 7:24:00 PM   OnDataReceived
+9/10/2015 7:24:00 PM   OnDataReceived 1310
+9/10/2015 7:24:00 PM   OnDataArrival
+9/10/2015 7:24:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>9</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:24:00 PM   ResolveHeaderBuffer
+9/10/2015 7:24:00 PM   ProcessSECsMessage
+9/10/2015 7:24:00 PM   WaitForData
+9/10/2015 7:24:00 PM   TriggerTransactionTimer : transactionID 10
+9/10/2015 7:24:00 PM   SendSECSData
+9/10/2015 7:24:00 PM   OnDataReceived
+9/10/2015 7:24:00 PM   OnDataReceived 1311
+9/10/2015 7:24:00 PM   OnDataArrival
+9/10/2015 7:24:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>10</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:24:00 PM   ResolveHeaderBuffer
+9/10/2015 7:24:00 PM   ProcessSECsMessage
+9/10/2015 7:24:00 PM   WaitForData
+9/10/2015 7:24:00 PM   TriggerTransactionTimer : transactionID 11
+9/10/2015 7:24:00 PM   SendSECSData
+9/10/2015 7:24:00 PM   OnDataReceived
+9/10/2015 7:24:00 PM   OnDataReceived 1311
+9/10/2015 7:24:00 PM   OnDataArrival
+9/10/2015 7:24:00 PM   OnDataArrival <?xml version="1.0"?><SCITransaction xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><MessageType>Secondary</MessageType><DeviceId>0</DeviceId><Id>11</Id><Name>Mitecs GetLotDetails by Slider Serial number.</Name><NeedReply>false</NeedReply><Primary><CommandID>MES_OCR</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>Operation</Name><Value xsi:type="xsd:string">1045</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>OCRNumber</Name><Value xsi:type="xsd:string">WHKU201A</Value></SCIItem></Items></Item></Primary><Secondary><CommandID>MES_Data</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string">WHKU&amp;C07</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>LotTpye</Name><Value xsi:type="xsd:string">XLOT</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Ref. bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>Real bar</Name><Value xsi:type="xsd:string">01</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>ErrorMessage</Name><Value xsi:type="xsd:string">4</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+9/10/2015 7:24:00 PM   ResolveHeaderBuffer
+9/10/2015 7:24:00 PM   ProcessSECsMessage
+9/10/2015 7:24:00 PM   WaitForData

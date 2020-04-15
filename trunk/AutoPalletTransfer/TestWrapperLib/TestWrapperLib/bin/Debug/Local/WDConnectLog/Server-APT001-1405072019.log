@@ -1,0 +1,22 @@
+07/05/2019 14:01:15    LinkTestTimer_Elapsed() False
+07/05/2019 14:01:15    LinkTest Code : 140115
+07/05/2019 14:01:15    LinkTestTimer_Elapsed : An established connection was aborted by the software in your host machine
+07/05/2019 14:36:39    HSMSServer
+07/05/2019 14:36:39    Initialize
+07/05/2019 14:36:39    OpenListenPort
+07/05/2019 14:36:39    LinkTestTimer_Elapsed() True
+07/05/2019 14:36:39    ListenConnection
+07/05/2019 14:36:39    OpenConnection
+07/05/2019 14:36:39    OnRemoteConnect Passive
+07/05/2019 14:36:39    _socketWorker.Connected True
+07/05/2019 14:36:39    this._socketWorker.EndConnect(asyn);
+07/05/2019 14:36:39    SendSECSData
+07/05/2019 14:36:39    ActivateLinkTest True
+07/05/2019 14:36:39    linktest_shouldStop = false;
+07/05/2019 14:36:39    ActivateT5 : IsEnabled False
+07/05/2019 14:36:39    WaitForData
+07/05/2019 14:36:44    TriggerTransactionTimer : transactionID -->2
+07/05/2019 14:36:44    TriggerTransactionTimer : transactionID <--2
+07/05/2019 14:36:44    SendSECSData
+07/05/2019 14:43:51    OnDataReceived
+07/05/2019 14:43:51    OnDataReceived 0

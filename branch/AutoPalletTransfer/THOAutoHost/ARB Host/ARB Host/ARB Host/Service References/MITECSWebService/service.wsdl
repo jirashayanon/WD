@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetLotNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LINE_NO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MODULECONTROLLER_MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="API_KEY" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLotNumbersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotListDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lotNumberXML" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="retMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotListDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLotListDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="retMsg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotNumbersByLinePartNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LINE_NO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PART_NUMBER" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MODULECONTROLLER_MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="API_KEY" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotNumbersByLinePartNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLotNumbersByLinePartNoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registerLine">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LINE_NO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MODULECONTROLLER_MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="API_KEY" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registerLineResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="registerLineResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateLotNumMovement">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LINE_NO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MODULECONTROLLER_MAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="API_KEY" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="xmlDoc" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateLotNumMovementResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateLotNumMovementResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cryptoLineRegistration">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LINE_NO" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MODULECONTROLLER_MAC" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="cryptoLineRegistrationResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cryptoLineRegistrationResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getWebServiceVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="getWebServiceVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getWebServiceVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartNumberDetail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="hostLineNum" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hostMAC" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="hostAPIKey" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNumberType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPartNumberDetailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPartNumberDetailResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotDataByWaferCriteria">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WaferNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SbrNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PartNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLotDataByWaferCriteriaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLotDataByWaferCriteriaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMaterLotsetup">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Value" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="LotSetupFilterType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMaterLotsetupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMaterLotsetupResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="msg" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLotNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLotNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetLotNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLotNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLotListDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLotListDetails" />
+  </wsdl:message>
+  <wsdl:message name="GetLotListDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLotListDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLotNumbersByLinePartNoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLotNumbersByLinePartNo" />
+  </wsdl:message>
+  <wsdl:message name="GetLotNumbersByLinePartNoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLotNumbersByLinePartNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="registerLineSoapIn">
+    <wsdl:part name="parameters" element="tns:registerLine" />
+  </wsdl:message>
+  <wsdl:message name="registerLineSoapOut">
+    <wsdl:part name="parameters" element="tns:registerLineResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateLotNumMovementSoapIn">
+    <wsdl:part name="parameters" element="tns:updateLotNumMovement" />
+  </wsdl:message>
+  <wsdl:message name="updateLotNumMovementSoapOut">
+    <wsdl:part name="parameters" element="tns:updateLotNumMovementResponse" />
+  </wsdl:message>
+  <wsdl:message name="cryptoLineRegistrationSoapIn">
+    <wsdl:part name="parameters" element="tns:cryptoLineRegistration" />
+  </wsdl:message>
+  <wsdl:message name="cryptoLineRegistrationSoapOut">
+    <wsdl:part name="parameters" element="tns:cryptoLineRegistrationResponse" />
+  </wsdl:message>
+  <wsdl:message name="getWebServiceVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:getWebServiceVersion" />
+  </wsdl:message>
+  <wsdl:message name="getWebServiceVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:getWebServiceVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberDetailSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPartNumberDetail" />
+  </wsdl:message>
+  <wsdl:message name="GetPartNumberDetailSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPartNumberDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLotDataByWaferCriteriaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLotDataByWaferCriteria" />
+  </wsdl:message>
+  <wsdl:message name="GetLotDataByWaferCriteriaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLotDataByWaferCriteriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMaterLotsetupSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMaterLotsetup" />
+  </wsdl:message>
+  <wsdl:message name="GetMaterLotsetupSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMaterLotsetupResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="GetLotNumbers">
+      <wsdl:input message="tns:GetLotNumbersSoapIn" />
+      <wsdl:output message="tns:GetLotNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotListDetails">
+      <wsdl:input message="tns:GetLotListDetailsSoapIn" />
+      <wsdl:output message="tns:GetLotListDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotNumbersByLinePartNo">
+      <wsdl:input message="tns:GetLotNumbersByLinePartNoSoapIn" />
+      <wsdl:output message="tns:GetLotNumbersByLinePartNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="registerLine">
+      <wsdl:input message="tns:registerLineSoapIn" />
+      <wsdl:output message="tns:registerLineSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateLotNumMovement">
+      <wsdl:input message="tns:updateLotNumMovementSoapIn" />
+      <wsdl:output message="tns:updateLotNumMovementSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="cryptoLineRegistration">
+      <wsdl:input message="tns:cryptoLineRegistrationSoapIn" />
+      <wsdl:output message="tns:cryptoLineRegistrationSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getWebServiceVersion">
+      <wsdl:input message="tns:getWebServiceVersionSoapIn" />
+      <wsdl:output message="tns:getWebServiceVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumberDetail">
+      <wsdl:input message="tns:GetPartNumberDetailSoapIn" />
+      <wsdl:output message="tns:GetPartNumberDetailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLotDataByWaferCriteria">
+      <wsdl:input message="tns:GetLotDataByWaferCriteriaSoapIn" />
+      <wsdl:output message="tns:GetLotDataByWaferCriteriaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaterLotsetup">
+      <wsdl:input message="tns:GetMaterLotsetupSoapIn" />
+      <wsdl:output message="tns:GetMaterLotsetupSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLotNumbers">
+      <soap:operation soapAction="http://tempuri.org/GetLotNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotListDetails">
+      <soap:operation soapAction="http://tempuri.org/GetLotListDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotNumbersByLinePartNo">
+      <soap:operation soapAction="http://tempuri.org/GetLotNumbersByLinePartNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerLine">
+      <soap:operation soapAction="http://tempuri.org/registerLine" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateLotNumMovement">
+      <soap:operation soapAction="http://tempuri.org/updateLotNumMovement" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cryptoLineRegistration">
+      <soap:operation soapAction="http://tempuri.org/cryptoLineRegistration" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWebServiceVersion">
+      <soap:operation soapAction="http://tempuri.org/getWebServiceVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumberDetail">
+      <soap:operation soapAction="http://tempuri.org/GetPartNumberDetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotDataByWaferCriteria">
+      <soap:operation soapAction="http://tempuri.org/GetLotDataByWaferCriteria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaterLotsetup">
+      <soap:operation soapAction="http://tempuri.org/GetMaterLotsetup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLotNumbers">
+      <soap12:operation soapAction="http://tempuri.org/GetLotNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotListDetails">
+      <soap12:operation soapAction="http://tempuri.org/GetLotListDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotNumbersByLinePartNo">
+      <soap12:operation soapAction="http://tempuri.org/GetLotNumbersByLinePartNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registerLine">
+      <soap12:operation soapAction="http://tempuri.org/registerLine" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateLotNumMovement">
+      <soap12:operation soapAction="http://tempuri.org/updateLotNumMovement" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cryptoLineRegistration">
+      <soap12:operation soapAction="http://tempuri.org/cryptoLineRegistration" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getWebServiceVersion">
+      <soap12:operation soapAction="http://tempuri.org/getWebServiceVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPartNumberDetail">
+      <soap12:operation soapAction="http://tempuri.org/GetPartNumberDetail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLotDataByWaferCriteria">
+      <soap12:operation soapAction="http://tempuri.org/GetLotDataByWaferCriteria" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaterLotsetup">
+      <soap12:operation soapAction="http://tempuri.org/GetMaterLotsetup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://wdtbm32pws01.tb.asia.wdc.com/Mitecs3WebServices/service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://wdtbm32pws01.tb.asia.wdc.com/Mitecs3WebServices/service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

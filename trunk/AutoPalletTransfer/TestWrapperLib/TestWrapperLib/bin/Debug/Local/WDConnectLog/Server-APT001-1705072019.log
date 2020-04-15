@@ -1,0 +1,43 @@
+07/05/2019 17:12:33    TriggerTransactionTimer : transactionID -->3
+07/05/2019 17:12:33    TriggerTransactionTimer : transactionID <--3
+07/05/2019 17:12:33    SendSECSData
+07/05/2019 17:12:34    OnDataReceived
+07/05/2019 17:12:34    OnDataReceived 1271
+07/05/2019 17:12:34    OnDataArrival
+07/05/2019 17:12:34    ResolveHeaderBuffer string [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/05/2019 17:12:34    [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>3</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">1</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/05/2019 17:12:34    ProcessSECsMessage -->
+07/05/2019 17:12:34    ResolveHeaderBuffer 
+07/05/2019 17:12:34    0 
+07/05/2019 17:12:34    WaitForData
+07/05/2019 17:13:00    TriggerTransactionTimer : transactionID -->4
+07/05/2019 17:13:00    TriggerTransactionTimer : transactionID <--4
+07/05/2019 17:13:00    SendSECSData
+07/05/2019 17:13:10    OnDataReceived
+07/05/2019 17:13:10    OnDataReceived 1271
+07/05/2019 17:13:10    OnDataArrival
+07/05/2019 17:13:10    ResolveHeaderBuffer string [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/05/2019 17:13:10    [0000001259]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Secondary</MessageType><DeviceId>1</DeviceId><Id>4</Id><Name>SendPalletInfoAck</Name><NeedReply>false</NeedReply><Primary><CommandID>SendPalletInfo</CommandID><Item><Format>List</Format><Items><SCIItem><Format>String</Format><Items /><Name>EquipmentID</Name><Value xsi:type="xsd:string">APT001</Value></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>EquipmentType</Name><Value xsi:type="xsd:int">80</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem><SCIItem><Format>String</Format><Items /><Name>SliderTrayID</Name><Value xsi:type="xsd:string" /></SCIItem><SCIItem><Format>Integer</Format><Items /><Name>LotNumber</Name><Value xsi:type="xsd:string" /></SCIItem></Items></Item></Primary><Secondary><CommandID>SendPalletInfoAck</CommandID><Item><Format>List</Format><Items><SCIItem><Format>Integer</Format><Name>COMMACK</Name><Value xsi:type="xsd:int">0</Value></SCIItem><SCIItem><Format>String</Format><Name>PalletID</Name><Value xsi:type="xsd:string">PT0200</Value></SCIItem></Items></Item></Secondary></SCITransaction>
+07/05/2019 17:13:10    ProcessSECsMessage -->
+07/05/2019 17:13:10    ResolveHeaderBuffer 
+07/05/2019 17:13:10    0 
+07/05/2019 17:13:10    WaitForData
+07/05/2019 17:27:58    OnDataReceived
+07/05/2019 17:27:58    OnDataReceived 343
+07/05/2019 17:27:58    OnDataArrival
+07/05/2019 17:27:58    ResolveHeaderBuffer string [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/05/2019 17:27:58    [0000000331]<?xml version="1.0"?><SCITransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><MessageType>Primary</MessageType><DeviceId>0</DeviceId><Id>1</Id><Name>S_p_rat_</Name><NeedReply>false</NeedReply><Primary><CommandID>S_p_rat_</CommandID></Primary><Secondary /></SCITransaction>
+07/05/2019 17:27:58    ProcessSECsMessage -->
+07/05/2019 17:27:58    SendSECSData
+07/05/2019 17:27:58    ProcessSECsMessage <--
+07/05/2019 17:27:58    0 
+07/05/2019 17:27:58    WaitForData
+07/05/2019 17:48:53    SendSECSData
+07/05/2019 17:51:18    OnDataReceived
+07/05/2019 17:51:18    OnDataReceived 35
+07/05/2019 17:51:18    OnDataArrival
+07/05/2019 17:51:18    ProcessControlMessage LinkTest:Request:175118
+07/05/2019 17:51:18    SendControlRspData 175118
+07/05/2019 17:51:18    respwithheader [0000000023]LinkTest:Respond:175118
+07/05/2019 17:51:18    0 
+07/05/2019 17:51:18    WaitForData
